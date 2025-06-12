@@ -1,0 +1,25 @@
+server:
+  port: 3002
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      properties:
+        spring.json.add.type.headers: false
+
+mt940:
+  topic: "transaction_generator"
+  output-dir: output
+
+mt103:
+  file:
+    directory: ./trx-generator-service/src/main/resources/mt103-transactions
+
+transaction:
+  generator:
+    invalid-data:
+      enabled: true
+      invalid-format-percentage: 20  # 20% of transactions will have format errors

@@ -1,0 +1,31 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-12T13:13:55.151872
+// Transaction ID: 0df5352a-d263-43e1-8b70-be543e2a6363
+// Amount: 545.6 EUR
+// From: Commerzbank AG
+// To: Bank of Montreal
+//=====================================
+
+{1:F01COMMDEFFXXX0}{2:I103BMOCCAMTXXX0N}{3:{108:0df5352a-d263-43}}
+{4:
+:20:0df5352a-d263-43
+:23B:CRED
+:32A:250610EUR545,6
+:33B:EUR545,6
+:71A:SHA
+:50K:/DE58400800000433015467
+Commerzbank AG
+321 Financial District
+Frankfurt, Germany
+:52A:COMMDEFF
+:53B:/COMMDEFF
+:56A:TDOMCATTTOR
+:57A:BMOCCAMT
+:59:/3696027090
+Bank of Montreal
+654 Banking Center
+Toronto, Canada
+:70:Payment for services - TXN ID: 0df5352a - Cross-border transfer
+:72:/INS/COMMDEFF
+}
+{5:{MAC:4E894BF8}{CHK:FC424F5CDE68}}

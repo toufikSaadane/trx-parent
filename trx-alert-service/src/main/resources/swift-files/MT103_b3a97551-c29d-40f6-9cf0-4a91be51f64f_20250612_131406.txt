@@ -1,0 +1,31 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-12T13:14:06.577037
+// Transaction ID: b3a97551-c29d-40f6-9cf0-4a91be51f64f
+// Amount: 71330.24 EUR
+// From: BNP Paribas
+// To: Barclays
+//=====================================
+
+{1:F01BNPAFRPPXXX0}{2:I103BARCGB22XXX0N}{3:{108:b3a97551-c29d-40}}
+{4:
+:20:b3a97551-c29d-40
+:23B:CRED
+:32A:250611EUR71330,24
+:33B:EUR71330,24
+:71A:SHA
+:50K:/FR3630004000000000479897604
+BNP Paribas
+123 Main Street
+Paris, France
+:52A:BNPAFRPP
+:53B:/BNPAFRPP
+:56A:BARCGB22XXX
+:57A:BARCGB22
+:59:/GB15203002000444847369
+Barclays
+321 Financial District
+London, United Kingdom
+:70:Payment for services - TXN ID: b3a97551 - Cross-border transfer
+:72:/INS/BNPAFRPP
+}
+{5:{MAC:CE582A4C}{CHK:FEAB03F4497C}}

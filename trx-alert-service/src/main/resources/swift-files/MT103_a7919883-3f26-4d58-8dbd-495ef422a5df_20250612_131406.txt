@@ -1,0 +1,31 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-12T13:14:06.558035
+// Transaction ID: a7919883-3f26-4d58-8dbd-495ef422a5df
+// Amount: 681.77 USD
+// From: Chase Bank
+// To: Deutsche Bank
+//=====================================
+
+{1:F01CHASUS33XXX0}{2:I103DEUTDEFFXXX0N}{3:{108:a7919883-3f26-4d}}
+{4:
+:20:a7919883-3f26-4d
+:23B:CRED
+:32A:250611USD681,77
+:33B:USD681,77
+:71A:SHA
+:50K:/8516009466
+Chase Bank
+987 Trade Plaza
+New York, United States
+:52A:CHASUS33
+:53B:/CHASUS33
+:56A:DEUTDEFFXXX
+:57A:DEUTDEFF
+:59:/DE27123456780456783782
+Deutsche Bank
+654 Banking Center
+Frankfurt, Germany
+:70:Payment for services - TXN ID: a7919883 - Cross-border transfer
+:72:/INS/CHASUS33
+}
+{5:{MAC:C53F5206}{CHK:BF7D74DC849F}}

@@ -1,0 +1,31 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-12T13:13:55.191312
+// Transaction ID: f4821d66-cda9-4249-a354-650022fad6fc
+// Amount: 308.31 AUD
+// From: BNP Paribas Australia
+// To: Shinhan Bank
+//=====================================
+
+{1:F01BNPAAU2SXXX0}{2:I103SHBKKRSEXXX0N}{3:{108:f4821d66-cda9-42}}
+{4:
+:20:f4821d66-cda9-42
+:23B:CRED
+:32A:250611AUD308,31
+:33B:AUD308,31
+:71A:SHA
+:50K:/351528464196
+BNP Paribas Australia
+789 Commercial Blvd
+Sydney, Australia
+:52A:BNPAAU2S
+:53B:/BNPAAU2S
+:56A:DEUTDEFFXXX
+:57A:SHBKKRSE
+:59:/657855339477
+Shinhan Bank
+321 Financial District
+Seoul, South Korea
+:70:Payment for services - TXN ID: f4821d66 - Cross-border transfer
+:72:/INS/BNPAAU2S
+}
+{5:{MAC:C21C0AC7}{CHK:A8C22D81E660}}

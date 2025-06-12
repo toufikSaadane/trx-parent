@@ -1,0 +1,31 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-12T13:13:55.154035
+// Transaction ID: 53d4b7de-5607-4583-9a03-33a5cf293059
+// Amount: 416.1 ZAR
+// From: Nedbank
+// To: Rabobank
+//=====================================
+
+{1:F01NEDSZAJJXXX0}{2:I103RABONL2UXXX0N}{3:{108:53d4b7de-5607-45}}
+{4:
+:20:53d4b7de-5607-45
+:23B:CRED
+:32A:250611ZAR416,1
+:33B:ZAR416,1
+:71A:SHA
+:50K:/387047396986
+Nedbank
+456 Business Ave
+Johannesburg, South Africa
+:52A:NEDSZAJJ
+:53B:/NEDSZAJJ
+:56A:INGBNL2AXXX
+:57A:RABONL2U
+:59:/NL9430001978458383
+Rabobank
+789 Commercial Blvd
+Amsterdam, Netherlands
+:70:Payment for services - TXN ID: 53d4b7de - Cross-border transfer
+:72:/INS/NEDSZAJJ
+}
+{5:{MAC:DF8B78E4}{CHK:889FDF1D58B5}}

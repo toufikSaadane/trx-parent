@@ -1,0 +1,31 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-11T11:14:34.531009
+// Transaction ID: d7668563-345e-4835-b55f-515192d4b4dd
+// Amount: 8836.47 EUR
+// From: ABN AMRO
+// To: Deutsche Bank
+//=====================================
+
+{1:F01ABNANL2AXXX0}{2:I103DEUTDEFFXXX0N}{3:{108:d7668563-345e-48}}
+{4:
+:20:d7668563-345e-48
+:23B:CRED
+:32A:250611EUR8836,47
+:33B:EUR8836,47
+:71A:SHA
+:50K:/NL9751700484843484
+ABN AMRO
+321 Financial District
+Amsterdam, Netherlands
+:52A:ABNANL2A
+:53B:/ABNANL2A
+:56A:DEUTDEFFXXX
+:57A:DEUTDEFF
+:59:/DE02123456781442772936
+Deutsche Bank
+321 Financial District
+Frankfurt, Germany
+:70:Payment for services - TXN ID: d7668563 - Cross-border transfer
+:72:/INS/ABNANL2A
+}
+{5:{MAC:FDD35E79}{CHK:C276E4B94133}}

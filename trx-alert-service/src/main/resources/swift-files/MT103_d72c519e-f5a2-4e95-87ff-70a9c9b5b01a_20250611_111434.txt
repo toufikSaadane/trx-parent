@@ -1,0 +1,31 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-11T11:14:34.503594
+// Transaction ID: d72c519e-f5a2-4e95-87ff-70a9c9b5b01a
+// Amount: 1751.38 NGN
+// From: Guaranty Trust Bank PLC
+// To: Šiaulių Bankas
+//=====================================
+
+{1:F01GTBINGLAXXX0}{2:I103NBPLT210N}{3:{108:d72c519e-f5a2-4e}}
+{4:
+:20:d72c519e-f5a2-4e
+:23B:CRED
+:32A:250611NGN1751,38
+:33B:NGN1751,38
+:71A:SHA
+:50K:/598410538385
+Guaranty Trust Bank PLC
+789 Commercial Blvd
+Financial District, Nigeria
+:52A:GTBINGLA
+:53B:/GTBINGLA
+:56A:DEUTDEFFXXX
+:57A:NBPLT21
+:59:/LT737300001101160542
+Šiaulių Bankas
+123 Main Street
+Financial District, Lithuania
+:70:Payment for services - TXN ID: d72c519e - Cross-border transfer
+:72:/INS/GTBINGLA
+}
+{5:{MAC:ADE2A8C6}{CHK:98940B06C43F}}

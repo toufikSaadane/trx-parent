@@ -1,0 +1,31 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-12T13:14:06.586790
+// Transaction ID: 42593496-3f0f-4fb6-8918-e051ce6d906b
+// Amount: 7561.2 GBP
+// From: Lloyds Bank
+// To: Commonwealth Bank of Australia
+//=====================================
+
+{1:F01LLOYGB2LXXX0}{2:I103CTBAAU2SXXX0N}{3:{108:42593496-3f0f-4f}}
+{4:
+:20:42593496-3f0f-4f
+:23B:CRED
+:32A:250611GBP7561,2
+:33B:GBP7561,2
+:71A:SHA
+:50K:/GB70300000000255662044
+Lloyds Bank
+789 Commercial Blvd
+London, United Kingdom
+:52A:LLOYGB2L
+:53B:/LLOYGB2L
+:56A:ANZBAU3MXXX
+:57A:CTBAAU2S
+:59:/394478961803
+Commonwealth Bank of Australia
+987 Trade Plaza
+Sydney, Australia
+:70:Payment for services - TXN ID: 42593496 - Cross-border transfer
+:72:/INS/LLOYGB2L
+}
+{5:{MAC:1D4C26B2}{CHK:52737E16F607}}

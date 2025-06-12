@@ -1,0 +1,31 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-11T11:14:34.523178
+// Transaction ID: 2f06b0cd-8d86-42a3-a522-fc08703dafc6
+// Amount: 6935.63 EUR
+// From: Rabobank
+// To: Deutsche Bank AG
+//=====================================
+
+{1:F01RABONL2UXXX0}{2:I103DEUTDEFFXXX0N}{3:{108:2f06b0cd-8d86-42}}
+{4:
+:20:2f06b0cd-8d86-42
+:23B:CRED
+:32A:250611EUR6935,63
+:33B:EUR6935,63
+:71A:SHA
+:50K:/NL7030001347692162
+Rabobank
+321 Financial District
+Amsterdam, Netherlands
+:52A:RABONL2U
+:53B:/RABONL2U
+:56A:DEUTDEFFXXX
+:57A:DEUTDEFF
+:59:/DE52500700100671123910
+Deutsche Bank AG
+123 Main Street
+Frankfurt, Germany
+:70:Payment for services - TXN ID: 2f06b0cd - Cross-border transfer
+:72:/INS/RABONL2U
+}
+{5:{MAC:E1FD8755}{CHK:30F68040F1E1}}

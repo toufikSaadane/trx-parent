@@ -1,0 +1,31 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-12T13:13:55.157889
+// Transaction ID: 549fc519-e6b7-46d5-ba5c-f617c918acbf
+// Amount: 336.66 JPY
+// From: MUFG Bank Ltd
+// To: DBS Bank
+//=====================================
+
+{1:F01BOTKJPJTXXX0}{2:I103DBSSSGSGXXX0N}{3:{108:549fc519-e6b7-46}}
+{4:
+:20:549fc519-e6b7-46
+:23B:CRED
+:32A:250611JPY336,66
+:33B:JPY336,66
+:71A:SHA
+:50K:/0197195522
+MUFG Bank Ltd
+123 Main Street
+Tokyo, Japan
+:52A:BOTKJPJT
+:53B:/BOTKJPJT
+:56A:DEUTDEFFXXX
+:57A:DBSSSGSG
+:59:/797956929467
+DBS Bank
+789 Commercial Blvd
+Singapore, Singapore
+:70:Payment for services - TXN ID: 549fc519 - Cross-border transfer
+:72:/INS/BOTKJPJT
+}
+{5:{MAC:5674F29D}{CHK:CF78368370B9}}

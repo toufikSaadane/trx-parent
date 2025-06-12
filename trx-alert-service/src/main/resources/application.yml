@@ -1,0 +1,27 @@
+server:
+  port: 3004
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: transaction-alert-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+      properties:
+        spring.deserializer.value.delegate.class: org.springframework.kafka.support.serializer.JsonDeserializer
+        spring.json.value.default.type: com.toufik.trxalertservice.model.TransactionWithMT103Event
+        spring.json.trusted.packages: "*"
+        spring.json.use.type.info.headers: false
+
+logging:
+  level:
+    com.toufik.trxalertservice: DEBUG
+    org.springframework.kafka: INFO
+
+# SWIFT file output configuration
+swift:
+  output:
+    directory: src/main/resources/swift-files
+    file-extension: .txt

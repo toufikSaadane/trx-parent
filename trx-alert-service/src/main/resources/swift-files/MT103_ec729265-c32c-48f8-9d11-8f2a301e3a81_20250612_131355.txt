@@ -1,0 +1,31 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-12T13:13:55.152774
+// Transaction ID: ec729265-c32c-48f8-9d11-8f2a301e3a81
+// Amount: 423.3 USD
+// From: Standard Chartered USA
+// To: UBS Switzerland AG
+//=====================================
+
+{1:F01SCBLUS33XXX0}{2:I103UBSWCHZH80A0N}{3:{108:ec729265-c32c-48}}
+{4:
+:20:ec729265-c32c-48
+:23B:CRED
+:32A:250610USD423,3
+:33B:USD423,3
+:71A:SHA
+:50K:/415675629157
+Standard Chartered USA
+321 Financial District
+New York, United States
+:52A:SCBLUS33
+:53B:/SCBLUS33
+:56A:UBSWCHZHXXX
+:57A:UBSWCHZH80A
+:59:/CH4724300002114452287
+UBS Switzerland AG
+123 Main Street
+Zurich, Switzerland
+:70:Payment for services - TXN ID: ec729265 - Cross-border transfer
+:72:/INS/SCBLUS33
+}
+{5:{MAC:732655AD}{CHK:1F7184634869}}

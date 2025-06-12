@@ -1,0 +1,31 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-12T13:13:55.188214
+// Transaction ID: 2435d596-02c8-4f63-885b-b455c0de2be7
+// Amount: 798.33 USD
+// From: JPMorgan Chase Bank
+// To: BNP Paribas Australia
+//=====================================
+
+{1:F01CHASUS33XXX0}{2:I103BNPAAU2SXXX0N}{3:{108:2435d596-02c8-4f}}
+{4:
+:20:2435d596-02c8-4f
+:23B:CRED
+:32A:250611USD798,33
+:33B:USD798,33
+:71A:SHA
+:50K:/327647443310
+JPMorgan Chase Bank
+321 Financial District
+New York, United States
+:52A:CHASUS33
+:53B:/CHASUS33
+:56A:ANZBAU3MXXX
+:57A:BNPAAU2S
+:59:/950477254744
+BNP Paribas Australia
+456 Business Ave
+Sydney, Australia
+:70:Payment for services - TXN ID: 2435d596 - Cross-border transfer
+:72:/INS/CHASUS33
+}
+{5:{MAC:415B3374}{CHK:40E791BB0BFA}}

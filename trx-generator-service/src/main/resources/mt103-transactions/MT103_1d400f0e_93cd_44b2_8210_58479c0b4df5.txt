@@ -1,0 +1,23 @@
+{1:F01COBADEFFXXX0}{2:I103WELLSFARG0N}{3:{108:1d400f0e-93cd-44}}
+{4:
+:20:1d400f0e-93cd-44
+:23B:CRED
+:32A:250612USD1772,5
+:33B:USD1772,5
+:71A:SHA
+:50K:/DE92100400001859029738
+Commerzbank AG
+321 Financial District
+Frankfurt, Germany
+:52A:COBADEFF
+:53B:/COBADEFF
+:56A:DEUTDEFFXXX
+:57A:WELLSFARG
+:59:/6044428544
+Wells Fargo Bank
+123 Main Street
+New York, United States
+:70:Payment for services - TXN ID: 1d400f0e - Cross-border transfer
+:72:/INS/COBADEFF
+}
+{5:{MAC:754622A4}{CHK:0F81FF349F00}}
