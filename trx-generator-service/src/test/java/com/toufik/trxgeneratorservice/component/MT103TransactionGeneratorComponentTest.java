@@ -13,6 +13,7 @@ import org.junit.jupiter.api.io.TempDir;
 import org.mockito.ArgumentCaptor;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.test.context.TestPropertySource;
@@ -47,6 +48,7 @@ class MT103TransactionGeneratorComponentTest {
     @Autowired
     private TransactionProducer transactionProducer;
 
+    @Qualifier("MT103MessageFormatter")
     @Autowired
     private MT103MessageFormatter mt103MessageFormatter;
 

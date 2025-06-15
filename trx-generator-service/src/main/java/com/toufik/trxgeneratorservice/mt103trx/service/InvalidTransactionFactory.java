@@ -17,7 +17,7 @@ import java.util.Random;
 @Slf4j
 public class InvalidTransactionFactory {
 
-    private final TransactionGenerator transactionGenerator;
+    private final TransactionGeneratorService transactionGenerator;
     private final MT103MessageCorruptor mt103MessageCorruptor;
     private final Random random = new Random();
 
@@ -42,23 +42,6 @@ public class InvalidTransactionFactory {
         result.setMt103Content(invalidMT103Content);
 
         log.warn("Created invalid transaction with scenario: {} for transaction: {}",
-                scenario, transaction.getTransactionId());
-
-        return result;
-    }
-
-    /**
-     * Creates a transaction with an invalid MT103 message based on a specific scenario
-     */
-    public TransactionWithMT103Event createInvalidTransaction(InvalidScenario scenario) {
-        Transaction transaction = transactionGenerator.generateRandomTransaction();
-        String invalidMT103Content = mt103MessageCorruptor.generateInvalidMT103(transaction, scenario);
-
-        TransactionWithMT103Event result = new TransactionWithMT103Event();
-        result.setTransaction(transaction);
-        result.setMt103Content(invalidMT103Content);
-
-        log.warn("Created invalid transaction with specified scenario: {} for transaction: {}",
                 scenario, transaction.getTransactionId());
 
         return result;

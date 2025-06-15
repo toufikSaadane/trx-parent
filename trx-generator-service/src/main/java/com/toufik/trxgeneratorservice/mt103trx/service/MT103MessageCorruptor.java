@@ -5,20 +5,25 @@ import com.toufik.trxgeneratorservice.mt103trx.model.Transaction;
 import com.toufik.trxgeneratorservice.mt103trx.service.MT103MessageFormatter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
+import java.time.format.DateTimeFormatter;
 import java.util.Random;
 
 /**
  * Handles corruption of MT103 messages for testing invalid scenarios
  */
 @Component
-@RequiredArgsConstructor
 @Slf4j
 public class MT103MessageCorruptor {
 
     private final MT103MessageFormatter mt103MessageFormatter;
     private final Random random = new Random();
+
+    public MT103MessageCorruptor(@Qualifier("MT103MessageFormatter") MT103MessageFormatter mt103MessageFormatter) {
+        this.mt103MessageFormatter = mt103MessageFormatter;
+    }
 
     /**
      * Generates an invalid MT103 message based on the specified scenario
@@ -65,7 +70,7 @@ public class MT103MessageCorruptor {
         if (random.nextBoolean()) {
             // Skip :32A: field
         } else {
-            String valueDate = transaction.getTimestamp().format(java.time.format.DateTimeFormatter.ofPattern("yyMMdd"));
+            String valueDate = transaction.getTimestamp().format(DateTimeFormatter.ofPattern("yyMMdd"));
             mt103.append(":32A:").append(valueDate).append(transaction.getCurrency())
                     .append(transaction.getAmount().toString().replace(".", ",")).append("\n");
         }
@@ -169,7 +174,7 @@ public class MT103MessageCorruptor {
         mt103.append(":20:").append(transactionRef).append("\n");
         mt103.append(":23B:CRED\n");
 
-        String valueDate = transaction.getTimestamp().format(java.time.format.DateTimeFormatter.ofPattern("yyMMdd"));
+        String valueDate = transaction.getTimestamp().format(DateTimeFormatter.ofPattern("yyMMdd"));
 
         // Generate invalid amounts
         String[] invalidAmounts = {
@@ -227,7 +232,7 @@ public class MT103MessageCorruptor {
         mt103.append(":20:").append(transactionRef).append("\n");
         mt103.append(":23B:CRED\n");
 
-        String valueDate = transaction.getTimestamp().format(java.time.format.DateTimeFormatter.ofPattern("yyMMdd"));
+        String valueDate = transaction.getTimestamp().format(DateTimeFormatter.ofPattern("yyMMdd"));
         mt103.append(":32A:").append(valueDate).append(transaction.getCurrency())
                 .append(transaction.getAmount().toString().replace(".", ",")).append("\n");
 
@@ -260,7 +265,7 @@ public class MT103MessageCorruptor {
                 ":20::" + transactionRef + "\n", // Extra colon
                 "20:" + transactionRef + "\n", // Missing first colon
                 ":23B;CRED\n", // Wrong separator
-                ":32A=" + transaction.getTimestamp().format(java.time.format.DateTimeFormatter.ofPattern("yyMMdd")) +
+                ":32A=" + transaction.getTimestamp().format(DateTimeFormatter.ofPattern("yyMMdd")) +
                         transaction.getCurrency() + transaction.getAmount().toString().replace(".", ",") + "\n" // Wrong separator
         };
 

@@ -37,19 +37,6 @@ public class InvalidTransactionGeneratorService {
         }
     }
 
-    /**
-     * Generates an invalid transaction on demand
-     */
-    public TransactionWithMT103Event generateInvalidTransactionOnDemand() {
-        try {
-            TransactionWithMT103Event invalidTransactionEvent = invalidTransactionFactory.createInvalidTransaction();
-            logInvalidTransactionDetails(invalidTransactionEvent);
-            return invalidTransactionEvent;
-        } catch (Exception e) {
-            log.error("Error generating invalid transaction on demand: {}", e.getMessage(), e);
-            throw new RuntimeException("Failed to generate invalid transaction", e);
-        }
-    }
 
     private void logInvalidTransactionDetails(TransactionWithMT103Event invalidTransactionEvent) {
         log.warn("Generated INVALID transaction: {}",

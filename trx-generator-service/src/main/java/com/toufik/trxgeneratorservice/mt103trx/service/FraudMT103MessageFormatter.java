@@ -1,64 +1,140 @@
 package com.toufik.trxgeneratorservice.mt103trx.service;
 
 import com.toufik.trxgeneratorservice.mt103trx.model.Transaction;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.ThreadLocalRandom;
 
 import static com.toufik.trxgeneratorservice.mt103trx.util.MT103Constants.*;
 
-@Service("MT103MessageFormatter")
-public class MT103MessageFormatter {
+@Service
+public class FraudMT103MessageFormatter extends MT103MessageFormatter {
+
+    @Autowired
+    private FraudTransactionFactory fraudTransactionFactory;
 
     /**
-     * Formats a transaction into MT103 SWIFT message format
+     * Formats a fraud transaction into MT103 SWIFT message format
+     * Extends the base formatter with fraud-specific remittance information
      */
+    @Override
     public String formatToMT103(Transaction transaction) {
         var mt103 = new StringBuilder();
         var transactionRef = truncateToLength(transaction.getTransactionId(), 16);
 
-        // Build MT103 structure
+        // Build MT103 structure using base class methods
         appendHeader(mt103, transaction);
-        appendMessageText(mt103, transaction, transactionRef);
+        appendMessageTextWithFraudInfo(mt103, transaction, transactionRef);
         appendTrailer(mt103);
 
         return mt103.toString();
     }
 
     /**
-     * Appends the complete header blocks (1, 2, 3)
+     * Appends the complete message text block with fraud-specific information
      */
-    private void appendHeader(StringBuilder mt103, Transaction transaction) {
-        var senderLTAddress = formatLTAddress(transaction.getFromBankSwift());
-        var receiverLTAddress = formatLTAddress(transaction.getToBankSwift());
-        var transactionRef = truncateToLength(transaction.getTransactionId(), 16);
-
-        // Header Block 1: Basic Header
-        mt103.append("{1:F01").append(senderLTAddress).append("}");
-
-        // Header Block 2: Application Header (Input)
-        mt103.append("{2:I103").append(receiverLTAddress).append("N}");
-
-        // Header Block 3: User Header
-        mt103.append("{3:{108:").append(transactionRef).append("}}");
-    }
-
-    /**
-     * Appends the complete message text block (Block 4)
-     */
-    private void appendMessageText(StringBuilder mt103, Transaction transaction, String transactionRef) {
+    private void appendMessageTextWithFraudInfo(StringBuilder mt103, Transaction transaction, String transactionRef) {
         mt103.append("\n{4:\n");
 
         appendMandatoryFields(mt103, transaction, transactionRef);
         appendAccountingFields(mt103, transaction);
         appendPartyFields(mt103, transaction);
-        appendOptionalFields(mt103, transaction);
+        appendFraudSpecificOptionalFields(mt103, transaction);
 
         mt103.append("}");
     }
 
     /**
-     * Appends mandatory MT103 fields (20, 23B, 32A)
+     * Appends optional fields with fraud-specific remittance information
+     */
+    private void appendFraudSpecificOptionalFields(StringBuilder mt103, Transaction transaction) {
+        var remittanceInfo = buildFraudRemittanceInfo(transaction);
+
+        mt103.append(":70:").append(remittanceInfo).append("\n")
+                .append(":72:/INS/").append(transaction.getFromBankSwift()).append("\n");
+    }
+
+    /**
+     * Builds fraud-specific remittance information
+     */
+    private String buildFraudRemittanceInfo(Transaction transaction) {
+        String suspiciousText = fraudTransactionFactory.getSuspiciousRemittanceText(transaction.getTransactionId());
+
+        if (suspiciousText != null) {
+            return suspiciousText;
+        }
+
+        // Fallback to building based on transaction characteristics
+        return buildCharacteristicBasedRemittance(transaction);
+    }
+
+    /**
+     * Builds remittance info based on transaction characteristics for fraud scenarios
+     */
+    private String buildCharacteristicBasedRemittance(Transaction transaction) {
+        var shortTransactionId = truncateToLength(transaction.getTransactionId(), 8);
+        var remittance = new StringBuilder();
+
+        // High amount transactions
+        if (transaction.getAmount().compareTo(java.math.BigDecimal.valueOf(15000)) >= 0) {
+            remittance.append("Large value transfer - Ref: ").append(shortTransactionId);
+        }
+        // Round amount patterns
+        else if (isRoundAmount(transaction.getAmount())) {
+            remittance.append("Business payment - Invoice: ").append(shortTransactionId);
+        }
+        // Off-hours transactions (detected by time)
+        else if (isOffHours(transaction.getTimestamp())) {
+            remittance.append("Urgent payment required - Ref: ").append(shortTransactionId);
+        }
+        // Structuring amounts
+        else if (transaction.getAmount().compareTo(java.math.BigDecimal.valueOf(9999)) >= 0 &&
+                transaction.getAmount().compareTo(java.math.BigDecimal.valueOf(10000)) < 0) {
+            remittance.append("Trade settlement - Contract: ").append(shortTransactionId);
+        }
+        // Small frequent amounts
+        else if (transaction.getAmount().compareTo(java.math.BigDecimal.valueOf(1000)) < 0) {
+            remittance.append("Service payment - Multiple invoices");
+        }
+        // Cross-border high-risk
+        else if (transaction.isCrossBorder()) {
+            remittance.append("International trade payment - Ref: ").append(shortTransactionId);
+        }
+        // Default fraud-like pattern
+        else {
+            remittance.append("Commercial payment - TXN: ").append(shortTransactionId);
+        }
+
+        return remittance.toString();
+    }
+
+    /**
+     * Checks if amount follows a round pattern (multiples of 1000, 5000, etc.)
+     */
+    private boolean isRoundAmount(java.math.BigDecimal amount) {
+        double amountValue = amount.doubleValue();
+        return amountValue % 1000 == 0 || amountValue % 5000 == 0 || amountValue % 2000 == 0;
+    }
+
+    /**
+     * Checks if transaction timestamp is during off-hours (2 AM - 5 AM)
+     */
+    private boolean isOffHours(java.time.LocalDateTime timestamp) {
+        int hour = timestamp.getHour();
+        return hour >= 2 && hour <= 5;
+    }
+
+    /**
+     * Utility method to truncate strings (inherited from parent, redeclared for access)
+     */
+    private String truncateToLength(String input, int maxLength) {
+        if (input == null) return "";
+        return input.length() > maxLength ? input.substring(0, maxLength) : input;
+    }
+
+    /**
+     * Appends mandatory MT103 fields - delegates to parent class logic
      */
     private void appendMandatoryFields(StringBuilder mt103, Transaction transaction, String transactionRef) {
         var valueDate = transaction.getTimestamp().format(DATE_FORMATTER);
@@ -72,7 +148,7 @@ public class MT103MessageFormatter {
     }
 
     /**
-     * Appends accounting-related fields (33B, 71A)
+     * Appends accounting-related fields - delegates to parent class logic
      */
     private void appendAccountingFields(StringBuilder mt103, Transaction transaction) {
         var formattedAmount = formatAmount(transaction.getAmount().toString());
@@ -84,7 +160,7 @@ public class MT103MessageFormatter {
     }
 
     /**
-     * Appends all party-related fields (50K, 52A, 53B, 56A, 57A, 59)
+     * Appends all party-related fields - delegates to parent class logic
      */
     private void appendPartyFields(StringBuilder mt103, Transaction transaction) {
         appendOrderingCustomer(mt103, transaction);
@@ -95,6 +171,7 @@ public class MT103MessageFormatter {
         appendBeneficiaryCustomer(mt103, transaction);
     }
 
+    // Parent class method implementations (copied for access)
     private void appendOrderingCustomer(StringBuilder mt103, Transaction transaction) {
         mt103.append(":50K:");
 
@@ -142,56 +219,15 @@ public class MT103MessageFormatter {
                 .append(generateCityCountry(transaction.getToCountryCode())).append("\n");
     }
 
-    /**
-     * Appends optional fields (70, 72)
-     */
-    private void appendOptionalFields(StringBuilder mt103, Transaction transaction) {
-        var remittanceInfo = buildRemittanceInfo(transaction);
-
-        mt103.append(":70:").append(remittanceInfo).append("\n")
-                .append(":72:/INS/").append(transaction.getFromBankSwift()).append("\n");
-    }
-
-    /**
-     * Appends trailer block (Block 5)
-     */
-    private void appendTrailer(StringBuilder mt103) {
-        mt103.append("\n{5:{MAC:").append(generateMAC())
-                .append("}{CHK:").append(generateChecksum()).append("}}");
-    }
-
-    /**
-     * Formats BIC to LT Address format
-     */
-    private String formatLTAddress(String bic) {
-        var normalizedBIC = bic.trim().toUpperCase();
-
-        return switch (normalizedBIC.length()) {
-            case 8 -> normalizedBIC + "XXX0";
-            case 11 -> normalizedBIC + "0";
-            case 12 -> normalizedBIC;
-            default -> normalizedBIC + "0";
-        };
-    }
-
-    /**
-     * Formats amount by replacing decimal point with comma
-     */
+    // Utility methods from parent class
     private String formatAmount(String amount) {
         return amount.replace(".", ",");
     }
 
-    /**
-     * Truncates string to specified length
-     */
-    private String truncateToLength(String input, int maxLength) {
-        if (input == null) return "";
-        return input.length() > maxLength ? input.substring(0, maxLength) : input;
+    private boolean hasValidIBAN(String iban) {
+        return iban != null && !iban.isEmpty() && !iban.equals("This country does not use IBAN");
     }
 
-    /**
-     * Determines if an intermediary bank is needed for cross-border transactions
-     */
     private boolean needsIntermediaryBank(Transaction transaction) {
         try {
             var fromCountry = extractCountryCode(transaction.getFromBankSwift());
@@ -202,16 +238,10 @@ public class MT103MessageFormatter {
         }
     }
 
-    /**
-     * Extracts country code from SWIFT BIC
-     */
     private String extractCountryCode(String swiftCode) {
         return swiftCode.substring(4, 6);
     }
 
-    /**
-     * Gets appropriate intermediary bank SWIFT code
-     */
     private String getIntermediaryBankSwift(Transaction transaction) {
         try {
             var toCountry = extractCountryCode(transaction.getToBankSwift());
@@ -221,38 +251,10 @@ public class MT103MessageFormatter {
         }
     }
 
-    /**
-     * Builds remittance information string
-     */
-    private String buildRemittanceInfo(Transaction transaction) {
-        var shortTransactionId = truncateToLength(transaction.getTransactionId(), 8);
-        var remittance = new StringBuilder()
-                .append("Payment for services - TXN ID: ").append(shortTransactionId);
-
-        if (transaction.isCrossBorder()) {
-            remittance.append(" - Cross-border transfer");
-        }
-
-        return remittance.toString();
-    }
-
-    /**
-     * Checks if IBAN is valid (not null or empty)
-     */
-    private boolean hasValidIBAN(String iban) {
-        return iban != null && !iban.isEmpty() && !iban.equals("This country does not use IBAN");
-    }
-
-    /**
-     * Generates a random address line
-     */
     private String generateAddressLine() {
         return ADDRESS_TEMPLATES[ThreadLocalRandom.current().nextInt(ADDRESS_TEMPLATES.length)];
     }
 
-    /**
-     * Generates city and country string based on country code
-     */
     private String generateCityCountry(String countryCode) {
         if (countryCode == null) {
             return "Unknown City, Unknown Country";
@@ -264,30 +266,44 @@ public class MT103MessageFormatter {
         );
     }
 
-    /**
-     * Gets full country name from country code
-     */
     private String getCountryName(String countryCode) {
         return ADDITIONAL_COUNTRIES.getOrDefault(countryCode, "Unknown Country");
     }
 
-    /**
-     * Generates realistic MAC (Message Authentication Code)
-     */
+    private void appendHeader(StringBuilder mt103, Transaction transaction) {
+        var senderLTAddress = formatLTAddress(transaction.getFromBankSwift());
+        var receiverLTAddress = formatLTAddress(transaction.getToBankSwift());
+        var transactionRef = truncateToLength(transaction.getTransactionId(), 16);
+
+        mt103.append("{1:F01").append(senderLTAddress).append("}");
+        mt103.append("{2:I103").append(receiverLTAddress).append("N}");
+        mt103.append("{3:{108:").append(transactionRef).append("}}");
+    }
+
+    private void appendTrailer(StringBuilder mt103) {
+        mt103.append("\n{5:{MAC:").append(generateMAC())
+                .append("}{CHK:").append(generateChecksum()).append("}}");
+    }
+
+    private String formatLTAddress(String bic) {
+        var normalizedBIC = bic.trim().toUpperCase();
+
+        return switch (normalizedBIC.length()) {
+            case 8 -> normalizedBIC + "XXX0";
+            case 11 -> normalizedBIC + "0";
+            case 12 -> normalizedBIC;
+            default -> normalizedBIC + "0";
+        };
+    }
+
     private String generateMAC() {
         return generateHexString(8);
     }
 
-    /**
-     * Generates realistic checksum
-     */
     private String generateChecksum() {
         return generateHexString(12);
     }
 
-    /**
-     * Generates random hexadecimal string of specified length
-     */
     private String generateHexString(int length) {
         var result = new StringBuilder();
         var random = ThreadLocalRandom.current();

@@ -4,7 +4,7 @@ import com.toufik.trxgeneratorservice.mt103trx.model.BankInfo;
 import com.toufik.trxgeneratorservice.mt103trx.model.Transaction;
 import com.toufik.trxgeneratorservice.mt103trx.model.TransactionWithMT103Event;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
@@ -17,14 +17,18 @@ import java.util.UUID;
 @Slf4j
 public class TransactionGeneratorService {
 
-    @Autowired
-    private BankDataService bankDataService;
+    private final BankDataService bankDataService;
 
-    @Autowired
-    private TransactionProducer transactionProducer;
+    private final TransactionProducer transactionProducer;
 
-    @Autowired
-    private MT103MessageFormatter mt103MessageFormatter;
+
+    private final MT103MessageFormatter mt103MessageFormatter;
+
+    public TransactionGeneratorService(BankDataService bankDataService, TransactionProducer transactionProducer, @Qualifier("MT103MessageFormatter") MT103MessageFormatter mt103MessageFormatter) {
+        this.bankDataService = bankDataService;
+        this.transactionProducer = transactionProducer;
+        this.mt103MessageFormatter = mt103MessageFormatter;
+    }
 
     private final Random random = new Random();
     private final String[] transactionStatuses = {"PENDING", "COMPLETED", "FAILED", "PROCESSING"};
@@ -55,7 +59,7 @@ public class TransactionGeneratorService {
         return result;
     }
 
-    private Transaction generateRandomTransaction() {
+    public Transaction generateRandomTransaction() {
         BankInfo fromBank = bankDataService.getRandomBank();
         BankInfo toBank = getDistinctToBank(fromBank);
 
