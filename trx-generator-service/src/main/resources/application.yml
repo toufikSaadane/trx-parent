@@ -1,3 +1,30 @@
+#server:
+#  port: 3002
+#
+#spring:
+#  kafka:
+#    bootstrap-servers: localhost:9092
+#    producer:
+#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+#      properties:
+#        spring.json.add.type.headers: false
+#
+#mt940:
+#  topic: "transaction_generator"
+#  output-dir: output
+#
+#mt103:
+#  file:
+#    directory: ./trx-generator-service/src/main/resources/mt103-transactions
+#
+#transaction:
+#  generator:
+#    invalid-data:
+#      enabled: true
+#      invalid-format-percentage: 20  # 20% of transactions will have format errors
+
+
 server:
   port: 3002
 
@@ -10,16 +37,32 @@ spring:
       properties:
         spring.json.add.type.headers: false
 
-mt940:
-  topic: "transaction_generator"
-  output-dir: output
-
+# Centralized MT103 file configuration
 mt103:
+  topic: "transaction_generator"
   file:
-    directory: ./trx-generator-service/src/main/resources/mt103-transactions
+    # All MT103 files will be saved in this centralized resource directory
+    directory: ./src/main/resources/mt103-transactions/all-files
+    # Maximum number of files to keep in registry (optional)
+    max-registry-size: 10000
+    # Whether to include timestamp in filename
+    include-timestamp: true
+    # File cleanup settings
+    cleanup:
+      enabled: false
+      retention-days: 30
 
+# Transaction generation settings
 transaction:
   generator:
     invalid-data:
       enabled: true
       invalid-format-percentage: 20  # 20% of transactions will have format errors
+    fraud-data:
+      enabled: true
+      fraud-percentage: 15  # 15% of transactions will be fraud scenarios
+    # Batch processing settings
+    batch:
+      enabled: false
+      size: 100
+      interval-seconds: 60

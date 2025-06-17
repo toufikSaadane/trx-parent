@@ -1,0 +1,23 @@
+{1:F01BOFAUS3NXXX0}{2:I103TDOMCATTTOR0N}{3:{108:9501e83e-88e8-4c}}
+{4:
+:20:9501e83e-88e8-4c
+:23B:CRED
+:32A:250617USD5469,97
+:33B:USD5469,97
+:71A:SHA
+:50K:/8708800808
+Bank of America N.A.
+321 Financial District
+New York, United States
+:52A:BOFAUS3N
+:53B:/BOFAUS3N
+:56A:TDOMCATTTOR
+:57A:TDOMCATTTOR
+:59:/935373735058
+Toronto-Dominion Bank (TD)
+123 Main Street
+Toronto, Canada
+:70:Payment for services - TXN ID: 9501e83e - Cross-border transfer
+:72:/INS/BOFAUS3N
+}
+{5:{MAC:F25BDF4B}{CHK:DE0A3B359D38}}

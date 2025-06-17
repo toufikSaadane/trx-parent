@@ -1,7 +1,6 @@
 package com.toufik.trxgeneratorservice.mt103trx.service;
 
 import com.toufik.trxgeneratorservice.mt103trx.model.Transaction;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.ThreadLocalRandom;
@@ -11,8 +10,11 @@ import static com.toufik.trxgeneratorservice.mt103trx.util.MT103Constants.*;
 @Service
 public class FraudMT103MessageFormatter extends MT103MessageFormatter {
 
-    @Autowired
-    private FraudTransactionFactory fraudTransactionFactory;
+    private final FraudTransactionFactory fraudTransactionFactory;
+
+    public FraudMT103MessageFormatter(FraudTransactionFactory fraudTransactionFactory) {
+        this.fraudTransactionFactory = fraudTransactionFactory;
+    }
 
     /**
      * Formats a fraud transaction into MT103 SWIFT message format
@@ -65,7 +67,6 @@ public class FraudMT103MessageFormatter extends MT103MessageFormatter {
             return suspiciousText;
         }
 
-        // Fallback to building based on transaction characteristics
         return buildCharacteristicBasedRemittance(transaction);
     }
 

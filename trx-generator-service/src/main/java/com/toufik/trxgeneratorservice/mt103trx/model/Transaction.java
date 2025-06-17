@@ -55,11 +55,6 @@ public class Transaction {
         return null;
     }
 
-    public boolean hasValidIBANs() {
-        return fromIBAN != null && !fromIBAN.isEmpty() &&
-                toIBAN != null && !toIBAN.isEmpty();
-    }
-
     public boolean isCrossBorder() {
         return fromCountryCode != null && toCountryCode != null &&
                 !fromCountryCode.equals(toCountryCode);

@@ -112,4 +112,12 @@ public class BankDataService {
         }
         return remainder;
     }
+
+    /**
+     * Returns all available banks in the system
+     * @return List of all bank information
+     */
+    public List<BankInfo> getAllBanks() {
+        return new ArrayList<>(banks);
+    }
 }
