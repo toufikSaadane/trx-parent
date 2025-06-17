@@ -1,0 +1,38 @@
+{
+  "transactionId" : "9f6bc902-34d7-4400-b350-a37a3975c9ce",
+  "transaction" : {
+    "transactionId" : "9f6bc902-34d7-4400-b350-a37a3975c9ce",
+    "fromAccount" : "7449131983",
+    "toAccount" : "185731078065",
+    "amount" : 947.53,
+    "currency" : "AUD",
+    "fromBankSwift" : "CTBAAU2S",
+    "toBankSwift" : "NOSCCATT",
+    "fromBankName" : "Commonwealth Bank of Australia",
+    "toBankName" : "Scotiabank",
+    "timestamp" : "2025-06-13T15:50:14.203318",
+    "status" : "FAILED",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9f6bc902-34d7-4400-b350-a37a3975c9ce",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "ca95812c-a46b-401b-adbc-09554e3a8d59",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 947.53 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:16.390224",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.390234",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.393967"
+}

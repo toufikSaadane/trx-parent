@@ -1,0 +1,10 @@
+{3:{108:beee2b41-b20f-45}}
+{4:
+:20:beee2b41-b20f-45
+:23B:CRED
+:32A:250617CAD948,37
+:50K:/3855606696
+Bank of Montreal
+:59:/5259731359
+Banco Azteca
+}

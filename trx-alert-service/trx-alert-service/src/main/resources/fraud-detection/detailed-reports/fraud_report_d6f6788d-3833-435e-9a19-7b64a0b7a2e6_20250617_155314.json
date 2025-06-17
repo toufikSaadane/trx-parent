@@ -1,0 +1,30 @@
+{
+  "transactionId" : "d6f6788d-3833-435e-9a19-7b64a0b7a2e6",
+  "transaction" : {
+    "transactionId" : "d6f6788d-3833-435e-9a19-7b64a0b7a2e6",
+    "fromAccount" : "917929147694",
+    "toAccount" : "129517614501",
+    "amount" : 9457.77,
+    "currency" : "INR",
+    "fromBankSwift" : "IBOSINBB",
+    "toBankSwift" : "BNPAFRPP",
+    "fromBankName" : "Indian Overseas Bank",
+    "toBankName" : "BNP Paribas SA",
+    "timestamp" : "2025-06-13T15:49:29.21406",
+    "status" : "COMPLETED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "FR8030004000000001118940960",
+    "fromCountryCode" : "IN",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d6f6788d-3833-435e-9a19-7b64a0b7a2e6",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.764574",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.766703"
+}

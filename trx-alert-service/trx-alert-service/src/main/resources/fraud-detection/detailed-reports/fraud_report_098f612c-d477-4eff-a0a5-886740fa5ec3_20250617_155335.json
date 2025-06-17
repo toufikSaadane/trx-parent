@@ -1,0 +1,38 @@
+{
+  "transactionId" : "098f612c-d477-4eff-a0a5-886740fa5ec3",
+  "transaction" : {
+    "transactionId" : "098f612c-d477-4eff-a0a5-886740fa5ec3",
+    "fromAccount" : "040348083371",
+    "toAccount" : "631732858096",
+    "amount" : 25772.14,
+    "currency" : "NZD",
+    "fromBankSwift" : "HSBCNZ2A",
+    "toBankSwift" : "EBILAEADXXX",
+    "fromBankName" : "HSBC New Zealand",
+    "toBankName" : "Emirates NBD Bank",
+    "timestamp" : "2025-06-16T23:18:12.134992",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NZ",
+    "toCountryCode" : "AE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "098f612c-d477-4eff-a0a5-886740fa5ec3",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "61b4620d-6c7d-49bb-a0e5-3e0fa2264014",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 25772.14 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:35.767413",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:35.767422",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:35.770794"
+}

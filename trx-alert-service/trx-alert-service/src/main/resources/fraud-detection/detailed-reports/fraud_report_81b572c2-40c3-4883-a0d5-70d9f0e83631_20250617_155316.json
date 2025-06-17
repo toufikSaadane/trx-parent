@@ -1,0 +1,38 @@
+{
+  "transactionId" : "81b572c2-40c3-4883-a0d5-70d9f0e83631",
+  "transaction" : {
+    "transactionId" : "81b572c2-40c3-4883-a0d5-70d9f0e83631",
+    "fromAccount" : "941894467101",
+    "toAccount" : "2056138566",
+    "amount" : 45.18,
+    "currency" : "MXN",
+    "fromBankSwift" : "SCOTMXMM",
+    "toBankSwift" : "BKTOTRIS",
+    "fromBankName" : "Scotiabank Mexico",
+    "toBankName" : "Türkiye İş Bankası",
+    "timestamp" : "2025-06-15T08:51:51.423676",
+    "status" : "COMPLETED",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "TR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "81b572c2-40c3-4883-a0d5-70d9f0e83631",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "4d759f26-7d3b-4a1a-a69f-0e41b1b25075",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 45.18 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:16.760036",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.760058",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.763712"
+}

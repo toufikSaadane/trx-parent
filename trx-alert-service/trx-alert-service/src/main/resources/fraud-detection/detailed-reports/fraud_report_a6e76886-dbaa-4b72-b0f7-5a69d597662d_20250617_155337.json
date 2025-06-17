@@ -1,0 +1,30 @@
+{
+  "transactionId" : "a6e76886-dbaa-4b72-b0f7-5a69d597662d",
+  "transaction" : {
+    "transactionId" : "a6e76886-dbaa-4b72-b0f7-5a69d597662d",
+    "fromAccount" : "588223572848",
+    "toAccount" : "960345169634",
+    "amount" : 1951.83,
+    "currency" : "USD",
+    "fromBankSwift" : "NBYEMYMY",
+    "toBankSwift" : "CHASUS33",
+    "fromBankName" : "National Bank of Yemen",
+    "toBankName" : "JPMorgan Chase Bank",
+    "timestamp" : "2025-06-17T13:51:39.746253",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NBYEMYMY",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a6e76886-dbaa-4b72-b0f7-5a69d597662d",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.522531",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.527705"
+}

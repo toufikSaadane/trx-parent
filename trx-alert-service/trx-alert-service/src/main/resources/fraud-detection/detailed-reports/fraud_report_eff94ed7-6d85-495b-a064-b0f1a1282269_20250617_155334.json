@@ -1,0 +1,30 @@
+{
+  "transactionId" : "eff94ed7-6d85-495b-a064-b0f1a1282269",
+  "transaction" : {
+    "transactionId" : "eff94ed7-6d85-495b-a064-b0f1a1282269",
+    "fromAccount" : "541500127485",
+    "toAccount" : "102997976215",
+    "amount" : 1968.94,
+    "currency" : "USD",
+    "fromBankSwift" : "BOFAUS3N",
+    "toBankSwift" : "HSBCCNSH",
+    "fromBankName" : "Bank of America N.A.",
+    "toBankName" : "HSBC Bank (China) Company Limited",
+    "timestamp" : "2025-06-13T15:53:44.201006",
+    "status" : "PROCESSING",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "US",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "eff94ed7-6d85-495b-a064-b0f1a1282269",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:34.491374",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:34.496871"
+}

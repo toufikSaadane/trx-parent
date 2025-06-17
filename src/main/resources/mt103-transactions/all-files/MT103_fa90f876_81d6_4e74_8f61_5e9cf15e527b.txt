@@ -1,0 +1,8 @@
+{1:F01NBYEMYMYXXX0}{2:I103HKBCCATTXXX0N}{3:{108:fa90f876-81d6-4e}}
+{4:
+:50K:/7866116219
+National Bank of Yemen
+:59:/850778205599
+Hongkong and Shanghai Banking Corp
+}
+{5:{MAC:12345678}{CHK:123456789ABC}}

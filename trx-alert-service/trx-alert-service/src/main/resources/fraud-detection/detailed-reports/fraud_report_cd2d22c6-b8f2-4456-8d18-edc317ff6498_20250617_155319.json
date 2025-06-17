@@ -1,0 +1,46 @@
+{
+  "transactionId" : "cd2d22c6-b8f2-4456-8d18-edc317ff6498",
+  "transaction" : {
+    "transactionId" : "cd2d22c6-b8f2-4456-8d18-edc317ff6498",
+    "fromAccount" : "1952253804",
+    "toAccount" : "2114971143",
+    "amount" : 61850.51,
+    "currency" : "USD",
+    "fromBankSwift" : "AFIBAFKA",
+    "toBankSwift" : "CITIUS33",
+    "fromBankName" : "Afghanistan International Bank",
+    "toBankName" : "Citibank N.A.",
+    "timestamp" : "2025-06-17T14:10:14.62917",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AF",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "cd2d22c6-b8f2-4456-8d18-edc317ff6498",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "aaebf831-c5c7-40c1-b17d-0244f43bc7fe",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AF, To: US",
+      "timestamp" : "2025-06-17T15:53:19.955155",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "e5843c29-9056-4e70-acf2-d14c3bb75a9f",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 61850.51 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:19.955184",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.955195",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.958351"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "1cad2d1d-34e3-4f6d-9ab4-5729a9e191e3",
+  "transaction" : {
+    "transactionId" : "1cad2d1d-34e3-4f6d-9ab4-5729a9e191e3",
+    "fromAccount" : "301212518735",
+    "toAccount" : "697753826132",
+    "amount" : 970.31,
+    "currency" : "NZD",
+    "fromBankSwift" : "HSBCNZ2A",
+    "toBankSwift" : "COBADEFF",
+    "fromBankName" : "HSBC New Zealand",
+    "toBankName" : "Commerzbank AG",
+    "timestamp" : "2025-06-17T14:20:24.647741",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "DE11100400001966788011",
+    "fromCountryCode" : "NZ",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1cad2d1d-34e3-4f6d-9ab4-5729a9e191e3",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "86e8c864-eae2-4053-aee0-1d21c2e0b720",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 970.31 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:20.743111",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.743126",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.747473"
+}

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "db5e1c43-71ec-426a-9a30-1b30e6646d10",
+  "transaction" : {
+    "transactionId" : "db5e1c43-71ec-426a-9a30-1b30e6646d10",
+    "fromAccount" : "792987983676",
+    "toAccount" : "277473752132",
+    "amount" : 982.9,
+    "currency" : "CAD",
+    "fromBankSwift" : "HKBCCATT",
+    "toBankSwift" : "CBSYSYMM",
+    "fromBankName" : "Hongkong and Shanghai Banking Corp",
+    "toBankName" : "Central Bank of Syria",
+    "timestamp" : "2025-06-17T10:48:51.190342",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "db5e1c43-71ec-426a-9a30-1b30e6646d10",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "554a0c5f-5f8b-4bf9-ac23-67b569e1b054",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CA, To: SY",
+      "timestamp" : "2025-06-17T15:53:36.370752",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "5fc32c23-1efc-40ac-ac73-bd925aec8b03",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 982.9 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:36.370866",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.370877",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.374395"
+}

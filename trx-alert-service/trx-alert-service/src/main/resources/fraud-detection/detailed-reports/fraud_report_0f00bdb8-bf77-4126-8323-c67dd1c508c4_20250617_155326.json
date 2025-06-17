@@ -1,0 +1,38 @@
+{
+  "transactionId" : "0f00bdb8-bf77-4126-8323-c67dd1c508c4",
+  "transaction" : {
+    "transactionId" : "0f00bdb8-bf77-4126-8323-c67dd1c508c4",
+    "fromAccount" : "6963872432",
+    "toAccount" : "489311564334",
+    "amount" : 17043.53,
+    "currency" : "JPY",
+    "fromBankSwift" : "BOTKJPJT",
+    "toBankSwift" : "CAIXESBB",
+    "fromBankName" : "MUFG Bank Ltd",
+    "toBankName" : "CaixaBank",
+    "timestamp" : "2025-06-17T14:17:54.62993",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "ES5721000000001875256319",
+    "fromCountryCode" : "JP",
+    "toCountryCode" : "ES"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "0f00bdb8-bf77-4126-8323-c67dd1c508c4",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "c53b695a-8769-4be9-a715-0c7abda18c1a",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 17043.53 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:26.752904",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.752921",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.758352"
+}

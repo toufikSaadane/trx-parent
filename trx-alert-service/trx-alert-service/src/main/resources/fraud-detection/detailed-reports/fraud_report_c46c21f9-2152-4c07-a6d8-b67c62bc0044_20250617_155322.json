@@ -1,0 +1,38 @@
+{
+  "transactionId" : "c46c21f9-2152-4c07-a6d8-b67c62bc0044",
+  "transaction" : {
+    "transactionId" : "c46c21f9-2152-4c07-a6d8-b67c62bc0044",
+    "fromAccount" : "235232888478",
+    "toAccount" : "093328265834",
+    "amount" : 408.04,
+    "currency" : "INR",
+    "fromBankSwift" : "SBININBB104",
+    "toBankSwift" : "NBPLT21",
+    "fromBankName" : "State Bank of India",
+    "toBankName" : "Šiaulių Bankas",
+    "timestamp" : "2025-06-16T23:30:22.679079",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "LT067300000020603767",
+    "fromCountryCode" : "IN",
+    "toCountryCode" : "LT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c46c21f9-2152-4c07-a6d8-b67c62bc0044",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "7a6c3a4e-6082-467d-80b7-0d0f4941cff4",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 408.04 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:22.611043",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:22.61106",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:22.615534"
+}

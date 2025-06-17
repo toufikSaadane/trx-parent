@@ -1,0 +1,38 @@
+{
+  "transactionId" : "9b8023a2-45e7-4f4b-9de6-e08507c8016f",
+  "transaction" : {
+    "transactionId" : "9b8023a2-45e7-4f4b-9de6-e08507c8016f",
+    "fromAccount" : "135528720090",
+    "toAccount" : "1034372510",
+    "amount" : 2692.87,
+    "currency" : "USD",
+    "fromBankSwift" : "CAIXESBB",
+    "toBankSwift" : "AYABMMMY",
+    "fromBankName" : "CaixaBank",
+    "toBankName" : "Ayeyarwady Bank",
+    "timestamp" : "2025-06-17T14:16:24.633354",
+    "status" : "PROCESSING",
+    "fromIBAN" : "ES6621000000001527180678",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "ES",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9b8023a2-45e7-4f4b-9de6-e08507c8016f",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "cbd031bd-ca37-4798-9c46-2bf5ce58fa5c",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: ES, To: MM",
+      "timestamp" : "2025-06-17T15:53:26.562185",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.562218",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.570424"
+}

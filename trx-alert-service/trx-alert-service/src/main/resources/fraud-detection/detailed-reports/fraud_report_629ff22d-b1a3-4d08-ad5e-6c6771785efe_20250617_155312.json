@@ -1,0 +1,38 @@
+{
+  "transactionId" : "629ff22d-b1a3-4d08-ad5e-6c6771785efe",
+  "transaction" : {
+    "transactionId" : "629ff22d-b1a3-4d08-ad5e-6c6771785efe",
+    "fromAccount" : "358832814704",
+    "toAccount" : "175762648512",
+    "amount" : 46794.77,
+    "currency" : "USD",
+    "fromBankSwift" : "WELLSFARG",
+    "toBankSwift" : "ICBKCNBJ",
+    "fromBankName" : "Wells Fargo Bank",
+    "toBankName" : "Industrial and Commercial Bank of China",
+    "timestamp" : "2025-06-13T15:50:44.203063",
+    "status" : "COMPLETED",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "US",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "629ff22d-b1a3-4d08-ad5e-6c6771785efe",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "6f76762c-1ee1-477e-a7ec-a97cc84e08f7",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 46794.77 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:12.564603",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:12.564611",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:12.565277"
+}

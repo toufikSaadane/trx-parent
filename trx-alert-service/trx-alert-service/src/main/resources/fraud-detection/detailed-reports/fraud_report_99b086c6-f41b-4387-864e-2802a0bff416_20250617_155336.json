@@ -1,0 +1,38 @@
+{
+  "transactionId" : "99b086c6-f41b-4387-864e-2802a0bff416",
+  "transaction" : {
+    "transactionId" : "99b086c6-f41b-4387-864e-2802a0bff416",
+    "fromAccount" : "6209278381",
+    "toAccount" : "1953496194",
+    "amount" : 17256.34,
+    "currency" : "CAD",
+    "fromBankSwift" : "BOFMCAM2",
+    "toBankSwift" : "EBILAEADXXX",
+    "fromBankName" : "Bank of Montreal",
+    "toBankName" : "Emirates NBD Bank",
+    "timestamp" : "2025-06-17T11:02:52.527348",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "AE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "99b086c6-f41b-4387-864e-2802a0bff416",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "19bc2d94-df02-4b63-9f83-c1f2caea64c7",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 17256.34 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:36.669645",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.669653",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.673013"
+}

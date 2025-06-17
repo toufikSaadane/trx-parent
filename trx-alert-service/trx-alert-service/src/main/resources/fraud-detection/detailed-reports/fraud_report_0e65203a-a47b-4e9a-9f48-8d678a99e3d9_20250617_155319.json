@@ -1,0 +1,46 @@
+{
+  "transactionId" : "0e65203a-a47b-4e9a-9f48-8d678a99e3d9",
+  "transaction" : {
+    "transactionId" : "0e65203a-a47b-4e9a-9f48-8d678a99e3d9",
+    "fromAccount" : "6964539244",
+    "toAccount" : "264848104965",
+    "amount" : 107.99,
+    "currency" : "EUR",
+    "fromBankSwift" : "ABNANL2A",
+    "toBankSwift" : "AFIBAFKA",
+    "fromBankName" : "ABN AMRO Bank N.V.",
+    "toBankName" : "Afghanistan International Bank",
+    "timestamp" : "2025-06-17T13:57:59.7418",
+    "status" : "PENDING",
+    "fromIBAN" : "NL6530002873262856",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "0e65203a-a47b-4e9a-9f48-8d678a99e3d9",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "8c7a4658-805a-479e-8a97-74d1bb10b3d6",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: NL, To: AF",
+      "timestamp" : "2025-06-17T15:53:19.120396",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "8148b121-aa84-4ed6-b702-ea8bde8f19f4",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 107.99 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:19.120567",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.12058",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.123223"
+}

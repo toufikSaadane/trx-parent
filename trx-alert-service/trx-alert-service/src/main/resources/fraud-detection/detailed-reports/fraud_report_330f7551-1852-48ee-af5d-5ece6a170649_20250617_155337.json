@@ -1,0 +1,30 @@
+{
+  "transactionId" : "330f7551-1852-48ee-af5d-5ece6a170649",
+  "transaction" : {
+    "transactionId" : "330f7551-1852-48ee-af5d-5ece6a170649",
+    "fromAccount" : "5983476006",
+    "toAccount" : "4177713636",
+    "amount" : 1463.49,
+    "currency" : "BRL",
+    "fromBankSwift" : "CIBVBRSP",
+    "toBankSwift" : "CAIXESBB",
+    "fromBankName" : "Banco Votorantim",
+    "toBankName" : "CaixaBank",
+    "timestamp" : "2025-06-17T13:50:19.742678",
+    "status" : "PENDING",
+    "fromIBAN" : "BR69655000100000896341154",
+    "toIBAN" : "ES6721000000000260088381",
+    "fromCountryCode" : "BR",
+    "toCountryCode" : "ES"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "330f7551-1852-48ee-af5d-5ece6a170649",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.418063",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.422853"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "0f69c8d2-9952-4ae1-8e22-ad961cca5aca",
+  "transaction" : {
+    "transactionId" : "0f69c8d2-9952-4ae1-8e22-ad961cca5aca",
+    "fromAccount" : "583675751453",
+    "toAccount" : "4670127272",
+    "amount" : 3977.74,
+    "currency" : "CNY",
+    "fromBankSwift" : "CIBKCNBJ",
+    "toBankSwift" : "HSBCNZ2A",
+    "fromBankName" : "China CITIC Bank",
+    "toBankName" : "HSBC New Zealand",
+    "timestamp" : "2025-06-17T02:43:53.737262",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "NZ"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "0f69c8d2-9952-4ae1-8e22-ad961cca5aca",
+    "riskScore" : 50,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "eb4e06bc-d575-44c1-8b18-b35776cc673f",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 02:43:53.737262",
+      "timestamp" : "2025-06-17T15:53:38.07609",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.076099",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.080627"
+}

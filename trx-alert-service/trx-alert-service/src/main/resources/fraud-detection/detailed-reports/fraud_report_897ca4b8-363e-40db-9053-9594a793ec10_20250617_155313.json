@@ -1,0 +1,30 @@
+{
+  "transactionId" : "897ca4b8-363e-40db-9053-9594a793ec10",
+  "transaction" : {
+    "transactionId" : "897ca4b8-363e-40db-9053-9594a793ec10",
+    "fromAccount" : "545962812671",
+    "toAccount" : "496790421529",
+    "amount" : 2001.79,
+    "currency" : "EUR",
+    "fromBankSwift" : "ITMRITMM",
+    "toBankSwift" : "TDOMCATT",
+    "fromBankName" : "Intesa Sanpaolo S.p.A.",
+    "toBankName" : "TD Canada Trust",
+    "timestamp" : "2025-06-16T23:30:42.679962",
+    "status" : "PROCESSING",
+    "fromIBAN" : "IT3303069000000000226305750",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IT",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "897ca4b8-363e-40db-9053-9594a793ec10",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.831008",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.83287"
+}

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "bbac822f-4b84-4117-9684-d73b42449fd2",
+  "transaction" : {
+    "transactionId" : "bbac822f-4b84-4117-9684-d73b42449fd2",
+    "fromAccount" : "2928301701",
+    "toAccount" : "729956562498",
+    "amount" : 9999.99,
+    "currency" : "AFN",
+    "fromBankSwift" : "AFIBAFKA",
+    "toBankSwift" : "DEUTAU2S",
+    "fromBankName" : "Afghanistan International Bank",
+    "toBankName" : "Deutsche Bank AG",
+    "timestamp" : "2025-06-17T15:48:03.928461",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AF",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "bbac822f-4b84-4117-9684-d73b42449fd2",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "7054b0e9-bb66-4e01-8d3c-d7f9742c9b20",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AF, To: AU",
+      "timestamp" : "2025-06-17T15:53:27.422884",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "e460dcca-ca92-4374-91c0-b0ac8a974ddf",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9999.99 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-17T15:53:27.422975",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:27.422985",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:27.427378"
+}

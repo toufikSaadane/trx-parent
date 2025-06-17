@@ -1,0 +1,24 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:20.162276
+// Transaction ID: 1b95a4f3-9324-45ec-bc11-acc24de3f220
+// Amount: 512.62 EUR
+// From: Crédit Lyonnais
+// To: Standard Bank of South Africa
+// FRAUD STATUS: NORMAL
+// Risk Score: 40/100
+// Risk Level: MEDIUM
+// Fraud Alerts: 1
+//   - Frequent Small Amounts
+//=====================================
+
+{1:F01CRLYFRPPXXX0}{2:I103SBZAZAJJXXX0N}{3:{108:1b95a4f3-9324-45}}
+{4:
+:32A=250617EUR512,62
+:20::1b95a4f3-9324-45
+:20::1b95a4f3-9324-45
+50K:/8092498913
+Crédit Lyonnais
+:59/788460608260
+Standard Bank of South Africa
+}
+{5:{MAC:12345678}{CHK:123456789ABC}}

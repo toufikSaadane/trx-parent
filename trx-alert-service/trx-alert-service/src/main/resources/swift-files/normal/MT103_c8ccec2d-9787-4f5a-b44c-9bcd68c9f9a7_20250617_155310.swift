@@ -1,0 +1,36 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:10.844164
+// Transaction ID: c8ccec2d-9787-4f5a-b44c-9bcd68c9f9a7
+// Amount: 451.63 USD
+// From: Wells Fargo Bank
+// To: Commonwealth Bank of Australia
+// FRAUD STATUS: NORMAL
+// Risk Score: 40/100
+// Risk Level: MEDIUM
+// Fraud Alerts: 1
+//   - Frequent Small Amounts
+//=====================================
+
+{1:F01WFBIUS6SXXX0}{2:I103CTBAAU2SXXX0N}{3:{108:c8ccec2d-9787-4f}}
+{4:
+:20:c8ccec2d-9787-4f
+:23B:CRED
+:32A:250611USD451,63
+:33B:USD451,63
+:71A:SHA
+:50K:/069815278772
+Wells Fargo Bank
+456 Business Ave
+New York, United States
+:52A:WFBIUS6SXXX
+:53B:/WFBIUS6SXXX
+:56A:ANZBAU3MXXX
+:57A:CTBAAU2S
+:59:/2035378942
+Commonwealth Bank of Australia
+654 Banking Center
+Sydney, Australia
+:70:Payment for services - TXN ID: c8ccec2d - Cross-border transfer
+:72:/INS/WFBIUS6SXXX
+}
+{5:{MAC:5603AF84}{CHK:4313AC55C447}}

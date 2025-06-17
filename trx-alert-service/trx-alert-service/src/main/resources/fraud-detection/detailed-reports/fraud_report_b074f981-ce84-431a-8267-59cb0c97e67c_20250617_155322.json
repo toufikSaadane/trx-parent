@@ -1,0 +1,30 @@
+{
+  "transactionId" : "b074f981-ce84-431a-8267-59cb0c97e67c",
+  "transaction" : {
+    "transactionId" : "b074f981-ce84-431a-8267-59cb0c97e67c",
+    "fromAccount" : "677069082078",
+    "toAccount" : "862966240995",
+    "amount" : 3192.07,
+    "currency" : "JPY",
+    "fromBankSwift" : "BOTKJPJT",
+    "toBankSwift" : "NWBKGB2L",
+    "fromBankName" : "MUFG Bank Ltd",
+    "toBankName" : "NatWest Group",
+    "timestamp" : "2025-06-16T23:29:02.680002",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "GB75600000000990145452",
+    "fromCountryCode" : "JP",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b074f981-ce84-431a-8267-59cb0c97e67c",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:22.515791",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:22.520283"
+}

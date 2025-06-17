@@ -1,0 +1,38 @@
+{
+  "transactionId" : "7c95ebd6-cd7f-4cbf-9b6c-b3eb236a272d",
+  "transaction" : {
+    "transactionId" : "7c95ebd6-cd7f-4cbf-9b6c-b3eb236a272d",
+    "fromAccount" : "669872827032",
+    "toAccount" : "3504410084",
+    "amount" : 82508.33,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33XXX",
+    "toBankSwift" : "KREDBEBB",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "KBC Bank N.V.",
+    "timestamp" : "2025-06-13T15:54:39.203638",
+    "status" : "FAILED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "BE34733000545313",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "BE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7c95ebd6-cd7f-4cbf-9b6c-b3eb236a272d",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e3b1a7c1-93f2-4e6c-bc80-342c1a42671f",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 82508.33 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:34.55854",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:34.558562",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:34.564278"
+}

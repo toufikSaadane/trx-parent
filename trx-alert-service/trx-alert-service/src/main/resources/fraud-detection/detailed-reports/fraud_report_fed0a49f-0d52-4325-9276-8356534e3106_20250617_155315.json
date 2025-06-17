@@ -1,0 +1,38 @@
+{
+  "transactionId" : "fed0a49f-0d52-4325-9276-8356534e3106",
+  "transaction" : {
+    "transactionId" : "fed0a49f-0d52-4325-9276-8356534e3106",
+    "fromAccount" : "0317989973",
+    "toAccount" : "969255247980",
+    "amount" : 41317.17,
+    "currency" : "USD",
+    "fromBankSwift" : "NBYEMYMY",
+    "toBankSwift" : "WFBIUS6S",
+    "fromBankName" : "National Bank of Yemen",
+    "toBankName" : "Wells Fargo Bank N.A.",
+    "timestamp" : "2025-06-17T13:27:13.46127",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NBYEMYMY",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "fed0a49f-0d52-4325-9276-8356534e3106",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "3feb8b11-0f86-4462-a75a-89292071e7cf",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 41317.17 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:15.560635",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.560654",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.562243"
+}

@@ -1,0 +1,30 @@
+{
+  "transactionId" : "c1041320-18d3-4c67-b77c-252fcdd10ba3",
+  "transaction" : {
+    "transactionId" : "c1041320-18d3-4c67-b77c-252fcdd10ba3",
+    "fromAccount" : "305350352898",
+    "toAccount" : "8355365416",
+    "amount" : 4793.28,
+    "currency" : "BRL",
+    "fromBankSwift" : "CIBVBRSP",
+    "toBankSwift" : "HSBCNZ2A",
+    "fromBankName" : "Banco Votorantim",
+    "toBankName" : "HSBC New Zealand",
+    "timestamp" : "2025-06-17T15:54:15.527985",
+    "status" : "PROCESSING",
+    "fromIBAN" : "BR44655000100001458503261",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "BR",
+    "toCountryCode" : "NZ"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c1041320-18d3-4c67-b77c-252fcdd10ba3",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:54:15.563493",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:54:15.573372"
+}

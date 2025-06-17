@@ -1,0 +1,30 @@
+{
+  "transactionId" : "c4ca486e-52bb-4f10-b463-b304cae0946a",
+  "transaction" : {
+    "transactionId" : "c4ca486e-52bb-4f10-b463-b304cae0946a",
+    "fromAccount" : "1724615971",
+    "toAccount" : "624844225411",
+    "amount" : 1503.66,
+    "currency" : "EUR",
+    "fromBankSwift" : "COBADEFF",
+    "toBankSwift" : "CIBKCNBJ",
+    "fromBankName" : "Commerzbank AG",
+    "toBankName" : "China CITIC Bank",
+    "timestamp" : "2025-06-15T15:45:02.038852",
+    "status" : "PENDING",
+    "fromIBAN" : "DE05100400000074609313",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c4ca486e-52bb-4f10-b463-b304cae0946a",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:11.982494",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:11.984279"
+}

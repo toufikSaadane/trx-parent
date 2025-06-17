@@ -1,0 +1,38 @@
+{
+  "transactionId" : "08386e9f-21b4-494c-8932-5003e1d75e84",
+  "transaction" : {
+    "transactionId" : "08386e9f-21b4-494c-8932-5003e1d75e84",
+    "fromAccount" : "367023715445",
+    "toAccount" : "009257997329",
+    "amount" : 64422.62,
+    "currency" : "CAD",
+    "fromBankSwift" : "BOFMCAM2XXX",
+    "toBankSwift" : "BAMXMXMM",
+    "fromBankName" : "Bank of Montreal",
+    "toBankName" : "Banco Azteca",
+    "timestamp" : "2025-06-17T13:25:33.70478",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "MX"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "08386e9f-21b4-494c-8932-5003e1d75e84",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "0bbffa79-6282-4766-ad49-f385ebe1a397",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 64422.62 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:23.706278",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.706288",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.709733"
+}

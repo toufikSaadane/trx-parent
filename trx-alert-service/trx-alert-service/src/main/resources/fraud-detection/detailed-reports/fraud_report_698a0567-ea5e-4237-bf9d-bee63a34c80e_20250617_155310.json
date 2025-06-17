@@ -1,0 +1,30 @@
+{
+  "transactionId" : "698a0567-ea5e-4237-bf9d-bee63a34c80e",
+  "transaction" : {
+    "transactionId" : "698a0567-ea5e-4237-bf9d-bee63a34c80e",
+    "fromAccount" : "177918494857",
+    "toAccount" : "8982581277",
+    "amount" : 1936.61,
+    "currency" : "KRW",
+    "fromBankSwift" : "SHBKKRSE",
+    "toBankSwift" : "SBININBB104",
+    "fromBankName" : "Shinhan Bank",
+    "toBankName" : "State Bank of India",
+    "timestamp" : "2025-06-12T13:14:20.766193",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KR",
+    "toCountryCode" : "IN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "698a0567-ea5e-4237-bf9d-bee63a34c80e",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.91299",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.914026"
+}

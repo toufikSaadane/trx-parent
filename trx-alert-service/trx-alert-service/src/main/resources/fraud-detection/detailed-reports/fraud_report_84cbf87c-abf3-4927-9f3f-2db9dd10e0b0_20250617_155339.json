@@ -1,0 +1,38 @@
+{
+  "transactionId" : "84cbf87c-abf3-4927-9f3f-2db9dd10e0b0",
+  "transaction" : {
+    "transactionId" : "84cbf87c-abf3-4927-9f3f-2db9dd10e0b0",
+    "fromAccount" : "682993450021",
+    "toAccount" : "9949572406",
+    "amount" : 42442.74,
+    "currency" : "EUR",
+    "fromBankSwift" : "BNPAFRPP",
+    "toBankSwift" : "BOFMCAM2",
+    "fromBankName" : "BNP Paribas SA",
+    "toBankName" : "Bank of Montreal",
+    "timestamp" : "2025-06-17T14:17:14.625543",
+    "status" : "PENDING",
+    "fromIBAN" : "FR4430004000000000237829789",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "84cbf87c-abf3-4927-9f3f-2db9dd10e0b0",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "582cf406-448b-40e3-87f0-9a5a81a44737",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 42442.74 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:39.564034",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.564048",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.574549"
+}

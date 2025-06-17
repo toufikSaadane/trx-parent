@@ -1,0 +1,38 @@
+{
+  "transactionId" : "34003186-cbe2-4145-8664-1e325b39359b",
+  "transaction" : {
+    "transactionId" : "34003186-cbe2-4145-8664-1e325b39359b",
+    "fromAccount" : "0497275505",
+    "toAccount" : "442902004399",
+    "amount" : 4790.42,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33",
+    "toBankSwift" : "INGBNL2A",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "ING Bank",
+    "timestamp" : "2025-06-15T03:53:33.037662",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "NL3920001410063832",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "34003186-cbe2-4145-8664-1e325b39359b",
+    "riskScore" : 50,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "5c3aa9fd-4c1d-4a53-8c3a-d4f09b3259df",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 03:53:33.037662",
+      "timestamp" : "2025-06-17T15:53:13.478357",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.478367",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.480215"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "26577809-963f-4148-a442-c13134bda42e",
+  "transaction" : {
+    "transactionId" : "26577809-963f-4148-a442-c13134bda42e",
+    "fromAccount" : "439715792576",
+    "toAccount" : "532295685833",
+    "amount" : 41465.15,
+    "currency" : "TRY",
+    "fromBankSwift" : "BKTOTRIS",
+    "toBankSwift" : "BNPAAU2S",
+    "fromBankName" : "Türkiye İş Bankası",
+    "toBankName" : "BNP Paribas Australia",
+    "timestamp" : "2025-06-13T15:50:09.20434",
+    "status" : "PROCESSING",
+    "fromIBAN" : "TR186400000000001349753275",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "TR",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "26577809-963f-4148-a442-c13134bda42e",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "6610c4dc-1388-4c24-9a50-7fc181483518",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 41465.15 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:13.926389",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.926402",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.927459"
+}

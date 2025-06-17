@@ -1,0 +1,38 @@
+{
+  "transactionId" : "a9490a63-6de8-47d7-8999-951bdd93ee90",
+  "transaction" : {
+    "transactionId" : "a9490a63-6de8-47d7-8999-951bdd93ee90",
+    "fromAccount" : "813827170462",
+    "toAccount" : "0400121957",
+    "amount" : 5099.39,
+    "currency" : "AFN",
+    "fromBankSwift" : "AZBAAFKAXXX",
+    "toBankSwift" : "ARABSYMMXXX",
+    "fromBankName" : "Azizi Bank",
+    "toBankName" : "Arab Bank Syria",
+    "timestamp" : "2025-06-17T13:26:03.461871",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AF",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a9490a63-6de8-47d7-8999-951bdd93ee90",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "211ddb04-4668-4986-a11a-a648a2aaa801",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AF, To: SY",
+      "timestamp" : "2025-06-17T15:53:18.460289",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.460298",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.462629"
+}

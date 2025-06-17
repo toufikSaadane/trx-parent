@@ -1,0 +1,30 @@
+{
+  "transactionId" : "0aec31e0-63d1-4d2e-94cc-8f5ffc9df271",
+  "transaction" : {
+    "transactionId" : "0aec31e0-63d1-4d2e-94cc-8f5ffc9df271",
+    "fromAccount" : "1364762964",
+    "toAccount" : "259810849061",
+    "amount" : 8729.04,
+    "currency" : "EUR",
+    "fromBankSwift" : "CRLYFRPP",
+    "toBankSwift" : "SOGEFRPP",
+    "fromBankName" : "Crédit Lyonnais",
+    "toBankName" : "Société Générale",
+    "timestamp" : "2025-06-17T14:00:19.737252",
+    "status" : "PROCESSING",
+    "fromIBAN" : "FR7530002000000001423923972",
+    "toIBAN" : "FR7830003000000001462322831",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "0aec31e0-63d1-4d2e-94cc-8f5ffc9df271",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.263674",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.268946"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "0c0b2c8e-cedb-42ac-a70e-eb3fff0c9cb4",
+  "transaction" : {
+    "transactionId" : "0c0b2c8e-cedb-42ac-a70e-eb3fff0c9cb4",
+    "fromAccount" : "412655707762",
+    "toAccount" : "971946580605",
+    "amount" : 679.94,
+    "currency" : "GBP",
+    "fromBankSwift" : "BARCGB22",
+    "toBankSwift" : "ICBKCNBJ",
+    "fromBankName" : "Barclays Bank PLC",
+    "toBankName" : "Industrial and Commercial Bank of China",
+    "timestamp" : "2025-06-17T13:57:39.734832",
+    "status" : "PROCESSING",
+    "fromIBAN" : "GB65204545000494622954",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "0c0b2c8e-cedb-42ac-a70e-eb3fff0c9cb4",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "05f326e3-3638-410c-8976-b08bd23b87d0",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 679.94 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:19.103721",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.103737",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.107824"
+}

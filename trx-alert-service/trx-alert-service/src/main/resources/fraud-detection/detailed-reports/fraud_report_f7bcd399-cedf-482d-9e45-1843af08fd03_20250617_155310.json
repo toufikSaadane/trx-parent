@@ -1,0 +1,38 @@
+{
+  "transactionId" : "f7bcd399-cedf-482d-9e45-1843af08fd03",
+  "transaction" : {
+    "transactionId" : "f7bcd399-cedf-482d-9e45-1843af08fd03",
+    "fromAccount" : "634524476997",
+    "toAccount" : "897152796621",
+    "amount" : 50566.16,
+    "currency" : "SGD",
+    "fromBankSwift" : "OCBCSGSG",
+    "toBankSwift" : "TDOMCATT",
+    "fromBankName" : "OCBC Bank",
+    "toBankName" : "TD Canada Trust",
+    "timestamp" : "2025-06-11T09:51:49.73629",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f7bcd399-cedf-482d-9e45-1843af08fd03",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "d1fdc941-6f01-43b2-bda5-f550292470a6",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 50566.16 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:10.81608",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.816129",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.817538"
+}

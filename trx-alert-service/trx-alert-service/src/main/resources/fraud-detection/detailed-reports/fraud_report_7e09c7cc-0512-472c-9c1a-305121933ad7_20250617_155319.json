@@ -1,0 +1,38 @@
+{
+  "transactionId" : "7e09c7cc-0512-472c-9c1a-305121933ad7",
+  "transaction" : {
+    "transactionId" : "7e09c7cc-0512-472c-9c1a-305121933ad7",
+    "fromAccount" : "0558576608",
+    "toAccount" : "8981052722",
+    "amount" : 596.62,
+    "currency" : "CNY",
+    "fromBankSwift" : "HSBCCNSH",
+    "toBankSwift" : "GTBINGLA",
+    "fromBankName" : "HSBC Bank (China) Company Limited",
+    "toBankName" : "Guaranty Trust Bank PLC",
+    "timestamp" : "2025-06-17T14:06:09.733883",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "NG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7e09c7cc-0512-472c-9c1a-305121933ad7",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "0de669e1-181c-4d8a-b432-02b7bb77c281",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 596.62 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:19.690539",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.690551",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.695163"
+}

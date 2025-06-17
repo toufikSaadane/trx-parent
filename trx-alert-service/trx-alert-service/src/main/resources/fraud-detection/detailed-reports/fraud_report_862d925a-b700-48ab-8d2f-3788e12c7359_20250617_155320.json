@@ -1,0 +1,38 @@
+{
+  "transactionId" : "862d925a-b700-48ab-8d2f-3788e12c7359",
+  "transaction" : {
+    "transactionId" : "862d925a-b700-48ab-8d2f-3788e12c7359",
+    "fromAccount" : "411609585841",
+    "toAccount" : "918422446275",
+    "amount" : 890.74,
+    "currency" : "INR",
+    "fromBankSwift" : "SBININBB104",
+    "toBankSwift" : "HKBCCATT",
+    "fromBankName" : "State Bank of India",
+    "toBankName" : "Hongkong and Shanghai Banking Corp",
+    "timestamp" : "2025-06-13T15:47:39.205157",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IN",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "862d925a-b700-48ab-8d2f-3788e12c7359",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "bb5abc35-20f3-45d5-88b9-23bc942b5eb1",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 890.74 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:20.894081",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.894092",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.898567"
+}

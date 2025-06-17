@@ -1,0 +1,46 @@
+{
+  "transactionId" : "13d4b83c-1eec-410d-8bea-88ed59db7b04",
+  "transaction" : {
+    "transactionId" : "13d4b83c-1eec-410d-8bea-88ed59db7b04",
+    "fromAccount" : "018472802834",
+    "toAccount" : "808517389209",
+    "amount" : 19094.81,
+    "currency" : "KPW",
+    "fromBankSwift" : "FTBKKPRKX",
+    "toBankSwift" : "WESTPAC",
+    "fromBankName" : "Foreign Trade Bank",
+    "toBankName" : "Westpac Banking Corp",
+    "timestamp" : "2025-06-17T14:05:29.733166",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "13d4b83c-1eec-410d-8bea-88ed59db7b04",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "1e51d21e-5fb4-41ea-8965-39fc0f6580bd",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: AU",
+      "timestamp" : "2025-06-17T15:53:19.640971",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "199fbcb4-7ae8-424d-ad34-81bf9f362c3c",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 19094.81 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:19.641025",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.641039",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.643951"
+}

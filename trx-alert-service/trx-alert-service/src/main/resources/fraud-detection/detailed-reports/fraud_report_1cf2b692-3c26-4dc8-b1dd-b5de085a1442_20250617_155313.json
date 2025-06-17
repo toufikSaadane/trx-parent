@@ -1,0 +1,30 @@
+{
+  "transactionId" : "1cf2b692-3c26-4dc8-b1dd-b5de085a1442",
+  "transaction" : {
+    "transactionId" : "1cf2b692-3c26-4dc8-b1dd-b5de085a1442",
+    "fromAccount" : "651953741118",
+    "toAccount" : "545249828929",
+    "amount" : 5484.92,
+    "currency" : "EUR",
+    "fromBankSwift" : "ABNANL2A",
+    "toBankSwift" : "BNPAFRPP",
+    "fromBankName" : "ABN AMRO Bank N.V.",
+    "toBankName" : "BNP Paribas SA",
+    "timestamp" : "2025-06-13T15:51:29.202361",
+    "status" : "PROCESSING",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1cf2b692-3c26-4dc8-b1dd-b5de085a1442",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.953075",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.954918"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "e8b70de7-1d8d-46f3-ab7e-cb854d90f3e4",
+  "transaction" : {
+    "transactionId" : "e8b70de7-1d8d-46f3-ab7e-cb854d90f3e4",
+    "fromAccount" : "725503360936",
+    "toAccount" : "420203729149",
+    "amount" : 616.76,
+    "currency" : "CHF",
+    "fromBankSwift" : "CRESCHZZ",
+    "toBankSwift" : "IBOSINBB",
+    "fromBankName" : "Credit Suisse",
+    "toBankName" : "Indian Overseas Bank",
+    "timestamp" : "2025-06-17T14:13:24.635864",
+    "status" : "PROCESSING",
+    "fromIBAN" : "CH9848350001600248461",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "IN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e8b70de7-1d8d-46f3-ab7e-cb854d90f3e4",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "aa097594-1602-4e23-acdc-bfefdcedec7d",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 616.76 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:16.086293",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.0863",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.089324"
+}

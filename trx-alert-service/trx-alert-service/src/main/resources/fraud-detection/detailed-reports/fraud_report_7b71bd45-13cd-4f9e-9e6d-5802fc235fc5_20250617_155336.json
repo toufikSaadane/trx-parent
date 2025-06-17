@@ -1,0 +1,46 @@
+{
+  "transactionId" : "7b71bd45-13cd-4f9e-9e6d-5802fc235fc5",
+  "transaction" : {
+    "transactionId" : "7b71bd45-13cd-4f9e-9e6d-5802fc235fc5",
+    "fromAccount" : "603945396818",
+    "toAccount" : "635077554139",
+    "amount" : 78.25,
+    "currency" : "MMK",
+    "fromBankSwift" : "KBZBMMMY",
+    "toBankSwift" : "SCBLKENX",
+    "fromBankName" : "KBZ Bank",
+    "toBankName" : "Standard Chartered Kenya",
+    "timestamp" : "2025-06-17T11:01:57.528263",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MM",
+    "toCountryCode" : "KE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7b71bd45-13cd-4f9e-9e6d-5802fc235fc5",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "02338346-e89c-4451-95d2-99f704f3f9ac",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MM, To: KE",
+      "timestamp" : "2025-06-17T15:53:36.602234",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "eb423a32-a9a9-438f-9069-0bdd32f04007",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 78.25 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:36.602248",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.602255",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.605663"
+}

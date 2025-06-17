@@ -1,0 +1,46 @@
+{
+  "transactionId" : "46074a36-3d18-4efc-aee5-cafc65b2c914",
+  "transaction" : {
+    "transactionId" : "46074a36-3d18-4efc-aee5-cafc65b2c914",
+    "fromAccount" : "1266845235",
+    "toAccount" : "602253644768",
+    "amount" : 20000,
+    "currency" : "",
+    "fromBankSwift" : "SBZAZAJJ",
+    "toBankSwift" : "VTBRRUMM",
+    "fromBankName" : "Standard Bank of South Africa",
+    "toBankName" : "VTB Bank",
+    "timestamp" : "2025-06-17T15:53:55.543959",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "ZA",
+    "toCountryCode" : "RU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "46074a36-3d18-4efc-aee5-cafc65b2c914",
+    "riskScore" : 110,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "533cb244-3a06-45ce-80db-714bbd261f4d",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 20000 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:55.614245",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "238519e7-3ee1-473b-9e03-73786511e575",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 20000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:55.614319",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:55.614344",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:55.626882"
+}

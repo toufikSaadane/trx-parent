@@ -1,0 +1,38 @@
+{
+  "transactionId" : "56d1d40a-375f-443a-917e-3eb5e5221e43",
+  "transaction" : {
+    "transactionId" : "56d1d40a-375f-443a-917e-3eb5e5221e43",
+    "fromAccount" : "975752332391",
+    "toAccount" : "544480551013",
+    "amount" : 69716.27,
+    "currency" : "EUR",
+    "fromBankSwift" : "DEUTDEFF",
+    "toBankSwift" : "BMOCCAMT",
+    "fromBankName" : "Deutsche Bank AG",
+    "toBankName" : "Bank of Montreal",
+    "timestamp" : "2025-06-13T15:50:29.203165",
+    "status" : "PROCESSING",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "56d1d40a-375f-443a-917e-3eb5e5221e43",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "a52ec202-d137-4301-8216-455eb051fa55",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 69716.27 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:16.397437",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.397446",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.399346"
+}

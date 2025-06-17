@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5fbd3e98-e692-47f8-9720-72ff298d4b8b",
+  "transaction" : {
+    "transactionId" : "5fbd3e98-e692-47f8-9720-72ff298d4b8b",
+    "fromAccount" : "1850661238",
+    "toAccount" : "451498292063",
+    "amount" : 3665.98,
+    "currency" : "KWR",
+    "fromBankSwift" : "KOEXKRSE",
+    "toBankSwift" : "SBININBB104",
+    "fromBankName" : "Korea Exchange Bank",
+    "toBankName" : "State Bank of India",
+    "timestamp" : "2025-06-17T11:00:42.776702",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KR",
+    "toCountryCode" : "IN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5fbd3e98-e692-47f8-9720-72ff298d4b8b",
+    "riskScore" : 60,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "2c1d8fb8-101e-4c3f-aacf-76f44a4d03f5",
+      "fraudType" : "CRYPTOCURRENCY_KEYWORDS",
+      "description" : "Cryptocurrency Keywords",
+      "severity" : 6,
+      "details" : "Transaction contains cryptocurrency-related keywords in bank names: Korea Exchange Bank State Bank of India",
+      "timestamp" : "2025-06-17T15:53:23.03871",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.038721",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.043422"
+}

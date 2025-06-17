@@ -1,0 +1,30 @@
+{
+  "transactionId" : "4d68c618-c3b6-4885-8711-3500d7a4cf57",
+  "transaction" : {
+    "transactionId" : "4d68c618-c3b6-4885-8711-3500d7a4cf57",
+    "fromAccount" : "529447972679",
+    "toAccount" : "649629477185",
+    "amount" : 1320.55,
+    "currency" : "USD",
+    "fromBankSwift" : "BKCHCNBJ",
+    "toBankSwift" : "WFBIUS6SXXX",
+    "fromBankName" : "Bank of China",
+    "toBankName" : "Wells Fargo Bank",
+    "timestamp" : "2025-06-10T23:36:23.014887",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "4d68c618-c3b6-4885-8711-3500d7a4cf57",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.801509",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.802247"
+}

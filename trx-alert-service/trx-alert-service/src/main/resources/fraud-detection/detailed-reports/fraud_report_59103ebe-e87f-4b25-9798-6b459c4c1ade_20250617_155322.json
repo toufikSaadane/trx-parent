@@ -1,0 +1,38 @@
+{
+  "transactionId" : "59103ebe-e87f-4b25-9798-6b459c4c1ade",
+  "transaction" : {
+    "transactionId" : "59103ebe-e87f-4b25-9798-6b459c4c1ade",
+    "fromAccount" : "163673116927",
+    "toAccount" : "795148234237",
+    "amount" : 285.97,
+    "currency" : "CAD",
+    "fromBankSwift" : "ROYCCAT2",
+    "toBankSwift" : "BESCPTPL",
+    "fromBankName" : "Royal Bank of Canada",
+    "toBankName" : "Novo Banco",
+    "timestamp" : "2025-06-16T23:36:55.923916",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "PT20000700000000961055323",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "PT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "59103ebe-e87f-4b25-9798-6b459c4c1ade",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "bbd05b52-322d-45cd-ae46-011695771ede",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 285.97 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:22.733551",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:22.733561",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:22.738162"
+}

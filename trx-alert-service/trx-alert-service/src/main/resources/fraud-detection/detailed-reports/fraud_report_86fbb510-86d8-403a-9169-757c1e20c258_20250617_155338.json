@@ -1,0 +1,38 @@
+{
+  "transactionId" : "86fbb510-86d8-403a-9169-757c1e20c258",
+  "transaction" : {
+    "transactionId" : "86fbb510-86d8-403a-9169-757c1e20c258",
+    "fromAccount" : "5427553422",
+    "toAccount" : "174188251104",
+    "amount" : 69186.53,
+    "currency" : "EUR",
+    "fromBankSwift" : "BESCPTPL",
+    "toBankSwift" : "ASBKNZ2A",
+    "fromBankName" : "Novo Banco",
+    "toBankName" : "ASB Bank Limited",
+    "timestamp" : "2025-06-17T14:05:44.733095",
+    "status" : "PENDING",
+    "fromIBAN" : "PT18000700000001241504475",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "PT",
+    "toCountryCode" : "NZ"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "86fbb510-86d8-403a-9169-757c1e20c258",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "0c4aa7be-bc23-455e-9c28-9f1c02ccdf43",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 69186.53 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:38.661169",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.661177",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.66454"
+}

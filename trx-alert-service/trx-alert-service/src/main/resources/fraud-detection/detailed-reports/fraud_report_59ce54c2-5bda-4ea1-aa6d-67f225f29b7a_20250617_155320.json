@@ -1,0 +1,30 @@
+{
+  "transactionId" : "59ce54c2-5bda-4ea1-aa6d-67f225f29b7a",
+  "transaction" : {
+    "transactionId" : "59ce54c2-5bda-4ea1-aa6d-67f225f29b7a",
+    "fromAccount" : "2808599548",
+    "toAccount" : "372533441462",
+    "amount" : 1566.86,
+    "currency" : "EUR",
+    "fromBankSwift" : "SOGEFRPP",
+    "toBankSwift" : "BOFMCAM2",
+    "fromBankName" : "Société Générale",
+    "toBankName" : "Bank of Montreal",
+    "timestamp" : "2025-06-17T14:18:34.626605",
+    "status" : "PROCESSING",
+    "fromIBAN" : "FR4430003000000001886090350",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "59ce54c2-5bda-4ea1-aa6d-67f225f29b7a",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.593102",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.598077"
+}

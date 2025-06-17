@@ -1,0 +1,38 @@
+{
+  "transactionId" : "edc51cad-ffde-4c70-b054-f902edc514ca",
+  "transaction" : {
+    "transactionId" : "edc51cad-ffde-4c70-b054-f902edc514ca",
+    "fromAccount" : "7423424076",
+    "toAccount" : "0388195755",
+    "amount" : 814.82,
+    "currency" : "MXN",
+    "fromBankSwift" : "BAMXMXMM",
+    "toBankSwift" : "EBILAEADXXX",
+    "fromBankName" : "Banco Azteca",
+    "toBankName" : "Emirates NBD Bank",
+    "timestamp" : "2025-06-17T14:04:59.735593",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "AE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "edc51cad-ffde-4c70-b054-f902edc514ca",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "970e27fb-ac77-436b-8acc-0413f2b1655a",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 814.82 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:19.609155",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.609174",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.613752"
+}

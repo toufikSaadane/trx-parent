@@ -1,0 +1,38 @@
+{
+  "transactionId" : "eb3e1208-4600-4682-88f4-bb26a390ddab",
+  "transaction" : {
+    "transactionId" : "eb3e1208-4600-4682-88f4-bb26a390ddab",
+    "fromAccount" : "535410626120",
+    "toAccount" : "526605926818",
+    "amount" : 677.48,
+    "currency" : "GBP",
+    "fromBankSwift" : "LLOYGB2L",
+    "toBankSwift" : "OCBCSGSG",
+    "fromBankName" : "Lloyds Bank",
+    "toBankName" : "OCBC Bank",
+    "timestamp" : "2025-06-17T14:12:04.629128",
+    "status" : "PROCESSING",
+    "fromIBAN" : "GB51300000000515249809",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "SG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "eb3e1208-4600-4682-88f4-bb26a390ddab",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "9e11296b-c52b-41d3-85e4-0b2acced91f7",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 677.48 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:25.932272",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.93229",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.938528"
+}

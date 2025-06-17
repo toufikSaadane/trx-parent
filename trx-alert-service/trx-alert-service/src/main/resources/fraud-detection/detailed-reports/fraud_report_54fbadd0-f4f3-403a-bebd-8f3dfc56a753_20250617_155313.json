@@ -1,0 +1,46 @@
+{
+  "transactionId" : "54fbadd0-f4f3-403a-bebd-8f3dfc56a753",
+  "transaction" : {
+    "transactionId" : "54fbadd0-f4f3-403a-bebd-8f3dfc56a753",
+    "fromAccount" : "389144010574",
+    "toAccount" : "122730999047",
+    "amount" : 24014.91,
+    "currency" : "USD",
+    "fromBankSwift" : "WFBIUS6S",
+    "toBankSwift" : "KORYOKT2X",
+    "fromBankName" : "Wells Fargo Bank N.A.",
+    "toBankName" : "Korea Taesong Bank",
+    "timestamp" : "2025-06-16T22:44:10.561077",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "54fbadd0-f4f3-403a-bebd-8f3dfc56a753",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "59382b8b-69d0-4904-9cd5-3136b9767301",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: US, To: KP",
+      "timestamp" : "2025-06-17T15:53:13.57585",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "c06656ed-9bd6-4a1f-8614-8653139c6a6c",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 24014.91 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:13.575871",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.575878",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.576679"
+}

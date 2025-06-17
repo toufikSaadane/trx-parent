@@ -1,0 +1,46 @@
+{
+  "transactionId" : "cdbc411d-f2cf-4166-ac47-7d780e66b479",
+  "transaction" : {
+    "transactionId" : "cdbc411d-f2cf-4166-ac47-7d780e66b479",
+    "fromAccount" : "6825100147",
+    "toAccount" : "8196012586",
+    "amount" : 242.2,
+    "currency" : "EUR",
+    "fromBankSwift" : "RABONL2U",
+    "toBankSwift" : "ARABSYMMXXX",
+    "fromBankName" : "Rabobank",
+    "toBankName" : "Arab Bank Syria",
+    "timestamp" : "2025-06-17T13:25:53.453328",
+    "status" : "PENDING",
+    "fromIBAN" : "NL8630001972135000",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "cdbc411d-f2cf-4166-ac47-7d780e66b479",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "70505d39-3b7d-4aec-b202-b526590c05a6",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: NL, To: SY",
+      "timestamp" : "2025-06-17T15:53:18.454265",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "768dbeeb-2e21-420f-8a9f-27827020fecb",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 242.2 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:18.454401",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.454411",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.456843"
+}

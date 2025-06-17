@@ -1,0 +1,30 @@
+{
+  "transactionId" : "4f6f1f3e-e2e1-47b3-8b24-363af564ad6c",
+  "transaction" : {
+    "transactionId" : "4f6f1f3e-e2e1-47b3-8b24-363af564ad6c",
+    "fromAccount" : "221543811168",
+    "toAccount" : "408953099059",
+    "amount" : 3564.88,
+    "currency" : "CNY",
+    "fromBankSwift" : "ICBKCNBJ",
+    "toBankSwift" : "INGBNL2A",
+    "fromBankName" : "Industrial and Commercial Bank of China",
+    "toBankName" : "ING Bank",
+    "timestamp" : "2025-06-17T14:09:14.629149",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "NL6520001323771679",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "4f6f1f3e-e2e1-47b3-8b24-363af564ad6c",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.877642",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.88228"
+}

@@ -1,0 +1,30 @@
+{
+  "transactionId" : "a5553838-372c-4d12-9856-04e1d9d36b91",
+  "transaction" : {
+    "transactionId" : "a5553838-372c-4d12-9856-04e1d9d36b91",
+    "fromAccount" : "581737136796",
+    "toAccount" : "623813268806",
+    "amount" : 2753.28,
+    "currency" : "USD",
+    "fromBankSwift" : "HSBCNZ2A",
+    "toBankSwift" : "SCBLUS33",
+    "fromBankName" : "HSBC New Zealand",
+    "toBankName" : "Standard Chartered USA",
+    "timestamp" : "2025-06-17T14:11:59.629835",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NZ",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a5553838-372c-4d12-9856-04e1d9d36b91",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.918139",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.924287"
+}

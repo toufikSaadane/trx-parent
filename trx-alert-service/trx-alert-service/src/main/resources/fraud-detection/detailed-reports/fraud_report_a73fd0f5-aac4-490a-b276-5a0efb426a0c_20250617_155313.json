@@ -1,0 +1,38 @@
+{
+  "transactionId" : "a73fd0f5-aac4-490a-b276-5a0efb426a0c",
+  "transaction" : {
+    "transactionId" : "a73fd0f5-aac4-490a-b276-5a0efb426a0c",
+    "fromAccount" : "092019285644",
+    "toAccount" : "5549040127",
+    "amount" : 265.3,
+    "currency" : "USD",
+    "fromBankSwift" : "HKBCCATT",
+    "toBankSwift" : "SCBLUS33",
+    "fromBankName" : "Hongkong and Shanghai Banking Corp",
+    "toBankName" : "Standard Chartered USA",
+    "timestamp" : "2025-06-13T15:55:44.199616",
+    "status" : "FAILED",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a73fd0f5-aac4-490a-b276-5a0efb426a0c",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "9e6a57cc-5634-4835-9c04-3157ca5c6761",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 265.3 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:13.280007",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.280052",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.281966"
+}

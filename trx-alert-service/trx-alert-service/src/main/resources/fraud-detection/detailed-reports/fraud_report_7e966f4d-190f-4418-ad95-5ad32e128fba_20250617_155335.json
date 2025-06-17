@@ -1,0 +1,46 @@
+{
+  "transactionId" : "7e966f4d-190f-4418-ad95-5ad32e128fba",
+  "transaction" : {
+    "transactionId" : "7e966f4d-190f-4418-ad95-5ad32e128fba",
+    "fromAccount" : "829222109634",
+    "toAccount" : "553412666143",
+    "amount" : 87906.44,
+    "currency" : "CHF",
+    "fromBankSwift" : "UBSWCHZH",
+    "toBankSwift" : "CENKPRKX",
+    "fromBankName" : "UBS Group AG",
+    "toBankName" : "Central Bank of DPRK",
+    "timestamp" : "2025-06-16T23:28:02.686517",
+    "status" : "PENDING",
+    "fromIBAN" : "CH1624400000311288752",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7e966f4d-190f-4418-ad95-5ad32e128fba",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "6dbc3429-9e9b-45c4-9f6e-63acbbd235ae",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CH, To: KP",
+      "timestamp" : "2025-06-17T15:53:35.906802",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "1671d06f-c754-4d5c-b5ee-317aafbb793d",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 87906.44 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:35.906822",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:35.90683",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:35.910298"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "aeb18a10-0ee0-4801-95ef-3d57f9a6d8b7",
+  "transaction" : {
+    "transactionId" : "aeb18a10-0ee0-4801-95ef-3d57f9a6d8b7",
+    "fromAccount" : "0055825256",
+    "toAccount" : "260138059391",
+    "amount" : 821.15,
+    "currency" : "AUD",
+    "fromBankSwift" : "BNPAAU2S",
+    "toBankSwift" : "LLOYGB2L",
+    "fromBankName" : "BNP Paribas Australia",
+    "toBankName" : "Lloyds Bank",
+    "timestamp" : "2025-06-13T15:55:39.204945",
+    "status" : "COMPLETED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "GB88300000001326086111",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "aeb18a10-0ee0-4801-95ef-3d57f9a6d8b7",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "072d10c2-76b0-463b-9cab-3dc5c77c23fb",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 821.15 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:14.884657",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.884671",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.886838"
+}

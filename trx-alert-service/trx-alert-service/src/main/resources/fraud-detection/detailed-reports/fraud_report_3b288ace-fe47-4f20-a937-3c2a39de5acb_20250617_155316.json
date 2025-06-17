@@ -1,0 +1,38 @@
+{
+  "transactionId" : "3b288ace-fe47-4f20-a937-3c2a39de5acb",
+  "transaction" : {
+    "transactionId" : "3b288ace-fe47-4f20-a937-3c2a39de5acb",
+    "fromAccount" : "379970747216",
+    "toAccount" : "035017218857",
+    "amount" : 54.0,
+    "currency" : "EUR",
+    "fromBankSwift" : "NBPLT21",
+    "toBankSwift" : "WESTPAC",
+    "fromBankName" : "Šiaulių Bankas",
+    "toBankName" : "Westpac Banking Corp",
+    "timestamp" : "2025-06-17T14:10:54.638094",
+    "status" : "PROCESSING",
+    "fromIBAN" : "LT587300001971711174",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "LT",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3b288ace-fe47-4f20-a937-3c2a39de5acb",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "99226b2d-5cd2-4e33-9ba4-81205a996192",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 54.0 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:16.031869",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.031878",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.034834"
+}

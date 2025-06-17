@@ -1,0 +1,38 @@
+{
+  "transactionId" : "8e2c8583-b7c2-4db7-8353-dc94748a930d",
+  "transaction" : {
+    "transactionId" : "8e2c8583-b7c2-4db7-8353-dc94748a930d",
+    "fromAccount" : "966625441949",
+    "toAccount" : "8759812538",
+    "amount" : 446.52,
+    "currency" : "USD",
+    "fromBankSwift" : "BOFAUS3NXXX",
+    "toBankSwift" : "ITMRITMM",
+    "fromBankName" : "Bank of America N.A.",
+    "toBankName" : "Intesa Sanpaolo S.p.A.",
+    "timestamp" : "2025-06-16T22:46:25.564216",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "IT8703069000000000167805436",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "IT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8e2c8583-b7c2-4db7-8353-dc94748a930d",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "ce66ab02-ab15-4281-a072-cbd0009ba2e2",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 446.52 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:12.494051",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:12.494059",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:12.495662"
+}

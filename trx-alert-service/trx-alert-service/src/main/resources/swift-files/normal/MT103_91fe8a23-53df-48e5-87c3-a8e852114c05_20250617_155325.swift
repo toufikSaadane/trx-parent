@@ -1,0 +1,24 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:25.025303
+// Transaction ID: 91fe8a23-53df-48e5-87c3-a8e852114c05
+// Amount: 874.19 EUR
+// From: ABN AMRO Bank N.V.
+// To: Bank of Montreal
+// FRAUD STATUS: NORMAL
+// Risk Score: 40/100
+// Risk Level: MEDIUM
+// Fraud Alerts: 1
+//   - Frequent Small Amounts
+//=====================================
+
+{1:F01ABNANL2AXXX0}{2:I103BMOCCAMTXXX0N}{3:{108:91fe8a23-53df-48}}
+{4:
+:23B;CRED
+:20::91fe8a23-53df-48
+:32A=250617EUR874,19
+50K:/061114317130
+ABN AMRO Bank N.V.
+:59/9874261932
+Bank of Montreal
+}
+{5:{MAC:12345678}{CHK:123456789ABC}}

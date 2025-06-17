@@ -1,0 +1,30 @@
+{
+  "transactionId" : "3c2f227f-2472-4beb-b648-2efdbba5b31d",
+  "transaction" : {
+    "transactionId" : "3c2f227f-2472-4beb-b648-2efdbba5b31d",
+    "fromAccount" : "106425899519",
+    "toAccount" : "066208081270",
+    "amount" : 2747.1,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33XXX",
+    "toBankSwift" : "SOGEFRPP",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "Société Générale",
+    "timestamp" : "2025-06-17T13:55:44.738809",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "FR4230003000000001206752244",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3c2f227f-2472-4beb-b648-2efdbba5b31d",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.375392",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.379936"
+}

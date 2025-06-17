@@ -1,0 +1,30 @@
+{
+  "transactionId" : "69e33f9e-4c9a-40e5-8cb7-8622859cdff6",
+  "transaction" : {
+    "transactionId" : "69e33f9e-4c9a-40e5-8cb7-8622859cdff6",
+    "fromAccount" : "1575454216",
+    "toAccount" : "6166934190",
+    "amount" : 7734.13,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33",
+    "toBankSwift" : "DBSSSGSG",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "DBS Bank",
+    "timestamp" : "2025-06-17T13:59:59.737454",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "SG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "69e33f9e-4c9a-40e5-8cb7-8622859cdff6",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.235331",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.239822"
+}

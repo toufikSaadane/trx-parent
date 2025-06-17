@@ -1,0 +1,38 @@
+{
+  "transactionId" : "ddd1f898-bcb4-4b23-8e6e-3bcb1c7d09c4",
+  "transaction" : {
+    "transactionId" : "ddd1f898-bcb4-4b23-8e6e-3bcb1c7d09c4",
+    "fromAccount" : "564407779153",
+    "toAccount" : "537792065187",
+    "amount" : 226.6,
+    "currency" : "GBP",
+    "fromBankSwift" : "BARCGB22",
+    "toBankSwift" : "BNPAFRPP",
+    "fromBankName" : "Barclays",
+    "toBankName" : "BNP Paribas",
+    "timestamp" : "2025-06-16T23:31:50.393302",
+    "status" : "PROCESSING",
+    "fromIBAN" : "GB70203002000176039106",
+    "toIBAN" : "FR6130004000000001659304440",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ddd1f898-bcb4-4b23-8e6e-3bcb1c7d09c4",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "f875ff03-db88-47a2-8ab2-a12f9c04e4f0",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 226.6 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:17.645346",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.64536",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.64877"
+}

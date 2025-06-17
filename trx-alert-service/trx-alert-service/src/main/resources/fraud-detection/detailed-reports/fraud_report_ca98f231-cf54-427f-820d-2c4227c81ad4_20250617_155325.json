@@ -1,0 +1,30 @@
+{
+  "transactionId" : "ca98f231-cf54-427f-820d-2c4227c81ad4",
+  "transaction" : {
+    "transactionId" : "ca98f231-cf54-427f-820d-2c4227c81ad4",
+    "fromAccount" : "437257522390",
+    "toAccount" : "072236984911",
+    "amount" : 7081.98,
+    "currency" : "CNY",
+    "fromBankSwift" : "HSBCCNSH",
+    "toBankSwift" : "OCBCSGSG",
+    "fromBankName" : "HSBC Bank (China) Company Limited",
+    "toBankName" : "OCBC Bank",
+    "timestamp" : "2025-06-17T14:08:44.632719",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "SG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ca98f231-cf54-427f-820d-2c4227c81ad4",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.515529",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.523708"
+}

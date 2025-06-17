@@ -1,0 +1,38 @@
+{
+  "transactionId" : "fba6921a-d6db-425f-aba3-bdb9201a2e9e",
+  "transaction" : {
+    "transactionId" : "fba6921a-d6db-425f-aba3-bdb9201a2e9e",
+    "fromAccount" : "2077229260",
+    "toAccount" : "1848221915",
+    "amount" : 620.96,
+    "currency" : "USD",
+    "fromBankSwift" : "IBOSINBB",
+    "toBankSwift" : "SCBLUS33",
+    "fromBankName" : "Indian Overseas Bank",
+    "toBankName" : "Standard Chartered USA",
+    "timestamp" : "2025-06-17T13:53:19.741711",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IN",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "fba6921a-d6db-425f-aba3-bdb9201a2e9e",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "fa7635fd-d1cc-4079-bd27-5f5c6ba4e199",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 620.96 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:18.820886",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.820896",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.824706"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "44acc91c-16be-4a6a-a41d-fb9515821e17",
+  "transaction" : {
+    "transactionId" : "44acc91c-16be-4a6a-a41d-fb9515821e17",
+    "fromAccount" : "083943082510",
+    "toAccount" : "720027193132",
+    "amount" : 5820.08,
+    "currency" : "KWR",
+    "fromBankSwift" : "KOEXKRSE",
+    "toBankSwift" : "NOSCCATT",
+    "fromBankName" : "Korea Exchange Bank",
+    "toBankName" : "Scotiabank",
+    "timestamp" : "2025-06-17T10:59:51.761316",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KR",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "44acc91c-16be-4a6a-a41d-fb9515821e17",
+    "riskScore" : 60,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "7c6e4990-000b-425e-928c-d8984461568b",
+      "fraudType" : "CRYPTOCURRENCY_KEYWORDS",
+      "description" : "Cryptocurrency Keywords",
+      "severity" : 6,
+      "details" : "Transaction contains cryptocurrency-related keywords in bank names: Korea Exchange Bank Scotiabank",
+      "timestamp" : "2025-06-17T15:53:36.496004",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.496015",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.500495"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "11bf7bad-d798-41bf-a287-aebead6bdf8a",
+  "transaction" : {
+    "transactionId" : "11bf7bad-d798-41bf-a287-aebead6bdf8a",
+    "fromAccount" : "617304573572",
+    "toAccount" : "2364697871",
+    "amount" : 934.43,
+    "currency" : "KRW",
+    "fromBankSwift" : "SHBKKRSE",
+    "toBankSwift" : "BNPAAU2S",
+    "fromBankName" : "Shinhan Bank",
+    "toBankName" : "BNP Paribas Australia",
+    "timestamp" : "2025-06-16T23:30:52.679995",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KR",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "11bf7bad-d798-41bf-a287-aebead6bdf8a",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "b84c44a8-89ef-4f48-a21d-e6a46b8695fb",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 934.43 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:13.835821",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.835828",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.837696"
+}

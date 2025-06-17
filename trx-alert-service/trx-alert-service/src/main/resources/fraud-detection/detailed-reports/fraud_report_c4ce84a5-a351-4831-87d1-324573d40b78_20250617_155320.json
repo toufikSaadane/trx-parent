@@ -1,0 +1,38 @@
+{
+  "transactionId" : "c4ce84a5-a351-4831-87d1-324573d40b78",
+  "transaction" : {
+    "transactionId" : "c4ce84a5-a351-4831-87d1-324573d40b78",
+    "fromAccount" : "2611963886",
+    "toAccount" : "448496298685",
+    "amount" : 56019.09,
+    "currency" : "USD",
+    "fromBankSwift" : "CRESCHZZ",
+    "toBankSwift" : "BOFAUS3NXXX",
+    "fromBankName" : "Credit Suisse",
+    "toBankName" : "Bank of America N.A.",
+    "timestamp" : "2025-06-13T15:47:59.214666",
+    "status" : "PENDING",
+    "fromIBAN" : "CH4348350001665640740",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c4ce84a5-a351-4831-87d1-324573d40b78",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "61c8cf8e-28cf-4a3a-a3fa-583f4643a78f",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 56019.09 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:20.913229",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.913243",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.916566"
+}

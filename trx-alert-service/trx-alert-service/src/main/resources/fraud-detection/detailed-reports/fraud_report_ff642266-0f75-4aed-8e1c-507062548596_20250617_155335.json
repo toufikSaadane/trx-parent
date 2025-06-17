@@ -1,0 +1,38 @@
+{
+  "transactionId" : "ff642266-0f75-4aed-8e1c-507062548596",
+  "transaction" : {
+    "transactionId" : "ff642266-0f75-4aed-8e1c-507062548596",
+    "fromAccount" : "7929161842",
+    "toAccount" : "480665593571",
+    "amount" : 77505.52,
+    "currency" : "EUR",
+    "fromBankSwift" : "CRLYFRPP",
+    "toBankSwift" : "SOGEFRPP",
+    "fromBankName" : "Crédit Lyonnais",
+    "toBankName" : "Société Générale",
+    "timestamp" : "2025-06-16T23:28:07.677591",
+    "status" : "PENDING",
+    "fromIBAN" : "FR6830002000000000420510605",
+    "toIBAN" : "FR8630003000000001898389097",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ff642266-0f75-4aed-8e1c-507062548596",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "eb90d914-d96c-4bea-836a-4b8ffb860c23",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 77505.52 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:35.910828",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:35.910837",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:35.914228"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "ace837cd-9228-4356-bf8e-271aaf8e6caf",
+  "transaction" : {
+    "transactionId" : "ace837cd-9228-4356-bf8e-271aaf8e6caf",
+    "fromAccount" : "146724449587",
+    "toAccount" : "752551210865",
+    "amount" : 882.23,
+    "currency" : "GBP",
+    "fromBankSwift" : "BARCGB22",
+    "toBankSwift" : "SBERRUMM",
+    "fromBankName" : "Barclays Bank PLC",
+    "toBankName" : "Sberbank",
+    "timestamp" : "2025-06-17T13:52:59.74254",
+    "status" : "PENDING",
+    "fromIBAN" : "GB13204545002115565185",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "RU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ace837cd-9228-4356-bf8e-271aaf8e6caf",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "eb004a81-90f2-44f1-8eff-6584e3cc7edd",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 882.23 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:24.180995",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.181005",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.185436"
+}

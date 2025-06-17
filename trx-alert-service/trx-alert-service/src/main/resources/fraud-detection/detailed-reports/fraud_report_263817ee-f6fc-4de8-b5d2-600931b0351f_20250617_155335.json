@@ -1,0 +1,38 @@
+{
+  "transactionId" : "263817ee-f6fc-4de8-b5d2-600931b0351f",
+  "transaction" : {
+    "transactionId" : "263817ee-f6fc-4de8-b5d2-600931b0351f",
+    "fromAccount" : "5319679457",
+    "toAccount" : "8572026613",
+    "amount" : 473.68,
+    "currency" : "USD",
+    "fromBankSwift" : "SCBLUS33",
+    "toBankSwift" : "BOFMCAM2XXX",
+    "fromBankName" : "Standard Chartered USA",
+    "toBankName" : "Bank of Montreal",
+    "timestamp" : "2025-06-16T22:44:40.571042",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "263817ee-f6fc-4de8-b5d2-600931b0351f",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "d925fa25-107b-40ce-8240-3df965c68544",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 473.68 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:35.533807",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:35.533817",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:35.538438"
+}

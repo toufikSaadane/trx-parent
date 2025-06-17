@@ -1,0 +1,38 @@
+{
+  "transactionId" : "8bd39b17-8213-4725-9de3-b3675f1cdda8",
+  "transaction" : {
+    "transactionId" : "8bd39b17-8213-4725-9de3-b3675f1cdda8",
+    "fromAccount" : "204858313532",
+    "toAccount" : "5384203794",
+    "amount" : 480.73,
+    "currency" : "RUB",
+    "fromBankSwift" : "VTBRRUMM",
+    "toBankSwift" : "BAMXMXMM",
+    "fromBankName" : "VTB Bank",
+    "toBankName" : "Banco Azteca",
+    "timestamp" : "2025-06-13T15:56:44.199398",
+    "status" : "COMPLETED",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "RU",
+    "toCountryCode" : "MX"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8bd39b17-8213-4725-9de3-b3675f1cdda8",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "524575ec-a452-43f9-a427-8f344eaf4b44",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 480.73 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:34.720605",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:34.72064",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:34.726325"
+}

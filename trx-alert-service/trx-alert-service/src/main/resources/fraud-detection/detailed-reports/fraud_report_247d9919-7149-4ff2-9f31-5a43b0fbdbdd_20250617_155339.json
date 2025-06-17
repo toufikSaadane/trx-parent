@@ -1,0 +1,38 @@
+{
+  "transactionId" : "247d9919-7149-4ff2-9f31-5a43b0fbdbdd",
+  "transaction" : {
+    "transactionId" : "247d9919-7149-4ff2-9f31-5a43b0fbdbdd",
+    "fromAccount" : "051777301468",
+    "toAccount" : "321732419247",
+    "amount" : 1000,
+    "currency" : "SGD",
+    "fromBankSwift" : "OCBCSGSG",
+    "toBankSwift" : "NBPLT21",
+    "fromBankName" : "OCBC Bank",
+    "toBankName" : "Šiaulių Bankas",
+    "timestamp" : "2025-06-17T14:15:54.626144",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "LT657300001674704323",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "LT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "247d9919-7149-4ff2-9f31-5a43b0fbdbdd",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "026201f7-cfbf-4f71-bb6c-17006aaf0f8c",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 1000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:39.45317",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.453179",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.457668"
+}

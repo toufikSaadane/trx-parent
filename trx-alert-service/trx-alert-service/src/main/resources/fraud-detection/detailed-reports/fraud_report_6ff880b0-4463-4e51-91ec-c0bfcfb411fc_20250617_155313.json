@@ -1,0 +1,38 @@
+{
+  "transactionId" : "6ff880b0-4463-4e51-91ec-c0bfcfb411fc",
+  "transaction" : {
+    "transactionId" : "6ff880b0-4463-4e51-91ec-c0bfcfb411fc",
+    "fromAccount" : "622061567663",
+    "toAccount" : "802211723276",
+    "amount" : 53128.98,
+    "currency" : "EUR",
+    "fromBankSwift" : "ITMRITMM",
+    "toBankSwift" : "EBILAEADXXX",
+    "fromBankName" : "Intesa Sanpaolo S.p.A.",
+    "toBankName" : "Emirates NBD Bank",
+    "timestamp" : "2025-06-15T15:45:02.042729",
+    "status" : "COMPLETED",
+    "fromIBAN" : "IT1903069000000001637539214",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IT",
+    "toCountryCode" : "AE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6ff880b0-4463-4e51-91ec-c0bfcfb411fc",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "47952aa1-cf49-4316-8725-96197bd3c2fe",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 53128.98 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:13.525366",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.525375",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.527364"
+}

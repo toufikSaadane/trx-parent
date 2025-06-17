@@ -1,0 +1,38 @@
+{
+  "transactionId" : "13c1570f-77f0-45c1-9a24-4d1baf969e98",
+  "transaction" : {
+    "transactionId" : "13c1570f-77f0-45c1-9a24-4d1baf969e98",
+    "fromAccount" : "3990528539",
+    "toAccount" : "160797464402",
+    "amount" : 2000,
+    "currency" : "CNY",
+    "fromBankSwift" : "BKCHCNBJ",
+    "toBankSwift" : "COMMDEFF",
+    "fromBankName" : "Bank of China",
+    "toBankName" : "Commerzbank AG",
+    "timestamp" : "2025-06-17T14:18:24.627269",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "DE67400800001679721870",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "13c1570f-77f0-45c1-9a24-4d1baf969e98",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "f06c33d5-512c-4b20-b9e2-2446c7006ec7",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 2000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:26.884116",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.884133",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.890259"
+}

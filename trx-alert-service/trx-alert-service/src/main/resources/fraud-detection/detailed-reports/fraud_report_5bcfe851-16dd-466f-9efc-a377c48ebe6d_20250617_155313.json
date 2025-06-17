@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5bcfe851-16dd-466f-9efc-a377c48ebe6d",
+  "transaction" : {
+    "transactionId" : "5bcfe851-16dd-466f-9efc-a377c48ebe6d",
+    "fromAccount" : "438792658775",
+    "toAccount" : "033826581112",
+    "amount" : 69519.71,
+    "currency" : "SGD",
+    "fromBankSwift" : "OCBCSGSG",
+    "toBankSwift" : "CIBVBRSP",
+    "fromBankName" : "OCBC Bank",
+    "toBankName" : "Banco Votorantim",
+    "timestamp" : "2025-06-13T15:51:09.203387",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "BR69655000100000077640784",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "BR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5bcfe851-16dd-466f-9efc-a377c48ebe6d",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "dc4621a2-85f6-4fc0-a799-9f6c07bcab26",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 69519.71 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:13.947812",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.947818",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.948777"
+}

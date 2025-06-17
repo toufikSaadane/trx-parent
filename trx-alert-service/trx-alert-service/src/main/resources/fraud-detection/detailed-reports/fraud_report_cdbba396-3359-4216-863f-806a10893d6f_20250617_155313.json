@@ -1,0 +1,30 @@
+{
+  "transactionId" : "cdbba396-3359-4216-863f-806a10893d6f",
+  "transaction" : {
+    "transactionId" : "cdbba396-3359-4216-863f-806a10893d6f",
+    "fromAccount" : "609233297792",
+    "toAccount" : "565226301029",
+    "amount" : 11661.67,
+    "currency" : "CNY",
+    "fromBankSwift" : "ICBKCNBJ",
+    "toBankSwift" : "NOSCCATTXXX",
+    "fromBankName" : "Industrial and Commercial Bank of China",
+    "toBankName" : "The Bank of Nova Scotia",
+    "timestamp" : "2025-06-13T15:53:19.20153",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "cdbba396-3359-4216-863f-806a10893d6f",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.994294",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.996114"
+}

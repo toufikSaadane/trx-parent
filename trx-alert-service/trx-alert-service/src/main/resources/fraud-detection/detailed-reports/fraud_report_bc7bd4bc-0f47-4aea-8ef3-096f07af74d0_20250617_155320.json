@@ -1,0 +1,38 @@
+{
+  "transactionId" : "bc7bd4bc-0f47-4aea-8ef3-096f07af74d0",
+  "transaction" : {
+    "transactionId" : "bc7bd4bc-0f47-4aea-8ef3-096f07af74d0",
+    "fromAccount" : "738825258116",
+    "toAccount" : "472155252592",
+    "amount" : 573.92,
+    "currency" : "YER",
+    "fromBankSwift" : "TADHYEMY",
+    "toBankSwift" : "BNPAFRPP",
+    "fromBankName" : "Tadhamon International Islamic Bank",
+    "toBankName" : "BNP Paribas SA",
+    "timestamp" : "2025-06-17T15:46:54.147931",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "FR0230004000000001917229569",
+    "fromCountryCode" : "TADHYOYMY",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "bc7bd4bc-0f47-4aea-8ef3-096f07af74d0",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "5dafc600-a126-41c5-b7d6-3832e7e05756",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 573.92 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:20.783788",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.783798",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.788896"
+}

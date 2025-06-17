@@ -1,0 +1,38 @@
+{
+  "transactionId" : "567865d3-2678-4da4-a632-9a254d78374d",
+  "transaction" : {
+    "transactionId" : "567865d3-2678-4da4-a632-9a254d78374d",
+    "fromAccount" : "293779623827",
+    "toAccount" : "153493092191",
+    "amount" : 264.99,
+    "currency" : "CAD",
+    "fromBankSwift" : "HKBCCATT",
+    "toBankSwift" : "CAIXESBB",
+    "fromBankName" : "Hongkong and Shanghai Banking Corp",
+    "toBankName" : "CaixaBank",
+    "timestamp" : "2025-06-12T13:15:00.425072",
+    "status" : "COMPLETED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "ES0621000000000352705855",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "ES"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "567865d3-2678-4da4-a632-9a254d78374d",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "8195d18c-3fb6-47a1-a021-51ee57a7e899",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 264.99 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.930992",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.931026",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.932128"
+}

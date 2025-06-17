@@ -1,0 +1,30 @@
+{
+  "transactionId" : "9ccf1ee6-d24b-4a6b-b397-890607825742",
+  "transaction" : {
+    "transactionId" : "9ccf1ee6-d24b-4a6b-b397-890607825742",
+    "fromAccount" : "5208884918",
+    "toAccount" : "474334345915",
+    "amount" : 4654.13,
+    "currency" : "JPY",
+    "fromBankSwift" : "BOTKJPJT",
+    "toBankSwift" : "UBSWCHZH",
+    "fromBankName" : "MUFG Bank Ltd",
+    "toBankName" : "UBS Group AG",
+    "timestamp" : "2025-06-17T14:20:14.645905",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "CH4424400002141064820",
+    "fromCountryCode" : "JP",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9ccf1ee6-d24b-4a6b-b397-890607825742",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:27.154688",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:27.161133"
+}

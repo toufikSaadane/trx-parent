@@ -1,0 +1,23 @@
+{1:F01CRESCHZZXXX0}{2:I103IBOSINBBXXX0N}{3:{108:e8b70de7-1d8d-46}}
+{4:
+:20:e8b70de7-1d8d-46
+:23B:CRED
+:32A:250617CHF616,76
+:33B:CHF616,76
+:71A:SHA
+:50K:/CH9848350001600248461
+Credit Suisse
+321 Financial District
+Zurich, Switzerland
+:52A:CRESCHZZ
+:53B:/CRESCHZZ
+:56A:DEUTDEFFXXX
+:57A:IBOSINBB
+:59:/420203729149
+Indian Overseas Bank
+789 Commercial Blvd
+Mumbai, India
+:70:Payment for services - TXN ID: e8b70de7 - Cross-border transfer
+:72:/INS/CRESCHZZ
+}
+{5:{MAC:37F5F195}{CHK:832BF4096D09}}

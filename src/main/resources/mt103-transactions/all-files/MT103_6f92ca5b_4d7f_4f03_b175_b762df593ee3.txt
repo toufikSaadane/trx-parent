@@ -1,0 +1,23 @@
+{1:F01NOSCCATTXXX0}{2:I103CENKPRKXXXX0N}{3:{108:6f92ca5b-4d7f-4f}}
+{4:
+:20:6f92ca5b-4d7f-4f
+:23B:CRED
+:32A:250617CAD932,32
+:33B:CAD932,32
+:71A:SHA
+:50K:/3055951170
+Scotiabank
+789 Commercial Blvd
+Toronto, Canada
+:52A:NOSCCATT
+:53B:/NOSCCATT
+:56A:DEUTDEFFXXX
+:57A:CENKPRKX
+:59:/053240673339
+Central Bank of DPRK
+789 Commercial Blvd
+Financial District, Unknown Country
+:70:Payment for services - TXN ID: 6f92ca5b - Cross-border transfer
+:72:/INS/NOSCCATT
+}
+{5:{MAC:FABAC4A6}{CHK:F0864DB062EF}}

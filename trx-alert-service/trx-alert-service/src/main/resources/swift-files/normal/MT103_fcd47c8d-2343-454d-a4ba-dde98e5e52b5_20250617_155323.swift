@@ -1,0 +1,34 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:23.781447
+// Transaction ID: fcd47c8d-2343-454d-a4ba-dde98e5e52b5
+// Amount: 8622.95 EUR
+// From: Intesa Sanpaolo S.p.A.
+// To: Bank of China
+// FRAUD STATUS: NORMAL
+// Risk Score: 0/100
+// Risk Level: LOW
+//=====================================
+
+{1:F01ITMRITMMXXX0}{2:I103BKCHCNBJXXX0N}{3:{108:fcd47c8d-2343-45}}
+{4:
+:20:fcd47c8d-2343-45
+:23B:CRED
+:32A:250617EUR8622,95
+:33B:EUR8622,95
+:71A:SHA
+:50K:/IT6503069000000001613150161
+Intesa Sanpaolo S.p.A.
+321 Financial District
+Milan, Italy
+:52A:ITMRITMM
+:53B:/ITMRITMM
+:56A:DEUTDEFFXXX
+:57A:BKCHCNBJ
+:59:/705444888416
+Bank of China
+654 Banking Center
+Shanghai, China
+:70:Payment for services - TXN ID: fcd47c8d - Cross-border transfer
+:72:/INS/ITMRITMM
+}
+{5:{MAC:A4734C7D}{CHK:0D0D5D2DA782}}

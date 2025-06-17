@@ -1,0 +1,38 @@
+{
+  "transactionId" : "bf4339c3-b409-49f0-91ff-1e91800cdb38",
+  "transaction" : {
+    "transactionId" : "bf4339c3-b409-49f0-91ff-1e91800cdb38",
+    "fromAccount" : "3926715721",
+    "toAccount" : "909948770059",
+    "amount" : 416.15,
+    "currency" : "EUR",
+    "fromBankSwift" : "RABONL2U",
+    "toBankSwift" : "TADHYEMY",
+    "fromBankName" : "Rabobank",
+    "toBankName" : "Tadhamon International Islamic Bank",
+    "timestamp" : "2025-06-16T22:45:55.566015",
+    "status" : "PROCESSING",
+    "fromIBAN" : "NL1330001129692187",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "TADHYOYMY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "bf4339c3-b409-49f0-91ff-1e91800cdb38",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "869319f1-4708-45e9-935e-270c1bee9ddd",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 416.15 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:35.627298",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:35.627307",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:35.631835"
+}

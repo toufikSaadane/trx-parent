@@ -1,0 +1,46 @@
+{
+  "transactionId" : "cf905f01-3a91-4fd1-a450-021f87e04e64",
+  "transaction" : {
+    "transactionId" : "cf905f01-3a91-4fd1-a450-021f87e04e64",
+    "fromAccount" : "3493949757",
+    "toAccount" : "019512222630",
+    "amount" : 671.22,
+    "currency" : "JPY",
+    "fromBankSwift" : "BOTKJPJT",
+    "toBankSwift" : "CBSYSYMMXXX",
+    "fromBankName" : "MUFG Bank Ltd",
+    "toBankName" : "Commercial Bank of Syria",
+    "timestamp" : "2025-06-17T14:19:14.637232",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "JP",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "cf905f01-3a91-4fd1-a450-021f87e04e64",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "1e3a0796-c7d2-411e-a894-8b2db55f01a0",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: JP, To: SY",
+      "timestamp" : "2025-06-17T15:53:16.236878",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "4a5f338e-092a-41dc-883b-dec8bab943ac",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 671.22 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:16.236902",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.236913",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.239009"
+}

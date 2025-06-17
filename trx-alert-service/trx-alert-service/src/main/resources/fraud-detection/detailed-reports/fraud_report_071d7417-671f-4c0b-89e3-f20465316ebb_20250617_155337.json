@@ -1,0 +1,46 @@
+{
+  "transactionId" : "071d7417-671f-4c0b-89e3-f20465316ebb",
+  "transaction" : {
+    "transactionId" : "071d7417-671f-4c0b-89e3-f20465316ebb",
+    "fromAccount" : "5353726794",
+    "toAccount" : "6613770074",
+    "amount" : 747.5,
+    "currency" : "KPW",
+    "fromBankSwift" : "CENKPRKX",
+    "toBankSwift" : "AYABMMMY",
+    "fromBankName" : "Central Bank of DPRK",
+    "toBankName" : "Ayeyarwady Bank",
+    "timestamp" : "2025-06-17T13:27:53.454225",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "071d7417-671f-4c0b-89e3-f20465316ebb",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "729acf19-9d96-4d38-a020-387334d68452",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: MM",
+      "timestamp" : "2025-06-17T15:53:37.335782",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "6a6d38b2-d9a4-4e4b-a315-f1483f9def8e",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 747.5 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:37.335895",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.335921",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.339622"
+}

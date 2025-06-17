@@ -1,0 +1,38 @@
+{
+  "transactionId" : "d6c06172-ce9a-472d-b3f6-fbbe788d7202",
+  "transaction" : {
+    "transactionId" : "d6c06172-ce9a-472d-b3f6-fbbe788d7202",
+    "fromAccount" : "6067066843",
+    "toAccount" : "784474703920",
+    "amount" : 723.98,
+    "currency" : "INR",
+    "fromBankSwift" : "SBININBB",
+    "toBankSwift" : "UNCRITMM",
+    "fromBankName" : "State Bank of India",
+    "toBankName" : "UniCredit S.p.A.",
+    "timestamp" : "2025-06-12T13:14:30.429905",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "IT9702008000000001723781819",
+    "fromCountryCode" : "IN",
+    "toCountryCode" : "IT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d6c06172-ce9a-472d-b3f6-fbbe788d7202",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "b5a7037b-62c5-400d-8884-9aad4c3a6079",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 723.98 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.914973",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.915054",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.916577"
+}

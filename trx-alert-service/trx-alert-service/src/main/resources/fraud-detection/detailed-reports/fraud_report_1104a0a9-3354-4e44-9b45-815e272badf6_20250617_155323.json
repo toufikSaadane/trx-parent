@@ -1,0 +1,38 @@
+{
+  "transactionId" : "1104a0a9-3354-4e44-9b45-815e272badf6",
+  "transaction" : {
+    "transactionId" : "1104a0a9-3354-4e44-9b45-815e272badf6",
+    "fromAccount" : "4929910591",
+    "toAccount" : "252333438966",
+    "amount" : 23659.18,
+    "currency" : "EUR",
+    "fromBankSwift" : "COBADEFF",
+    "toBankSwift" : "ROYCCAT2",
+    "fromBankName" : "Commerzbank AG",
+    "toBankName" : "Royal Bank of Canada",
+    "timestamp" : "2025-06-17T13:04:56.495923",
+    "status" : "PENDING",
+    "fromIBAN" : "DE38100400000393412993",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1104a0a9-3354-4e44-9b45-815e272badf6",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "86763d0f-6246-490d-8a8f-c5de2c2bef68",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 23659.18 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:23.32951",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.329518",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.332772"
+}

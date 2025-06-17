@@ -1,0 +1,38 @@
+{
+  "transactionId" : "6a4650dd-2519-497f-b45e-8ed6851580bc",
+  "transaction" : {
+    "transactionId" : "6a4650dd-2519-497f-b45e-8ed6851580bc",
+    "fromAccount" : "044851364567",
+    "toAccount" : "299824730972",
+    "amount" : 42641.9,
+    "currency" : "JPY",
+    "fromBankSwift" : "BOTKJPJT",
+    "toBankSwift" : "CTBAAU2S",
+    "fromBankName" : "MUFG Bank Ltd",
+    "toBankName" : "Commonwealth Bank of Australia",
+    "timestamp" : "2025-06-15T09:17:38.888401",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "JP",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6a4650dd-2519-497f-b45e-8ed6851580bc",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "ec7718bd-2830-4a92-92dd-8fb2759132d4",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 42641.9 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:21.607493",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.60751",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.611657"
+}

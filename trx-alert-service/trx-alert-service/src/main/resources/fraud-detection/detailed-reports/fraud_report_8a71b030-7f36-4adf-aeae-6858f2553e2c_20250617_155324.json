@@ -1,0 +1,46 @@
+{
+  "transactionId" : "8a71b030-7f36-4adf-aeae-6858f2553e2c",
+  "transaction" : {
+    "transactionId" : "8a71b030-7f36-4adf-aeae-6858f2553e2c",
+    "fromAccount" : "479806666196",
+    "toAccount" : "665645469300",
+    "amount" : 25.23,
+    "currency" : "KPW",
+    "fromBankSwift" : "FTBKKPRKX",
+    "toBankSwift" : "CRLYFRPP",
+    "fromBankName" : "Foreign Trade Bank",
+    "toBankName" : "Crédit Lyonnais",
+    "timestamp" : "2025-06-17T13:53:29.745491",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "FR3030002000000001251045950",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8a71b030-7f36-4adf-aeae-6858f2553e2c",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "2de37349-0836-45f9-b6d0-e05f095e5f8e",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: FR",
+      "timestamp" : "2025-06-17T15:53:24.223704",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "591da1ea-31ba-48d6-9ee5-b999b4f3c543",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 25.23 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:24.223822",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.223832",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.227043"
+}

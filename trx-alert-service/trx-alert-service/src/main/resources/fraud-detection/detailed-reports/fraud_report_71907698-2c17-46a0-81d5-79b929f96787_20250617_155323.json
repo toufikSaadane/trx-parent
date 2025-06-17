@@ -1,0 +1,46 @@
+{
+  "transactionId" : "71907698-2c17-46a0-81d5-79b929f96787",
+  "transaction" : {
+    "transactionId" : "71907698-2c17-46a0-81d5-79b929f96787",
+    "fromAccount" : "229642183840",
+    "toAccount" : "219060533887",
+    "amount" : 527.75,
+    "currency" : "KWR",
+    "fromBankSwift" : "KOEXKRSE",
+    "toBankSwift" : "BNPAAU2S",
+    "fromBankName" : "Korea Exchange Bank",
+    "toBankName" : "BNP Paribas Australia",
+    "timestamp" : "2025-06-17T13:06:05.820279",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KR",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "71907698-2c17-46a0-81d5-79b929f96787",
+    "riskScore" : 100,
+    "riskLevel" : "CRITICAL",
+    "alerts" : [ {
+      "alertId" : "0ccc99ce-8266-4519-9770-b473a599ad17",
+      "fraudType" : "CRYPTOCURRENCY_KEYWORDS",
+      "description" : "Cryptocurrency Keywords",
+      "severity" : 6,
+      "details" : "Transaction contains cryptocurrency-related keywords in bank names: Korea Exchange Bank BNP Paribas Australia",
+      "timestamp" : "2025-06-17T15:53:23.41621",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "dabb1d1b-a7c0-4b10-bd9e-f35a19c7202d",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 527.75 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:23.416275",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.416284",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.419529"
+}

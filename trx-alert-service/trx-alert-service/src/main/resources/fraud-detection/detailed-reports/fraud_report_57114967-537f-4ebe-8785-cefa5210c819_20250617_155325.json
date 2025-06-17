@@ -1,0 +1,38 @@
+{
+  "transactionId" : "57114967-537f-4ebe-8785-cefa5210c819",
+  "transaction" : {
+    "transactionId" : "57114967-537f-4ebe-8785-cefa5210c819",
+    "fromAccount" : "227281082407",
+    "toAccount" : "688617591007",
+    "amount" : 237.65,
+    "currency" : "AUD",
+    "fromBankSwift" : "BKCHAU2S",
+    "toBankSwift" : "ABNANL2A",
+    "fromBankName" : "Bank of China (Australia) Limited",
+    "toBankName" : "ABN AMRO Bank N.V.",
+    "timestamp" : "2025-06-17T14:08:04.631374",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "NL3430002059695120",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "57114967-537f-4ebe-8785-cefa5210c819",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "a58569c2-6e7e-4dd8-98c2-348751378a3c",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 237.65 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:25.402563",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.402582",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.407625"
+}

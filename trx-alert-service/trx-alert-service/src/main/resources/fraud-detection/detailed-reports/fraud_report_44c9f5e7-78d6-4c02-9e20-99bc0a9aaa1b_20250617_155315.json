@@ -1,0 +1,38 @@
+{
+  "transactionId" : "44c9f5e7-78d6-4c02-9e20-99bc0a9aaa1b",
+  "transaction" : {
+    "transactionId" : "44c9f5e7-78d6-4c02-9e20-99bc0a9aaa1b",
+    "fromAccount" : "364392977578",
+    "toAccount" : "767938287581",
+    "amount" : 231.76,
+    "currency" : "NGN",
+    "fromBankSwift" : "GTBINGLA",
+    "toBankSwift" : "AKBKTRIS",
+    "fromBankName" : "Guaranty Trust Bank PLC",
+    "toBankName" : "Akbank T.A.Ş.",
+    "timestamp" : "2025-06-17T11:50:40.325696",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "TR804600000000000723937603",
+    "fromCountryCode" : "NG",
+    "toCountryCode" : "TR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "44c9f5e7-78d6-4c02-9e20-99bc0a9aaa1b",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "72ae703e-1435-4c42-99ce-b804a77faed4",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 231.76 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.418666",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.418686",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.421041"
+}

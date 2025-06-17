@@ -1,0 +1,46 @@
+{
+  "transactionId" : "9b4a0270-9f12-4d84-984b-e7085099f174",
+  "transaction" : {
+    "transactionId" : "9b4a0270-9f12-4d84-984b-e7085099f174",
+    "fromAccount" : "144415701368",
+    "toAccount" : "248869320245",
+    "amount" : 314.54,
+    "currency" : "CNY",
+    "fromBankSwift" : "ICBKCNBJ",
+    "toBankSwift" : "AFIBAFKA",
+    "fromBankName" : "Industrial and Commercial Bank of China",
+    "toBankName" : "Afghanistan International Bank",
+    "timestamp" : "2025-06-17T11:49:40.551963",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9b4a0270-9f12-4d84-984b-e7085099f174",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "c0896f64-8c51-4f23-9efe-e225687ca212",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CN, To: AF",
+      "timestamp" : "2025-06-17T15:53:18.042855",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "177ac1e7-d8e6-4f0a-8139-225d4418e426",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 314.54 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:18.042957",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.042973",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.045083"
+}

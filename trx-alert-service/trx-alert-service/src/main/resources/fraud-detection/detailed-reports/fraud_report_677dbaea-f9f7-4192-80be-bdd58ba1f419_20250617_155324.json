@@ -1,0 +1,38 @@
+{
+  "transactionId" : "677dbaea-f9f7-4192-80be-bdd58ba1f419",
+  "transaction" : {
+    "transactionId" : "677dbaea-f9f7-4192-80be-bdd58ba1f419",
+    "fromAccount" : "218133281056",
+    "toAccount" : "609443212765",
+    "amount" : 3825.08,
+    "currency" : "CAD",
+    "fromBankSwift" : "BMOCCAMT",
+    "toBankSwift" : "FTBKKPRKX",
+    "fromBankName" : "Bank of Montreal",
+    "toBankName" : "Foreign Trade Bank",
+    "timestamp" : "2025-06-17T14:00:19.735704",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "677dbaea-f9f7-4192-80be-bdd58ba1f419",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "5470c708-9442-45ed-9ac5-e6968ee99a11",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CA, To: KP",
+      "timestamp" : "2025-06-17T15:53:24.752844",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.752857",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.756135"
+}

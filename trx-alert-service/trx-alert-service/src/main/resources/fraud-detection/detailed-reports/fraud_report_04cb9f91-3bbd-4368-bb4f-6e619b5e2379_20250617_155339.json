@@ -1,0 +1,46 @@
+{
+  "transactionId" : "04cb9f91-3bbd-4368-bb4f-6e619b5e2379",
+  "transaction" : {
+    "transactionId" : "04cb9f91-3bbd-4368-bb4f-6e619b5e2379",
+    "fromAccount" : "673823548336",
+    "toAccount" : "963923550752",
+    "amount" : 421.77,
+    "currency" : "MMK",
+    "fromBankSwift" : "AYABMMMY",
+    "toBankSwift" : "RABONL2U",
+    "fromBankName" : "Ayeyarwady Bank",
+    "toBankName" : "Rabobank",
+    "timestamp" : "2025-06-17T14:19:04.626176",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "NL9630001034294200",
+    "fromCountryCode" : "MM",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "04cb9f91-3bbd-4368-bb4f-6e619b5e2379",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "141751fa-4524-4874-b266-debab2110cc5",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MM, To: NL",
+      "timestamp" : "2025-06-17T15:53:39.704512",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "b3f73439-a23f-48e2-90f8-34f906c17538",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 421.77 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:39.704533",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.704542",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.707974"
+}

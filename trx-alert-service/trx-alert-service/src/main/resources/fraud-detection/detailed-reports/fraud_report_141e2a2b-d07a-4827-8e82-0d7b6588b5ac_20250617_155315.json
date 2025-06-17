@@ -1,0 +1,46 @@
+{
+  "transactionId" : "141e2a2b-d07a-4827-8e82-0d7b6588b5ac",
+  "transaction" : {
+    "transactionId" : "141e2a2b-d07a-4827-8e82-0d7b6588b5ac",
+    "fromAccount" : "1063136329",
+    "toAccount" : "453283286591",
+    "amount" : 30419.44,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33XXX",
+    "toBankSwift" : "ARABSYMMXXX",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "Arab Bank Syria",
+    "timestamp" : "2025-06-17T14:00:29.744134",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "141e2a2b-d07a-4827-8e82-0d7b6588b5ac",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "17c21511-990a-4fd0-a64e-8f03ab88e5ac",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: US, To: SY",
+      "timestamp" : "2025-06-17T15:53:15.801287",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "8ff16ea6-212f-4a09-9867-19d868e8b360",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 30419.44 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:15.801328",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.801338",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.802914"
+}

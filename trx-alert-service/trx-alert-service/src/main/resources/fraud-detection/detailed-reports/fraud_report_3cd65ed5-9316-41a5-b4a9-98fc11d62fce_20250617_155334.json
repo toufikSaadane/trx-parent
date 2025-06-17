@@ -1,0 +1,46 @@
+{
+  "transactionId" : "3cd65ed5-9316-41a5-b4a9-98fc11d62fce",
+  "transaction" : {
+    "transactionId" : "3cd65ed5-9316-41a5-b4a9-98fc11d62fce",
+    "fromAccount" : "9967397139",
+    "toAccount" : "839498943946",
+    "amount" : 627.88,
+    "currency" : "USD",
+    "fromBankSwift" : "WFBIUS6S",
+    "toBankSwift" : "KOEXKRSE",
+    "fromBankName" : "Wells Fargo Bank N.A.",
+    "toBankName" : "Korea Exchange Bank",
+    "timestamp" : "2025-06-13T15:48:14.204497",
+    "status" : "PENDING",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "US",
+    "toCountryCode" : "KR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3cd65ed5-9316-41a5-b4a9-98fc11d62fce",
+    "riskScore" : 100,
+    "riskLevel" : "CRITICAL",
+    "alerts" : [ {
+      "alertId" : "562819a8-7f5a-416a-9171-06a6841db577",
+      "fraudType" : "CRYPTOCURRENCY_KEYWORDS",
+      "description" : "Cryptocurrency Keywords",
+      "severity" : 6,
+      "details" : "Transaction contains cryptocurrency-related keywords in bank names: Wells Fargo Bank N.A. Korea Exchange Bank",
+      "timestamp" : "2025-06-17T15:53:34.069931",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "7faff22d-72a4-4585-9985-c76c8f2c5b41",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 627.88 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:34.069954",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:34.070152",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:34.08392"
+}

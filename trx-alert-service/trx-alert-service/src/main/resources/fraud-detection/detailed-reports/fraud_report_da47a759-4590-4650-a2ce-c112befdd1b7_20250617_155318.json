@@ -1,0 +1,38 @@
+{
+  "transactionId" : "da47a759-4590-4650-a2ce-c112befdd1b7",
+  "transaction" : {
+    "transactionId" : "da47a759-4590-4650-a2ce-c112befdd1b7",
+    "fromAccount" : "739194913420",
+    "toAccount" : "4065009814",
+    "amount" : 41.28,
+    "currency" : "AUD",
+    "fromBankSwift" : "BKCHAU2S",
+    "toBankSwift" : "ICBKCNBJ",
+    "fromBankName" : "Bank of China (Australia) Limited",
+    "toBankName" : "Industrial and Commercial Bank of China",
+    "timestamp" : "2025-06-17T13:07:10.812851",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "da47a759-4590-4650-a2ce-c112befdd1b7",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "3f954d23-2673-4aa3-9fa6-9fe44cdbe34a",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 41.28 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:18.26704",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.267049",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.270628"
+}

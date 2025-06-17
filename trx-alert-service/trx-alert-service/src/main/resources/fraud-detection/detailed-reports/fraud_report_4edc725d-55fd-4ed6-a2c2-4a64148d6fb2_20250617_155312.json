@@ -1,0 +1,38 @@
+{
+  "transactionId" : "4edc725d-55fd-4ed6-a2c2-4a64148d6fb2",
+  "transaction" : {
+    "transactionId" : "4edc725d-55fd-4ed6-a2c2-4a64148d6fb2",
+    "fromAccount" : "506401348294",
+    "toAccount" : "356821809726",
+    "amount" : 140.9,
+    "currency" : "ZAR",
+    "fromBankSwift" : "NEDSZAJJ",
+    "toBankSwift" : "UBSWCHZH",
+    "fromBankName" : "Nedbank",
+    "toBankName" : "UBS Group AG",
+    "timestamp" : "2025-06-15T15:44:42.036285",
+    "status" : "COMPLETED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "CH7324400000512605309",
+    "fromCountryCode" : "ZA",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "4edc725d-55fd-4ed6-a2c2-4a64148d6fb2",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "af10f53f-76f1-4541-8ecc-67545ccb9a65",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 140.9 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:12.893777",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:12.893788",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:12.895425"
+}

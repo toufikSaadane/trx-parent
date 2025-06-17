@@ -1,0 +1,38 @@
+{
+  "transactionId" : "b2536770-05ef-4272-947a-2cc5a121fc39",
+  "transaction" : {
+    "transactionId" : "b2536770-05ef-4272-947a-2cc5a121fc39",
+    "fromAccount" : "104194433238",
+    "toAccount" : "236400569824",
+    "amount" : 2555.42,
+    "currency" : "USD",
+    "fromBankSwift" : "CITIUS33",
+    "toBankSwift" : "CBSYSYMM",
+    "fromBankName" : "Citibank N.A.",
+    "toBankName" : "Central Bank of Syria",
+    "timestamp" : "2025-06-17T11:02:22.522914",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b2536770-05ef-4272-947a-2cc5a121fc39",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "350d6484-7ef4-468c-bd72-628cc75c683e",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: US, To: SY",
+      "timestamp" : "2025-06-17T15:53:36.628935",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.628948",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.632203"
+}

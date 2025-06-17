@@ -1,0 +1,46 @@
+{
+  "transactionId" : "30aef9f4-90ff-4b90-bbf8-78fd51c7e221",
+  "transaction" : {
+    "transactionId" : "30aef9f4-90ff-4b90-bbf8-78fd51c7e221",
+    "fromAccount" : "666638928256",
+    "toAccount" : "615181608952",
+    "amount" : 689.56,
+    "currency" : "SYP",
+    "fromBankSwift" : "CBSYSYMMXXX",
+    "toBankSwift" : "HSBCGB2L",
+    "fromBankName" : "Commercial Bank of Syria",
+    "toBankName" : "HSBC UK",
+    "timestamp" : "2025-06-16T23:28:22.68952",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "GB26404404001271158504",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "30aef9f4-90ff-4b90-bbf8-78fd51c7e221",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "bd11e6cf-8d35-4889-bad1-7648e253e342",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: GB",
+      "timestamp" : "2025-06-17T15:53:15.22829",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "613b17fa-9461-4fca-9a2b-776261693731",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 689.56 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.228308",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.228316",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.229382"
+}

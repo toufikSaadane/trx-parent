@@ -1,0 +1,38 @@
+{
+  "transactionId" : "f4c9c3df-3ae5-4c6e-a3d3-31bf27b27b31",
+  "transaction" : {
+    "transactionId" : "f4c9c3df-3ae5-4c6e-a3d3-31bf27b27b31",
+    "fromAccount" : "192692575840",
+    "toAccount" : "998595485025",
+    "amount" : 174.35,
+    "currency" : "HUF",
+    "fromBankSwift" : "HANDFIHH",
+    "toBankSwift" : "ROYCCAT2",
+    "fromBankName" : "Handelsbanken",
+    "toBankName" : "Royal Bank of Canada",
+    "timestamp" : "2025-06-16T22:45:40.592078",
+    "status" : "PENDING",
+    "fromIBAN" : "FI8230001885297862",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FI",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f4c9c3df-3ae5-4c6e-a3d3-31bf27b27b31",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "89a53fd5-5549-4a8e-8a01-f23d5a0e8ce7",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 174.35 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:12.993762",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:12.993769",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:12.995398"
+}

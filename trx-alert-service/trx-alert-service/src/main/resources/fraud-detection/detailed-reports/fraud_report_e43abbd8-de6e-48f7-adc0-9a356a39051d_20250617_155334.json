@@ -1,0 +1,38 @@
+{
+  "transactionId" : "e43abbd8-de6e-48f7-adc0-9a356a39051d",
+  "transaction" : {
+    "transactionId" : "e43abbd8-de6e-48f7-adc0-9a356a39051d",
+    "fromAccount" : "145617235531",
+    "toAccount" : "0600576633",
+    "amount" : 690.28,
+    "currency" : "GBP",
+    "fromBankSwift" : "NWBKGB2L",
+    "toBankSwift" : "BKCHCNBJ",
+    "fromBankName" : "NatWest Group",
+    "toBankName" : "Bank of China",
+    "timestamp" : "2025-06-15T08:52:11.18248",
+    "status" : "COMPLETED",
+    "fromIBAN" : "GB30600000000685965417",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e43abbd8-de6e-48f7-adc0-9a356a39051d",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "94cd21b8-e3ca-4434-be74-cab6dcf1d11a",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 690.28 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:34.853433",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:34.853449",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:34.858418"
+}

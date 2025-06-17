@@ -1,0 +1,38 @@
+{
+  "transactionId" : "f22229a2-6eed-4290-a2e6-72cba045c401",
+  "transaction" : {
+    "transactionId" : "f22229a2-6eed-4290-a2e6-72cba045c401",
+    "fromAccount" : "500536506818",
+    "toAccount" : "7783688408",
+    "amount" : 100.61,
+    "currency" : "CHF",
+    "fromBankSwift" : "UBSWCHZH80A",
+    "toBankSwift" : "VTBRRUMM",
+    "fromBankName" : "UBS Switzerland AG",
+    "toBankName" : "VTB Bank",
+    "timestamp" : "2025-06-15T09:18:08.881249",
+    "status" : "FAILED",
+    "fromIBAN" : "CH3224300000976488327",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "RU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f22229a2-6eed-4290-a2e6-72cba045c401",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "56f615f7-bc8e-41a4-bffb-929c922f46ad",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 100.61 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:21.656178",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.65619",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.661231"
+}

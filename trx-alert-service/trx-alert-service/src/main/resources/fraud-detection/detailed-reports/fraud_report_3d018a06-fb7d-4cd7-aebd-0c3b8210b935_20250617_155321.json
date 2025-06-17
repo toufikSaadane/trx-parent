@@ -1,0 +1,30 @@
+{
+  "transactionId" : "3d018a06-fb7d-4cd7-aebd-0c3b8210b935",
+  "transaction" : {
+    "transactionId" : "3d018a06-fb7d-4cd7-aebd-0c3b8210b935",
+    "fromAccount" : "373644528798",
+    "toAccount" : "684378449123",
+    "amount" : 5061.71,
+    "currency" : "CNY",
+    "fromBankSwift" : "ICBKCNBJ",
+    "toBankSwift" : "CIBKCNBJ",
+    "fromBankName" : "Industrial and Commercial Bank of China",
+    "toBankName" : "China CITIC Bank",
+    "timestamp" : "2025-06-15T12:13:57.887236",
+    "status" : "FAILED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3d018a06-fb7d-4cd7-aebd-0c3b8210b935",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.79824",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.802963"
+}

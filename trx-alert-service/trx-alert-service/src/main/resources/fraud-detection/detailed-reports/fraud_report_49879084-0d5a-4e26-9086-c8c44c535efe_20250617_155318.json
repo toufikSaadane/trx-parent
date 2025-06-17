@@ -1,0 +1,38 @@
+{
+  "transactionId" : "49879084-0d5a-4e26-9086-c8c44c535efe",
+  "transaction" : {
+    "transactionId" : "49879084-0d5a-4e26-9086-c8c44c535efe",
+    "fromAccount" : "996793216685",
+    "toAccount" : "396440878435",
+    "amount" : 5000,
+    "currency" : "USD",
+    "fromBankSwift" : "ROYCCAT2",
+    "toBankSwift" : "WELLSFARG",
+    "fromBankName" : "Royal Bank of Canada",
+    "toBankName" : "Wells Fargo Bank",
+    "timestamp" : "2025-06-17T13:08:25.812905",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "49879084-0d5a-4e26-9086-c8c44c535efe",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "69a94fc5-4701-4d13-b5bb-47a1f21205cd",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 5000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:18.337846",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.337855",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.341394"
+}

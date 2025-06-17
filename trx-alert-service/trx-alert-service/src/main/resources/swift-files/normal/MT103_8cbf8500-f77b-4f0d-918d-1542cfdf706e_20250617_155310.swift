@@ -1,0 +1,36 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:10.879798
+// Transaction ID: 8cbf8500-f77b-4f0d-918d-1542cfdf706e
+// Amount: 653.27 GBP
+// From: Barclays
+// To: ABN AMRO
+// FRAUD STATUS: NORMAL
+// Risk Score: 40/100
+// Risk Level: MEDIUM
+// Fraud Alerts: 1
+//   - Frequent Small Amounts
+//=====================================
+
+{1:F01BARCGB22XXX0}{2:I103ABNANL2AXXX0N}{3:{108:8cbf8500-f77b-4f}}
+{4:
+:20:8cbf8500-f77b-4f
+:23B:CRED
+:32A:250611GBP653,27
+:33B:GBP653,27
+:71A:SHA
+:50K:/GB73203002000063724692
+Barclays
+321 Financial District
+London, United Kingdom
+:52A:BARCGB22
+:53B:/BARCGB22
+:56A:INGBNL2AXXX
+:57A:ABNANL2A
+:59:/NL4251701688166237
+ABN AMRO
+123 Main Street
+Amsterdam, Netherlands
+:70:Payment for services - TXN ID: 8cbf8500 - Cross-border transfer
+:72:/INS/BARCGB22
+}
+{5:{MAC:D3FF7605}{CHK:32410BF4072A}}

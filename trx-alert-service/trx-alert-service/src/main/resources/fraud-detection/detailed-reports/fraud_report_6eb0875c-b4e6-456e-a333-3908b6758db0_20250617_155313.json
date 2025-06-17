@@ -1,0 +1,46 @@
+{
+  "transactionId" : "6eb0875c-b4e6-456e-a333-3908b6758db0",
+  "transaction" : {
+    "transactionId" : "6eb0875c-b4e6-456e-a333-3908b6758db0",
+    "fromAccount" : "280823395651",
+    "toAccount" : "326036250198",
+    "amount" : 484.27,
+    "currency" : "",
+    "fromBankSwift" : "EBILAEADXXX",
+    "toBankSwift" : "KESHAVIRZIR",
+    "fromBankName" : "Emirates NBD Bank",
+    "toBankName" : "Bank Keshavarzi",
+    "timestamp" : "2025-06-16T23:29:07.676877",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AE",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6eb0875c-b4e6-456e-a333-3908b6758db0",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "6c8d469c-60d1-425c-9ba4-2cdb96f4759d",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AE, To: IR",
+      "timestamp" : "2025-06-17T15:53:13.768563",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "d11eb0fc-404a-4520-825e-401c29b9d23d",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 484.27 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:13.768575",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.768579",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.769348"
+}

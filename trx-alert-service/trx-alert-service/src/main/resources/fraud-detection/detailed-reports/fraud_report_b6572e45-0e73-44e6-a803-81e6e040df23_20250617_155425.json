@@ -1,0 +1,38 @@
+{
+  "transactionId" : "b6572e45-0e73-44e6-a803-81e6e040df23",
+  "transaction" : {
+    "transactionId" : "b6572e45-0e73-44e6-a803-81e6e040df23",
+    "fromAccount" : "9127327644",
+    "toAccount" : "127222464884",
+    "amount" : 887.36,
+    "currency" : "EUR",
+    "fromBankSwift" : "COBADEFF",
+    "toBankSwift" : "NOSCCATTXXX",
+    "fromBankName" : "Commerzbank AG",
+    "toBankName" : "The Bank of Nova Scotia",
+    "timestamp" : "2025-06-17T15:54:25.532036",
+    "status" : "PENDING",
+    "fromIBAN" : "DE81100400000960070117",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b6572e45-0e73-44e6-a803-81e6e040df23",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "889a9081-71d8-48d0-a51d-dfcccac822ab",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 887.36 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:54:25.558717",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:54:25.558747",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:54:25.569926"
+}

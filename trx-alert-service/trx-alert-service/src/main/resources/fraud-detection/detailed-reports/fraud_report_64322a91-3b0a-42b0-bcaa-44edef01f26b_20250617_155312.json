@@ -1,0 +1,38 @@
+{
+  "transactionId" : "64322a91-3b0a-42b0-bcaa-44edef01f26b",
+  "transaction" : {
+    "transactionId" : "64322a91-3b0a-42b0-bcaa-44edef01f26b",
+    "fromAccount" : "673031373738",
+    "toAccount" : "938814930543",
+    "amount" : 22778.7,
+    "currency" : "AUD",
+    "fromBankSwift" : "BKCHAU2S",
+    "toBankSwift" : "CIBVBRSP",
+    "fromBankName" : "Bank of China (Australia) Limited",
+    "toBankName" : "Banco Votorantim",
+    "timestamp" : "2025-06-13T15:56:29.19884",
+    "status" : "COMPLETED",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "BR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "64322a91-3b0a-42b0-bcaa-44edef01f26b",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "946ccf85-e4cb-4561-8437-bbf485a66302",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 22778.7 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:12.692978",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:12.692995",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:12.693707"
+}

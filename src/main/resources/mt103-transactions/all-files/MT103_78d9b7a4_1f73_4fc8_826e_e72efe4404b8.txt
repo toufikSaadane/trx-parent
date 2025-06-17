@@ -1,0 +1,10 @@
+{2:I103BESCPTPLXXX0N}
+{4:
+:20:78d9b7a4-1f73-4f
+:23B:CRED
+:32A:250617YER3296,36
+:50K:/929582158605
+Tadhamon International Islamic Bank
+:59:/766519713212
+Novo Banco
+}

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "6179752f-176b-4fab-b095-7052f1078873",
+  "transaction" : {
+    "transactionId" : "6179752f-176b-4fab-b095-7052f1078873",
+    "fromAccount" : "143138535176",
+    "toAccount" : "584447847712",
+    "amount" : 589.06,
+    "currency" : "CHF",
+    "fromBankSwift" : "CRESCHZZ",
+    "toBankSwift" : "BKCHAU2S",
+    "fromBankName" : "Credit Suisse",
+    "toBankName" : "Bank of China (Australia) Limited",
+    "timestamp" : "2025-06-17T03:15:30.632127",
+    "status" : "PROCESSING",
+    "fromIBAN" : "CH6748350001690370943",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6179752f-176b-4fab-b095-7052f1078873",
+    "riskScore" : 90,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "2a20c3ed-1344-4d8f-a043-5cf356af3007",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 589.06 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:25.667363",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "836d0ac6-bce5-46d6-bd01-507834341cae",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 03:15:30.632127",
+      "timestamp" : "2025-06-17T15:53:25.667444",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.667467",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.673196"
+}

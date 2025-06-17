@@ -1,0 +1,38 @@
+{
+  "transactionId" : "ac3a78b6-8870-48ac-8ace-3949708bb0d6",
+  "transaction" : {
+    "transactionId" : "ac3a78b6-8870-48ac-8ace-3949708bb0d6",
+    "fromAccount" : "8175210530",
+    "toAccount" : "873539464334",
+    "amount" : 949.6,
+    "currency" : "CAD",
+    "fromBankSwift" : "NOSCCATT",
+    "toBankSwift" : "SHBKKRSE",
+    "fromBankName" : "Scotiabank",
+    "toBankName" : "Shinhan Bank",
+    "timestamp" : "2025-06-17T13:50:14.741312",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "KR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ac3a78b6-8870-48ac-8ace-3949708bb0d6",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "0fba2653-36f3-4f66-b3a1-6975c60491af",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 949.6 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.602812",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.602824",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.605295"
+}

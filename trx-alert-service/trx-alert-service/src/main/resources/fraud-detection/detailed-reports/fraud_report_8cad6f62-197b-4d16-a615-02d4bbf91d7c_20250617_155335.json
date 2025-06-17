@@ -1,0 +1,46 @@
+{
+  "transactionId" : "8cad6f62-197b-4d16-a615-02d4bbf91d7c",
+  "transaction" : {
+    "transactionId" : "8cad6f62-197b-4d16-a615-02d4bbf91d7c",
+    "fromAccount" : "3502129075",
+    "toAccount" : "6860845217",
+    "amount" : 12.8,
+    "currency" : "GBP",
+    "fromBankSwift" : "BARCGB22",
+    "toBankSwift" : "CBSYSYMMXXX",
+    "fromBankName" : "Barclays Bank PLC",
+    "toBankName" : "Commercial Bank of Syria",
+    "timestamp" : "2025-06-15T21:26:56.698757",
+    "status" : "PENDING",
+    "fromIBAN" : "GB19204545002106248518",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8cad6f62-197b-4d16-a615-02d4bbf91d7c",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "b4697683-56f0-40bd-a23d-098b144f41b0",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: GB, To: SY",
+      "timestamp" : "2025-06-17T15:53:35.415489",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "f23e8a4f-ac24-48e2-b5f0-d102bc84d90d",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 12.8 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:35.415606",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:35.415615",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:35.418944"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "30653d09-5da0-43d6-ba08-b11a06f23595",
+  "transaction" : {
+    "transactionId" : "30653d09-5da0-43d6-ba08-b11a06f23595",
+    "fromAccount" : "1613267918",
+    "toAccount" : "876287605921",
+    "amount" : 448.64,
+    "currency" : "CAD",
+    "fromBankSwift" : "ROYCCAT2XXX",
+    "toBankSwift" : "HSBCCNSH",
+    "fromBankName" : "RBC Royal Bank",
+    "toBankName" : "HSBC Bank (China) Company Limited",
+    "timestamp" : "2025-06-13T15:49:59.220849",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "30653d09-5da0-43d6-ba08-b11a06f23595",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "3b08dc72-2a75-466a-9578-a251f8885704",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 448.64 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:13.923727",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.923733",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.925861"
+}

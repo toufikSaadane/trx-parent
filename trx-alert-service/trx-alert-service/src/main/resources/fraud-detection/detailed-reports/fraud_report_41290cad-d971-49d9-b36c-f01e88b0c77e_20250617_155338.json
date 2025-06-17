@@ -1,0 +1,46 @@
+{
+  "transactionId" : "41290cad-d971-49d9-b36c-f01e88b0c77e",
+  "transaction" : {
+    "transactionId" : "41290cad-d971-49d9-b36c-f01e88b0c77e",
+    "fromAccount" : "929846272230",
+    "toAccount" : "051595852603",
+    "amount" : 2213.0,
+    "currency" : "BRL",
+    "fromBankSwift" : "CIBVBRSP",
+    "toBankSwift" : "CBMMMY2X",
+    "fromBankName" : "Banco Votorantim",
+    "toBankName" : "CB Bank",
+    "timestamp" : "2025-06-17T03:19:44.734026",
+    "status" : "PROCESSING",
+    "fromIBAN" : "BR16655000100000961128796",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "BR",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "41290cad-d971-49d9-b36c-f01e88b0c77e",
+    "riskScore" : 130,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "83d1d1c0-546d-4097-9ad8-64f042877169",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: BR, To: MM",
+      "timestamp" : "2025-06-17T15:53:38.653374",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "f7427d97-6a46-4369-b0f7-2ed163946796",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 03:19:44.734026",
+      "timestamp" : "2025-06-17T15:53:38.653395",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.653404",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.656817"
+}

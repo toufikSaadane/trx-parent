@@ -1,0 +1,46 @@
+{
+  "transactionId" : "31e69d19-bb0e-48a7-8949-49e09dbaaaaf",
+  "transaction" : {
+    "transactionId" : "31e69d19-bb0e-48a7-8949-49e09dbaaaaf",
+    "fromAccount" : "062242282522",
+    "toAccount" : "272343749182",
+    "amount" : 670.53,
+    "currency" : "KPW",
+    "fromBankSwift" : "CENKPRKX",
+    "toBankSwift" : "AFIBAFKA",
+    "fromBankName" : "Central Bank of DPRK",
+    "toBankName" : "Afghanistan International Bank",
+    "timestamp" : "2025-06-17T15:47:53.937083",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "31e69d19-bb0e-48a7-8949-49e09dbaaaaf",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "33c85e37-ba0b-4ba9-845e-6a4c02af684d",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: AF",
+      "timestamp" : "2025-06-17T15:53:27.409887",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "be0b2d3a-f2f6-45e8-89e6-24c00d921d44",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 670.53 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:27.410075",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:27.410127",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:27.416255"
+}

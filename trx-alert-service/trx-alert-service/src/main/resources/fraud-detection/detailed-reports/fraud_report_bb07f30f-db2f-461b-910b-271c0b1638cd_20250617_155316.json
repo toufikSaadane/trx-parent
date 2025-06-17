@@ -1,0 +1,38 @@
+{
+  "transactionId" : "bb07f30f-db2f-461b-910b-271c0b1638cd",
+  "transaction" : {
+    "transactionId" : "bb07f30f-db2f-461b-910b-271c0b1638cd",
+    "fromAccount" : "859576723284",
+    "toAccount" : "452734046871",
+    "amount" : 644.00,
+    "currency" : "GBP",
+    "fromBankSwift" : "HSBCGB2L",
+    "toBankSwift" : "GTBINGLA",
+    "fromBankName" : "HSBC UK",
+    "toBankName" : "Guaranty Trust Bank PLC",
+    "timestamp" : "2025-06-15T09:20:05.043126",
+    "status" : "PENDING",
+    "fromIBAN" : "GB30404404001935577198",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "NG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "bb07f30f-db2f-461b-910b-271c0b1638cd",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "6943620b-a1ba-48d8-9c91-3b2c0ef68195",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 644.00 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:16.958702",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.958718",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.962462"
+}

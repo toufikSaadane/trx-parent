@@ -1,0 +1,38 @@
+{
+  "transactionId" : "dcdf0fbd-d859-441e-8e5c-914252559885",
+  "transaction" : {
+    "transactionId" : "dcdf0fbd-d859-441e-8e5c-914252559885",
+    "fromAccount" : "0944210407",
+    "toAccount" : "678769241900",
+    "amount" : 303.49,
+    "currency" : "TRY",
+    "fromBankSwift" : "BKTOTRIS",
+    "toBankSwift" : "BNPAFRPP",
+    "fromBankName" : "Türkiye İş Bankası",
+    "toBankName" : "BNP Paribas SA",
+    "timestamp" : "2025-06-13T15:55:09.200624",
+    "status" : "COMPLETED",
+    "fromIBAN" : "TR246400000000000027163987",
+    "toIBAN" : "FR2030004000000000261570195",
+    "fromCountryCode" : "TR",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "dcdf0fbd-d859-441e-8e5c-914252559885",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "1c12f2c4-d61d-4cb0-be98-2158e5c8d497",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 303.49 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:14.872751",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.872769",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.875223"
+}

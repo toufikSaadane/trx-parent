@@ -1,0 +1,38 @@
+{
+  "transactionId" : "68a46723-0a27-4460-9368-7361a6bc454d",
+  "transaction" : {
+    "transactionId" : "68a46723-0a27-4460-9368-7361a6bc454d",
+    "fromAccount" : "8404260955",
+    "toAccount" : "238080467218",
+    "amount" : 21.92,
+    "currency" : "CAD",
+    "fromBankSwift" : "NOSCCATTXXX",
+    "toBankSwift" : "HSBCGB2L",
+    "fromBankName" : "The Bank of Nova Scotia",
+    "toBankName" : "HSBC UK",
+    "timestamp" : "2025-06-13T15:52:49.203451",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "GB20404404001734548661",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "68a46723-0a27-4460-9368-7361a6bc454d",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "edbf4c8d-af58-422d-be1d-bb485549fb72",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 21.92 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:21.139197",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.139208",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.143644"
+}

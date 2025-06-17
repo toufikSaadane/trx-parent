@@ -1,0 +1,46 @@
+{
+  "transactionId" : "f5c84a6e-403b-48b4-9362-6ad94e294ad7",
+  "transaction" : {
+    "transactionId" : "f5c84a6e-403b-48b4-9362-6ad94e294ad7",
+    "fromAccount" : "7202215591",
+    "toAccount" : "2076012747",
+    "amount" : 101.72,
+    "currency" : "CAD",
+    "fromBankSwift" : "TDOMCATTTOR",
+    "toBankSwift" : "KOEXKRSE",
+    "fromBankName" : "Toronto-Dominion Bank (TD)",
+    "toBankName" : "Korea Exchange Bank",
+    "timestamp" : "2025-06-11T11:01:13.47501",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "KR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f5c84a6e-403b-48b4-9362-6ad94e294ad7",
+    "riskScore" : 100,
+    "riskLevel" : "CRITICAL",
+    "alerts" : [ {
+      "alertId" : "cbd14c32-b91a-416f-a9c0-21fe69889bac",
+      "fraudType" : "CRYPTOCURRENCY_KEYWORDS",
+      "description" : "Cryptocurrency Keywords",
+      "severity" : 6,
+      "details" : "Transaction contains cryptocurrency-related keywords in bank names: Toronto-Dominion Bank (TD) Korea Exchange Bank",
+      "timestamp" : "2025-06-17T15:53:10.856949",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "ec97c145-e7b1-420c-8e7b-f8475a317851",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 101.72 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.857006",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.857026",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.857367"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "373f98ff-9f02-4434-a6c4-5c35e6d688c5",
+  "transaction" : {
+    "transactionId" : "373f98ff-9f02-4434-a6c4-5c35e6d688c5",
+    "fromAccount" : "065717397541",
+    "toAccount" : "279692936613",
+    "amount" : 2000,
+    "currency" : "USD",
+    "fromBankSwift" : "WFBIUS6SXXX",
+    "toBankSwift" : "IBOSINBB",
+    "fromBankName" : "Wells Fargo Bank",
+    "toBankName" : "Indian Overseas Bank",
+    "timestamp" : "2025-06-17T14:13:14.633603",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "IN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "373f98ff-9f02-4434-a6c4-5c35e6d688c5",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e8d16c39-abb6-415a-98c1-c2de41814ef2",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 2000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:20.18844",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.18845",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.192869"
+}

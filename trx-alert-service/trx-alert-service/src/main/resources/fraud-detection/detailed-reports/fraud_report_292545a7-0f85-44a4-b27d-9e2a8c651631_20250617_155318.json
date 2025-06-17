@@ -1,0 +1,38 @@
+{
+  "transactionId" : "292545a7-0f85-44a4-b27d-9e2a8c651631",
+  "transaction" : {
+    "transactionId" : "292545a7-0f85-44a4-b27d-9e2a8c651631",
+    "fromAccount" : "872929267422",
+    "toAccount" : "617791703139",
+    "amount" : 16637.80,
+    "currency" : "YER",
+    "fromBankSwift" : "TADHYEMY",
+    "toBankSwift" : "BCEELULL",
+    "fromBankName" : "Tadhamon International Islamic Bank",
+    "toBankName" : "BCEE",
+    "timestamp" : "2025-06-17T13:55:19.738977",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "LU120010000394622096",
+    "fromCountryCode" : "TADHYOYMY",
+    "toCountryCode" : "LU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "292545a7-0f85-44a4-b27d-9e2a8c651631",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "7d1cf208-4597-4904-851d-c8838530a172",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 16637.80 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:18.93989",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.939897",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.942377"
+}

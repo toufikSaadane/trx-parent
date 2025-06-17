@@ -1,0 +1,38 @@
+{
+  "transactionId" : "6c48dd5b-8278-411c-a2a9-0477fb370ba7",
+  "transaction" : {
+    "transactionId" : "6c48dd5b-8278-411c-a2a9-0477fb370ba7",
+    "fromAccount" : "107579294911",
+    "toAccount" : "728767120633",
+    "amount" : 46805.02,
+    "currency" : "MXN",
+    "fromBankSwift" : "SCOTMXMM",
+    "toBankSwift" : "AKBKTRIS",
+    "fromBankName" : "Scotiabank Mexico",
+    "toBankName" : "Akbank T.A.Ş.",
+    "timestamp" : "2025-06-16T23:28:52.681413",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "TR944600000000001543181406",
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "TR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6c48dd5b-8278-411c-a2a9-0477fb370ba7",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "b606b127-3239-4dab-b247-cd9a19c79c98",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 46805.02 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:22.50747",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:22.507494",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:22.510977"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "2ec158c8-4238-471a-84a1-04c8854af075",
+  "transaction" : {
+    "transactionId" : "2ec158c8-4238-471a-84a1-04c8854af075",
+    "fromAccount" : "184137206833",
+    "toAccount" : "845176951291",
+    "amount" : 73.66,
+    "currency" : "USD",
+    "fromBankSwift" : "BNPAFRPP",
+    "toBankSwift" : "CHASUS33",
+    "fromBankName" : "BNP Paribas",
+    "toBankName" : "Chase Bank",
+    "timestamp" : "2025-06-11T15:55:25.096223",
+    "status" : "PROCESSING",
+    "fromIBAN" : "FR6630004000000001919861288",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "2ec158c8-4238-471a-84a1-04c8854af075",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "5ef711b2-f35f-41cf-a6ee-0c66bf91a151",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 73.66 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.888571",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.888589",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.889161"
+}

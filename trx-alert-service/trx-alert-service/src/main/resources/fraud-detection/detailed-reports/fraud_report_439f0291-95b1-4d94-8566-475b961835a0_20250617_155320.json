@@ -1,0 +1,46 @@
+{
+  "transactionId" : "439f0291-95b1-4d94-8566-475b961835a0",
+  "transaction" : {
+    "transactionId" : "439f0291-95b1-4d94-8566-475b961835a0",
+    "fromAccount" : "430443274916",
+    "toAccount" : "030785192291",
+    "amount" : 401.57,
+    "currency" : "KPW",
+    "fromBankSwift" : "CENKPRKX",
+    "toBankSwift" : "BOFMCAM2XXX",
+    "fromBankName" : "Central Bank of DPRK",
+    "toBankName" : "Bank of Montreal",
+    "timestamp" : "2025-06-17T14:16:34.626625",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "439f0291-95b1-4d94-8566-475b961835a0",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "bd058cca-5f3d-4356-bfed-177ad48b524d",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: CA",
+      "timestamp" : "2025-06-17T15:53:20.43911",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "321031bc-4bde-4ccb-96e4-35aec9c87874",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 401.57 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:20.439132",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.439143",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.442669"
+}

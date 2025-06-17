@@ -1,0 +1,38 @@
+{
+  "transactionId" : "f3a95994-d765-4e9a-b8d6-84292842b87b",
+  "transaction" : {
+    "transactionId" : "f3a95994-d765-4e9a-b8d6-84292842b87b",
+    "fromAccount" : "4884093075",
+    "toAccount" : "718664627491",
+    "amount" : 754.41,
+    "currency" : "USD",
+    "fromBankSwift" : "ABNANL2A",
+    "toBankSwift" : "CHASUS33",
+    "fromBankName" : "ABN AMRO",
+    "toBankName" : "Chase Bank",
+    "timestamp" : "2025-06-11T16:13:58.096819",
+    "status" : "PENDING",
+    "fromIBAN" : "NL5751700619913212",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f3a95994-d765-4e9a-b8d6-84292842b87b",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "efa346fa-c1d9-48ec-bc79-4aefa65b00cb",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 754.41 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.889939",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.889965",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.890849"
+}

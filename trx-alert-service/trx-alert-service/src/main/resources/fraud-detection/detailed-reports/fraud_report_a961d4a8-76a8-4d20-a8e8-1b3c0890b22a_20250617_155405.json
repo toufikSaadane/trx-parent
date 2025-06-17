@@ -1,0 +1,38 @@
+{
+  "transactionId" : "a961d4a8-76a8-4d20-a8e8-1b3c0890b22a",
+  "transaction" : {
+    "transactionId" : "a961d4a8-76a8-4d20-a8e8-1b3c0890b22a",
+    "fromAccount" : "180226227254",
+    "toAccount" : "425134427490",
+    "amount" : 139.28,
+    "currency" : "CAD",
+    "fromBankSwift" : "BOFMCAM2XXX",
+    "toBankSwift" : "BCEELULL",
+    "fromBankName" : "Bank of Montreal",
+    "toBankName" : "BCEE",
+    "timestamp" : "2025-06-17T15:54:05.529582",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "LU330010001698989933",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "LU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a961d4a8-76a8-4d20-a8e8-1b3c0890b22a",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e083d285-4c8a-400d-96e6-82d8bc12e9a8",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 139.28 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:54:05.553766",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:54:05.553782",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:54:05.560788"
+}

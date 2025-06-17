@@ -1,0 +1,38 @@
+{
+  "transactionId" : "9013ed04-0a57-405b-812d-942569160379",
+  "transaction" : {
+    "transactionId" : "9013ed04-0a57-405b-812d-942569160379",
+    "fromAccount" : "692771981500",
+    "toAccount" : "875461808358",
+    "amount" : 63840.33,
+    "currency" : "USD",
+    "fromBankSwift" : "SCBLUS33",
+    "toBankSwift" : "HKBCCATT",
+    "fromBankName" : "Standard Chartered USA",
+    "toBankName" : "Hongkong and Shanghai Banking Corp",
+    "timestamp" : "2025-06-17T14:17:59.624097",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9013ed04-0a57-405b-812d-942569160379",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "26beab5a-2b1e-415d-aac1-374af057b6e7",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 63840.33 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:20.545263",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.545288",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.548914"
+}

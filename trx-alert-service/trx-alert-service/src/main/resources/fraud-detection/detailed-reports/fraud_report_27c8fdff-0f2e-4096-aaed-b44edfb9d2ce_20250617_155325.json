@@ -1,0 +1,38 @@
+{
+  "transactionId" : "27c8fdff-0f2e-4096-aaed-b44edfb9d2ce",
+  "transaction" : {
+    "transactionId" : "27c8fdff-0f2e-4096-aaed-b44edfb9d2ce",
+    "fromAccount" : "598155308932",
+    "toAccount" : "8320696671",
+    "amount" : 207.25,
+    "currency" : "",
+    "fromBankSwift" : "EBILAEADXXX",
+    "toBankSwift" : "NOSCCATT",
+    "fromBankName" : "Emirates NBD Bank",
+    "toBankName" : "Scotiabank",
+    "timestamp" : "2025-06-17T14:09:29.631663",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AE",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "27c8fdff-0f2e-4096-aaed-b44edfb9d2ce",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e8690f18-1555-467c-b7bd-3bab124473fd",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 207.25 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:25.611154",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.611178",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.62036"
+}

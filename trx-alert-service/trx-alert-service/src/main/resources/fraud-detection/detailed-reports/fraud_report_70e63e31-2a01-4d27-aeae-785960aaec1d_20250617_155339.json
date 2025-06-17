@@ -1,0 +1,38 @@
+{
+  "transactionId" : "70e63e31-2a01-4d27-aeae-785960aaec1d",
+  "transaction" : {
+    "transactionId" : "70e63e31-2a01-4d27-aeae-785960aaec1d",
+    "fromAccount" : "490516421276",
+    "toAccount" : "317254174504",
+    "amount" : 974.07,
+    "currency" : "CNY",
+    "fromBankSwift" : "CIBKCNBJ",
+    "toBankSwift" : "HKBCCATT",
+    "fromBankName" : "China CITIC Bank",
+    "toBankName" : "Hongkong and Shanghai Banking Corp",
+    "timestamp" : "2025-06-17T14:15:44.636649",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "70e63e31-2a01-4d27-aeae-785960aaec1d",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "27e7bc72-b43a-49ee-a7ae-2e339da7e1a7",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 974.07 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:39.448096",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.448105",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.45264"
+}

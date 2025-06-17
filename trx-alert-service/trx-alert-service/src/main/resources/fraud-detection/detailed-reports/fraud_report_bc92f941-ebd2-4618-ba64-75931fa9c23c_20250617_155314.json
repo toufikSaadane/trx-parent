@@ -1,0 +1,38 @@
+{
+  "transactionId" : "bc92f941-ebd2-4618-ba64-75931fa9c23c",
+  "transaction" : {
+    "transactionId" : "bc92f941-ebd2-4618-ba64-75931fa9c23c",
+    "fromAccount" : "239238944343",
+    "toAccount" : "0107969508",
+    "amount" : 394.77,
+    "currency" : "EUR",
+    "fromBankSwift" : "SOGEFRPP",
+    "toBankSwift" : "HSBCGB2L",
+    "fromBankName" : "Société Générale",
+    "toBankName" : "HSBC UK",
+    "timestamp" : "2025-06-16T22:45:50.559772",
+    "status" : "PROCESSING",
+    "fromIBAN" : "FR5530003000000000745281688",
+    "toIBAN" : "GB19404404001793425545",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "bc92f941-ebd2-4618-ba64-75931fa9c23c",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "cbbb7415-bf0b-4430-8bd1-a8ce1b3788ec",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 394.77 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:14.411044",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.411052",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.413002"
+}

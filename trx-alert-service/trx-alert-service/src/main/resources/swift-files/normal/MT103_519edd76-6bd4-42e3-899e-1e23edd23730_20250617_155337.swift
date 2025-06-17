@@ -1,0 +1,36 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:37.370198
+// Transaction ID: 519edd76-6bd4-42e3-899e-1e23edd23730
+// Amount: 217.22 USD
+// From: Bank of America N.A.
+// To: Handelsbanken
+// FRAUD STATUS: NORMAL
+// Risk Score: 40/100
+// Risk Level: MEDIUM
+// Fraud Alerts: 1
+//   - Frequent Small Amounts
+//=====================================
+
+{1:F01BOFAUS3NXXX0}{2:I103HANDFIHHXXX0N}{3:{108:519edd76-6bd4-42}}
+{4:
+:20:519edd76-6bd4-42
+:23B:CRED
+:32A:250617USD217,22
+:33B:USD217,22
+:71A:SHA
+:50K:/964058240648
+Bank of America N.A.
+987 Trade Plaza
+New York, United States
+:52A:BOFAUS3N
+:53B:/BOFAUS3N
+:56A:DEUTDEFFXXX
+:57A:HANDFIHH
+:59:/FI8030000113788159
+Handelsbanken
+789 Commercial Blvd
+Financial District, Finland
+:70:Payment for services - TXN ID: 519edd76 - Cross-border transfer
+:72:/INS/BOFAUS3N
+}
+{5:{MAC:F9E27677}{CHK:54BDA955BEFC}}

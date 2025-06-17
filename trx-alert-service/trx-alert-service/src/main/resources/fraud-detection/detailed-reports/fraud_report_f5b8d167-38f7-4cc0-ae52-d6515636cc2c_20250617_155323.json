@@ -1,0 +1,38 @@
+{
+  "transactionId" : "f5b8d167-38f7-4cc0-ae52-d6515636cc2c",
+  "transaction" : {
+    "transactionId" : "f5b8d167-38f7-4cc0-ae52-d6515636cc2c",
+    "fromAccount" : "727671008662",
+    "toAccount" : "571258421960",
+    "amount" : 534.16,
+    "currency" : "YER",
+    "fromBankSwift" : "NBYEMYMY",
+    "toBankSwift" : "INGBNL2A",
+    "fromBankName" : "National Bank of Yemen",
+    "toBankName" : "ING Bank",
+    "timestamp" : "2025-06-17T13:26:43.462195",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "NL9120001142623226",
+    "fromCountryCode" : "NBYEMYMY",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f5b8d167-38f7-4cc0-ae52-d6515636cc2c",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "f891aed6-156d-4f40-8826-318048a43b94",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 534.16 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:23.791116",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.791131",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.795708"
+}

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "9a9f3d14-8c86-4c07-8f61-07eedeaae5b5",
+  "transaction" : {
+    "transactionId" : "9a9f3d14-8c86-4c07-8f61-07eedeaae5b5",
+    "fromAccount" : "0138785160",
+    "toAccount" : "2261548151",
+    "amount" : 20000,
+    "currency" : "CAD",
+    "fromBankSwift" : "TDOMCATTTOR",
+    "toBankSwift" : "ANZBAU3M",
+    "fromBankName" : "Toronto-Dominion Bank (TD)",
+    "toBankName" : "ANZ Banking Group",
+    "timestamp" : "2025-06-17T13:54:09.739202",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9a9f3d14-8c86-4c07-8f61-07eedeaae5b5",
+    "riskScore" : 110,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "270a6e60-4590-4e61-a97d-3be79f98ef39",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 20000 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:37.763245",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "94bf3055-8136-4e73-ac7c-b615668561fb",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 20000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:37.763668",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.76368",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.767765"
+}

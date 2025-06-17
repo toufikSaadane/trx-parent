@@ -1,0 +1,46 @@
+{
+  "transactionId" : "c4fbea37-93e5-4f7a-9546-d200af77cfac",
+  "transaction" : {
+    "transactionId" : "c4fbea37-93e5-4f7a-9546-d200af77cfac",
+    "fromAccount" : "585053150603",
+    "toAccount" : "451178167541",
+    "amount" : 39676.95,
+    "currency" : "MMK",
+    "fromBankSwift" : "AYABMMMY",
+    "toBankSwift" : "GTBINGLA",
+    "fromBankName" : "Ayeyarwady Bank",
+    "toBankName" : "Guaranty Trust Bank PLC",
+    "timestamp" : "2025-06-16T23:18:22.144179",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MM",
+    "toCountryCode" : "NG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c4fbea37-93e5-4f7a-9546-d200af77cfac",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "1e05394c-d3c2-4a2c-8eb6-9a03f907774e",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MM, To: NG",
+      "timestamp" : "2025-06-17T15:53:15.192715",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "f525b412-85d3-4c3c-9cfb-9858a1409796",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 39676.95 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:15.192732",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.192739",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.193806"
+}

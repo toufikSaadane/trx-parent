@@ -1,0 +1,38 @@
+{
+  "transactionId" : "a71818f0-ab52-42fc-acba-c4ee71070632",
+  "transaction" : {
+    "transactionId" : "a71818f0-ab52-42fc-acba-c4ee71070632",
+    "fromAccount" : "780872966825",
+    "toAccount" : "2985842006",
+    "amount" : 486.17,
+    "currency" : "EUR",
+    "fromBankSwift" : "INGBNL2A",
+    "toBankSwift" : "ITMRITMM",
+    "fromBankName" : "ING Bank",
+    "toBankName" : "Intesa Sanpaolo S.p.A.",
+    "timestamp" : "2025-06-13T15:57:29.201712",
+    "status" : "COMPLETED",
+    "fromIBAN" : "NL2220002137134234",
+    "toIBAN" : "IT1603069000000000922451388",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "IT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a71818f0-ab52-42fc-acba-c4ee71070632",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "f65d4ff6-c9c8-4212-bd93-67f0411dbfce",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 486.17 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:14.912368",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.912375",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.914384"
+}

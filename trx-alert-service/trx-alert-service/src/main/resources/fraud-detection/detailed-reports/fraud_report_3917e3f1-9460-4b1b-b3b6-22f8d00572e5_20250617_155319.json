@@ -1,0 +1,38 @@
+{
+  "transactionId" : "3917e3f1-9460-4b1b-b3b6-22f8d00572e5",
+  "transaction" : {
+    "transactionId" : "3917e3f1-9460-4b1b-b3b6-22f8d00572e5",
+    "fromAccount" : "2063199671",
+    "toAccount" : "8777699964",
+    "amount" : 16697.18,
+    "currency" : "BRL",
+    "fromBankSwift" : "BSCHBRSP",
+    "toBankSwift" : "HSBCGB2L",
+    "fromBankName" : "Santander Brasil",
+    "toBankName" : "HSBC UK",
+    "timestamp" : "2025-06-17T14:08:54.628581",
+    "status" : "PENDING",
+    "fromIBAN" : "BR14904008880001298504218",
+    "toIBAN" : "GB03404404001493150208",
+    "fromCountryCode" : "BR",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3917e3f1-9460-4b1b-b3b6-22f8d00572e5",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "ad920097-76a8-49c6-b121-c667a984153f",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 16697.18 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:19.857178",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.857195",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.860472"
+}

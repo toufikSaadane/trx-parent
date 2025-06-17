@@ -1,0 +1,46 @@
+{
+  "transactionId" : "1a87b68b-d78e-40f7-b110-c285c530cf06",
+  "transaction" : {
+    "transactionId" : "1a87b68b-d78e-40f7-b110-c285c530cf06",
+    "fromAccount" : "1770009752",
+    "toAccount" : "008948665256",
+    "amount" : 4802.84,
+    "currency" : "CAD",
+    "fromBankSwift" : "ROYCCAT2",
+    "toBankSwift" : "KESHAVIRZIR",
+    "fromBankName" : "Royal Bank of Canada",
+    "toBankName" : "Bank Keshavarzi",
+    "timestamp" : "2025-06-16T02:35:09.907335",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1a87b68b-d78e-40f7-b110-c285c530cf06",
+    "riskScore" : 130,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "b1e33034-b184-466d-980f-e2c819ddcc30",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CA, To: IR",
+      "timestamp" : "2025-06-17T15:53:14.683082",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "9f5b567f-0e32-4e9c-bc5f-444ce06347e2",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 02:35:09.907335",
+      "timestamp" : "2025-06-17T15:53:14.6831",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.683106",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.684063"
+}

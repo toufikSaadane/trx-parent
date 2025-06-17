@@ -1,0 +1,38 @@
+{
+  "transactionId" : "d95ecb53-2038-433a-ad27-4b0f0a0e6e14",
+  "transaction" : {
+    "transactionId" : "d95ecb53-2038-433a-ad27-4b0f0a0e6e14",
+    "fromAccount" : "7559202967",
+    "toAccount" : "385276073677",
+    "amount" : 15012.11,
+    "currency" : "BRL",
+    "fromBankSwift" : "CIBVBRSP",
+    "toBankSwift" : "SBERRUMM",
+    "fromBankName" : "Banco Votorantim",
+    "toBankName" : "Sberbank",
+    "timestamp" : "2025-06-17T13:26:23.459365",
+    "status" : "PROCESSING",
+    "fromIBAN" : "BR33655000100000824044792",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "BR",
+    "toCountryCode" : "RU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d95ecb53-2038-433a-ad27-4b0f0a0e6e14",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "9f73a081-5732-4c98-9009-c0876f656484",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 15012.11 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:37.225862",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.225871",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.229288"
+}

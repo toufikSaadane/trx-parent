@@ -1,0 +1,46 @@
+{
+  "transactionId" : "c95f2c90-b960-402c-bd12-d74208f19576",
+  "transaction" : {
+    "transactionId" : "c95f2c90-b960-402c-bd12-d74208f19576",
+    "fromAccount" : "282889617170",
+    "toAccount" : "092914732790",
+    "amount" : 50000,
+    "currency" : "CAD",
+    "fromBankSwift" : "TDOMCATT",
+    "toBankSwift" : "CIBKCNBJ",
+    "fromBankName" : "TD Canada Trust",
+    "toBankName" : "China CITIC Bank",
+    "timestamp" : "2025-06-17T14:12:24.63016",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c95f2c90-b960-402c-bd12-d74208f19576",
+    "riskScore" : 110,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "fa0e499d-bf9f-402c-8a9a-996c16ba633b",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 50000 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:25.964892",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "b9893cd0-b0e2-4045-993b-f46789000df7",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 50000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:25.964994",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.965036",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.973953"
+}

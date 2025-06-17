@@ -1,0 +1,38 @@
+{
+  "transactionId" : "e202e52d-a3f3-4746-82c2-40ef9d07e59e",
+  "transaction" : {
+    "transactionId" : "e202e52d-a3f3-4746-82c2-40ef9d07e59e",
+    "fromAccount" : "3603976511",
+    "toAccount" : "733555078489",
+    "amount" : 4419.8,
+    "currency" : "MXN",
+    "fromBankSwift" : "SCOTMXMM",
+    "toBankSwift" : "KBZBMMMY",
+    "fromBankName" : "Scotiabank Mexico",
+    "toBankName" : "KBZ Bank",
+    "timestamp" : "2025-06-17T14:10:24.631654",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e202e52d-a3f3-4746-82c2-40ef9d07e59e",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "1d62a5ad-0e35-4f5d-a39a-d063ffa8b870",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MX, To: MM",
+      "timestamp" : "2025-06-17T15:53:19.964407",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.964437",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.967632"
+}

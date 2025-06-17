@@ -1,0 +1,38 @@
+{
+  "transactionId" : "d1221f95-ba1b-442f-a0ab-c02c418eb962",
+  "transaction" : {
+    "transactionId" : "d1221f95-ba1b-442f-a0ab-c02c418eb962",
+    "fromAccount" : "2160415091",
+    "toAccount" : "8952402589",
+    "amount" : 20549.10,
+    "currency" : "CAD",
+    "fromBankSwift" : "ROYCCAT2XXX",
+    "toBankSwift" : "BNPAFRPP",
+    "fromBankName" : "RBC Royal Bank",
+    "toBankName" : "BNP Paribas SA",
+    "timestamp" : "2025-06-16T22:45:20.558943",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "FR3230004000000001520745506",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d1221f95-ba1b-442f-a0ab-c02c418eb962",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "0cfeaa1f-2d4d-491b-8710-d263a366c1b0",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 20549.10 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:17.249849",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.24986",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.251777"
+}

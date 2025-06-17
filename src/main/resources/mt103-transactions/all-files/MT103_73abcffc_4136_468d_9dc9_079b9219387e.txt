@@ -1,0 +1,10 @@
+{1:F01ICBKCNBJXXX0}
+{4:
+:20:73abcffc-4136-46
+:23B:CRED
+:32A:250617CNY9747,88
+:50K:/063430595992
+Industrial and Commercial Bank of China
+:59:/760170426809
+Akbank T.A.Ş.
+}

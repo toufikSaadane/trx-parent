@@ -1,0 +1,38 @@
+{
+  "transactionId" : "3c05de5e-bad3-4e22-88af-b71855e15e9c",
+  "transaction" : {
+    "transactionId" : "3c05de5e-bad3-4e22-88af-b71855e15e9c",
+    "fromAccount" : "554459463038",
+    "toAccount" : "151878709879",
+    "amount" : 79.89,
+    "currency" : "SGD",
+    "fromBankSwift" : "DBSSSGSG",
+    "toBankSwift" : "CIBKCNBJ",
+    "fromBankName" : "DBS Bank",
+    "toBankName" : "China CITIC Bank",
+    "timestamp" : "2025-06-15T09:17:58.88309",
+    "status" : "COMPLETED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3c05de5e-bad3-4e22-88af-b71855e15e9c",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "00a13ca7-455d-4c79-a39a-1bd9a52c6cda",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 79.89 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:16.922866",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.922876",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.926237"
+}

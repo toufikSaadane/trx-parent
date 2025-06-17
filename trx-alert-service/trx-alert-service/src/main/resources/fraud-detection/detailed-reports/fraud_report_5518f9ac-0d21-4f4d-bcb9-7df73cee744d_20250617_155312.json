@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5518f9ac-0d21-4f4d-bcb9-7df73cee744d",
+  "transaction" : {
+    "transactionId" : "5518f9ac-0d21-4f4d-bcb9-7df73cee744d",
+    "fromAccount" : "201970891350",
+    "toAccount" : "613749499579",
+    "amount" : 81151.93,
+    "currency" : "CNY",
+    "fromBankSwift" : "ICBKCNBJ",
+    "toBankSwift" : "BOFMCAM2",
+    "fromBankName" : "Industrial and Commercial Bank of China",
+    "toBankName" : "Bank of Montreal",
+    "timestamp" : "2025-06-13T15:54:59.200142",
+    "status" : "PROCESSING",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5518f9ac-0d21-4f4d-bcb9-7df73cee744d",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "d83794aa-49e7-41c0-9d7c-160cca1b36fb",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 81151.93 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:12.649313",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:12.64932",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:12.649978"
+}

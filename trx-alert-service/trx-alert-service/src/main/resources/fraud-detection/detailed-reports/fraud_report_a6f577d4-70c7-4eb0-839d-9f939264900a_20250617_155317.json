@@ -1,0 +1,30 @@
+{
+  "transactionId" : "a6f577d4-70c7-4eb0-839d-9f939264900a",
+  "transaction" : {
+    "transactionId" : "a6f577d4-70c7-4eb0-839d-9f939264900a",
+    "fromAccount" : "451172798949",
+    "toAccount" : "785495260269",
+    "amount" : 5025.72,
+    "currency" : "KRW",
+    "fromBankSwift" : "SHBKKRSE",
+    "toBankSwift" : "BNPAAU2S",
+    "fromBankName" : "Shinhan Bank",
+    "toBankName" : "BNP Paribas Australia",
+    "timestamp" : "2025-06-17T10:48:50.939286",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KR",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a6f577d4-70c7-4eb0-839d-9f939264900a",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.811368",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.815017"
+}

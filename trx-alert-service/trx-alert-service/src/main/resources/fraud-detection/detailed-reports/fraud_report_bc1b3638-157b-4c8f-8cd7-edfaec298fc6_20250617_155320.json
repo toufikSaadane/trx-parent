@@ -1,0 +1,38 @@
+{
+  "transactionId" : "bc1b3638-157b-4c8f-8cd7-edfaec298fc6",
+  "transaction" : {
+    "transactionId" : "bc1b3638-157b-4c8f-8cd7-edfaec298fc6",
+    "fromAccount" : "6868551486",
+    "toAccount" : "0919845871",
+    "amount" : 242.09,
+    "currency" : "NGN",
+    "fromBankSwift" : "GTBINGLA",
+    "toBankSwift" : "DBSSSGSG",
+    "fromBankName" : "Guaranty Trust Bank PLC",
+    "toBankName" : "DBS Bank",
+    "timestamp" : "2025-06-17T14:16:29.628067",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NG",
+    "toCountryCode" : "SG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "bc1b3638-157b-4c8f-8cd7-edfaec298fc6",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "45b5ec18-be4b-49a1-aff1-4f87ae6a6ad9",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 242.09 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:20.42892",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.428946",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.433659"
+}

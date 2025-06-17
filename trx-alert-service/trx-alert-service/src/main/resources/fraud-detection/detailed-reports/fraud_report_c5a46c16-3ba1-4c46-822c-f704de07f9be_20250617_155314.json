@@ -1,0 +1,30 @@
+{
+  "transactionId" : "c5a46c16-3ba1-4c46-822c-f704de07f9be",
+  "transaction" : {
+    "transactionId" : "c5a46c16-3ba1-4c46-822c-f704de07f9be",
+    "fromAccount" : "825914792380",
+    "toAccount" : "411565838624",
+    "amount" : 2620.06,
+    "currency" : "TRY",
+    "fromBankSwift" : "BKTOTRIS",
+    "toBankSwift" : "BARCGB22",
+    "fromBankName" : "Türkiye İş Bankası",
+    "toBankName" : "Barclays Bank PLC",
+    "timestamp" : "2025-06-16T22:44:50.562418",
+    "status" : "PROCESSING",
+    "fromIBAN" : "TR956400000000001542135772",
+    "toIBAN" : "GB35204545001011383525",
+    "fromCountryCode" : "TR",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c5a46c16-3ba1-4c46-822c-f704de07f9be",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.376003",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.377958"
+}

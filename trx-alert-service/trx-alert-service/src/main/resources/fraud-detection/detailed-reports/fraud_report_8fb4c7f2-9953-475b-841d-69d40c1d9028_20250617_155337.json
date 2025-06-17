@@ -1,0 +1,46 @@
+{
+  "transactionId" : "8fb4c7f2-9953-475b-841d-69d40c1d9028",
+  "transaction" : {
+    "transactionId" : "8fb4c7f2-9953-475b-841d-69d40c1d9028",
+    "fromAccount" : "285374306235",
+    "toAccount" : "3184281241",
+    "amount" : 528.69,
+    "currency" : "CAD",
+    "fromBankSwift" : "TDOMCATTTOR",
+    "toBankSwift" : "CENKPRKX",
+    "fromBankName" : "Toronto-Dominion Bank (TD)",
+    "toBankName" : "Central Bank of DPRK",
+    "timestamp" : "2025-06-17T13:52:49.740857",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8fb4c7f2-9953-475b-841d-69d40c1d9028",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "3d9244ab-f6c7-4124-8ed1-840802a3cb72",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CA, To: KP",
+      "timestamp" : "2025-06-17T15:53:37.636985",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "f8e016c3-0115-4477-a597-01c0c843530d",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 528.69 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:37.637029",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.637045",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.64236"
+}

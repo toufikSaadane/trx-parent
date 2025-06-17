@@ -1,0 +1,46 @@
+{
+  "transactionId" : "f5242e87-0cfc-4369-9773-58eefaae4423",
+  "transaction" : {
+    "transactionId" : "f5242e87-0cfc-4369-9773-58eefaae4423",
+    "fromAccount" : "087868053320",
+    "toAccount" : "5300312424",
+    "amount" : 196.47,
+    "currency" : "MXN",
+    "fromBankSwift" : "SCOTMXMM",
+    "toBankSwift" : "MELLATIR",
+    "fromBankName" : "Scotiabank Mexico",
+    "toBankName" : "Bank Mellat",
+    "timestamp" : "2025-06-17T14:18:04.625423",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f5242e87-0cfc-4369-9773-58eefaae4423",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "47bb3446-fc18-4d5c-9afb-a1a27252aa71",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MX, To: IR",
+      "timestamp" : "2025-06-17T15:53:39.632936",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "701fad2d-4c89-4b36-9842-c8910c4f3f87",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 196.47 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:39.632951",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.632958",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.636288"
+}

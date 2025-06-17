@@ -1,0 +1,46 @@
+{
+  "transactionId" : "41e55b00-603d-4b60-8dcb-23c2d2e76123",
+  "transaction" : {
+    "transactionId" : "41e55b00-603d-4b60-8dcb-23c2d2e76123",
+    "fromAccount" : "607197048661",
+    "toAccount" : "638225982501",
+    "amount" : 84.86,
+    "currency" : "KPW",
+    "fromBankSwift" : "CENKPRKX",
+    "toBankSwift" : "HKBCCATT",
+    "fromBankName" : "Central Bank of DPRK",
+    "toBankName" : "Hongkong and Shanghai Banking Corp",
+    "timestamp" : "2025-06-17T14:14:14.630791",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "41e55b00-603d-4b60-8dcb-23c2d2e76123",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "3a3540f2-780c-4c5f-9c67-5211df51194b",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: CA",
+      "timestamp" : "2025-06-17T15:53:26.258651",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "53ba08e6-d5fc-4fe7-a788-19c3006d467d",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 84.86 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:26.258749",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.258768",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.262471"
+}

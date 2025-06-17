@@ -1,0 +1,38 @@
+{
+  "transactionId" : "ed01c8ad-1583-4e2a-a62f-8ee3e9f885b6",
+  "transaction" : {
+    "transactionId" : "ed01c8ad-1583-4e2a-a62f-8ee3e9f885b6",
+    "fromAccount" : "2293942554",
+    "toAccount" : "545252198487",
+    "amount" : 1620.06,
+    "currency" : "GBP",
+    "fromBankSwift" : "BARCGB22",
+    "toBankSwift" : "GHBKAFKA",
+    "fromBankName" : "Barclays Bank PLC",
+    "toBankName" : "Ghazanfar Bank",
+    "timestamp" : "2025-06-16T22:44:40.562005",
+    "status" : "PENDING",
+    "fromIBAN" : "GB41204545001158734953",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ed01c8ad-1583-4e2a-a62f-8ee3e9f885b6",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "5e3ba2e9-7c1e-46bf-923e-764b3dea92ac",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: GB, To: AF",
+      "timestamp" : "2025-06-17T15:53:13.590971",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.590983",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.591738"
+}

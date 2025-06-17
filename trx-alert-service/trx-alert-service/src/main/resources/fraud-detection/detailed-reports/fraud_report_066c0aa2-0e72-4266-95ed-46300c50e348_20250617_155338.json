@@ -1,0 +1,38 @@
+{
+  "transactionId" : "066c0aa2-0e72-4266-95ed-46300c50e348",
+  "transaction" : {
+    "transactionId" : "066c0aa2-0e72-4266-95ed-46300c50e348",
+    "fromAccount" : "640130955827",
+    "toAccount" : "625908007878",
+    "amount" : 707.25,
+    "currency" : "EUR",
+    "fromBankSwift" : "CAIXESBB",
+    "toBankSwift" : "IBOSINBB",
+    "fromBankName" : "CaixaBank",
+    "toBankName" : "Indian Overseas Bank",
+    "timestamp" : "2025-06-17T14:00:29.739001",
+    "status" : "PENDING",
+    "fromIBAN" : "ES6621000000000236633120",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "ES",
+    "toCountryCode" : "IN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "066c0aa2-0e72-4266-95ed-46300c50e348",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e75957ab-58c8-4848-aec8-56cc45d1d983",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 707.25 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:38.269547",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.269567",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.27412"
+}

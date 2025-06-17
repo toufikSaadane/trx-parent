@@ -1,0 +1,30 @@
+{
+  "transactionId" : "04fda660-7a24-4112-9e00-f75df32ab82c",
+  "transaction" : {
+    "transactionId" : "04fda660-7a24-4112-9e00-f75df32ab82c",
+    "fromAccount" : "775359512564",
+    "toAccount" : "414621711313",
+    "amount" : 2376.98,
+    "currency" : "TRY",
+    "fromBankSwift" : "AKBKTRIS",
+    "toBankSwift" : "TDOMCATTTOR",
+    "fromBankName" : "Akbank T.A.Ş.",
+    "toBankName" : "Toronto-Dominion Bank (TD)",
+    "timestamp" : "2025-06-17T14:17:54.63304",
+    "status" : "PROCESSING",
+    "fromIBAN" : "TR384600000000001732236287",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "TR",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "04fda660-7a24-4112-9e00-f75df32ab82c",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.624076",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.628524"
+}

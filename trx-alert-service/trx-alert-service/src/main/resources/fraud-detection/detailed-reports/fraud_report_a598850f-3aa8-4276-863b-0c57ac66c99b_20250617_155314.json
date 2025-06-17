@@ -1,0 +1,38 @@
+{
+  "transactionId" : "a598850f-3aa8-4276-863b-0c57ac66c99b",
+  "transaction" : {
+    "transactionId" : "a598850f-3aa8-4276-863b-0c57ac66c99b",
+    "fromAccount" : "360956468304",
+    "toAccount" : "096002961975",
+    "amount" : 956.22,
+    "currency" : "EUR",
+    "fromBankSwift" : "NBPLT21",
+    "toBankSwift" : "NBYEMYMY",
+    "fromBankName" : "Šiaulių Bankas",
+    "toBankName" : "National Bank of Yemen",
+    "timestamp" : "2025-06-16T23:30:42.684293",
+    "status" : "PENDING",
+    "fromIBAN" : "LT807300000945713842",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "LT",
+    "toCountryCode" : "NBYEMYMY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a598850f-3aa8-4276-863b-0c57ac66c99b",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "6c28314c-08f3-439d-9dfb-2b2d1f5578ee",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 956.22 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:14.647454",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.647462",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.649424"
+}

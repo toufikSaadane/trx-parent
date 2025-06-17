@@ -1,0 +1,10 @@
+{1:F01CBSYSYMMXXX0}{3:{108:a954ecd1-a23e-43}}
+{4:
+:20:a954ecd1-a23e-43
+:23B:CRED
+:32A:250617SYP69702,87
+:50K:/5962210353
+Central Bank of Syria
+:59:/9329736341
+Banco Azteca
+}

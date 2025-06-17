@@ -1,0 +1,30 @@
+{
+  "transactionId" : "d5f13779-866f-4948-a65b-23a3a44e96ef",
+  "transaction" : {
+    "transactionId" : "d5f13779-866f-4948-a65b-23a3a44e96ef",
+    "fromAccount" : "324446871538",
+    "toAccount" : "575604155217",
+    "amount" : 2300.87,
+    "currency" : "USD",
+    "fromBankSwift" : "CITIUS33",
+    "toBankSwift" : "ICBKCNBJ",
+    "fromBankName" : "Citibank N.A.",
+    "toBankName" : "Industrial and Commercial Bank of China",
+    "timestamp" : "2025-06-15T09:17:28.889155",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d5f13779-866f-4948-a65b-23a3a44e96ef",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.895024",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.8981"
+}

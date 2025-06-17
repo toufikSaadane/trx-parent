@@ -1,0 +1,38 @@
+{
+  "transactionId" : "076591be-bfcf-4730-b3b3-281ff10fd737",
+  "transaction" : {
+    "transactionId" : "076591be-bfcf-4730-b3b3-281ff10fd737",
+    "fromAccount" : "6946015793",
+    "toAccount" : "857777511440",
+    "amount" : 533.90,
+    "currency" : "EUR",
+    "fromBankSwift" : "SOGEFRPP",
+    "toBankSwift" : "GTBINGLA",
+    "fromBankName" : "Société Générale",
+    "toBankName" : "Guaranty Trust Bank PLC",
+    "timestamp" : "2025-06-17T13:52:09.740083",
+    "status" : "PENDING",
+    "fromIBAN" : "FR2530003000000000565984130",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "NG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "076591be-bfcf-4730-b3b3-281ff10fd737",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "b1355efd-974e-468b-9f75-0fcc7a4e8319",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 533.90 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:18.739652",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.739662",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.743704"
+}

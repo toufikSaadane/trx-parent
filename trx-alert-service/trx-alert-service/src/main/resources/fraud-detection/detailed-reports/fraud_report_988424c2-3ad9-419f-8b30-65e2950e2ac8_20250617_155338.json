@@ -1,0 +1,38 @@
+{
+  "transactionId" : "988424c2-3ad9-419f-8b30-65e2950e2ac8",
+  "transaction" : {
+    "transactionId" : "988424c2-3ad9-419f-8b30-65e2950e2ac8",
+    "fromAccount" : "4458092903",
+    "toAccount" : "775956659403",
+    "amount" : 9999.99,
+    "currency" : "CHF",
+    "fromBankSwift" : "UBSWCHZH80A",
+    "toBankSwift" : "SCBLKENX",
+    "fromBankName" : "UBS Switzerland AG",
+    "toBankName" : "Standard Chartered Kenya",
+    "timestamp" : "2025-06-17T14:06:39.728025",
+    "status" : "PROCESSING",
+    "fromIBAN" : "CH3424300000636499702",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "KE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "988424c2-3ad9-419f-8b30-65e2950e2ac8",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "34a45cf6-a57c-41df-b4c5-9f8e56c74c24",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9999.99 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-17T15:53:38.757588",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.757594",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.760992"
+}

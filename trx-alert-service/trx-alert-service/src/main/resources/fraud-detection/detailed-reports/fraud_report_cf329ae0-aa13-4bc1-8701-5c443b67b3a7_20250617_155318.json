@@ -1,0 +1,46 @@
+{
+  "transactionId" : "cf329ae0-aa13-4bc1-8701-5c443b67b3a7",
+  "transaction" : {
+    "transactionId" : "cf329ae0-aa13-4bc1-8701-5c443b67b3a7",
+    "fromAccount" : "438915239632",
+    "toAccount" : "3541990209",
+    "amount" : 24399.75,
+    "currency" : "CAD",
+    "fromBankSwift" : "ROYCCAT2XXX",
+    "toBankSwift" : "KOEXKRSE",
+    "fromBankName" : "RBC Royal Bank",
+    "toBankName" : "Korea Exchange Bank",
+    "timestamp" : "2025-06-17T13:08:15.819288",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "KR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "cf329ae0-aa13-4bc1-8701-5c443b67b3a7",
+    "riskScore" : 130,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "cc6b4d73-7b9e-4ec9-b946-2831ac7cdc34",
+      "fraudType" : "CRYPTOCURRENCY_KEYWORDS",
+      "description" : "Cryptocurrency Keywords",
+      "severity" : 6,
+      "details" : "Transaction contains cryptocurrency-related keywords in bank names: RBC Royal Bank Korea Exchange Bank",
+      "timestamp" : "2025-06-17T15:53:18.33113",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "0fd5a831-e348-452e-8a24-c2a2e2998cbb",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 24399.75 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:18.331234",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.331242",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.333347"
+}

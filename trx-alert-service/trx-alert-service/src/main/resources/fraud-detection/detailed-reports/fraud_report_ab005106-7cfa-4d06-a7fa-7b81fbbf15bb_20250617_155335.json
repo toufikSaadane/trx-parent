@@ -1,0 +1,46 @@
+{
+  "transactionId" : "ab005106-7cfa-4d06-a7fa-7b81fbbf15bb",
+  "transaction" : {
+    "transactionId" : "ab005106-7cfa-4d06-a7fa-7b81fbbf15bb",
+    "fromAccount" : "282358425398",
+    "toAccount" : "2711035750",
+    "amount" : 78253.15,
+    "currency" : "MXN",
+    "fromBankSwift" : "SCOTMXMM",
+    "toBankSwift" : "KBZBMMMY",
+    "fromBankName" : "Scotiabank Mexico",
+    "toBankName" : "KBZ Bank",
+    "timestamp" : "2025-06-16T22:45:00.567641",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ab005106-7cfa-4d06-a7fa-7b81fbbf15bb",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "648a728d-bcdf-41ce-96e9-0486819b8dde",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MX, To: MM",
+      "timestamp" : "2025-06-17T15:53:35.56112",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "635417ac-eb6a-4c4d-b992-83103dd52e76",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 78253.15 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:35.56114",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:35.561147",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:35.56471"
+}

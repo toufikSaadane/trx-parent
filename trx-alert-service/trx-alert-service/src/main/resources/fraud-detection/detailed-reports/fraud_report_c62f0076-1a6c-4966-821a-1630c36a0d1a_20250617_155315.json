@@ -1,0 +1,38 @@
+{
+  "transactionId" : "c62f0076-1a6c-4966-821a-1630c36a0d1a",
+  "transaction" : {
+    "transactionId" : "c62f0076-1a6c-4966-821a-1630c36a0d1a",
+    "fromAccount" : "830056981535",
+    "toAccount" : "961874655817",
+    "amount" : 79694.17,
+    "currency" : "CNY",
+    "fromBankSwift" : "CIBKCNBJ",
+    "toBankSwift" : "ROYCCAT2XXX",
+    "fromBankName" : "China CITIC Bank",
+    "toBankName" : "RBC Royal Bank",
+    "timestamp" : "2025-06-17T14:05:19.733083",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c62f0076-1a6c-4966-821a-1630c36a0d1a",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "d7f4d17d-11c9-4c4b-af78-dbd76aaab0c0",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 79694.17 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:15.905276",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.905286",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.90702"
+}

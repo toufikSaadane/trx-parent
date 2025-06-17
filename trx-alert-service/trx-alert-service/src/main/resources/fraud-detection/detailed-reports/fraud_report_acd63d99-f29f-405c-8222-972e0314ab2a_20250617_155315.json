@@ -1,0 +1,38 @@
+{
+  "transactionId" : "acd63d99-f29f-405c-8222-972e0314ab2a",
+  "transaction" : {
+    "transactionId" : "acd63d99-f29f-405c-8222-972e0314ab2a",
+    "fromAccount" : "119056083486",
+    "toAccount" : "921122817193",
+    "amount" : 638.51,
+    "currency" : "BEL",
+    "fromBankSwift" : "KREDBEBB",
+    "toBankSwift" : "NWBKGB2L",
+    "fromBankName" : "KBC Bank N.V.",
+    "toBankName" : "NatWest Group",
+    "timestamp" : "2025-06-17T13:53:49.737921",
+    "status" : "PROCESSING",
+    "fromIBAN" : "BE24733000692351",
+    "toIBAN" : "GB13600000000273769946",
+    "fromCountryCode" : "BE",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "acd63d99-f29f-405c-8222-972e0314ab2a",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "6e51ecac-90f0-4d12-9cd0-88d5f8ffcc85",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 638.51 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.671108",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.671113",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.673585"
+}

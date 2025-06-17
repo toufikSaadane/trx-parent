@@ -1,0 +1,38 @@
+{
+  "transactionId" : "1c1641ab-d68e-4d43-9dce-d86267ff2754",
+  "transaction" : {
+    "transactionId" : "1c1641ab-d68e-4d43-9dce-d86267ff2754",
+    "fromAccount" : "084743206005",
+    "toAccount" : "0751720208",
+    "amount" : 51603.42,
+    "currency" : "USD",
+    "fromBankSwift" : "BOFAUS3NXXX",
+    "toBankSwift" : "WESTPAC",
+    "fromBankName" : "Bank of America N.A.",
+    "toBankName" : "Westpac Banking Corp",
+    "timestamp" : "2025-06-17T13:54:29.737627",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1c1641ab-d68e-4d43-9dce-d86267ff2754",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "5600f93c-bd53-48c4-9894-5f8d392ae760",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 51603.42 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:18.886712",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.886721",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.889168"
+}

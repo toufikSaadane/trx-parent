@@ -1,0 +1,38 @@
+{
+  "transactionId" : "0dea2ee2-8737-4bc5-a8e6-af5a7154efa4",
+  "transaction" : {
+    "transactionId" : "0dea2ee2-8737-4bc5-a8e6-af5a7154efa4",
+    "fromAccount" : "4352554580",
+    "toAccount" : "7685405519",
+    "amount" : 653.69,
+    "currency" : "GBP",
+    "fromBankSwift" : "NWBKGB2L",
+    "toBankSwift" : "NBYEMYMY",
+    "fromBankName" : "NatWest Group",
+    "toBankName" : "National Bank of Yemen",
+    "timestamp" : "2025-06-17T13:51:19.742051",
+    "status" : "PENDING",
+    "fromIBAN" : "GB46600000001553407029",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "NBYEMYMY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "0dea2ee2-8737-4bc5-a8e6-af5a7154efa4",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "bcbad3ac-fcd7-4432-b658-3ba1f3bf50c4",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 653.69 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:18.683163",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.683173",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.686782"
+}

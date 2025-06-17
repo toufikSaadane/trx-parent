@@ -1,0 +1,38 @@
+{
+  "transactionId" : "6d827d22-34fb-4270-89e5-efa32b64ac21",
+  "transaction" : {
+    "transactionId" : "6d827d22-34fb-4270-89e5-efa32b64ac21",
+    "fromAccount" : "4658890205",
+    "toAccount" : "927295568901",
+    "amount" : 24875.68,
+    "currency" : "BRL",
+    "fromBankSwift" : "CIBVBRSP",
+    "toBankSwift" : "COBADEFF",
+    "fromBankName" : "Banco Votorantim",
+    "toBankName" : "Commerzbank AG",
+    "timestamp" : "2025-06-17T13:59:19.737784",
+    "status" : "PROCESSING",
+    "fromIBAN" : "BR06655000100001545524973",
+    "toIBAN" : "DE98100400001364256589",
+    "fromCountryCode" : "BR",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6d827d22-34fb-4270-89e5-efa32b64ac21",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "8cb23c30-de8e-4d0a-ba5b-6928c4ff9d00",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 24875.68 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:24.676644",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.676654",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.680077"
+}

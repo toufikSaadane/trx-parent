@@ -1,0 +1,54 @@
+{
+  "transactionId" : "e70fa899-5a13-4b9f-a104-ada9004b85a3",
+  "transaction" : {
+    "transactionId" : "e70fa899-5a13-4b9f-a104-ada9004b85a3",
+    "fromAccount" : "655179540607",
+    "toAccount" : "772940435743",
+    "amount" : 50000,
+    "currency" : "IRR",
+    "fromBankSwift" : "MELLATIR",
+    "toBankSwift" : "SBININBB104",
+    "fromBankName" : "Bank Mellat",
+    "toBankName" : "State Bank of India",
+    "timestamp" : "2025-06-17T13:07:35.815103",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IR",
+    "toCountryCode" : "IN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e70fa899-5a13-4b9f-a104-ada9004b85a3",
+    "riskScore" : 190,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "f4807c10-e896-46c7-8060-035ee63859d0",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: IR, To: IN",
+      "timestamp" : "2025-06-17T15:53:37.012525",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "f440b12c-f5d3-4c1c-a083-e7e7b1b60604",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 50000 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:37.012561",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "a109f8ac-26bf-49d7-81cb-99cb5cd2e781",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 50000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:37.012583",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.012591",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.016558"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "6a82a62e-4c4e-47d4-99ce-588ed06b7790",
+  "transaction" : {
+    "transactionId" : "6a82a62e-4c4e-47d4-99ce-588ed06b7790",
+    "fromAccount" : "817653955023",
+    "toAccount" : "6205327431",
+    "amount" : 10000,
+    "currency" : "EUR",
+    "fromBankSwift" : "DEUTDEFF",
+    "toBankSwift" : "HKBCCATT",
+    "fromBankName" : "Deutsche Bank AG",
+    "toBankName" : "Hongkong and Shanghai Banking Corp",
+    "timestamp" : "2025-06-17T14:04:29.735207",
+    "status" : "PROCESSING",
+    "fromIBAN" : "DE78500700101620909806",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6a82a62e-4c4e-47d4-99ce-588ed06b7790",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "f0f4e149-4544-494a-a132-85c43bd4c69e",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 10000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:25.07773",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.077745",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.082598"
+}

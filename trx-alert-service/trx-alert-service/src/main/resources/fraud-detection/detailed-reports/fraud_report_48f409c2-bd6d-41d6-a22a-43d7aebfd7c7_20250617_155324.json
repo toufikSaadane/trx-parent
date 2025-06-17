@@ -1,0 +1,30 @@
+{
+  "transactionId" : "48f409c2-bd6d-41d6-a22a-43d7aebfd7c7",
+  "transaction" : {
+    "transactionId" : "48f409c2-bd6d-41d6-a22a-43d7aebfd7c7",
+    "fromAccount" : "890075652560",
+    "toAccount" : "930709434196",
+    "amount" : 3080.4,
+    "currency" : "USD",
+    "fromBankSwift" : "SCBLUS33",
+    "toBankSwift" : "BOFAUS3NXXX",
+    "fromBankName" : "Standard Chartered USA",
+    "toBankName" : "Bank of America N.A.",
+    "timestamp" : "2025-06-17T13:57:59.742678",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "48f409c2-bd6d-41d6-a22a-43d7aebfd7c7",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.540587",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.544936"
+}

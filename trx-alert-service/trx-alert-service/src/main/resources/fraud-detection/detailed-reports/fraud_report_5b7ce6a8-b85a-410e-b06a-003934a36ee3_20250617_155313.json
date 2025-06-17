@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5b7ce6a8-b85a-410e-b06a-003934a36ee3",
+  "transaction" : {
+    "transactionId" : "5b7ce6a8-b85a-410e-b06a-003934a36ee3",
+    "fromAccount" : "119909678323",
+    "toAccount" : "905301461149",
+    "amount" : 1302.48,
+    "currency" : "KPW",
+    "fromBankSwift" : "FTBKKPRKX",
+    "toBankSwift" : "SHBKKRSE",
+    "fromBankName" : "Foreign Trade Bank",
+    "toBankName" : "Shinhan Bank",
+    "timestamp" : "2025-06-16T23:17:07.127559",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "KR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5b7ce6a8-b85a-410e-b06a-003934a36ee3",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "b969631e-3f08-4738-9f74-be4fa7c2776a",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: KR",
+      "timestamp" : "2025-06-17T15:53:13.662775",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.662791",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.663491"
+}

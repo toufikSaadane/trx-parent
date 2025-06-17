@@ -1,0 +1,38 @@
+{
+  "transactionId" : "f87c2bc8-9958-4ac2-9c9a-81bd8a194586",
+  "transaction" : {
+    "transactionId" : "f87c2bc8-9958-4ac2-9c9a-81bd8a194586",
+    "fromAccount" : "174434078425",
+    "toAccount" : "685872918624",
+    "amount" : 2000,
+    "currency" : "EUR",
+    "fromBankSwift" : "ABNANL2A",
+    "toBankSwift" : "ITMRITMM",
+    "fromBankName" : "ABN AMRO Bank N.V.",
+    "toBankName" : "Intesa Sanpaolo S.p.A.",
+    "timestamp" : "2025-06-16T23:30:02.679491",
+    "status" : "PROCESSING",
+    "fromIBAN" : "NL6430002123832435",
+    "toIBAN" : "IT1603069000000001041622872",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "IT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f87c2bc8-9958-4ac2-9c9a-81bd8a194586",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "be06cc6c-f310-4b87-a0e5-63b774ded238",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 2000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:14.623063",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.623071",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.625188"
+}

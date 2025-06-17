@@ -1,0 +1,46 @@
+{
+  "transactionId" : "32937800-6742-421f-8386-4c5cb1ae1882",
+  "transaction" : {
+    "transactionId" : "32937800-6742-421f-8386-4c5cb1ae1882",
+    "fromAccount" : "617790311650",
+    "toAccount" : "361883433869",
+    "amount" : 995.39,
+    "currency" : "CAD",
+    "fromBankSwift" : "NOSCCATT",
+    "toBankSwift" : "ARABSYMMXXX",
+    "fromBankName" : "Scotiabank",
+    "toBankName" : "Arab Bank Syria",
+    "timestamp" : "2025-06-17T14:13:04.625718",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "32937800-6742-421f-8386-4c5cb1ae1882",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "b2f16f4e-d9ba-43df-8644-9d75ab3abaea",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CA, To: SY",
+      "timestamp" : "2025-06-17T15:53:26.054555",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "f4b2ca2e-962e-4b52-822b-2c5c1fc82246",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 995.39 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:26.054601",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.05462",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.060358"
+}

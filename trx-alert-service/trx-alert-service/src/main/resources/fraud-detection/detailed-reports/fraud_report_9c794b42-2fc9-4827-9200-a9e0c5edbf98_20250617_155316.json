@@ -1,0 +1,38 @@
+{
+  "transactionId" : "9c794b42-2fc9-4827-9200-a9e0c5edbf98",
+  "transaction" : {
+    "transactionId" : "9c794b42-2fc9-4827-9200-a9e0c5edbf98",
+    "fromAccount" : "199234925690",
+    "toAccount" : "001550571202",
+    "amount" : 650.99,
+    "currency" : "EUR",
+    "fromBankSwift" : "CRLYFRPP",
+    "toBankSwift" : "RABONL2U",
+    "fromBankName" : "Crédit Lyonnais",
+    "toBankName" : "Rabobank",
+    "timestamp" : "2025-06-13T15:52:59.200483",
+    "status" : "FAILED",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9c794b42-2fc9-4827-9200-a9e0c5edbf98",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "50d95732-2cc1-444b-b086-c00589742ac7",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 650.99 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:16.510922",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.510984",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.515015"
+}

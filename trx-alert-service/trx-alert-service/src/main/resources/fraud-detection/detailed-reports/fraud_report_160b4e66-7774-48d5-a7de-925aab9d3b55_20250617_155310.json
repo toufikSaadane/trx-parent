@@ -1,0 +1,38 @@
+{
+  "transactionId" : "160b4e66-7774-48d5-a7de-925aab9d3b55",
+  "transaction" : {
+    "transactionId" : "160b4e66-7774-48d5-a7de-925aab9d3b55",
+    "fromAccount" : "349460469900",
+    "toAccount" : "567904180094",
+    "amount" : 247.54,
+    "currency" : "USD",
+    "fromBankSwift" : "WFBIUS6S",
+    "toBankSwift" : "HSBCNZ2A",
+    "fromBankName" : "Wells Fargo Bank N.A.",
+    "toBankName" : "HSBC New Zealand",
+    "timestamp" : "2025-06-11T10:52:40.620966",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "NZ"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "160b4e66-7774-48d5-a7de-925aab9d3b55",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "5983e7fc-0f52-42d0-81b7-36c749099c61",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 247.54 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.838387",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.838405",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.839125"
+}

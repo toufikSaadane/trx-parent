@@ -1,0 +1,30 @@
+{
+  "transactionId" : "7282f9b2-2ed1-4aa4-909c-6a314328b7c0",
+  "transaction" : {
+    "transactionId" : "7282f9b2-2ed1-4aa4-909c-6a314328b7c0",
+    "fromAccount" : "542889377514",
+    "toAccount" : "150427171763",
+    "amount" : 7989.59,
+    "currency" : "INR",
+    "fromBankSwift" : "SBININBB",
+    "toBankSwift" : "GTBINGLA",
+    "fromBankName" : "State Bank of India",
+    "toBankName" : "Guaranty Trust Bank PLC",
+    "timestamp" : "2025-06-16T23:36:26.250151",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IN",
+    "toCountryCode" : "NG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7282f9b2-2ed1-4aa4-909c-6a314328b7c0",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.152822",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.157361"
+}

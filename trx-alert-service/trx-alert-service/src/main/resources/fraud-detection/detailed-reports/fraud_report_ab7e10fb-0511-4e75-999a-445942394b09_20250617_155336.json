@@ -1,0 +1,46 @@
+{
+  "transactionId" : "ab7e10fb-0511-4e75-999a-445942394b09",
+  "transaction" : {
+    "transactionId" : "ab7e10fb-0511-4e75-999a-445942394b09",
+    "fromAccount" : "2672234685",
+    "toAccount" : "174495581695",
+    "amount" : 20141.00,
+    "currency" : "AFN",
+    "fromBankSwift" : "GHBKAFKA",
+    "toBankSwift" : "SHBKKRSE",
+    "fromBankName" : "Ghazanfar Bank",
+    "toBankName" : "Shinhan Bank",
+    "timestamp" : "2025-06-16T23:36:35.910111",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AF",
+    "toCountryCode" : "KR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ab7e10fb-0511-4e75-999a-445942394b09",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "25d987a6-bcfe-40f0-b2d5-b67e9fbefa71",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AF, To: KR",
+      "timestamp" : "2025-06-17T15:53:36.163187",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "dc18dc54-3376-4a34-94ee-648bdb499ad9",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 20141.00 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:36.163305",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.163314",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.166659"
+}

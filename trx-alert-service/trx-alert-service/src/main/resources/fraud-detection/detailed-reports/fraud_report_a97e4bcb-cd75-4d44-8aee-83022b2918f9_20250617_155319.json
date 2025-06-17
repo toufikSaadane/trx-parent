@@ -1,0 +1,30 @@
+{
+  "transactionId" : "a97e4bcb-cd75-4d44-8aee-83022b2918f9",
+  "transaction" : {
+    "transactionId" : "a97e4bcb-cd75-4d44-8aee-83022b2918f9",
+    "fromAccount" : "6754591432",
+    "toAccount" : "652166643580",
+    "amount" : 13429.07,
+    "currency" : "BRL",
+    "fromBankSwift" : "BSCHBRSP",
+    "toBankSwift" : "DEUTDEFF",
+    "fromBankName" : "Santander Brasil",
+    "toBankName" : "Deutsche Bank AG",
+    "timestamp" : "2025-06-17T14:02:44.734376",
+    "status" : "PROCESSING",
+    "fromIBAN" : "BR93904008880000004140422",
+    "toIBAN" : "DE49500700100076700010",
+    "fromCountryCode" : "BR",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a97e4bcb-cd75-4d44-8aee-83022b2918f9",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.435004",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.438992"
+}

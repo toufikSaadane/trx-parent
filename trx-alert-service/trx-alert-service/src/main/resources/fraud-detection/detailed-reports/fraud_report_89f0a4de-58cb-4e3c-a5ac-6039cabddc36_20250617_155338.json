@@ -1,0 +1,46 @@
+{
+  "transactionId" : "89f0a4de-58cb-4e3c-a5ac-6039cabddc36",
+  "transaction" : {
+    "transactionId" : "89f0a4de-58cb-4e3c-a5ac-6039cabddc36",
+    "fromAccount" : "158316155592",
+    "toAccount" : "007294945025",
+    "amount" : 221.5,
+    "currency" : "MMK",
+    "fromBankSwift" : "CBMMMY2X",
+    "toBankSwift" : "BOFMCAM2XXX",
+    "fromBankName" : "CB Bank",
+    "toBankName" : "Bank of Montreal",
+    "timestamp" : "2025-06-17T14:00:59.733981",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MM",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "89f0a4de-58cb-4e3c-a5ac-6039cabddc36",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "bb2320aa-2aed-41ad-9ba7-a53eb7ff48e6",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MM, To: CA",
+      "timestamp" : "2025-06-17T15:53:38.308108",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "12c32405-57cc-4e73-acdb-4f00726ad04b",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 221.5 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:38.308128",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.308136",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.311494"
+}

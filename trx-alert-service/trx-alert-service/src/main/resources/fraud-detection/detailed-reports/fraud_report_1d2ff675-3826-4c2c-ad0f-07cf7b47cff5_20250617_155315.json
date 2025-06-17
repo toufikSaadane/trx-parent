@@ -1,0 +1,38 @@
+{
+  "transactionId" : "1d2ff675-3826-4c2c-ad0f-07cf7b47cff5",
+  "transaction" : {
+    "transactionId" : "1d2ff675-3826-4c2c-ad0f-07cf7b47cff5",
+    "fromAccount" : "981844421709",
+    "toAccount" : "095147528865",
+    "amount" : 446.47,
+    "currency" : "RUB",
+    "fromBankSwift" : "VTBRRUMM",
+    "toBankSwift" : "HKBCCATT",
+    "fromBankName" : "VTB Bank",
+    "toBankName" : "Hongkong and Shanghai Banking Corp",
+    "timestamp" : "2025-06-17T14:00:49.737531",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "RU",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1d2ff675-3826-4c2c-ad0f-07cf7b47cff5",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "cd39f5d1-2be1-4e38-ba3e-2c793990fdb8",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 446.47 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.809916",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.809934",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.814002"
+}

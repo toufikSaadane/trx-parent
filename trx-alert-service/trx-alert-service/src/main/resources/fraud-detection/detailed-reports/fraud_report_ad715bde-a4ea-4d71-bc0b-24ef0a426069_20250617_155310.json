@@ -1,0 +1,46 @@
+{
+  "transactionId" : "ad715bde-a4ea-4d71-bc0b-24ef0a426069",
+  "transaction" : {
+    "transactionId" : "ad715bde-a4ea-4d71-bc0b-24ef0a426069",
+    "fromAccount" : "2890208449",
+    "toAccount" : "663494040364",
+    "amount" : 707.67,
+    "currency" : "EUR",
+    "fromBankSwift" : "CRLYFRPP",
+    "toBankSwift" : "KOEXKRSE",
+    "fromBankName" : "Crédit Lyonnais",
+    "toBankName" : "Korea Exchange Bank",
+    "timestamp" : "2025-06-11T11:15:28.217667",
+    "status" : "COMPLETED",
+    "fromIBAN" : "FR7030002000000001984991268",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "KR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ad715bde-a4ea-4d71-bc0b-24ef0a426069",
+    "riskScore" : 100,
+    "riskLevel" : "CRITICAL",
+    "alerts" : [ {
+      "alertId" : "3d550d20-4768-4846-b1d6-92c803481266",
+      "fraudType" : "CRYPTOCURRENCY_KEYWORDS",
+      "description" : "Cryptocurrency Keywords",
+      "severity" : 6,
+      "details" : "Transaction contains cryptocurrency-related keywords in bank names: Crédit Lyonnais Korea Exchange Bank",
+      "timestamp" : "2025-06-17T15:53:10.88531",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "e0b713ac-8a87-4396-b0cf-fdc05a419e99",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 707.67 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.885404",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.885422",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.885706"
+}

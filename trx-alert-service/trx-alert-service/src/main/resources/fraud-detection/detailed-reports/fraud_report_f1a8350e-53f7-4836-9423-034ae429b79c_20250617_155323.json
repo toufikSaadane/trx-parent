@@ -1,0 +1,38 @@
+{
+  "transactionId" : "f1a8350e-53f7-4836-9423-034ae429b79c",
+  "transaction" : {
+    "transactionId" : "f1a8350e-53f7-4836-9423-034ae429b79c",
+    "fromAccount" : "3215968014",
+    "toAccount" : "104506180130",
+    "amount" : 315.13,
+    "currency" : "EUR",
+    "fromBankSwift" : "BNPAFRPP",
+    "toBankSwift" : "ABNANL2A",
+    "fromBankName" : "BNP Paribas",
+    "toBankName" : "ABN AMRO",
+    "timestamp" : "2025-06-17T13:03:29.211933",
+    "status" : "PROCESSING",
+    "fromIBAN" : "FR6430004000000000635801029",
+    "toIBAN" : "NL2951701366674133",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f1a8350e-53f7-4836-9423-034ae429b79c",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "708bfac5-460d-49d5-8c7b-4dd037947fbc",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 315.13 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:23.310931",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.310942",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.315466"
+}

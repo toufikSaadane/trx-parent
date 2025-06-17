@@ -1,0 +1,38 @@
+{
+  "transactionId" : "526ca728-3b8d-4082-bab3-dbcfe7cce64b",
+  "transaction" : {
+    "transactionId" : "526ca728-3b8d-4082-bab3-dbcfe7cce64b",
+    "fromAccount" : "046083331823",
+    "toAccount" : "2837957258",
+    "amount" : 6568.46,
+    "currency" : "KWR",
+    "fromBankSwift" : "KOEXKRSE",
+    "toBankSwift" : "WESTPAC",
+    "fromBankName" : "Korea Exchange Bank",
+    "toBankName" : "Westpac Banking Corp",
+    "timestamp" : "2025-06-13T15:50:39.203376",
+    "status" : "FAILED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KR",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "526ca728-3b8d-4082-bab3-dbcfe7cce64b",
+    "riskScore" : 60,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "185b6214-ef41-4c43-b008-469a33047034",
+      "fraudType" : "CRYPTOCURRENCY_KEYWORDS",
+      "description" : "Cryptocurrency Keywords",
+      "severity" : 6,
+      "details" : "Transaction contains cryptocurrency-related keywords in bank names: Korea Exchange Bank Westpac Banking Corp",
+      "timestamp" : "2025-06-17T15:53:11.695481",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:11.695493",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:11.696881"
+}

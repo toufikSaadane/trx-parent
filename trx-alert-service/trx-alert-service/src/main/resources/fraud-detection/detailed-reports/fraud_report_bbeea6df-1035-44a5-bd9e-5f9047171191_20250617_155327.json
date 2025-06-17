@@ -1,0 +1,46 @@
+{
+  "transactionId" : "bbeea6df-1035-44a5-bd9e-5f9047171191",
+  "transaction" : {
+    "transactionId" : "bbeea6df-1035-44a5-bd9e-5f9047171191",
+    "fromAccount" : "098932132612",
+    "toAccount" : "5670480364",
+    "amount" : 18402.46,
+    "currency" : "GBP",
+    "fromBankSwift" : "BARCGB22",
+    "toBankSwift" : "ARABSYMMXXX",
+    "fromBankName" : "Barclays Bank PLC",
+    "toBankName" : "Arab Bank Syria",
+    "timestamp" : "2025-06-17T14:20:34.647343",
+    "status" : "PENDING",
+    "fromIBAN" : "GB31204545001759475824",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "bbeea6df-1035-44a5-bd9e-5f9047171191",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "fa0ac08a-c332-474f-bbc3-cd3c7101c0ec",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: GB, To: SY",
+      "timestamp" : "2025-06-17T15:53:27.214255",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "3cb3b43b-01f8-4c2b-8b66-791e0e57cae1",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 18402.46 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:27.214318",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:27.214335",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:27.220666"
+}

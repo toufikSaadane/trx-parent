@@ -1,0 +1,38 @@
+{
+  "transactionId" : "b547a584-a207-4d91-a5b1-6ac4f00b18f2",
+  "transaction" : {
+    "transactionId" : "b547a584-a207-4d91-a5b1-6ac4f00b18f2",
+    "fromAccount" : "992925243693",
+    "toAccount" : "893326317795",
+    "amount" : 83.29,
+    "currency" : "EUR",
+    "fromBankSwift" : "CAIXESBB",
+    "toBankSwift" : "RABONL2U",
+    "fromBankName" : "CaixaBank",
+    "toBankName" : "Rabobank",
+    "timestamp" : "2025-06-15T09:15:45.026591",
+    "status" : "PENDING",
+    "fromIBAN" : "ES6821000000000754617449",
+    "toIBAN" : "NL6330001697671489",
+    "fromCountryCode" : "ES",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b547a584-a207-4d91-a5b1-6ac4f00b18f2",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "cd8810b0-28ff-44f5-a988-37f8ac586dbd",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 83.29 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:13.378689",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.378696",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.380462"
+}

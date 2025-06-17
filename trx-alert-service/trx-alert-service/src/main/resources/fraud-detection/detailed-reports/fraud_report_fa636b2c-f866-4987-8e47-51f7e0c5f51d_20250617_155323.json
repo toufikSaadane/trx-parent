@@ -1,0 +1,38 @@
+{
+  "transactionId" : "fa636b2c-f866-4987-8e47-51f7e0c5f51d",
+  "transaction" : {
+    "transactionId" : "fa636b2c-f866-4987-8e47-51f7e0c5f51d",
+    "fromAccount" : "911791546626",
+    "toAccount" : "8928895853",
+    "amount" : 9999.99,
+    "currency" : "SGD",
+    "fromBankSwift" : "DBSSSGSG",
+    "toBankSwift" : "EBILAEADXXX",
+    "fromBankName" : "DBS Bank",
+    "toBankName" : "Emirates NBD Bank",
+    "timestamp" : "2025-06-17T13:50:49.740599",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "AE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "fa636b2c-f866-4987-8e47-51f7e0c5f51d",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "0772ca7f-2919-45ef-9ce0-6bddcbc5aaf9",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9999.99 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-17T15:53:23.991061",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.991073",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.994386"
+}

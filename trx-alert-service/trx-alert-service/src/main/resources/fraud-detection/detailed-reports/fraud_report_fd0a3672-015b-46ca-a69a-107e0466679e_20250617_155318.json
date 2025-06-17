@@ -1,0 +1,38 @@
+{
+  "transactionId" : "fd0a3672-015b-46ca-a69a-107e0466679e",
+  "transaction" : {
+    "transactionId" : "fd0a3672-015b-46ca-a69a-107e0466679e",
+    "fromAccount" : "309867222877",
+    "toAccount" : "431578058022",
+    "amount" : 2301.37,
+    "currency" : "USD",
+    "fromBankSwift" : "BOFAUS3N",
+    "toBankSwift" : "AYABMMMY",
+    "fromBankName" : "Bank of America N.A.",
+    "toBankName" : "Ayeyarwady Bank",
+    "timestamp" : "2025-06-17T13:50:29.741531",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "fd0a3672-015b-46ca-a69a-107e0466679e",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "db780e2e-e042-4724-a90b-51d706e66059",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: US, To: MM",
+      "timestamp" : "2025-06-17T15:53:18.630635",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.630664",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.633136"
+}

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "46784035-5044-4c89-8330-8edfb58aff40",
+  "transaction" : {
+    "transactionId" : "46784035-5044-4c89-8330-8edfb58aff40",
+    "fromAccount" : "885028613033",
+    "toAccount" : "743055526956",
+    "amount" : 2000,
+    "currency" : "SYP",
+    "fromBankSwift" : "CBSYSYMM",
+    "toBankSwift" : "CBSYSYMMXXX",
+    "fromBankName" : "Central Bank of Syria",
+    "toBankName" : "Commercial Bank of Syria",
+    "timestamp" : "2025-06-17T14:17:24.627298",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "46784035-5044-4c89-8330-8edfb58aff40",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "9e52eaa9-00cd-4ec7-a1d5-b08bc0109d3b",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: SY",
+      "timestamp" : "2025-06-17T15:53:20.497071",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "d669b40f-b8ec-481e-8bc1-4ed3f37676ee",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 2000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:20.497108",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.497117",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.500454"
+}

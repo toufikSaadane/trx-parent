@@ -1,0 +1,30 @@
+{
+  "transactionId" : "7d86f7be-c42d-489a-8a4b-ffe578a2323c",
+  "transaction" : {
+    "transactionId" : "7d86f7be-c42d-489a-8a4b-ffe578a2323c",
+    "fromAccount" : "022106692312",
+    "toAccount" : "445962831476",
+    "amount" : 2384.57,
+    "currency" : "USD",
+    "fromBankSwift" : "BOTKJPJT",
+    "toBankSwift" : "WELLSFARG",
+    "fromBankName" : "MUFG Bank Ltd",
+    "toBankName" : "Wells Fargo Bank",
+    "timestamp" : "2025-06-17T14:14:34.626104",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "JP",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7d86f7be-c42d-489a-8a4b-ffe578a2323c",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.289568",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.29447"
+}

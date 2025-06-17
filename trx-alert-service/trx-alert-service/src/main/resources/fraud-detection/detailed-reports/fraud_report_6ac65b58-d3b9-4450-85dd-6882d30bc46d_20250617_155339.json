@@ -1,0 +1,30 @@
+{
+  "transactionId" : "6ac65b58-d3b9-4450-85dd-6882d30bc46d",
+  "transaction" : {
+    "transactionId" : "6ac65b58-d3b9-4450-85dd-6882d30bc46d",
+    "fromAccount" : "218579161448",
+    "toAccount" : "8467210189",
+    "amount" : 2073.34,
+    "currency" : "AUD",
+    "fromBankSwift" : "BNPAAU2S",
+    "toBankSwift" : "BOFMCAM2",
+    "fromBankName" : "BNP Paribas Australia",
+    "toBankName" : "Bank of Montreal",
+    "timestamp" : "2025-06-17T15:47:03.928052",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6ac65b58-d3b9-4450-85dd-6882d30bc46d",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.881763",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.886244"
+}

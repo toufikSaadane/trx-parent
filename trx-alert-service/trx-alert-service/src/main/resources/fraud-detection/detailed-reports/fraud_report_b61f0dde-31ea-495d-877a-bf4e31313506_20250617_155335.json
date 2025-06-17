@@ -1,0 +1,38 @@
+{
+  "transactionId" : "b61f0dde-31ea-495d-877a-bf4e31313506",
+  "transaction" : {
+    "transactionId" : "b61f0dde-31ea-495d-877a-bf4e31313506",
+    "fromAccount" : "1501798856",
+    "toAccount" : "749145221954",
+    "amount" : 66830.62,
+    "currency" : "EUR",
+    "fromBankSwift" : "BNPAFRPP",
+    "toBankSwift" : "HYVEDEMM",
+    "fromBankName" : "BNP Paribas SA",
+    "toBankName" : "UniCredit Bank AG",
+    "timestamp" : "2025-06-16T22:46:40.564395",
+    "status" : "PROCESSING",
+    "fromIBAN" : "FR8930004000000001872459496",
+    "toIBAN" : "DE88700202700279163005",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b61f0dde-31ea-495d-877a-bf4e31313506",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "377b023c-d3a5-47f3-a4ba-69a6708bcd02",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 66830.62 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:35.682721",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:35.682728",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:35.686165"
+}

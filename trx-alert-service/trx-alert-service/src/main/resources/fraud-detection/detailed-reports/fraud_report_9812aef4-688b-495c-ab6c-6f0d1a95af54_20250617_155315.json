@@ -1,0 +1,38 @@
+{
+  "transactionId" : "9812aef4-688b-495c-ab6c-6f0d1a95af54",
+  "transaction" : {
+    "transactionId" : "9812aef4-688b-495c-ab6c-6f0d1a95af54",
+    "fromAccount" : "501746167399",
+    "toAccount" : "522188337073",
+    "amount" : 75355.64,
+    "currency" : "MXN",
+    "fromBankSwift" : "SCOTMXMM",
+    "toBankSwift" : "TDOMCATTTOR",
+    "fromBankName" : "Scotiabank Mexico",
+    "toBankName" : "Toronto-Dominion Bank (TD)",
+    "timestamp" : "2025-06-17T13:56:19.740908",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9812aef4-688b-495c-ab6c-6f0d1a95af54",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "fec63b43-cb5f-4924-a884-b5d4bfd9c842",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 75355.64 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:15.714248",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.714259",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.715785"
+}

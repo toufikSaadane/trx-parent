@@ -1,0 +1,38 @@
+{
+  "transactionId" : "e6961b87-8450-4d33-bda0-12184cebe8c6",
+  "transaction" : {
+    "transactionId" : "e6961b87-8450-4d33-bda0-12184cebe8c6",
+    "fromAccount" : "918773738408",
+    "toAccount" : "139066182870",
+    "amount" : 16561.13,
+    "currency" : "CNY",
+    "fromBankSwift" : "HSBCCNSH",
+    "toBankSwift" : "ROYCCAT2XXX",
+    "fromBankName" : "HSBC Bank (China) Company Limited",
+    "toBankName" : "RBC Royal Bank",
+    "timestamp" : "2025-06-16T23:27:52.67874",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e6961b87-8450-4d33-bda0-12184cebe8c6",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "1be0623e-23a5-4ed4-9693-2c3b94bae999",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 16561.13 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:13.730097",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.730104",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.730904"
+}

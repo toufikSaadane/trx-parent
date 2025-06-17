@@ -1,0 +1,46 @@
+{
+  "transactionId" : "8f80ed57-201b-400b-aef7-39e3fff4bea7",
+  "transaction" : {
+    "transactionId" : "8f80ed57-201b-400b-aef7-39e3fff4bea7",
+    "fromAccount" : "501548933020",
+    "toAccount" : "000876210310",
+    "amount" : 681.12,
+    "currency" : "BRL",
+    "fromBankSwift" : "CIBVBRSP",
+    "toBankSwift" : "MELLATIR",
+    "fromBankName" : "Banco Votorantim",
+    "toBankName" : "Bank Mellat",
+    "timestamp" : "2025-06-17T11:01:02.526507",
+    "status" : "PROCESSING",
+    "fromIBAN" : "BR84655000100000120015352",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "BR",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8f80ed57-201b-400b-aef7-39e3fff4bea7",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "d827c7aa-5291-4711-b0f6-ff32bfbaeeaf",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: BR, To: IR",
+      "timestamp" : "2025-06-17T15:53:17.937983",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "491f5ae7-fe73-4bd8-87d6-cdf9e430e615",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 681.12 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:17.938007",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.938017",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.940125"
+}

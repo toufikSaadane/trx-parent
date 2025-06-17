@@ -1,0 +1,30 @@
+{
+  "transactionId" : "3ef9719c-375d-488e-be8c-111768b32a21",
+  "transaction" : {
+    "transactionId" : "3ef9719c-375d-488e-be8c-111768b32a21",
+    "fromAccount" : "1159728171",
+    "toAccount" : "3796711058",
+    "amount" : 8365.03,
+    "currency" : "ZAR",
+    "fromBankSwift" : "NEDSZAJJ",
+    "toBankSwift" : "BOFMCAM2",
+    "fromBankName" : "Nedbank",
+    "toBankName" : "Bank of Montreal",
+    "timestamp" : "2025-06-17T14:12:59.626319",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "ZA",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3ef9719c-375d-488e-be8c-111768b32a21",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.046319",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.052902"
+}

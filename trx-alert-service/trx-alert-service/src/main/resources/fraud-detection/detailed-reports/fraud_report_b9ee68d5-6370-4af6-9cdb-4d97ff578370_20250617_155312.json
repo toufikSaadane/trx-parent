@@ -1,0 +1,38 @@
+{
+  "transactionId" : "b9ee68d5-6370-4af6-9cdb-4d97ff578370",
+  "transaction" : {
+    "transactionId" : "b9ee68d5-6370-4af6-9cdb-4d97ff578370",
+    "fromAccount" : "545584128850",
+    "toAccount" : "737483540308",
+    "amount" : 85424.78,
+    "currency" : "CHF",
+    "fromBankSwift" : "CRESCHZZ",
+    "toBankSwift" : "DEUTAU2S",
+    "fromBankName" : "Credit Suisse",
+    "toBankName" : "Deutsche Bank AG",
+    "timestamp" : "2025-06-15T09:16:46.642315",
+    "status" : "COMPLETED",
+    "fromIBAN" : "CH5848350000367450185",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b9ee68d5-6370-4af6-9cdb-4d97ff578370",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "36777066-e739-4e77-84ff-3af46b46a068",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 85424.78 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:12.793738",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:12.793743",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:12.794346"
+}

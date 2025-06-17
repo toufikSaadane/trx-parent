@@ -1,0 +1,46 @@
+{
+  "transactionId" : "ca238d54-32e0-4d3d-ace7-1f4bbe332a08",
+  "transaction" : {
+    "transactionId" : "ca238d54-32e0-4d3d-ace7-1f4bbe332a08",
+    "fromAccount" : "8843809109",
+    "toAccount" : "140382324516",
+    "amount" : 24749.12,
+    "currency" : "BRL",
+    "fromBankSwift" : "BSCHBRSP",
+    "toBankSwift" : "KORYOKT2X",
+    "fromBankName" : "Santander Brasil",
+    "toBankName" : "Korea Taesong Bank",
+    "timestamp" : "2025-06-17T09:38:57.618145",
+    "status" : "PROCESSING",
+    "fromIBAN" : "BR61904008880000453876648",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "BR",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ca238d54-32e0-4d3d-ace7-1f4bbe332a08",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "6fc8ff6d-896a-4a37-b65d-9b1738441b3a",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: BR, To: KP",
+      "timestamp" : "2025-06-17T15:53:36.318669",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "465edd08-88b2-49f5-a27f-a1bd75007f63",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 24749.12 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:36.318779",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.318787",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.32214"
+}

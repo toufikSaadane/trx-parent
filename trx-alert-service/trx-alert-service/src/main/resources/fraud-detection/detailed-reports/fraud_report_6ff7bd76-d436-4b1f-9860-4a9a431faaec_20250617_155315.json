@@ -1,0 +1,46 @@
+{
+  "transactionId" : "6ff7bd76-d436-4b1f-9860-4a9a431faaec",
+  "transaction" : {
+    "transactionId" : "6ff7bd76-d436-4b1f-9860-4a9a431faaec",
+    "fromAccount" : "093215519670",
+    "toAccount" : "105508266408",
+    "amount" : 369.25,
+    "currency" : "KWR",
+    "fromBankSwift" : "KOEXKRSE",
+    "toBankSwift" : "ABNANL2A",
+    "fromBankName" : "Korea Exchange Bank",
+    "toBankName" : "ABN AMRO Bank N.V.",
+    "timestamp" : "2025-06-17T14:07:44.64663",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "NL6830002238783377",
+    "fromCountryCode" : "KR",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6ff7bd76-d436-4b1f-9860-4a9a431faaec",
+    "riskScore" : 100,
+    "riskLevel" : "CRITICAL",
+    "alerts" : [ {
+      "alertId" : "e9ad7306-86c1-4b03-bda8-84e5f2e4e354",
+      "fraudType" : "CRYPTOCURRENCY_KEYWORDS",
+      "description" : "Cryptocurrency Keywords",
+      "severity" : 6,
+      "details" : "Transaction contains cryptocurrency-related keywords in bank names: Korea Exchange Bank ABN AMRO Bank N.V.",
+      "timestamp" : "2025-06-17T15:53:15.947068",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "862942fd-b53a-46f8-b4ad-25e1664a5042",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 369.25 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.94708",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.94709",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.94881"
+}

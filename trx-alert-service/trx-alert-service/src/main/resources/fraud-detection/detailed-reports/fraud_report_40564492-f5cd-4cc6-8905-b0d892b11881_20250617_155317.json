@@ -1,0 +1,30 @@
+{
+  "transactionId" : "40564492-f5cd-4cc6-8905-b0d892b11881",
+  "transaction" : {
+    "transactionId" : "40564492-f5cd-4cc6-8905-b0d892b11881",
+    "fromAccount" : "981885588813",
+    "toAccount" : "875816189488",
+    "amount" : 8432.95,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33XXX",
+    "toBankSwift" : "RABONL2U",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "Rabobank",
+    "timestamp" : "2025-06-16T22:44:10.903348",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "NL1030001262319177",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "40564492-f5cd-4cc6-8905-b0d892b11881",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.191052",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.194801"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "8743da88-719b-47ab-be16-b337755ceba4",
+  "transaction" : {
+    "transactionId" : "8743da88-719b-47ab-be16-b337755ceba4",
+    "fromAccount" : "489321977804",
+    "toAccount" : "913918624685",
+    "amount" : 60901.27,
+    "currency" : "",
+    "fromBankSwift" : "SBZAZAJJ",
+    "toBankSwift" : "BKTOTRIS",
+    "fromBankName" : "Standard Bank of South Africa",
+    "toBankName" : "Türkiye İş Bankası",
+    "timestamp" : "2025-06-17T13:08:25.824046",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "TR936400000000001213754336",
+    "fromCountryCode" : "ZA",
+    "toCountryCode" : "TR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8743da88-719b-47ab-be16-b337755ceba4",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "63e28019-313a-43d6-b353-57db86857dd1",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 60901.27 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:23.614927",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.614937",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.618265"
+}

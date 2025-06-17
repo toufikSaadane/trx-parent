@@ -1,0 +1,30 @@
+{
+  "transactionId" : "d5a10e4c-6b3e-45b5-bcd1-ee8125ff78e6",
+  "transaction" : {
+    "transactionId" : "d5a10e4c-6b3e-45b5-bcd1-ee8125ff78e6",
+    "fromAccount" : "545637960473",
+    "toAccount" : "180079889299",
+    "amount" : 5646.84,
+    "currency" : "AUD",
+    "fromBankSwift" : "BNPAAU2S",
+    "toBankSwift" : "HYVEDEMM",
+    "fromBankName" : "BNP Paribas Australia",
+    "toBankName" : "UniCredit Bank AG",
+    "timestamp" : "2025-06-17T13:58:09.739084",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "DE16700202700553963458",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d5a10e4c-6b3e-45b5-bcd1-ee8125ff78e6",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.081179",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.085731"
+}

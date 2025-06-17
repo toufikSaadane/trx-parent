@@ -1,0 +1,38 @@
+{
+  "transactionId" : "741bf74c-0675-4627-82eb-4f2fe0ad2d39",
+  "transaction" : {
+    "transactionId" : "741bf74c-0675-4627-82eb-4f2fe0ad2d39",
+    "fromAccount" : "990545693678",
+    "toAccount" : "954869024853",
+    "amount" : 5000,
+    "currency" : "CHF",
+    "fromBankSwift" : "UBSWCHZH80A",
+    "toBankSwift" : "CRESCHZZ",
+    "fromBankName" : "UBS Switzerland AG",
+    "toBankName" : "Credit Suisse",
+    "timestamp" : "2025-06-17T14:03:49.739688",
+    "status" : "PENDING",
+    "fromIBAN" : "CH6224300000902684755",
+    "toIBAN" : "CH5648350001655803833",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "741bf74c-0675-4627-82eb-4f2fe0ad2d39",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "cf5fbdcd-410e-4c93-b857-c667a750719e",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 5000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:25.025782",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.025793",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.030578"
+}

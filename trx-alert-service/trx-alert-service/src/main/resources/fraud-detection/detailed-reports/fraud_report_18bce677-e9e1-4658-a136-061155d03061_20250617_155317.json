@@ -1,0 +1,46 @@
+{
+  "transactionId" : "18bce677-e9e1-4658-a136-061155d03061",
+  "transaction" : {
+    "transactionId" : "18bce677-e9e1-4658-a136-061155d03061",
+    "fromAccount" : "564923768199",
+    "toAccount" : "7268583403",
+    "amount" : 1000,
+    "currency" : "EUR",
+    "fromBankSwift" : "ABNANL2A",
+    "toBankSwift" : "KORYOKT2X",
+    "fromBankName" : "ABN AMRO Bank N.V.",
+    "toBankName" : "Korea Taesong Bank",
+    "timestamp" : "2025-06-16T22:44:30.560502",
+    "status" : "PROCESSING",
+    "fromIBAN" : "NL2630002688724065",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "18bce677-e9e1-4658-a136-061155d03061",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "aac08d8c-fa05-4c6a-986c-51044f316e18",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: NL, To: KP",
+      "timestamp" : "2025-06-17T15:53:17.208797",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "20c31f98-29af-4582-b20f-1fac118cf0e8",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 1000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:17.208856",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.208867",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.210925"
+}

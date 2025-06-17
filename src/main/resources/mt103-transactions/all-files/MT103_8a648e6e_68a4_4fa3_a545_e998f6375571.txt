@@ -1,0 +1,23 @@
+{1:F01HSBCCNSHXXX0}{2:I103SBZAZAJJXXX0N}{3:{108:8a648e6e-68a4-4f}}
+{4:
+:20:8a648e6e-68a4-4f
+:23B:CRED
+:32A:250617CNY21545,14
+:33B:CNY21545,14
+:71A:SHA
+:50K:/656038498283
+HSBC Bank (China) Company Limited
+123 Main Street
+Shanghai, China
+:52A:HSBCCNSH
+:53B:/HSBCCNSH
+:56A:DEUTDEFFXXX
+:57A:SBZAZAJJ
+:59:/289939361531
+Standard Bank of South Africa
+987 Trade Plaza
+Johannesburg, South Africa
+:70:Payment for services - TXN ID: 8a648e6e - Cross-border transfer
+:72:/INS/HSBCCNSH
+}
+{5:{MAC:B313D469}{CHK:9BE83BC75536}}

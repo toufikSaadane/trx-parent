@@ -1,0 +1,46 @@
+{
+  "transactionId" : "11a88951-d652-4053-a628-b2e5bb1c4084",
+  "transaction" : {
+    "transactionId" : "11a88951-d652-4053-a628-b2e5bb1c4084",
+    "fromAccount" : "768797830343",
+    "toAccount" : "220726363813",
+    "amount" : 9999.99,
+    "currency" : "EUR",
+    "fromBankSwift" : "HYVEDEMM",
+    "toBankSwift" : "GHBKAFKA",
+    "fromBankName" : "UniCredit Bank AG",
+    "toBankName" : "Ghazanfar Bank",
+    "timestamp" : "2025-06-17T14:04:49.734074",
+    "status" : "PENDING",
+    "fromIBAN" : "DE89700202700993736185",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "11a88951-d652-4053-a628-b2e5bb1c4084",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "a6e83d1f-b39a-47b1-9ae0-3b20d60f854f",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: DE, To: AF",
+      "timestamp" : "2025-06-17T15:53:19.597166",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "20cc5450-0c78-4c66-a622-67b1b0262c8e",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9999.99 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-17T15:53:19.597206",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.597215",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.600181"
+}

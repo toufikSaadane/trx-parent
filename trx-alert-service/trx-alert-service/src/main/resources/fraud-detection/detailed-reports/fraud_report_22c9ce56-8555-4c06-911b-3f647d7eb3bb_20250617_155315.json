@@ -1,0 +1,38 @@
+{
+  "transactionId" : "22c9ce56-8555-4c06-911b-3f647d7eb3bb",
+  "transaction" : {
+    "transactionId" : "22c9ce56-8555-4c06-911b-3f647d7eb3bb",
+    "fromAccount" : "3675191168",
+    "toAccount" : "055679807840",
+    "amount" : 514.53,
+    "currency" : "BRL",
+    "fromBankSwift" : "CIBVBRSP",
+    "toBankSwift" : "BMOCCAMT",
+    "fromBankName" : "Banco Votorantim",
+    "toBankName" : "Bank of Montreal",
+    "timestamp" : "2025-06-16T23:19:12.119215",
+    "status" : "PENDING",
+    "fromIBAN" : "BR36655000100001930194229",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "BR",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "22c9ce56-8555-4c06-911b-3f647d7eb3bb",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "eed27360-4419-4747-9b63-6f46a77b82ba",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 514.53 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.204218",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.204226",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.206286"
+}

@@ -1,0 +1,30 @@
+{
+  "transactionId" : "098f37ab-a5e5-49b9-95be-935f30e71c9d",
+  "transaction" : {
+    "transactionId" : "098f37ab-a5e5-49b9-95be-935f30e71c9d",
+    "fromAccount" : "124912667200",
+    "toAccount" : "559490729919",
+    "amount" : 7055.25,
+    "currency" : "EUR",
+    "fromBankSwift" : "DEUTDEFF",
+    "toBankSwift" : "DBSSSGSG",
+    "fromBankName" : "Deutsche Bank AG",
+    "toBankName" : "DBS Bank",
+    "timestamp" : "2025-06-17T15:47:23.934375",
+    "status" : "PENDING",
+    "fromIBAN" : "DE12500700100971189086",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "SG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "098f37ab-a5e5-49b9-95be-935f30e71c9d",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:27.310376",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:27.325643"
+}

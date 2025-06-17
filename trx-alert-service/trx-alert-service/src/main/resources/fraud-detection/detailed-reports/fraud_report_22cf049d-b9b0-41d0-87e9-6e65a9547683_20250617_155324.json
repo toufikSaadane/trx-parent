@@ -1,0 +1,46 @@
+{
+  "transactionId" : "22cf049d-b9b0-41d0-87e9-6e65a9547683",
+  "transaction" : {
+    "transactionId" : "22cf049d-b9b0-41d0-87e9-6e65a9547683",
+    "fromAccount" : "579087861238",
+    "toAccount" : "034167431106",
+    "amount" : 863.78,
+    "currency" : "KPW",
+    "fromBankSwift" : "KORYOKT2X",
+    "toBankSwift" : "UBSWCHZH",
+    "fromBankName" : "Korea Taesong Bank",
+    "toBankName" : "UBS Group AG",
+    "timestamp" : "2025-06-17T13:58:29.737179",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "CH3424400001116029722",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "22cf049d-b9b0-41d0-87e9-6e65a9547683",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "f7e49598-1c82-4f5a-b7ff-9b678167e0b3",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: CH",
+      "timestamp" : "2025-06-17T15:53:24.581097",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "50e342af-7556-481f-88ea-2b843bef7e32",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 863.78 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:24.581112",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.581119",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.597977"
+}

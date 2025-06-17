@@ -1,0 +1,38 @@
+{
+  "transactionId" : "a4de8d0b-9bce-4253-a548-10ae504dec65",
+  "transaction" : {
+    "transactionId" : "a4de8d0b-9bce-4253-a548-10ae504dec65",
+    "fromAccount" : "1862542247",
+    "toAccount" : "660251690748",
+    "amount" : 22391.02,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33XXX",
+    "toBankSwift" : "LLOYGB2L",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "Lloyds Bank",
+    "timestamp" : "2025-06-17T13:07:55.812419",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "GB82300000000873942932",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a4de8d0b-9bce-4253-a548-10ae504dec65",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "758afbfc-2f41-4ae8-9c3a-29beff44ea57",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 22391.02 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:37.037935",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.037944",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.041496"
+}

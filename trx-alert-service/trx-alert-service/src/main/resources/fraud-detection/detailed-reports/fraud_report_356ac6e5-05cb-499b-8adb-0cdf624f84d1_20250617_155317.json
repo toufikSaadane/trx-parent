@@ -1,0 +1,46 @@
+{
+  "transactionId" : "356ac6e5-05cb-499b-8adb-0cdf624f84d1",
+  "transaction" : {
+    "transactionId" : "356ac6e5-05cb-499b-8adb-0cdf624f84d1",
+    "fromAccount" : "7839616351",
+    "toAccount" : "0609485677",
+    "amount" : 94509.72,
+    "currency" : "USD",
+    "fromBankSwift" : "MELIIRTH",
+    "toBankSwift" : "CHASUS33XXX",
+    "fromBankName" : "Bank Melli Iran",
+    "toBankName" : "JPMorgan Chase Bank",
+    "timestamp" : "2025-06-16T23:30:02.687514",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IR",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "356ac6e5-05cb-499b-8adb-0cdf624f84d1",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "43c6b4b1-c404-4990-a969-3a1dc6f6c2ea",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: IR, To: US",
+      "timestamp" : "2025-06-17T15:53:17.578711",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "668a2e66-6668-4d18-9e76-5fb675180995",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 94509.72 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:17.578745",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.578763",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.580755"
+}

@@ -1,0 +1,30 @@
+{
+  "transactionId" : "2cd74205-8265-4d48-bbf7-e6e28f8196e1",
+  "transaction" : {
+    "transactionId" : "2cd74205-8265-4d48-bbf7-e6e28f8196e1",
+    "fromAccount" : "061823081544",
+    "toAccount" : "606729123286",
+    "amount" : 3771.71,
+    "currency" : "EUR",
+    "fromBankSwift" : "HANDFIHH",
+    "toBankSwift" : "ABNANL2A",
+    "fromBankName" : "Handelsbanken",
+    "toBankName" : "ABN AMRO Bank N.V.",
+    "timestamp" : "2025-06-17T10:49:10.93976",
+    "status" : "PENDING",
+    "fromIBAN" : "FI6030000864095450",
+    "toIBAN" : "NL9730002413484608",
+    "fromCountryCode" : "FI",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "2cd74205-8265-4d48-bbf7-e6e28f8196e1",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.833746",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.837106"
+}

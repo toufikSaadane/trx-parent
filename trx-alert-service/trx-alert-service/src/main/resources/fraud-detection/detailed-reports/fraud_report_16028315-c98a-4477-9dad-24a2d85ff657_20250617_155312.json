@@ -1,0 +1,46 @@
+{
+  "transactionId" : "16028315-c98a-4477-9dad-24a2d85ff657",
+  "transaction" : {
+    "transactionId" : "16028315-c98a-4477-9dad-24a2d85ff657",
+    "fromAccount" : "5054552452",
+    "toAccount" : "687501570687",
+    "amount" : 37.71,
+    "currency" : "NGN",
+    "fromBankSwift" : "GTBINGLA",
+    "toBankSwift" : "CBSYSYMMXXX",
+    "fromBankName" : "Guaranty Trust Bank PLC",
+    "toBankName" : "Commercial Bank of Syria",
+    "timestamp" : "2025-06-16T22:46:10.585112",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NG",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "16028315-c98a-4477-9dad-24a2d85ff657",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "9670c36e-23b7-486a-af22-f6c69930fc66",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: NG, To: SY",
+      "timestamp" : "2025-06-17T15:53:12.489421",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "fbf285de-8038-4497-8624-9e3cd506e3c0",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 37.71 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:12.489442",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:12.489447",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:12.49008"
+}

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "3cdb92fe-4db8-4631-8526-aaf5cecc9831",
+  "transaction" : {
+    "transactionId" : "3cdb92fe-4db8-4631-8526-aaf5cecc9831",
+    "fromAccount" : "720926491681",
+    "toAccount" : "256995761024",
+    "amount" : 767.7,
+    "currency" : "EUR",
+    "fromBankSwift" : "NBPLT21",
+    "toBankSwift" : "KESHAVIRZIR",
+    "fromBankName" : "Šiaulių Bankas",
+    "toBankName" : "Bank Keshavarzi",
+    "timestamp" : "2025-06-17T14:16:14.643522",
+    "status" : "PENDING",
+    "fromIBAN" : "LT347300001532556619",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "LT",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3cdb92fe-4db8-4631-8526-aaf5cecc9831",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "32fe53d9-e192-4614-9439-440eb21b0420",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: LT, To: IR",
+      "timestamp" : "2025-06-17T15:53:16.152105",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "b6ff1277-5c30-48b9-ac12-9f98cdcfdd24",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 767.7 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:16.152239",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.152255",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.154216"
+}

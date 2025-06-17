@@ -1,0 +1,38 @@
+{
+  "transactionId" : "598989c0-dbb5-4ce1-8c1b-72264d149685",
+  "transaction" : {
+    "transactionId" : "598989c0-dbb5-4ce1-8c1b-72264d149685",
+    "fromAccount" : "806862532088",
+    "toAccount" : "578641216344",
+    "amount" : 8984.32,
+    "currency" : "CAD",
+    "fromBankSwift" : "NOSCCATTXXX",
+    "toBankSwift" : "CBSYSYMM",
+    "fromBankName" : "The Bank of Nova Scotia",
+    "toBankName" : "Central Bank of Syria",
+    "timestamp" : "2025-06-17T15:48:08.924597",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "598989c0-dbb5-4ce1-8c1b-72264d149685",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "58afe408-885a-4ca1-a533-e0b1c1908a88",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CA, To: SY",
+      "timestamp" : "2025-06-17T15:53:27.439324",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:27.439379",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:27.444679"
+}

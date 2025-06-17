@@ -1,0 +1,38 @@
+{
+  "transactionId" : "2e0fb1dd-c1c6-4dcb-b9b2-d1fafb54b8df",
+  "transaction" : {
+    "transactionId" : "2e0fb1dd-c1c6-4dcb-b9b2-d1fafb54b8df",
+    "fromAccount" : "517852546785",
+    "toAccount" : "504504106522",
+    "amount" : 20059.04,
+    "currency" : "CAD",
+    "fromBankSwift" : "HKBCCATT",
+    "toBankSwift" : "CIBKCNBJ",
+    "fromBankName" : "Hongkong and Shanghai Banking Corp",
+    "toBankName" : "China CITIC Bank",
+    "timestamp" : "2025-06-17T14:17:04.625428",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "2e0fb1dd-c1c6-4dcb-b9b2-d1fafb54b8df",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "6f3262b3-2f33-4d34-9ac0-45947ad6a8ec",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 20059.04 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:26.65966",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.659677",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.663846"
+}

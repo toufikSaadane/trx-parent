@@ -1,0 +1,38 @@
+{
+  "transactionId" : "03ac74aa-2569-45fa-b9f1-494fb2ee8398",
+  "transaction" : {
+    "transactionId" : "03ac74aa-2569-45fa-b9f1-494fb2ee8398",
+    "fromAccount" : "7544161223",
+    "toAccount" : "641117135594",
+    "amount" : 2612.09,
+    "currency" : "KWR",
+    "fromBankSwift" : "KOEXKRSE",
+    "toBankSwift" : "HSBCGB2L",
+    "fromBankName" : "Korea Exchange Bank",
+    "toBankName" : "HSBC UK",
+    "timestamp" : "2025-06-15T21:27:26.683716",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "GB70404404001758825503",
+    "fromCountryCode" : "KR",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "03ac74aa-2569-45fa-b9f1-494fb2ee8398",
+    "riskScore" : 60,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "a890fb29-ea24-4add-bb28-898c245bf4c7",
+      "fraudType" : "CRYPTOCURRENCY_KEYWORDS",
+      "description" : "Cryptocurrency Keywords",
+      "severity" : 6,
+      "details" : "Transaction contains cryptocurrency-related keywords in bank names: Korea Exchange Bank HSBC UK",
+      "timestamp" : "2025-06-17T15:53:17.158207",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.158225",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.161549"
+}

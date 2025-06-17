@@ -1,0 +1,38 @@
+{
+  "transactionId" : "f30cc92d-292b-4564-bd40-fc77d4bfbb3e",
+  "transaction" : {
+    "transactionId" : "f30cc92d-292b-4564-bd40-fc77d4bfbb3e",
+    "fromAccount" : "078743583100",
+    "toAccount" : "949005181042",
+    "amount" : 471.76,
+    "currency" : "SGD",
+    "fromBankSwift" : "DBSSSGSG",
+    "toBankSwift" : "TADHYEMY",
+    "fromBankName" : "DBS Bank",
+    "toBankName" : "Tadhamon International Islamic Bank",
+    "timestamp" : "2025-06-17T13:07:35.821781",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "TADHYOYMY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f30cc92d-292b-4564-bd40-fc77d4bfbb3e",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "488c6862-9850-4ba0-b2f8-739944a4379a",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 471.76 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.478643",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.478654",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.480923"
+}

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "73197ecf-549f-400d-9e75-a5a8a2aa5c5b",
+  "transaction" : {
+    "transactionId" : "73197ecf-549f-400d-9e75-a5a8a2aa5c5b",
+    "fromAccount" : "6276943467",
+    "toAccount" : "0106056860",
+    "amount" : 498.95,
+    "currency" : "KPW",
+    "fromBankSwift" : "FTBKKPRKX",
+    "toBankSwift" : "VTBRRUMM",
+    "fromBankName" : "Foreign Trade Bank",
+    "toBankName" : "VTB Bank",
+    "timestamp" : "2025-06-16T22:44:20.571367",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "RU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "73197ecf-549f-400d-9e75-a5a8a2aa5c5b",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "9fe8e781-f4c2-444d-a566-16f648aac6ed",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: RU",
+      "timestamp" : "2025-06-17T15:53:17.202004",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "cc1545a0-0a28-4732-a968-73e4ceaf32c2",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 498.95 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:17.202021",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.202028",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.203936"
+}

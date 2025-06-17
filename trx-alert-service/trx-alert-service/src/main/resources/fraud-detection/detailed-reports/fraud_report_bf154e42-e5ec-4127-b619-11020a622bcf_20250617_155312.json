@@ -1,0 +1,46 @@
+{
+  "transactionId" : "bf154e42-e5ec-4127-b619-11020a622bcf",
+  "transaction" : {
+    "transactionId" : "bf154e42-e5ec-4127-b619-11020a622bcf",
+    "fromAccount" : "524527832306",
+    "toAccount" : "453867119732",
+    "amount" : 10000,
+    "currency" : "SGD",
+    "fromBankSwift" : "DBSBSGSG",
+    "toBankSwift" : "AYABMMMY",
+    "fromBankName" : "DBS Bank",
+    "toBankName" : "Ayeyarwady Bank",
+    "timestamp" : "2025-06-16T22:46:20.561118",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "bf154e42-e5ec-4127-b619-11020a622bcf",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "129591a2-e12e-4c7c-87e5-f52d49278529",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SG, To: MM",
+      "timestamp" : "2025-06-17T15:53:12.490541",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "3b169a4e-4b0b-4576-b911-c6b78ab470ac",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 10000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:12.490559",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:12.490565",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:12.491309"
+}

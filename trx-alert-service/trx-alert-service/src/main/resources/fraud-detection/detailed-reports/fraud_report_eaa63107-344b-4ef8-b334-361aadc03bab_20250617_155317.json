@@ -1,0 +1,38 @@
+{
+  "transactionId" : "eaa63107-344b-4ef8-b334-361aadc03bab",
+  "transaction" : {
+    "transactionId" : "eaa63107-344b-4ef8-b334-361aadc03bab",
+    "fromAccount" : "917134599221",
+    "toAccount" : "876507344223",
+    "amount" : 18175.27,
+    "currency" : "USD",
+    "fromBankSwift" : "WFBIUS6S",
+    "toBankSwift" : "NOSCCATTXXX",
+    "fromBankName" : "Wells Fargo Bank N.A.",
+    "toBankName" : "The Bank of Nova Scotia",
+    "timestamp" : "2025-06-15T15:44:32.028781",
+    "status" : "COMPLETED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "eaa63107-344b-4ef8-b334-361aadc03bab",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "94c60b21-a4b8-45f4-b5e8-fc68cd00da59",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 18175.27 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:17.055595",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.055605",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.057609"
+}

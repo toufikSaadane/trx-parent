@@ -1,0 +1,36 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:16.048947
+// Transaction ID: f1149d0c-ae62-43b0-bfce-e2fb0bde4f63
+// Amount: 93.98 CAD
+// From: Toronto-Dominion Bank (TD)
+// To: Deutsche Bank AG
+// FRAUD STATUS: NORMAL
+// Risk Score: 40/100
+// Risk Level: MEDIUM
+// Fraud Alerts: 1
+//   - Frequent Small Amounts
+//=====================================
+
+{1:F01TDOMCATTTOR0}{2:I103DEUTDEFFXXX0N}{3:{108:f1149d0c-ae62-43}}
+{4:
+:20:f1149d0c-ae62-43
+:23B:CRED
+:32A:250617CAD93,98
+:33B:CAD93,98
+:71A:SHA
+:50K:/658193234891
+Toronto-Dominion Bank (TD)
+789 Commercial Blvd
+Toronto, Canada
+:52A:TDOMCATTTOR
+:53B:/TDOMCATTTOR
+:56A:DEUTDEFFXXX
+:57A:DEUTDEFF
+:59:/DE23500700100860787174
+Deutsche Bank AG
+654 Banking Center
+Frankfurt, Germany
+:70:Payment for services - TXN ID: f1149d0c - Cross-border transfer
+:72:/INS/TDOMCATTTOR
+}
+{5:{MAC:D3F6C2B7}{CHK:C474BF36B403}}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "8534b696-9f79-4667-8d50-906ff7fc2159",
+  "transaction" : {
+    "transactionId" : "8534b696-9f79-4667-8d50-906ff7fc2159",
+    "fromAccount" : "866760606346",
+    "toAccount" : "600361564366",
+    "amount" : 23924.10,
+    "currency" : "",
+    "fromBankSwift" : "SBZAZAJJ",
+    "toBankSwift" : "SCOTMXMM",
+    "fromBankName" : "Standard Bank of South Africa",
+    "toBankName" : "Scotiabank Mexico",
+    "timestamp" : "2025-06-16T23:30:12.679441",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "ZA",
+    "toCountryCode" : "MX"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8534b696-9f79-4667-8d50-906ff7fc2159",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "031b7222-bda4-4729-ace5-be44b81eefcc",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 23924.10 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:13.814014",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.814019",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.81495"
+}

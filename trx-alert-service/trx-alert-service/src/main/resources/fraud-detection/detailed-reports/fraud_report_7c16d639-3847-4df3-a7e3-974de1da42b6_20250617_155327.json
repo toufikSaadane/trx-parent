@@ -1,0 +1,46 @@
+{
+  "transactionId" : "7c16d639-3847-4df3-a7e3-974de1da42b6",
+  "transaction" : {
+    "transactionId" : "7c16d639-3847-4df3-a7e3-974de1da42b6",
+    "fromAccount" : "0523453447",
+    "toAccount" : "3673653060",
+    "amount" : 2000,
+    "currency" : "AFN",
+    "fromBankSwift" : "AZBAAFKAXXX",
+    "toBankSwift" : "KREDBEBB",
+    "fromBankName" : "Azizi Bank",
+    "toBankName" : "KBC Bank N.V.",
+    "timestamp" : "2025-06-17T15:50:46.47767",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "BE80733000275989",
+    "fromCountryCode" : "AF",
+    "toCountryCode" : "BE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7c16d639-3847-4df3-a7e3-974de1da42b6",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "1b307088-3f11-4069-927f-8455334a3261",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AF, To: BE",
+      "timestamp" : "2025-06-17T15:53:27.598775",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "56655daf-24a9-41ed-847e-c1ad8d2679ae",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 2000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:27.59883",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:27.598843",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:27.602738"
+}

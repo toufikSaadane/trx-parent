@@ -1,0 +1,38 @@
+{
+  "transactionId" : "138ac16e-fb27-48fa-bab3-052aa24498f9",
+  "transaction" : {
+    "transactionId" : "138ac16e-fb27-48fa-bab3-052aa24498f9",
+    "fromAccount" : "358400402395",
+    "toAccount" : "058408755187",
+    "amount" : 1648.27,
+    "currency" : "EUR",
+    "fromBankSwift" : "RABONL2U",
+    "toBankSwift" : "NBPLT21",
+    "fromBankName" : "Rabobank",
+    "toBankName" : "Šiaulių Bankas",
+    "timestamp" : "2025-06-17T02:12:30.315681",
+    "status" : "PROCESSING",
+    "fromIBAN" : "NL6430001433424265",
+    "toIBAN" : "LT937300001074982210",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "LT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "138ac16e-fb27-48fa-bab3-052aa24498f9",
+    "riskScore" : 50,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "bab1bc3d-6ae2-455e-ab8f-3813e2297da1",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 02:12:30.315681",
+      "timestamp" : "2025-06-17T15:53:18.049467",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.049475",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.052781"
+}

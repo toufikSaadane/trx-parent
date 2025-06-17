@@ -1,0 +1,38 @@
+{
+  "transactionId" : "ca402970-830e-4a31-9742-025b2b30d0a9",
+  "transaction" : {
+    "transactionId" : "ca402970-830e-4a31-9742-025b2b30d0a9",
+    "fromAccount" : "5637234145",
+    "toAccount" : "8506256451",
+    "amount" : 809.37,
+    "currency" : "EUR",
+    "fromBankSwift" : "HYVEDEMM",
+    "toBankSwift" : "UBSWCHZH80A",
+    "fromBankName" : "UniCredit Bank AG",
+    "toBankName" : "UBS Switzerland AG",
+    "timestamp" : "2025-06-13T15:50:59.213118",
+    "status" : "COMPLETED",
+    "fromIBAN" : "DE81700202701093656708",
+    "toIBAN" : "CH7224300000492512800",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ca402970-830e-4a31-9742-025b2b30d0a9",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "b9330be2-a703-4307-aec5-a8ec740d3bee",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 809.37 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.990572",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.99063",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.991743"
+}

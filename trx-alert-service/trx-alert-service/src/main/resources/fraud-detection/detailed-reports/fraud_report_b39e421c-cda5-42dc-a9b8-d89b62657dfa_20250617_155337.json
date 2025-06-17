@@ -1,0 +1,30 @@
+{
+  "transactionId" : "b39e421c-cda5-42dc-a9b8-d89b62657dfa",
+  "transaction" : {
+    "transactionId" : "b39e421c-cda5-42dc-a9b8-d89b62657dfa",
+    "fromAccount" : "030559971020",
+    "toAccount" : "9190590621",
+    "amount" : 3221.02,
+    "currency" : "BEL",
+    "fromBankSwift" : "KREDBEBB",
+    "toBankSwift" : "BARCGB22",
+    "fromBankName" : "KBC Bank N.V.",
+    "toBankName" : "Barclays Bank PLC",
+    "timestamp" : "2025-06-17T13:51:49.739694",
+    "status" : "PENDING",
+    "fromIBAN" : "BE72733000176999",
+    "toIBAN" : "GB19204545000795623512",
+    "fromCountryCode" : "BE",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b39e421c-cda5-42dc-a9b8-d89b62657dfa",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.537547",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.552963"
+}

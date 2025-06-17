@@ -1,0 +1,38 @@
+{
+  "transactionId" : "cf9b99b2-ab24-464a-8aa7-844f30953626",
+  "transaction" : {
+    "transactionId" : "cf9b99b2-ab24-464a-8aa7-844f30953626",
+    "fromAccount" : "298073883223",
+    "toAccount" : "9038349737",
+    "amount" : 17347.78,
+    "currency" : "USD",
+    "fromBankSwift" : "CITIUS33",
+    "toBankSwift" : "HSBCGB2L",
+    "fromBankName" : "Citibank N.A.",
+    "toBankName" : "HSBC UK",
+    "timestamp" : "2025-06-15T21:26:46.683859",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "GB50404404000815361377",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "cf9b99b2-ab24-464a-8aa7-844f30953626",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "79ebeb59-d69b-4539-8774-3f2b5f72d646",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 17347.78 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:17.118628",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.118637",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.120607"
+}

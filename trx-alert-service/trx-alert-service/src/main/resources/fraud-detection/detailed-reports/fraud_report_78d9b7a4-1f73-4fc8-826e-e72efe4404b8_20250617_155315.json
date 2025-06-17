@@ -1,0 +1,30 @@
+{
+  "transactionId" : "78d9b7a4-1f73-4fc8-826e-e72efe4404b8",
+  "transaction" : {
+    "transactionId" : "78d9b7a4-1f73-4fc8-826e-e72efe4404b8",
+    "fromAccount" : "929582158605",
+    "toAccount" : "766519713212",
+    "amount" : 3296.36,
+    "currency" : "YER",
+    "fromBankSwift" : "TADHYEMY",
+    "toBankSwift" : "BESCPTPL",
+    "fromBankName" : "Tadhamon International Islamic Bank",
+    "toBankName" : "Novo Banco",
+    "timestamp" : "2025-06-17T13:59:44.732749",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "PT52000700000001393743520",
+    "fromCountryCode" : "TADHYOYMY",
+    "toCountryCode" : "PT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "78d9b7a4-1f73-4fc8-826e-e72efe4404b8",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.785051",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.787814"
+}

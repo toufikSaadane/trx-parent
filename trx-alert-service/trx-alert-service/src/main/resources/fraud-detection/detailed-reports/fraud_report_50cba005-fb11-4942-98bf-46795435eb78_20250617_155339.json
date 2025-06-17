@@ -1,0 +1,38 @@
+{
+  "transactionId" : "50cba005-fb11-4942-98bf-46795435eb78",
+  "transaction" : {
+    "transactionId" : "50cba005-fb11-4942-98bf-46795435eb78",
+    "fromAccount" : "272462086814",
+    "toAccount" : "905115289329",
+    "amount" : 9999.99,
+    "currency" : "ZAR",
+    "fromBankSwift" : "NEDSZAJJ",
+    "toBankSwift" : "BCEELULL",
+    "fromBankName" : "Nedbank",
+    "toBankName" : "BCEE",
+    "timestamp" : "2025-06-17T14:14:14.629397",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "LU330010001006436802",
+    "fromCountryCode" : "ZA",
+    "toCountryCode" : "LU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "50cba005-fb11-4942-98bf-46795435eb78",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "b8f1ef6f-5131-4da1-9b1f-c151e2ea889e",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9999.99 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-17T15:53:39.328632",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.328639",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.332012"
+}

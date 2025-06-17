@@ -1,0 +1,38 @@
+{
+  "transactionId" : "b03a0718-1e55-4488-93e7-87238e6dfccf",
+  "transaction" : {
+    "transactionId" : "b03a0718-1e55-4488-93e7-87238e6dfccf",
+    "fromAccount" : "728146649738",
+    "toAccount" : "304773836890",
+    "amount" : 205.06,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33",
+    "toBankSwift" : "ITMRITMM",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "Intesa Sanpaolo S.p.A.",
+    "timestamp" : "2025-06-13T15:53:59.200818",
+    "status" : "FAILED",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "US",
+    "toCountryCode" : "IT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b03a0718-1e55-4488-93e7-87238e6dfccf",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "07c881d0-0cd0-4869-91f8-58455e874d24",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 205.06 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:34.50415",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:34.504196",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:34.51193"
+}

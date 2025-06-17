@@ -1,0 +1,38 @@
+{
+  "transactionId" : "8c4074f2-5ef8-4331-b488-2eaa256b2a6c",
+  "transaction" : {
+    "transactionId" : "8c4074f2-5ef8-4331-b488-2eaa256b2a6c",
+    "fromAccount" : "656243343646",
+    "toAccount" : "137970713796",
+    "amount" : 503.63,
+    "currency" : "EUR",
+    "fromBankSwift" : "NBPLT21",
+    "toBankSwift" : "SBERRUMM",
+    "fromBankName" : "Šiaulių Bankas",
+    "toBankName" : "Sberbank",
+    "timestamp" : "2025-06-17T11:50:00.324411",
+    "status" : "PROCESSING",
+    "fromIBAN" : "LT657300000314292224",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "LT",
+    "toCountryCode" : "RU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8c4074f2-5ef8-4331-b488-2eaa256b2a6c",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "441079ca-038d-4987-b0e8-f3afff662803",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 503.63 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.404682",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.4047",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.406982"
+}

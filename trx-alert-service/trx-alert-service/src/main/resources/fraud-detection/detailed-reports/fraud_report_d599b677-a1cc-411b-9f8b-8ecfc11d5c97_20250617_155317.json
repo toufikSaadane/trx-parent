@@ -1,0 +1,38 @@
+{
+  "transactionId" : "d599b677-a1cc-411b-9f8b-8ecfc11d5c97",
+  "transaction" : {
+    "transactionId" : "d599b677-a1cc-411b-9f8b-8ecfc11d5c97",
+    "fromAccount" : "840770348018",
+    "toAccount" : "9218863654",
+    "amount" : 3409.33,
+    "currency" : "EUR",
+    "fromBankSwift" : "ITMRITMM",
+    "toBankSwift" : "DEUTDEFF",
+    "fromBankName" : "Intesa Sanpaolo S.p.A.",
+    "toBankName" : "Deutsche Bank AG",
+    "timestamp" : "2025-06-16T03:14:53.678044",
+    "status" : "PROCESSING",
+    "fromIBAN" : "IT8403069000000000743663644",
+    "toIBAN" : "DE35500700100818856768",
+    "fromCountryCode" : "IT",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d599b677-a1cc-411b-9f8b-8ecfc11d5c97",
+    "riskScore" : 50,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "617edf4a-8277-491b-80de-638ca292337f",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 03:14:53.678044",
+      "timestamp" : "2025-06-17T15:53:17.512079",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.512101",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.515566"
+}

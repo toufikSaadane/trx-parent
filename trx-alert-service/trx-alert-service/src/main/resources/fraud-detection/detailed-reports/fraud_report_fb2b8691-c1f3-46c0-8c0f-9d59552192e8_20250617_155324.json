@@ -1,0 +1,46 @@
+{
+  "transactionId" : "fb2b8691-c1f3-46c0-8c0f-9d59552192e8",
+  "transaction" : {
+    "transactionId" : "fb2b8691-c1f3-46c0-8c0f-9d59552192e8",
+    "fromAccount" : "5446584048",
+    "toAccount" : "370791097819",
+    "amount" : 93.77,
+    "currency" : "AFN",
+    "fromBankSwift" : "GHBKAFKA",
+    "toBankSwift" : "BKTOTRIS",
+    "fromBankName" : "Ghazanfar Bank",
+    "toBankName" : "Türkiye İş Bankası",
+    "timestamp" : "2025-06-17T13:54:14.735308",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "TR776400000000001000771627",
+    "fromCountryCode" : "AF",
+    "toCountryCode" : "TR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "fb2b8691-c1f3-46c0-8c0f-9d59552192e8",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "0e67a95c-03ca-4370-86d9-dd4022690aec",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AF, To: TR",
+      "timestamp" : "2025-06-17T15:53:24.271716",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "a1ae6556-baa4-446b-9810-18479af0dc03",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 93.77 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:24.271831",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.271844",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.275184"
+}

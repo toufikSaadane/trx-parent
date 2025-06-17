@@ -1,0 +1,46 @@
+{
+  "transactionId" : "60f83a05-2b67-4e96-9f3c-fc1aede8d9ef",
+  "transaction" : {
+    "transactionId" : "60f83a05-2b67-4e96-9f3c-fc1aede8d9ef",
+    "fromAccount" : "319319670990",
+    "toAccount" : "580660994050",
+    "amount" : 731.39,
+    "currency" : "SYP",
+    "fromBankSwift" : "CBSYSYMM",
+    "toBankSwift" : "CBMMMY2X",
+    "fromBankName" : "Central Bank of Syria",
+    "toBankName" : "CB Bank",
+    "timestamp" : "2025-06-17T13:59:29.739032",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "60f83a05-2b67-4e96-9f3c-fc1aede8d9ef",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "e4e975c1-ad41-4682-b04b-311989c95ed4",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: MM",
+      "timestamp" : "2025-06-17T15:53:24.690601",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "cbeb3521-a059-4ced-921d-64cbc4181ff9",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 731.39 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:24.690617",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.690624",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.693925"
+}

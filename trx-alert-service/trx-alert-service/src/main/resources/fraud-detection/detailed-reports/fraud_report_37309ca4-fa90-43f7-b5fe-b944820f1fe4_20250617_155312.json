@@ -1,0 +1,38 @@
+{
+  "transactionId" : "37309ca4-fa90-43f7-b5fe-b944820f1fe4",
+  "transaction" : {
+    "transactionId" : "37309ca4-fa90-43f7-b5fe-b944820f1fe4",
+    "fromAccount" : "2340931404",
+    "toAccount" : "931515894692",
+    "amount" : 54620.96,
+    "currency" : "SGD",
+    "fromBankSwift" : "OCBCSGSG",
+    "toBankSwift" : "HKBCCATT",
+    "fromBankName" : "OCBC Bank",
+    "toBankName" : "Hongkong and Shanghai Banking Corp",
+    "timestamp" : "2025-06-13T15:57:49.19868",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "37309ca4-fa90-43f7-b5fe-b944820f1fe4",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "38e00414-43ee-4357-91b6-42f9b6ad5b76",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 54620.96 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:12.721932",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:12.721938",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:12.722618"
+}

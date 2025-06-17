@@ -1,0 +1,38 @@
+{
+  "transactionId" : "dd4fbdfc-474f-472d-bb2c-5104345f32a7",
+  "transaction" : {
+    "transactionId" : "dd4fbdfc-474f-472d-bb2c-5104345f32a7",
+    "fromAccount" : "134648267017",
+    "toAccount" : "698584281078",
+    "amount" : 67784.41,
+    "currency" : "AUD",
+    "fromBankSwift" : "DEUTAU2S",
+    "toBankSwift" : "NBYEMYMY",
+    "fromBankName" : "Deutsche Bank AG",
+    "toBankName" : "National Bank of Yemen",
+    "timestamp" : "2025-06-17T14:19:44.641593",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "NBYEMYMY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "dd4fbdfc-474f-472d-bb2c-5104345f32a7",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "d4cefead-8f98-43e5-880a-ce7e8c1d0617",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 67784.41 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:39.756314",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.756322",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.759712"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "8b47cb6b-8d44-4d51-b886-3d62009a4f43",
+  "transaction" : {
+    "transactionId" : "8b47cb6b-8d44-4d51-b886-3d62009a4f43",
+    "fromAccount" : "000679741090",
+    "toAccount" : "172322181091",
+    "amount" : 2000,
+    "currency" : "INR",
+    "fromBankSwift" : "SBININBB104",
+    "toBankSwift" : "SBZAZAJJ",
+    "fromBankName" : "State Bank of India",
+    "toBankName" : "Standard Bank of South Africa",
+    "timestamp" : "2025-06-17T13:27:43.457439",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IN",
+    "toCountryCode" : "ZA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8b47cb6b-8d44-4d51-b886-3d62009a4f43",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "c843584b-b055-4f72-92a6-6f463de01bd8",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 2000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:18.547748",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.547755",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.551316"
+}

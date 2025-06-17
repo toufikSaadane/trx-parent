@@ -1,0 +1,38 @@
+{
+  "transactionId" : "1d0bd7b6-bdbe-4945-8e18-0f62fc1de440",
+  "transaction" : {
+    "transactionId" : "1d0bd7b6-bdbe-4945-8e18-0f62fc1de440",
+    "fromAccount" : "766823636946",
+    "toAccount" : "429013903864",
+    "amount" : 248.67,
+    "currency" : "EUR",
+    "fromBankSwift" : "INGBNL2A",
+    "toBankSwift" : "SCOTMXMM",
+    "fromBankName" : "ING Bank",
+    "toBankName" : "Scotiabank Mexico",
+    "timestamp" : "2025-06-17T13:25:33.709625",
+    "status" : "PENDING",
+    "fromIBAN" : "NL2820000952417060",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "MX"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1d0bd7b6-bdbe-4945-8e18-0f62fc1de440",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "0254ba0a-b357-4322-a930-1655fa2137da",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 248.67 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:23.71027",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.710278",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.714968"
+}

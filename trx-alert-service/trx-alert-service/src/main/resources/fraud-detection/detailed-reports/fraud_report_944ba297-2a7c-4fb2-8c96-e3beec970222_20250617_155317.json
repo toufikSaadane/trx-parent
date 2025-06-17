@@ -1,0 +1,46 @@
+{
+  "transactionId" : "944ba297-2a7c-4fb2-8c96-e3beec970222",
+  "transaction" : {
+    "transactionId" : "944ba297-2a7c-4fb2-8c96-e3beec970222",
+    "fromAccount" : "206421628328",
+    "toAccount" : "533140630178",
+    "amount" : 9999.99,
+    "currency" : "USD",
+    "fromBankSwift" : "KOEXKRSE",
+    "toBankSwift" : "BOFAUS3N",
+    "fromBankName" : "Korea Exchange Bank",
+    "toBankName" : "Bank of America N.A.",
+    "timestamp" : "2025-06-16T23:29:22.679841",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KR",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "944ba297-2a7c-4fb2-8c96-e3beec970222",
+    "riskScore" : 130,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "1b7367c5-3f03-4c34-abd0-f9d7609c1c2b",
+      "fraudType" : "CRYPTOCURRENCY_KEYWORDS",
+      "description" : "Cryptocurrency Keywords",
+      "severity" : 6,
+      "details" : "Transaction contains cryptocurrency-related keywords in bank names: Korea Exchange Bank Bank of America N.A.",
+      "timestamp" : "2025-06-17T15:53:17.536804",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "1abc911f-9f62-414a-8286-2ef1e90d8dc9",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9999.99 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-17T15:53:17.536821",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.536828",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.538747"
+}

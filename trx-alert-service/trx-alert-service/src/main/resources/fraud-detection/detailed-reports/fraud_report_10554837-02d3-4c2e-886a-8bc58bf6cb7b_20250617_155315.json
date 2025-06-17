@@ -1,0 +1,46 @@
+{
+  "transactionId" : "10554837-02d3-4c2e-886a-8bc58bf6cb7b",
+  "transaction" : {
+    "transactionId" : "10554837-02d3-4c2e-886a-8bc58bf6cb7b",
+    "fromAccount" : "398826331261",
+    "toAccount" : "272794115753",
+    "amount" : 374.24,
+    "currency" : "SYP",
+    "fromBankSwift" : "CBSYSYMMXXX",
+    "toBankSwift" : "BOFMCAM2XXX",
+    "fromBankName" : "Commercial Bank of Syria",
+    "toBankName" : "Bank of Montreal",
+    "timestamp" : "2025-06-17T13:56:59.736868",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "10554837-02d3-4c2e-886a-8bc58bf6cb7b",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "6fc7261d-f1a4-42f2-8f2d-b1b726ca6caa",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: CA",
+      "timestamp" : "2025-06-17T15:53:15.725176",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "aedcf57f-33a2-477b-b636-062b6e9db993",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 374.24 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.725195",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.725206",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.728233"
+}

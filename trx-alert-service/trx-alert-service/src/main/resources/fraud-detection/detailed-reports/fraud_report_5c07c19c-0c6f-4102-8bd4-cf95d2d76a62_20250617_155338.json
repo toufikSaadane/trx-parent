@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5c07c19c-0c6f-4102-8bd4-cf95d2d76a62",
+  "transaction" : {
+    "transactionId" : "5c07c19c-0c6f-4102-8bd4-cf95d2d76a62",
+    "fromAccount" : "545376632849",
+    "toAccount" : "383251176942",
+    "amount" : 452.69,
+    "currency" : "USD",
+    "fromBankSwift" : "WELLSFARG",
+    "toBankSwift" : "ROYCCAT2",
+    "fromBankName" : "Wells Fargo Bank",
+    "toBankName" : "Royal Bank of Canada",
+    "timestamp" : "2025-06-17T14:03:19.735478",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5c07c19c-0c6f-4102-8bd4-cf95d2d76a62",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "6eab6bd0-d067-49fd-806c-d9839899b4fa",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 452.69 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:38.475915",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.47593",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.480756"
+}

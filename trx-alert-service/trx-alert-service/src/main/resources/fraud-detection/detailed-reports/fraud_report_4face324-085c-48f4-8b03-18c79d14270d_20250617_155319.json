@@ -1,0 +1,38 @@
+{
+  "transactionId" : "4face324-085c-48f4-8b03-18c79d14270d",
+  "transaction" : {
+    "transactionId" : "4face324-085c-48f4-8b03-18c79d14270d",
+    "fromAccount" : "396014862503",
+    "toAccount" : "675601702815",
+    "amount" : 288.77,
+    "currency" : "EUR",
+    "fromBankSwift" : "BCEELULL",
+    "toBankSwift" : "UBSWCHZH",
+    "fromBankName" : "BCEE",
+    "toBankName" : "UBS Group AG",
+    "timestamp" : "2025-06-17T13:56:14.737982",
+    "status" : "PENDING",
+    "fromIBAN" : "LU030010000119532295",
+    "toIBAN" : "CH5824400001897883046",
+    "fromCountryCode" : "LU",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "4face324-085c-48f4-8b03-18c79d14270d",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "acddfd6e-4808-4f04-a66b-410b518b1ca0",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 288.77 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:19.003046",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.003061",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.011033"
+}

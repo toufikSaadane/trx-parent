@@ -1,0 +1,38 @@
+{
+  "transactionId" : "d5372ce1-bef9-46c7-b8ec-4bb6499ad091",
+  "transaction" : {
+    "transactionId" : "d5372ce1-bef9-46c7-b8ec-4bb6499ad091",
+    "fromAccount" : "316242612402",
+    "toAccount" : "5932491228",
+    "amount" : 86677.41,
+    "currency" : "USD",
+    "fromBankSwift" : "LLOYGB2L",
+    "toBankSwift" : "WFBIUS6S",
+    "fromBankName" : "Lloyds Bank",
+    "toBankName" : "Wells Fargo Bank N.A.",
+    "timestamp" : "2025-06-16T23:30:12.683113",
+    "status" : "PENDING",
+    "fromIBAN" : "GB55300000001386879127",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d5372ce1-bef9-46c7-b8ec-4bb6499ad091",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "f48233eb-e14e-4656-8de2-3203764713a5",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 86677.41 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:17.585755",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.585761",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.587616"
+}

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "7d6509f9-392b-4290-94c2-9b8c768b9f9c",
+  "transaction" : {
+    "transactionId" : "7d6509f9-392b-4290-94c2-9b8c768b9f9c",
+    "fromAccount" : "474648331225",
+    "toAccount" : "302237692828",
+    "amount" : 439.44,
+    "currency" : "KPW",
+    "fromBankSwift" : "KORYOKT2X",
+    "toBankSwift" : "HSBCNZ2A",
+    "fromBankName" : "Korea Taesong Bank",
+    "toBankName" : "HSBC New Zealand",
+    "timestamp" : "2025-06-17T14:09:59.627515",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "NZ"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7d6509f9-392b-4290-94c2-9b8c768b9f9c",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "782f3633-4c0b-4d54-b896-ae25bc20722f",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: NZ",
+      "timestamp" : "2025-06-17T15:53:38.986546",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "8dfbd282-9d27-4404-ad8b-74dd8231c34d",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 439.44 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:38.986564",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.986573",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.989974"
+}

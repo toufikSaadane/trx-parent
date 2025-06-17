@@ -1,0 +1,46 @@
+{
+  "transactionId" : "f62f3eea-79e2-4cb0-b672-5d8d28777833",
+  "transaction" : {
+    "transactionId" : "f62f3eea-79e2-4cb0-b672-5d8d28777833",
+    "fromAccount" : "5352881375",
+    "toAccount" : "787148482736",
+    "amount" : 27494.79,
+    "currency" : "AFN",
+    "fromBankSwift" : "GHBKAFKA",
+    "toBankSwift" : "BOFMCAM2XXX",
+    "fromBankName" : "Ghazanfar Bank",
+    "toBankName" : "Bank of Montreal",
+    "timestamp" : "2025-06-17T14:01:59.735545",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AF",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f62f3eea-79e2-4cb0-b672-5d8d28777833",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "c126e89a-eb1d-402f-8d52-299bf9b5813e",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AF, To: CA",
+      "timestamp" : "2025-06-17T15:53:24.881393",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "0c0cb2c3-c457-4507-a426-99d413e462c8",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 27494.79 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:24.881417",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.881425",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.884687"
+}

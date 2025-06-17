@@ -1,0 +1,38 @@
+{
+  "transactionId" : "2d4b5ccf-e29d-4349-a7ab-fea2135b538b",
+  "transaction" : {
+    "transactionId" : "2d4b5ccf-e29d-4349-a7ab-fea2135b538b",
+    "fromAccount" : "2095562687",
+    "toAccount" : "0517137267",
+    "amount" : 5777.42,
+    "currency" : "AFN",
+    "fromBankSwift" : "AZBAAFKAXXX",
+    "toBankSwift" : "NOSCCATT",
+    "fromBankName" : "Azizi Bank",
+    "toBankName" : "Scotiabank",
+    "timestamp" : "2025-06-17T14:04:19.741856",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AF",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "2d4b5ccf-e29d-4349-a7ab-fea2135b538b",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "2962a8c7-4d84-4a76-b5fe-3bb19f2f5e69",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AF, To: CA",
+      "timestamp" : "2025-06-17T15:53:25.072697",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.07272",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.076401"
+}

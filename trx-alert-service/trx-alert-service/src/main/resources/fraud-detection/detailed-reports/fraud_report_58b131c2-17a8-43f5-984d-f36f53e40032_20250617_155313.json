@@ -1,0 +1,30 @@
+{
+  "transactionId" : "58b131c2-17a8-43f5-984d-f36f53e40032",
+  "transaction" : {
+    "transactionId" : "58b131c2-17a8-43f5-984d-f36f53e40032",
+    "fromAccount" : "262135959409",
+    "toAccount" : "230619959400",
+    "amount" : 2433.99,
+    "currency" : "EUR",
+    "fromBankSwift" : "DEUTDEFF",
+    "toBankSwift" : "BNPAFRPP",
+    "fromBankName" : "Deutsche Bank",
+    "toBankName" : "BNP Paribas",
+    "timestamp" : "2025-06-16T23:27:42.240135",
+    "status" : "PROCESSING",
+    "fromIBAN" : "DE80123456780171006181",
+    "toIBAN" : "FR1430004000000001276976294",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "58b131c2-17a8-43f5-984d-f36f53e40032",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.727926",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.729609"
+}

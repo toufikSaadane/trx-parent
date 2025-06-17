@@ -1,0 +1,30 @@
+{
+  "transactionId" : "7a6faf86-a32b-4ca8-87a5-eb0b0e112963",
+  "transaction" : {
+    "transactionId" : "7a6faf86-a32b-4ca8-87a5-eb0b0e112963",
+    "fromAccount" : "197542904455",
+    "toAccount" : "796387439760",
+    "amount" : 5131.21,
+    "currency" : "RUB",
+    "fromBankSwift" : "VTBRRUMM",
+    "toBankSwift" : "SBININBB",
+    "fromBankName" : "VTB Bank",
+    "toBankName" : "State Bank of India",
+    "timestamp" : "2025-06-13T15:54:59.206025",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "RU",
+    "toCountryCode" : "IN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7a6faf86-a32b-4ca8-87a5-eb0b0e112963",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:12.650439",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:12.652864"
+}

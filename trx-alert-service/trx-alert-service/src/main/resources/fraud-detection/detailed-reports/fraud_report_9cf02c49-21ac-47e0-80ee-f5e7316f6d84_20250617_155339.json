@@ -1,0 +1,38 @@
+{
+  "transactionId" : "9cf02c49-21ac-47e0-80ee-f5e7316f6d84",
+  "transaction" : {
+    "transactionId" : "9cf02c49-21ac-47e0-80ee-f5e7316f6d84",
+    "fromAccount" : "8844291431",
+    "toAccount" : "350472220668",
+    "amount" : 2276.69,
+    "currency" : "USD",
+    "fromBankSwift" : "BESCPTPL",
+    "toBankSwift" : "KESHAVIRZIR",
+    "fromBankName" : "Novo Banco",
+    "toBankName" : "Bank Keshavarzi",
+    "timestamp" : "2025-06-17T14:13:34.635907",
+    "status" : "PROCESSING",
+    "fromIBAN" : "PT86000700000000269928456",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "PT",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9cf02c49-21ac-47e0-80ee-f5e7316f6d84",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "56cd41cd-f8ad-47b1-b866-036f95df7238",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: PT, To: IR",
+      "timestamp" : "2025-06-17T15:53:39.284905",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.284924",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.288649"
+}

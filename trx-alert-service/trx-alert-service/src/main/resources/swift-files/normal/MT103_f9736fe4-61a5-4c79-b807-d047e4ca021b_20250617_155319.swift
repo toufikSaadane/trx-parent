@@ -1,0 +1,22 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:19.596634
+// Transaction ID: f9736fe4-61a5-4c79-b807-d047e4ca021b
+// Amount: 6398.11 EUR
+// From: Novo Banco
+// To: China CITIC Bank
+// FRAUD STATUS: NORMAL
+// Risk Score: 0/100
+// Risk Level: LOW
+//=====================================
+
+{1:F01BESCPTPLXXX0}{2:I103CIBKCNBJXXX0N}{3:{108:f9736fe4-61a5-4c}}
+{4:
+:20:f9736fe4-61a5-4c
+:23B:CRED
+:32A:240101EUR6398,11
+:50K:/767577418454
+Novo Banco
+:59:/9236063825
+China CITIC Bank
+}
+{5:{MAC:12345678}{CHK:123456789ABC}}

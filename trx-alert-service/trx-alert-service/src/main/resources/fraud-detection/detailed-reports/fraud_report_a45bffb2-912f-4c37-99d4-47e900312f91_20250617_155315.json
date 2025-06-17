@@ -1,0 +1,38 @@
+{
+  "transactionId" : "a45bffb2-912f-4c37-99d4-47e900312f91",
+  "transaction" : {
+    "transactionId" : "a45bffb2-912f-4c37-99d4-47e900312f91",
+    "fromAccount" : "783994640885",
+    "toAccount" : "439268672282",
+    "amount" : 872.56,
+    "currency" : "YER",
+    "fromBankSwift" : "TADHYEMY",
+    "toBankSwift" : "KREDBEBB",
+    "fromBankName" : "Tadhamon International Islamic Bank",
+    "toBankName" : "KBC Bank N.V.",
+    "timestamp" : "2025-06-17T13:07:15.81872",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "BE43733000733525",
+    "fromCountryCode" : "TADHYOYMY",
+    "toCountryCode" : "BE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a45bffb2-912f-4c37-99d4-47e900312f91",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "72f51652-9f94-4748-9ac8-65e433313f97",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 872.56 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.472115",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.472123",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.474594"
+}

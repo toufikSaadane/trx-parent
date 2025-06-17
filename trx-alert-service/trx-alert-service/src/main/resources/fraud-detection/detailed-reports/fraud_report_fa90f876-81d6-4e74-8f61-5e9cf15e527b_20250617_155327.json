@@ -1,0 +1,38 @@
+{
+  "transactionId" : "fa90f876-81d6-4e74-8f61-5e9cf15e527b",
+  "transaction" : {
+    "transactionId" : "fa90f876-81d6-4e74-8f61-5e9cf15e527b",
+    "fromAccount" : "7866116219",
+    "toAccount" : "850778205599",
+    "amount" : 86337.01,
+    "currency" : "YER",
+    "fromBankSwift" : "NBYEMYMY",
+    "toBankSwift" : "HKBCCATT",
+    "fromBankName" : "National Bank of Yemen",
+    "toBankName" : "Hongkong and Shanghai Banking Corp",
+    "timestamp" : "2025-06-17T15:50:06.494603",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NBYEMYMY",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "fa90f876-81d6-4e74-8f61-5e9cf15e527b",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "c2b45419-8e56-4940-8bf7-a893f94997b9",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 86337.01 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:27.54834",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:27.548356",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:27.552488"
+}

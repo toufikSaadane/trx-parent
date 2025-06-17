@@ -35,30 +35,3 @@ public class ApiResponse<T> {
         return new ApiResponse<>(null, LocalDateTime.now(), "error", message);
     }
 }
-
-// Transaction Summary DTO for lighter responses
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-class TransactionSummary {
-    @JsonProperty("transactionId")
-    private String transactionId;
-
-    @JsonProperty("amount")
-    private String amount;
-
-    @JsonProperty("currency")
-    private String currency;
-
-    @JsonProperty("fromBank")
-    private String fromBank;
-
-    @JsonProperty("toBank")
-    private String toBank;
-
-    @JsonProperty("timestamp")
-    private LocalDateTime timestamp;
-
-    @JsonProperty("status")
-    private String status;
-}

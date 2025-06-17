@@ -1,0 +1,30 @@
+{
+  "transactionId" : "8a01c1ea-b068-4553-87db-9903bf50fcea",
+  "transaction" : {
+    "transactionId" : "8a01c1ea-b068-4553-87db-9903bf50fcea",
+    "fromAccount" : "528493139598",
+    "toAccount" : "428559383808",
+    "amount" : 7622.54,
+    "currency" : "USD",
+    "fromBankSwift" : "HYVEDEMM",
+    "toBankSwift" : "BOFAUS3N",
+    "fromBankName" : "UniCredit Bank AG",
+    "toBankName" : "Bank of America N.A.",
+    "timestamp" : "2025-06-17T15:47:43.929545",
+    "status" : "PROCESSING",
+    "fromIBAN" : "DE90700202701005656400",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8a01c1ea-b068-4553-87db-9903bf50fcea",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.845601",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.849979"
+}

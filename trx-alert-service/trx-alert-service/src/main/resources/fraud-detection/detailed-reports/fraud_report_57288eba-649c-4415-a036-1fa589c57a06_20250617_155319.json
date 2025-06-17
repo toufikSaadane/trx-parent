@@ -1,0 +1,46 @@
+{
+  "transactionId" : "57288eba-649c-4415-a036-1fa589c57a06",
+  "transaction" : {
+    "transactionId" : "57288eba-649c-4415-a036-1fa589c57a06",
+    "fromAccount" : "614963065160",
+    "toAccount" : "7060954132",
+    "amount" : 967.82,
+    "currency" : "CAD",
+    "fromBankSwift" : "ROYCCAT2XXX",
+    "toBankSwift" : "AFIBAFKA",
+    "fromBankName" : "RBC Royal Bank",
+    "toBankName" : "Afghanistan International Bank",
+    "timestamp" : "2025-06-17T13:59:59.736223",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "57288eba-649c-4415-a036-1fa589c57a06",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "3c7fd0cc-6f92-4a47-b498-de766ea6b74c",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CA, To: AF",
+      "timestamp" : "2025-06-17T15:53:19.255473",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "7b010fe4-0ba5-4cf0-8b9b-1d3aca983741",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 967.82 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:19.255589",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.255603",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.258531"
+}

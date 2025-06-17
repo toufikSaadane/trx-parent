@@ -1,0 +1,30 @@
+{
+  "transactionId" : "6cb519ec-92ca-4e51-a7bc-d7a3e9a475af",
+  "transaction" : {
+    "transactionId" : "6cb519ec-92ca-4e51-a7bc-d7a3e9a475af",
+    "fromAccount" : "032971011584",
+    "toAccount" : "776650489376",
+    "amount" : 5578.47,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33",
+    "toBankSwift" : "ABNANL2A",
+    "fromBankName" : "Chase Bank",
+    "toBankName" : "ABN AMRO",
+    "timestamp" : "2025-06-16T17:43:46.141549",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "NL1251700988770296",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6cb519ec-92ca-4e51-a7bc-d7a3e9a475af",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.567098",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.568788"
+}

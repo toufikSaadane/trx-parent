@@ -1,0 +1,10 @@
+{1:F01HYVEDEMMXXX0}{3:{108:83ad24f2-ba5c-4b}}
+{4:
+:20:83ad24f2-ba5c-4b
+:23B:CRED
+:32A:250617EUR437,83
+:50K:/4270821794
+UniCredit Bank AG
+:59:/282745206989
+Central Bank of Syria
+}

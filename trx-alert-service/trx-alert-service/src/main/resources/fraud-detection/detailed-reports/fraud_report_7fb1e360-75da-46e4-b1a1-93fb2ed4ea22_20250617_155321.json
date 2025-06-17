@@ -1,0 +1,38 @@
+{
+  "transactionId" : "7fb1e360-75da-46e4-b1a1-93fb2ed4ea22",
+  "transaction" : {
+    "transactionId" : "7fb1e360-75da-46e4-b1a1-93fb2ed4ea22",
+    "fromAccount" : "859462739130",
+    "toAccount" : "992312034097",
+    "amount" : 68390.63,
+    "currency" : "CHF",
+    "fromBankSwift" : "UBSWCHZH80A",
+    "toBankSwift" : "TDOMCATT",
+    "fromBankName" : "UBS Switzerland AG",
+    "toBankName" : "TD Canada Trust",
+    "timestamp" : "2025-06-13T15:53:39.206197",
+    "status" : "COMPLETED",
+    "fromIBAN" : "CH1324300001548692251",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7fb1e360-75da-46e4-b1a1-93fb2ed4ea22",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "63a065c9-604e-45f2-8572-c141097357bc",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 68390.63 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:21.178522",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.178533",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.182103"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "18621955-25e6-49d2-91ef-5ee24426e8e5",
+  "transaction" : {
+    "transactionId" : "18621955-25e6-49d2-91ef-5ee24426e8e5",
+    "fromAccount" : "0455294578",
+    "toAccount" : "092643568938",
+    "amount" : 497.41,
+    "currency" : "TRY",
+    "fromBankSwift" : "BKTOTRIS",
+    "toBankSwift" : "HSBCNZ2A",
+    "fromBankName" : "Türkiye İş Bankası",
+    "toBankName" : "HSBC New Zealand",
+    "timestamp" : "2025-06-17T13:07:40.813834",
+    "status" : "PENDING",
+    "fromIBAN" : "TR926400000000001182643059",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "TR",
+    "toCountryCode" : "NZ"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "18621955-25e6-49d2-91ef-5ee24426e8e5",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "1abdc0e3-a68c-435a-9366-e1162a1cc38d",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 497.41 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:37.022756",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.022785",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.027774"
+}

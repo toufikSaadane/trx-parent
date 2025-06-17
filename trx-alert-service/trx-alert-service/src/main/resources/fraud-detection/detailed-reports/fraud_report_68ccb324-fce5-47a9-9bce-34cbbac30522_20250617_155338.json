@@ -1,0 +1,38 @@
+{
+  "transactionId" : "68ccb324-fce5-47a9-9bce-34cbbac30522",
+  "transaction" : {
+    "transactionId" : "68ccb324-fce5-47a9-9bce-34cbbac30522",
+    "fromAccount" : "176463444565",
+    "toAccount" : "896743145351",
+    "amount" : 9999.99,
+    "currency" : "USD",
+    "fromBankSwift" : "CIBVBRSP",
+    "toBankSwift" : "CHASUS33XXX",
+    "fromBankName" : "Banco Votorantim",
+    "toBankName" : "JPMorgan Chase Bank",
+    "timestamp" : "2025-06-17T14:05:09.739148",
+    "status" : "PENDING",
+    "fromIBAN" : "BR26655000100000359271455",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "BR",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "68ccb324-fce5-47a9-9bce-34cbbac30522",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "59a2eedc-6b35-463a-a65c-0aeea782b6f6",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9999.99 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-17T15:53:38.617411",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.617419",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.620868"
+}

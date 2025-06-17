@@ -1,0 +1,36 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:10.893461
+// Transaction ID: f0d7e792-c24a-48d7-89b6-09b26dad5b61
+// Amount: 418.65 GBP
+// From: Barclays
+// To: ABN AMRO
+// FRAUD STATUS: NORMAL
+// Risk Score: 40/100
+// Risk Level: MEDIUM
+// Fraud Alerts: 1
+//   - Frequent Small Amounts
+//=====================================
+
+{1:F01BARCGB22XXX0}{2:I103ABNANL2AXXX0N}{3:{108:f0d7e792-c24a-48}}
+{4:
+:20:f0d7e792-c24a-48
+:23B:CRED
+:32A:250611GBP418,65
+:33B:GBP418,65
+:71A:SHA
+:50K:/GB70203002000679564554
+Barclays
+456 Business Ave
+London, United Kingdom
+:52A:BARCGB22
+:53B:/BARCGB22
+:56A:INGBNL2AXXX
+:57A:ABNANL2A
+:59:/NL3351700730017568
+ABN AMRO
+123 Main Street
+Amsterdam, Netherlands
+:70:Payment for services - TXN ID: f0d7e792 - Cross-border transfer
+:72:/INS/BARCGB22
+}
+{5:{MAC:2C452420}{CHK:E5A7E81628A0}}

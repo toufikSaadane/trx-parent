@@ -1,0 +1,30 @@
+{
+  "transactionId" : "e2bf77dc-6d88-4f21-b23d-1da8f41e7f54",
+  "transaction" : {
+    "transactionId" : "e2bf77dc-6d88-4f21-b23d-1da8f41e7f54",
+    "fromAccount" : "863367423411",
+    "toAccount" : "6327622572",
+    "amount" : 1936.56,
+    "currency" : "EUR",
+    "fromBankSwift" : "INGBNL2A",
+    "toBankSwift" : "ABNANL2A",
+    "fromBankName" : "ING Bank",
+    "toBankName" : "ABN AMRO Bank N.V.",
+    "timestamp" : "2025-06-13T15:48:19.205253",
+    "status" : "PROCESSING",
+    "fromIBAN" : "NL1720000303543906",
+    "toIBAN" : "NL6830002395266396",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e2bf77dc-6d88-4f21-b23d-1da8f41e7f54",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.312904",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.316278"
+}

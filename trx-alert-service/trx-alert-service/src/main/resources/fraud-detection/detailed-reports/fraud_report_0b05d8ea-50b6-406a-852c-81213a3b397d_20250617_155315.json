@@ -1,0 +1,38 @@
+{
+  "transactionId" : "0b05d8ea-50b6-406a-852c-81213a3b397d",
+  "transaction" : {
+    "transactionId" : "0b05d8ea-50b6-406a-852c-81213a3b397d",
+    "fromAccount" : "2279803995",
+    "toAccount" : "617789507082",
+    "amount" : 388.53,
+    "currency" : "CAD",
+    "fromBankSwift" : "ROYCCAT2XXX",
+    "toBankSwift" : "BNPAFRPP",
+    "fromBankName" : "RBC Royal Bank",
+    "toBankName" : "BNP Paribas SA",
+    "timestamp" : "2025-06-17T13:50:29.74795",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "FR9530004000000001399733962",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "0b05d8ea-50b6-406a-852c-81213a3b397d",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "efd04f58-0f53-4732-bf4e-eba57ac294ad",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 388.53 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.6076",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.607611",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.610132"
+}

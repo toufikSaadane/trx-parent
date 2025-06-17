@@ -1,0 +1,38 @@
+{
+  "transactionId" : "188fcafa-4c08-4b41-b2dd-e848acaf415a",
+  "transaction" : {
+    "transactionId" : "188fcafa-4c08-4b41-b2dd-e848acaf415a",
+    "fromAccount" : "0067259473",
+    "toAccount" : "063812200721",
+    "amount" : 11131.0,
+    "currency" : "USD",
+    "fromBankSwift" : "MELLATIR",
+    "toBankSwift" : "CHASUS33XXX",
+    "fromBankName" : "Bank Mellat",
+    "toBankName" : "JPMorgan Chase Bank",
+    "timestamp" : "2025-06-17T13:04:56.484953",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IR",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "188fcafa-4c08-4b41-b2dd-e848acaf415a",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "0167e281-fd9d-4159-a98b-f19cb3cd289a",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: IR, To: US",
+      "timestamp" : "2025-06-17T15:53:36.793847",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.793858",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.797067"
+}

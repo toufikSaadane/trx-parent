@@ -1,0 +1,38 @@
+{
+  "transactionId" : "cf80a7fd-0d70-41a3-b0e0-8fd6d2c16490",
+  "transaction" : {
+    "transactionId" : "cf80a7fd-0d70-41a3-b0e0-8fd6d2c16490",
+    "fromAccount" : "867821114966",
+    "toAccount" : "483080074235",
+    "amount" : 2410.0,
+    "currency" : "EUR",
+    "fromBankSwift" : "COMMDEFF",
+    "toBankSwift" : "AZBAAFKAXXX",
+    "fromBankName" : "Commerzbank AG",
+    "toBankName" : "Azizi Bank",
+    "timestamp" : "2025-06-17T13:53:49.736694",
+    "status" : "PROCESSING",
+    "fromIBAN" : "DE21400800001035073405",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "cf80a7fd-0d70-41a3-b0e0-8fd6d2c16490",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "0ab0ae40-7ff6-4f6c-a572-ad7a63f3ae04",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: DE, To: AF",
+      "timestamp" : "2025-06-17T15:53:18.84631",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.846322",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.848652"
+}

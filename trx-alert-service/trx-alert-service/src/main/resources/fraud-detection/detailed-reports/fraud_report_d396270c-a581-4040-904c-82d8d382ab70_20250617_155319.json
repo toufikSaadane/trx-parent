@@ -1,0 +1,38 @@
+{
+  "transactionId" : "d396270c-a581-4040-904c-82d8d382ab70",
+  "transaction" : {
+    "transactionId" : "d396270c-a581-4040-904c-82d8d382ab70",
+    "fromAccount" : "542362863170",
+    "toAccount" : "425779108331",
+    "amount" : 4958.41,
+    "currency" : "USD",
+    "fromBankSwift" : "SCBLUS33",
+    "toBankSwift" : "MELLATIR",
+    "fromBankName" : "Standard Chartered USA",
+    "toBankName" : "Bank Mellat",
+    "timestamp" : "2025-06-17T14:08:24.63349",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d396270c-a581-4040-904c-82d8d382ab70",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "c72d0cae-3ffa-414c-bee8-ee1efe63065d",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: US, To: IR",
+      "timestamp" : "2025-06-17T15:53:19.824788",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.824803",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.828551"
+}

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "10c84a34-eff0-4837-a4fb-0f4b35d41d87",
+  "transaction" : {
+    "transactionId" : "10c84a34-eff0-4837-a4fb-0f4b35d41d87",
+    "fromAccount" : "7041974554",
+    "toAccount" : "7304465228",
+    "amount" : 45.88,
+    "currency" : "SYP",
+    "fromBankSwift" : "ARABSYMMXXX",
+    "toBankSwift" : "BAMXMXMM",
+    "fromBankName" : "Arab Bank Syria",
+    "toBankName" : "Banco Azteca",
+    "timestamp" : "2025-06-17T14:08:14.633297",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "MX"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "10c84a34-eff0-4837-a4fb-0f4b35d41d87",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "6ee1b08e-a027-43cc-979a-6b69c85ef566",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: MX",
+      "timestamp" : "2025-06-17T15:53:38.861249",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "c4d948a5-f184-468c-a445-c425a057e8b5",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 45.88 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:38.861359",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.861371",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.864787"
+}

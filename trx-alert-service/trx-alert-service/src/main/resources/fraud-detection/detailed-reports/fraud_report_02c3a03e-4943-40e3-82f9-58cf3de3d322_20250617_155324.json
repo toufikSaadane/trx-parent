@@ -1,0 +1,38 @@
+{
+  "transactionId" : "02c3a03e-4943-40e3-82f9-58cf3de3d322",
+  "transaction" : {
+    "transactionId" : "02c3a03e-4943-40e3-82f9-58cf3de3d322",
+    "fromAccount" : "5849902026",
+    "toAccount" : "133704928744",
+    "amount" : 78.57,
+    "currency" : "CAD",
+    "fromBankSwift" : "NOSCCATT",
+    "toBankSwift" : "COBADEFF",
+    "fromBankName" : "Scotiabank",
+    "toBankName" : "Commerzbank AG",
+    "timestamp" : "2025-06-17T13:54:59.739994",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "DE07100400001157707106",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "02c3a03e-4943-40e3-82f9-58cf3de3d322",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "84ad5d69-ebdb-4406-8701-f4644f24d3b9",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 78.57 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:24.323301",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.323311",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.32782"
+}

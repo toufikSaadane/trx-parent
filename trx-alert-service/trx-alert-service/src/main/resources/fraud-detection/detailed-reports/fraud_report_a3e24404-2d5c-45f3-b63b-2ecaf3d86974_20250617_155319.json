@@ -1,0 +1,46 @@
+{
+  "transactionId" : "a3e24404-2d5c-45f3-b63b-2ecaf3d86974",
+  "transaction" : {
+    "transactionId" : "a3e24404-2d5c-45f3-b63b-2ecaf3d86974",
+    "fromAccount" : "513923278342",
+    "toAccount" : "863928962399",
+    "amount" : 690.57,
+    "currency" : "EUR",
+    "fromBankSwift" : "ITMRITMM",
+    "toBankSwift" : "AZBAAFKAXXX",
+    "fromBankName" : "Intesa Sanpaolo S.p.A.",
+    "toBankName" : "Azizi Bank",
+    "timestamp" : "2025-06-17T13:57:29.73627",
+    "status" : "PROCESSING",
+    "fromIBAN" : "IT8603069000000000239608831",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IT",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a3e24404-2d5c-45f3-b63b-2ecaf3d86974",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "fa6356e0-2516-44b3-bc42-59a87ed096cc",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: IT, To: AF",
+      "timestamp" : "2025-06-17T15:53:19.087844",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "682b7d1d-55f8-43b8-ac94-e7f17f8a4992",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 690.57 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:19.087958",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.087972",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.090709"
+}

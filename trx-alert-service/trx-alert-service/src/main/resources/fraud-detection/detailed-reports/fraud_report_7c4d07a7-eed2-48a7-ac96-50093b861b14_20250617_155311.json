@@ -1,0 +1,30 @@
+{
+  "transactionId" : "7c4d07a7-eed2-48a7-ac96-50093b861b14",
+  "transaction" : {
+    "transactionId" : "7c4d07a7-eed2-48a7-ac96-50093b861b14",
+    "fromAccount" : "5697358696",
+    "toAccount" : "3166318009",
+    "amount" : 7161.54,
+    "currency" : "GBP",
+    "fromBankSwift" : "LLOYGB2L",
+    "toBankSwift" : "BCEELULL",
+    "fromBankName" : "Lloyds Bank",
+    "toBankName" : "BCEE",
+    "timestamp" : "2025-06-13T15:54:19.200939",
+    "status" : "PENDING",
+    "fromIBAN" : "GB53300000001303782852",
+    "toIBAN" : "LU140010002006881661",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "LU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7c4d07a7-eed2-48a7-ac96-50093b861b14",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:11.758785",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:11.760161"
+}

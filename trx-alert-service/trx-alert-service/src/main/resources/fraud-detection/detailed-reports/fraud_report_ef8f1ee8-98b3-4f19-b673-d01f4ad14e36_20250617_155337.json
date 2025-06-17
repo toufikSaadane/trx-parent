@@ -1,0 +1,46 @@
+{
+  "transactionId" : "ef8f1ee8-98b3-4f19-b673-d01f4ad14e36",
+  "transaction" : {
+    "transactionId" : "ef8f1ee8-98b3-4f19-b673-d01f4ad14e36",
+    "fromAccount" : "541771611562",
+    "toAccount" : "088212716177",
+    "amount" : 1000,
+    "currency" : "KPW",
+    "fromBankSwift" : "CENKPRKX",
+    "toBankSwift" : "AFIBAFKA",
+    "fromBankName" : "Central Bank of DPRK",
+    "toBankName" : "Afghanistan International Bank",
+    "timestamp" : "2025-06-17T13:50:09.742261",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ef8f1ee8-98b3-4f19-b673-d01f4ad14e36",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "b2076b33-d555-4a88-87a3-a084b36210e4",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: AF",
+      "timestamp" : "2025-06-17T15:53:37.401846",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "c9f70288-9ac0-4283-9f03-5af261167aac",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 1000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:37.401916",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.401926",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.405698"
+}

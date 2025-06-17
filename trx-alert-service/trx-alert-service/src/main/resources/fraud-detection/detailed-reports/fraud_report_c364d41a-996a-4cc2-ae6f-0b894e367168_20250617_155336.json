@@ -1,0 +1,46 @@
+{
+  "transactionId" : "c364d41a-996a-4cc2-ae6f-0b894e367168",
+  "transaction" : {
+    "transactionId" : "c364d41a-996a-4cc2-ae6f-0b894e367168",
+    "fromAccount" : "9445161084",
+    "toAccount" : "510749071818",
+    "amount" : 20000,
+    "currency" : "CAD",
+    "fromBankSwift" : "TDOMCATT",
+    "toBankSwift" : "TADHYEMY",
+    "fromBankName" : "TD Canada Trust",
+    "toBankName" : "Tadhamon International Islamic Bank",
+    "timestamp" : "2025-06-17T11:00:52.525181",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "TADHYOYMY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c364d41a-996a-4cc2-ae6f-0b894e367168",
+    "riskScore" : 110,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "c059720a-7216-4b5b-8e5d-5577cfe744ee",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 20000 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:36.515255",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "dc4d4a0e-14e4-403f-b7ac-ed67045215e5",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 20000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:36.51536",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.515369",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.518732"
+}

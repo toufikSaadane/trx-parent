@@ -1,0 +1,38 @@
+{
+  "transactionId" : "7efed205-e342-484b-822e-2e4ca5b3ce97",
+  "transaction" : {
+    "transactionId" : "7efed205-e342-484b-822e-2e4ca5b3ce97",
+    "fromAccount" : "998904694565",
+    "toAccount" : "797729424309",
+    "amount" : 557.62,
+    "currency" : "YER",
+    "fromBankSwift" : "TADHYEMY",
+    "toBankSwift" : "HANDFIHH",
+    "fromBankName" : "Tadhamon International Islamic Bank",
+    "toBankName" : "Handelsbanken",
+    "timestamp" : "2025-06-17T13:51:59.74327",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "FI0430001855688561",
+    "fromCountryCode" : "TADHYOYMY",
+    "toCountryCode" : "FI"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7efed205-e342-484b-822e-2e4ca5b3ce97",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "a53806b5-fa4a-4aa8-940f-e03cb4c2d5f9",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 557.62 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:37.572784",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.572795",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.577372"
+}

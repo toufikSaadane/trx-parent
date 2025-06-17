@@ -1,0 +1,46 @@
+{
+  "transactionId" : "09da2edf-59f3-4eaa-a916-49a953b473d6",
+  "transaction" : {
+    "transactionId" : "09da2edf-59f3-4eaa-a916-49a953b473d6",
+    "fromAccount" : "800673748911",
+    "toAccount" : "551427494208",
+    "amount" : 707.35,
+    "currency" : "EUR",
+    "fromBankSwift" : "COBADEFF",
+    "toBankSwift" : "AFIBAFKA",
+    "fromBankName" : "Commerzbank AG",
+    "toBankName" : "Afghanistan International Bank",
+    "timestamp" : "2025-06-17T14:13:24.632504",
+    "status" : "PROCESSING",
+    "fromIBAN" : "DE31100400000368942056",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "09da2edf-59f3-4eaa-a916-49a953b473d6",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "c7f8f2a2-820e-4d08-8bc2-eda34cd99ff6",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: DE, To: AF",
+      "timestamp" : "2025-06-17T15:53:39.262988",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "b855e962-862d-4d2f-8cfd-d8c5a3ddb187",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 707.35 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:39.263008",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.263017",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.271142"
+}

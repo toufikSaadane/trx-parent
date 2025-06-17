@@ -1,0 +1,38 @@
+{
+  "transactionId" : "918fafda-d6a2-44dc-9d01-eb7bf89bfb6c",
+  "transaction" : {
+    "transactionId" : "918fafda-d6a2-44dc-9d01-eb7bf89bfb6c",
+    "fromAccount" : "142899163779",
+    "toAccount" : "4941577679",
+    "amount" : 9999.99,
+    "currency" : "EUR",
+    "fromBankSwift" : "COMMDEFF",
+    "toBankSwift" : "HSBCCNSH",
+    "fromBankName" : "Commerzbank AG",
+    "toBankName" : "HSBC Bank (China) Company Limited",
+    "timestamp" : "2025-06-16T23:29:42.67842",
+    "status" : "PENDING",
+    "fromIBAN" : "DE76400800000467269044",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "918fafda-d6a2-44dc-9d01-eb7bf89bfb6c",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "4deea775-0ff2-432f-96e4-593f8a734e61",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9999.99 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-17T15:53:14.615087",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.615096",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.616009"
+}

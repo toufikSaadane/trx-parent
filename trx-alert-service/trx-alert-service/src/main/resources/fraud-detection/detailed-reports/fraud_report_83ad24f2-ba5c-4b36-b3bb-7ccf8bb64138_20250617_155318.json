@@ -1,0 +1,46 @@
+{
+  "transactionId" : "83ad24f2-ba5c-4b36-b3bb-7ccf8bb64138",
+  "transaction" : {
+    "transactionId" : "83ad24f2-ba5c-4b36-b3bb-7ccf8bb64138",
+    "fromAccount" : "4270821794",
+    "toAccount" : "282745206989",
+    "amount" : 437.83,
+    "currency" : "EUR",
+    "fromBankSwift" : "HYVEDEMM",
+    "toBankSwift" : "CBSYSYMM",
+    "fromBankName" : "UniCredit Bank AG",
+    "toBankName" : "Central Bank of Syria",
+    "timestamp" : "2025-06-17T13:54:29.739284",
+    "status" : "PROCESSING",
+    "fromIBAN" : "DE35700202700859536978",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "83ad24f2-ba5c-4b36-b3bb-7ccf8bb64138",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "36cb135e-9747-4bd8-ac9f-6ecebce56806",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: DE, To: SY",
+      "timestamp" : "2025-06-17T15:53:18.889631",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "a40cac10-f06f-4ab1-861f-e598deeaa708",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 437.83 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:18.889647",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.889654",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.892129"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "37fa69e1-64eb-48b1-8bbb-c3de6d02a551",
+  "transaction" : {
+    "transactionId" : "37fa69e1-64eb-48b1-8bbb-c3de6d02a551",
+    "fromAccount" : "001086801694",
+    "toAccount" : "9814496174",
+    "amount" : 17141.01,
+    "currency" : "AUD",
+    "fromBankSwift" : "DEUTAU2S",
+    "toBankSwift" : "CAIXESBB",
+    "fromBankName" : "Deutsche Bank AG",
+    "toBankName" : "CaixaBank",
+    "timestamp" : "2025-06-15T09:17:18.889962",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "ES9121000000000802644257",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "ES"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "37fa69e1-64eb-48b1-8bbb-c3de6d02a551",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "995a4a4a-3e1b-4033-8cb1-669cd26ae577",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 17141.01 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:35.00521",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:35.005227",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:35.008888"
+}

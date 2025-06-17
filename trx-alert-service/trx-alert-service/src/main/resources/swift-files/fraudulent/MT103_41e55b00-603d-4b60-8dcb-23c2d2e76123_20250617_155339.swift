@@ -1,0 +1,37 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:39.335997
+// Transaction ID: 41e55b00-603d-4b60-8dcb-23c2d2e76123
+// Amount: 84.86 KPW
+// From: Central Bank of DPRK
+// To: Hongkong and Shanghai Banking Corp
+// FRAUD STATUS: FRAUDULENT
+// Risk Score: 120/100
+// Risk Level: LOW
+// Fraud Alerts: 2
+//   - Cross-Border High Risk
+//   - Frequent Small Amounts
+//=====================================
+
+{1:F01CENKPRKXXXX0}{2:I103HKBCCATTXXX0N}{3:{108:41e55b00-603d-4b}}
+{4:
+:20:41e55b00-603d-4b
+:23B:CRED
+:32A:250617KPW84,86
+:33B:KPW84,86
+:71A:SHA
+:50K:/607197048661
+Central Bank of DPRK
+987 Trade Plaza
+Financial District, Unknown Country
+:52A:CENKPRKX
+:53B:/CENKPRKX
+:56A:TDOMCATTTOR
+:57A:HKBCCATT
+:59:/638225982501
+Hongkong and Shanghai Banking Corp
+789 Commercial Blvd
+Toronto, Canada
+:70:Payment for services - TXN ID: 41e55b00 - Cross-border transfer
+:72:/INS/CENKPRKX
+}
+{5:{MAC:F7D1D431}{CHK:AB0337F220BE}}

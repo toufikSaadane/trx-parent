@@ -1,0 +1,38 @@
+{
+  "transactionId" : "ec43f49f-9ace-4a0a-bd29-66de0d21d4ae",
+  "transaction" : {
+    "transactionId" : "ec43f49f-9ace-4a0a-bd29-66de0d21d4ae",
+    "fromAccount" : "381934212968",
+    "toAccount" : "574472034826",
+    "amount" : 625.94,
+    "currency" : "USD",
+    "fromBankSwift" : "TADHYEMY",
+    "toBankSwift" : "WFBIUS6S",
+    "fromBankName" : "Tadhamon International Islamic Bank",
+    "toBankName" : "Wells Fargo Bank N.A.",
+    "timestamp" : "2025-06-17T13:06:55.81868",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "TADHYOYMY",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ec43f49f-9ace-4a0a-bd29-66de0d21d4ae",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "0b0e65c9-57df-4612-8e13-5de657337060",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 625.94 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:23.472547",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.472557",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.477204"
+}

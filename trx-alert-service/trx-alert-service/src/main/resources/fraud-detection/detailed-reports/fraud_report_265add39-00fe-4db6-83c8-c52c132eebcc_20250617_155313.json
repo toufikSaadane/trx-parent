@@ -1,0 +1,38 @@
+{
+  "transactionId" : "265add39-00fe-4db6-83c8-c52c132eebcc",
+  "transaction" : {
+    "transactionId" : "265add39-00fe-4db6-83c8-c52c132eebcc",
+    "fromAccount" : "329050643823",
+    "toAccount" : "7814616307",
+    "amount" : 754.98,
+    "currency" : "USD",
+    "fromBankSwift" : "BOFMCAM2XXX",
+    "toBankSwift" : "BOFAUS3N",
+    "fromBankName" : "Bank of Montreal",
+    "toBankName" : "Bank of America N.A.",
+    "timestamp" : "2025-06-13T15:50:29.223405",
+    "status" : "COMPLETED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "265add39-00fe-4db6-83c8-c52c132eebcc",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "70741908-fe4b-4035-a1f0-06bf0c3cdfb5",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 754.98 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:13.93382",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.933825",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.935753"
+}

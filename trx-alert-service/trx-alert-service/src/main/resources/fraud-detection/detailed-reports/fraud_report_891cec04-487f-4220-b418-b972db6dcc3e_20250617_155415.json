@@ -1,0 +1,38 @@
+{
+  "transactionId" : "891cec04-487f-4220-b418-b972db6dcc3e",
+  "transaction" : {
+    "transactionId" : "891cec04-487f-4220-b418-b972db6dcc3e",
+    "fromAccount" : "912194246667",
+    "toAccount" : "0895725878",
+    "amount" : 202.77,
+    "currency" : "EUR",
+    "fromBankSwift" : "DEUTDEFF",
+    "toBankSwift" : "ANZBAU3M",
+    "fromBankName" : "Deutsche Bank AG",
+    "toBankName" : "ANZ Banking Group",
+    "timestamp" : "2025-06-17T15:54:15.523786",
+    "status" : "PROCESSING",
+    "fromIBAN" : "DE15500700102047550987",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "891cec04-487f-4220-b418-b972db6dcc3e",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "82413381-fb49-4e5e-94f5-d1deb0033894",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 202.77 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:54:15.545611",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:54:15.545643",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:54:15.560742"
+}

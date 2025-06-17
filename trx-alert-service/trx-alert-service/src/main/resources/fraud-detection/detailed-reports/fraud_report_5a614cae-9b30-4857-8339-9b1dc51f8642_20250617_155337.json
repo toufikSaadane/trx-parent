@@ -1,0 +1,46 @@
+{
+  "transactionId" : "5a614cae-9b30-4857-8339-9b1dc51f8642",
+  "transaction" : {
+    "transactionId" : "5a614cae-9b30-4857-8339-9b1dc51f8642",
+    "fromAccount" : "137129321869",
+    "toAccount" : "966566172351",
+    "amount" : 720.97,
+    "currency" : "SYP",
+    "fromBankSwift" : "ARABSYMMXXX",
+    "toBankSwift" : "CRESCHZZ",
+    "fromBankName" : "Arab Bank Syria",
+    "toBankName" : "Credit Suisse",
+    "timestamp" : "2025-06-17T13:27:43.458741",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "CH7648350001052747489",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5a614cae-9b30-4857-8339-9b1dc51f8642",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "81f72350-529d-4f51-8542-6d7538470508",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: CH",
+      "timestamp" : "2025-06-17T15:53:37.326879",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "8c1753ca-64bb-4326-a6c7-9ac4a0488caf",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 720.97 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:37.327",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.327014",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.330566"
+}

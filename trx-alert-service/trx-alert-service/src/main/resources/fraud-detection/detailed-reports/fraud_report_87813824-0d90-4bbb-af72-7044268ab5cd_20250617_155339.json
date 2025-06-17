@@ -1,0 +1,38 @@
+{
+  "transactionId" : "87813824-0d90-4bbb-af72-7044268ab5cd",
+  "transaction" : {
+    "transactionId" : "87813824-0d90-4bbb-af72-7044268ab5cd",
+    "fromAccount" : "590654379659",
+    "toAccount" : "269949437550",
+    "amount" : 811.04,
+    "currency" : "EUR",
+    "fromBankSwift" : "CAIXESBB",
+    "toBankSwift" : "HSBCGB2L",
+    "fromBankName" : "CaixaBank",
+    "toBankName" : "HSBC UK",
+    "timestamp" : "2025-06-17T14:10:24.633487",
+    "status" : "PENDING",
+    "fromIBAN" : "ES4721000000001836248046",
+    "toIBAN" : "GB77404404001926515679",
+    "fromCountryCode" : "ES",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "87813824-0d90-4bbb-af72-7044268ab5cd",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "d673ad3a-98a0-4134-9fd8-7f22a51aff7a",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 811.04 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:39.01744",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.017449",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.021905"
+}

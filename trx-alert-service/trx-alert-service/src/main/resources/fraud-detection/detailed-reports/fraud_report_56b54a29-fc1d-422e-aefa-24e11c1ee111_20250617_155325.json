@@ -1,0 +1,38 @@
+{
+  "transactionId" : "56b54a29-fc1d-422e-aefa-24e11c1ee111",
+  "transaction" : {
+    "transactionId" : "56b54a29-fc1d-422e-aefa-24e11c1ee111",
+    "fromAccount" : "9048995980",
+    "toAccount" : "3636981716",
+    "amount" : 2907.4,
+    "currency" : "INR",
+    "fromBankSwift" : "SBININBB104",
+    "toBankSwift" : "NBYEMYMY",
+    "fromBankName" : "State Bank of India",
+    "toBankName" : "National Bank of Yemen",
+    "timestamp" : "2025-06-17T03:07:43.735281",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IN",
+    "toCountryCode" : "NBYEMYMY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "56b54a29-fc1d-422e-aefa-24e11c1ee111",
+    "riskScore" : 50,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "f2c2bc12-e043-418d-bd1a-4594fe683598",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 03:07:43.735281",
+      "timestamp" : "2025-06-17T15:53:25.053568",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.053584",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.058506"
+}

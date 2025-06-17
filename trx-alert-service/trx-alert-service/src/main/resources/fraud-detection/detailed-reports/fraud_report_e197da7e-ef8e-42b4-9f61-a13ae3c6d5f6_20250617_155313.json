@@ -1,0 +1,30 @@
+{
+  "transactionId" : "e197da7e-ef8e-42b4-9f61-a13ae3c6d5f6",
+  "transaction" : {
+    "transactionId" : "e197da7e-ef8e-42b4-9f61-a13ae3c6d5f6",
+    "fromAccount" : "764823920857",
+    "toAccount" : "672928386108",
+    "amount" : 6301.48,
+    "currency" : "CHF",
+    "fromBankSwift" : "CRESCHZZ",
+    "toBankSwift" : "SBININBB104",
+    "fromBankName" : "Credit Suisse",
+    "toBankName" : "State Bank of India",
+    "timestamp" : "2025-06-13T15:52:29.202304",
+    "status" : "FAILED",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "IN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e197da7e-ef8e-42b4-9f61-a13ae3c6d5f6",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.974605",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.976448"
+}

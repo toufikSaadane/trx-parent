@@ -1,0 +1,54 @@
+{
+  "transactionId" : "b41b2720-f38d-4324-8449-b127f20aed4f",
+  "transaction" : {
+    "transactionId" : "b41b2720-f38d-4324-8449-b127f20aed4f",
+    "fromAccount" : "865900620320",
+    "toAccount" : "0557152574",
+    "amount" : 50000,
+    "currency" : "EUR",
+    "fromBankSwift" : "ITMRITMM",
+    "toBankSwift" : "CBSYSYMMXXX",
+    "fromBankName" : "Intesa Sanpaolo S.p.A.",
+    "toBankName" : "Commercial Bank of Syria",
+    "timestamp" : "2025-06-15T21:27:06.682173",
+    "status" : "PROCESSING",
+    "fromIBAN" : "IT0403069000000001911253599",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IT",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b41b2720-f38d-4324-8449-b127f20aed4f",
+    "riskScore" : 190,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "8f2b93fd-2fd7-4d00-b9cf-d2a4a97a57d3",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: IT, To: SY",
+      "timestamp" : "2025-06-17T15:53:35.419467",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "11a8389c-0e56-481d-8da8-261419b716ee",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 50000 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:35.419488",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "4e391ad1-92b2-47f9-a2da-4c83bcbb3f47",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 50000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:35.419595",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:35.419602",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:35.42389"
+}

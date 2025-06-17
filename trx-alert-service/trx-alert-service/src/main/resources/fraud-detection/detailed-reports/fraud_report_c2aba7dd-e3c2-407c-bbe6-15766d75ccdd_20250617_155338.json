@@ -1,0 +1,38 @@
+{
+  "transactionId" : "c2aba7dd-e3c2-407c-bbe6-15766d75ccdd",
+  "transaction" : {
+    "transactionId" : "c2aba7dd-e3c2-407c-bbe6-15766d75ccdd",
+    "fromAccount" : "290916902682",
+    "toAccount" : "2279573819",
+    "amount" : 138.01,
+    "currency" : "AUD",
+    "fromBankSwift" : "DEUTAU2S",
+    "toBankSwift" : "CRLYFRPP",
+    "fromBankName" : "Deutsche Bank AG",
+    "toBankName" : "Crédit Lyonnais",
+    "timestamp" : "2025-06-17T13:57:09.738721",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "FR9130002000000000568952977",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c2aba7dd-e3c2-407c-bbe6-15766d75ccdd",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "40809772-02f8-4d06-a623-219f83e1c974",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 138.01 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:38.00525",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.005257",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.00977"
+}

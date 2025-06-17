@@ -1,0 +1,38 @@
+{
+  "transactionId" : "0226c2a9-c78e-4f29-b9c5-6581255c9a8a",
+  "transaction" : {
+    "transactionId" : "0226c2a9-c78e-4f29-b9c5-6581255c9a8a",
+    "fromAccount" : "764298494755",
+    "toAccount" : "1837856828",
+    "amount" : 400.45,
+    "currency" : "EUR",
+    "fromBankSwift" : "CRLYFRPP",
+    "toBankSwift" : "BARCGB22",
+    "fromBankName" : "Crédit Lyonnais",
+    "toBankName" : "Barclays Bank PLC",
+    "timestamp" : "2025-06-15T09:16:26.639568",
+    "status" : "FAILED",
+    "fromIBAN" : "FR5030002000000001289188124",
+    "toIBAN" : "GB46204545001561510000",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "0226c2a9-c78e-4f29-b9c5-6581255c9a8a",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "5c911dac-d0f7-4d0b-b0ba-7dce31b85352",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 400.45 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:21.537766",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.53778",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.542518"
+}

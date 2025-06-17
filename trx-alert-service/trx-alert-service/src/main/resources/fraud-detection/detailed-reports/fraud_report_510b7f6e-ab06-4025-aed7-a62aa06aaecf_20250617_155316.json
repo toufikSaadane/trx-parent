@@ -1,0 +1,38 @@
+{
+  "transactionId" : "510b7f6e-ab06-4025-aed7-a62aa06aaecf",
+  "transaction" : {
+    "transactionId" : "510b7f6e-ab06-4025-aed7-a62aa06aaecf",
+    "fromAccount" : "095961398486",
+    "toAccount" : "508989954260",
+    "amount" : 9999.99,
+    "currency" : "NGN",
+    "fromBankSwift" : "GTBINGLA",
+    "toBankSwift" : "SHBKKRSE",
+    "fromBankName" : "Guaranty Trust Bank PLC",
+    "toBankName" : "Shinhan Bank",
+    "timestamp" : "2025-06-15T08:59:40.745604",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NG",
+    "toCountryCode" : "KR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "510b7f6e-ab06-4025-aed7-a62aa06aaecf",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "2ad9a063-a30f-405f-aab1-856b301bb201",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9999.99 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-17T15:53:16.813023",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.81304",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.815064"
+}

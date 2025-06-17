@@ -1,0 +1,30 @@
+{
+  "transactionId" : "d72c519e-f5a2-4e95-87ff-70a9c9b5b01a",
+  "transaction" : {
+    "transactionId" : "d72c519e-f5a2-4e95-87ff-70a9c9b5b01a",
+    "fromAccount" : "598410538385",
+    "toAccount" : "6973266445",
+    "amount" : 1751.38,
+    "currency" : "NGN",
+    "fromBankSwift" : "GTBINGLA",
+    "toBankSwift" : "NBPLT21",
+    "fromBankName" : "Guaranty Trust Bank PLC",
+    "toBankName" : "Šiaulių Bankas",
+    "timestamp" : "2025-06-11T10:59:43.474599",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "LT737300001101160542",
+    "fromCountryCode" : "NG",
+    "toCountryCode" : "LT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d72c519e-f5a2-4e95-87ff-70a9c9b5b01a",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.844735",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.845441"
+}

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "ccffc618-39af-42a5-84d8-dde45c5e833e",
+  "transaction" : {
+    "transactionId" : "ccffc618-39af-42a5-84d8-dde45c5e833e",
+    "fromAccount" : "650424506263",
+    "toAccount" : "0285580534",
+    "amount" : 24074.47,
+    "currency" : "MXN",
+    "fromBankSwift" : "BAMXMXMM",
+    "toBankSwift" : "KOEXKRSE",
+    "fromBankName" : "Banco Azteca",
+    "toBankName" : "Korea Exchange Bank",
+    "timestamp" : "2025-06-17T13:57:49.73768",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "KR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ccffc618-39af-42a5-84d8-dde45c5e833e",
+    "riskScore" : 130,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "d7420e44-785f-40b7-89ba-4344d3088b99",
+      "fraudType" : "CRYPTOCURRENCY_KEYWORDS",
+      "description" : "Cryptocurrency Keywords",
+      "severity" : 6,
+      "details" : "Transaction contains cryptocurrency-related keywords in bank names: Banco Azteca Korea Exchange Bank",
+      "timestamp" : "2025-06-17T15:53:19.113438",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "d45e02d6-9579-4fdc-8b2e-852c002a2d5a",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 24074.47 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:19.113454",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.113464",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.116119"
+}

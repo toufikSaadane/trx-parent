@@ -1,0 +1,38 @@
+{
+  "transactionId" : "c1565e10-dec5-4890-93b0-742cb3321bc6",
+  "transaction" : {
+    "transactionId" : "c1565e10-dec5-4890-93b0-742cb3321bc6",
+    "fromAccount" : "845778741218",
+    "toAccount" : "978981134890",
+    "amount" : 87.69,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33",
+    "toBankSwift" : "BARCGB22",
+    "fromBankName" : "Chase Bank",
+    "toBankName" : "Barclays",
+    "timestamp" : "2025-06-11T10:47:30.650684",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "GB28203002001456830869",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c1565e10-dec5-4890-93b0-742cb3321bc6",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "93fe8f8a-7902-4dcd-8051-55b08888991b",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 87.69 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.826501",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.826718",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.830035"
+}

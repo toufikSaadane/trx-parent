@@ -1,0 +1,30 @@
+{
+  "transactionId" : "e1ee3e06-583d-4d5a-8f43-f6fb1682cd88",
+  "transaction" : {
+    "transactionId" : "e1ee3e06-583d-4d5a-8f43-f6fb1682cd88",
+    "fromAccount" : "764573220920",
+    "toAccount" : "665894156472",
+    "amount" : 9540.58,
+    "currency" : "CAD",
+    "fromBankSwift" : "NOSCCATT",
+    "toBankSwift" : "SCOTMXMM",
+    "fromBankName" : "Scotiabank",
+    "toBankName" : "Scotiabank Mexico",
+    "timestamp" : "2025-06-15T08:52:01.182799",
+    "status" : "FAILED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "MX"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e1ee3e06-583d-4d5a-8f43-f6fb1682cd88",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:12.730206",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:12.73174"
+}

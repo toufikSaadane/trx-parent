@@ -1,0 +1,34 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:27.579505
+// Transaction ID: 1f53ec66-1551-40d2-8446-cfe192bcf0d6
+// Amount: 4087.98 CHF
+// From: UBS Switzerland AG
+// To: Barclays Bank PLC
+// FRAUD STATUS: NORMAL
+// Risk Score: 0/100
+// Risk Level: LOW
+//=====================================
+
+{1:F01UBSWCHZH80A0}{2:I103BARCGB22XXX0N}{3:{108:1f53ec66-1551-40}}
+{4:
+:20:1f53ec66-1551-40
+:23B:CRED
+:32A:250617CHF4087,98
+:33B:CHF4087,98
+:71A:SHA
+:50K:/CH6124300001152611384
+UBS Switzerland AG
+321 Financial District
+Zurich, Switzerland
+:52A:UBSWCHZH80A
+:53B:/UBSWCHZH80A
+:56A:BARCGB22XXX
+:57A:BARCGB22
+:59:/GB28204545001012802276
+Barclays Bank PLC
+123 Main Street
+London, United Kingdom
+:70:Payment for services - TXN ID: 1f53ec66 - Cross-border transfer
+:72:/INS/UBSWCHZH80A
+}
+{5:{MAC:972C4264}{CHK:92AE1AB9A9AD}}

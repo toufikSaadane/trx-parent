@@ -1,0 +1,38 @@
+{
+  "transactionId" : "899ea5ce-7bcd-49cd-9863-6693e4c610b5",
+  "transaction" : {
+    "transactionId" : "899ea5ce-7bcd-49cd-9863-6693e4c610b5",
+    "fromAccount" : "319604169603",
+    "toAccount" : "014397395040",
+    "amount" : 354.89,
+    "currency" : "USD",
+    "fromBankSwift" : "VTBRRUMM",
+    "toBankSwift" : "WFBIUS6SXXX",
+    "fromBankName" : "VTB Bank",
+    "toBankName" : "Wells Fargo Bank",
+    "timestamp" : "2025-06-17T15:54:45.536118",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "RU",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "899ea5ce-7bcd-49cd-9863-6693e4c610b5",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "8e1581e8-4070-46e0-aed1-c3c8117db50b",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 354.89 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:54:45.593173",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:54:45.59319",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:54:45.609281"
+}

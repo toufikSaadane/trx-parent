@@ -1,0 +1,38 @@
+{
+  "transactionId" : "f568b576-5072-4bab-b3af-041cae957ee1",
+  "transaction" : {
+    "transactionId" : "f568b576-5072-4bab-b3af-041cae957ee1",
+    "fromAccount" : "4822517774",
+    "toAccount" : "933992251896",
+    "amount" : 250.58,
+    "currency" : "USD",
+    "fromBankSwift" : "DBSSSGSG",
+    "toBankSwift" : "BKCHCNBJ",
+    "fromBankName" : "DBS Bank",
+    "toBankName" : "Bank of China",
+    "timestamp" : "2025-06-15T08:52:01.17752",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f568b576-5072-4bab-b3af-041cae957ee1",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "0ac2ec4c-64f6-4d59-87c5-ec746f697721",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 250.58 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:14.923169",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.923176",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.92534"
+}

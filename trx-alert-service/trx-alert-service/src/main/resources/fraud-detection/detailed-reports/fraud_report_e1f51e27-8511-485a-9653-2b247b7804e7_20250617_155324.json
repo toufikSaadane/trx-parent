@@ -1,0 +1,38 @@
+{
+  "transactionId" : "e1f51e27-8511-485a-9653-2b247b7804e7",
+  "transaction" : {
+    "transactionId" : "e1f51e27-8511-485a-9653-2b247b7804e7",
+    "fromAccount" : "858647199623",
+    "toAccount" : "241478636257",
+    "amount" : 385.92,
+    "currency" : "NZD",
+    "fromBankSwift" : "HSBCNZ2A",
+    "toBankSwift" : "AKBKTRIS",
+    "fromBankName" : "HSBC New Zealand",
+    "toBankName" : "Akbank T.A.Ş.",
+    "timestamp" : "2025-06-17T13:57:44.739973",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "TR384600000000000504948831",
+    "fromCountryCode" : "NZ",
+    "toCountryCode" : "TR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e1f51e27-8511-485a-9653-2b247b7804e7",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "d2190fc8-8875-4049-9cdf-767488044891",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 385.92 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:24.523905",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.523915",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.52846"
+}

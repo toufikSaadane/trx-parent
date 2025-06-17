@@ -1,0 +1,30 @@
+{
+  "transactionId" : "18542e28-076d-4cb1-a794-547d69fff9b3",
+  "transaction" : {
+    "transactionId" : "18542e28-076d-4cb1-a794-547d69fff9b3",
+    "fromAccount" : "0756005759",
+    "toAccount" : "5415031140",
+    "amount" : 5777.24,
+    "currency" : "CAD",
+    "fromBankSwift" : "TDOMCATT",
+    "toBankSwift" : "SHBKKRSE",
+    "fromBankName" : "TD Canada Trust",
+    "toBankName" : "Shinhan Bank",
+    "timestamp" : "2025-06-17T13:55:59.738599",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "KR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "18542e28-076d-4cb1-a794-547d69fff9b3",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.39818",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.402573"
+}

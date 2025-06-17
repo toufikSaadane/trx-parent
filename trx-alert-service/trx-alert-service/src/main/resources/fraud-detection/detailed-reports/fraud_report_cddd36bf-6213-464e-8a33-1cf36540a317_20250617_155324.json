@@ -1,0 +1,46 @@
+{
+  "transactionId" : "cddd36bf-6213-464e-8a33-1cf36540a317",
+  "transaction" : {
+    "transactionId" : "cddd36bf-6213-464e-8a33-1cf36540a317",
+    "fromAccount" : "3760485228",
+    "toAccount" : "645755545292",
+    "amount" : 9934.43,
+    "currency" : "CNY",
+    "fromBankSwift" : "HSBCCNSH",
+    "toBankSwift" : "CENKPRKX",
+    "fromBankName" : "HSBC Bank (China) Company Limited",
+    "toBankName" : "Central Bank of DPRK",
+    "timestamp" : "2025-06-17T13:52:09.743391",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "cddd36bf-6213-464e-8a33-1cf36540a317",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "fa4e1b6b-dc60-4936-b19d-0d768ee51953",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CN, To: KP",
+      "timestamp" : "2025-06-17T15:53:24.121422",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "ae62ff5b-125c-4e11-8b18-5d99227464b1",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9934.43 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-17T15:53:24.121528",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.121535",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.124836"
+}

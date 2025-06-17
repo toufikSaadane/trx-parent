@@ -1,0 +1,38 @@
+{
+  "transactionId" : "13083ffe-a400-4a5a-8924-e7bf911e944d",
+  "transaction" : {
+    "transactionId" : "13083ffe-a400-4a5a-8924-e7bf911e944d",
+    "fromAccount" : "5068748176",
+    "toAccount" : "9666694773",
+    "amount" : 10000,
+    "currency" : "BEL",
+    "fromBankSwift" : "KREDBEBB",
+    "toBankSwift" : "EBILAEADXXX",
+    "fromBankName" : "KBC Bank N.V.",
+    "toBankName" : "Emirates NBD Bank",
+    "timestamp" : "2025-06-17T13:05:35.815095",
+    "status" : "PENDING",
+    "fromIBAN" : "BE90733000637522",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "BE",
+    "toCountryCode" : "AE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "13083ffe-a400-4a5a-8924-e7bf911e944d",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "826f6cbe-0947-452a-973d-2b8ca0981577",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 10000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:18.168001",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.168008",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.171491"
+}

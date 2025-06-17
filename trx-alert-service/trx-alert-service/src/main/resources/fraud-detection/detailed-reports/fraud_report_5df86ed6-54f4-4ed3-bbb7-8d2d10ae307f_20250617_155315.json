@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5df86ed6-54f4-4ed3-bbb7-8d2d10ae307f",
+  "transaction" : {
+    "transactionId" : "5df86ed6-54f4-4ed3-bbb7-8d2d10ae307f",
+    "fromAccount" : "3358838940",
+    "toAccount" : "910650255024",
+    "amount" : 549.09,
+    "currency" : "BRL",
+    "fromBankSwift" : "BSCHBRSP",
+    "toBankSwift" : "CAIXESBB",
+    "fromBankName" : "Santander Brasil",
+    "toBankName" : "CaixaBank",
+    "timestamp" : "2025-06-15T09:20:55.044578",
+    "status" : "PROCESSING",
+    "fromIBAN" : "BR75904008880001430828677",
+    "toIBAN" : "ES8421000000000262671961",
+    "fromCountryCode" : "BR",
+    "toCountryCode" : "ES"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5df86ed6-54f4-4ed3-bbb7-8d2d10ae307f",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "a48c2cdd-5d0e-40cb-9219-dd3221a91e3f",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 549.09 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.038354",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.038364",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.044522"
+}

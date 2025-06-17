@@ -1,0 +1,38 @@
+{
+  "transactionId" : "c5cebb51-5a20-43f3-9cb1-bd390eb034f5",
+  "transaction" : {
+    "transactionId" : "c5cebb51-5a20-43f3-9cb1-bd390eb034f5",
+    "fromAccount" : "913659390260",
+    "toAccount" : "219812190971",
+    "amount" : 4022.38,
+    "currency" : "CHF",
+    "fromBankSwift" : "CRESCHZZ",
+    "toBankSwift" : "CBMMMY2X",
+    "fromBankName" : "Credit Suisse",
+    "toBankName" : "CB Bank",
+    "timestamp" : "2025-06-16T23:37:10.906949",
+    "status" : "PENDING",
+    "fromIBAN" : "CH5648350000897093695",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c5cebb51-5a20-43f3-9cb1-bd390eb034f5",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "586855ac-ff4a-45af-9a0a-fe9ba5150ba1",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CH, To: MM",
+      "timestamp" : "2025-06-17T15:53:36.20716",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.207171",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.210416"
+}

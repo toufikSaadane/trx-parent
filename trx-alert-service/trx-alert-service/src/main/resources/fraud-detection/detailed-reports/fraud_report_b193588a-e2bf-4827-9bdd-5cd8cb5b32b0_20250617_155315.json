@@ -1,0 +1,38 @@
+{
+  "transactionId" : "b193588a-e2bf-4827-9bdd-5cd8cb5b32b0",
+  "transaction" : {
+    "transactionId" : "b193588a-e2bf-4827-9bdd-5cd8cb5b32b0",
+    "fromAccount" : "801970197255",
+    "toAccount" : "0599836849",
+    "amount" : 97706.84,
+    "currency" : "CAD",
+    "fromBankSwift" : "BMOCCAMT",
+    "toBankSwift" : "BKTOTRIS",
+    "fromBankName" : "Bank of Montreal",
+    "toBankName" : "Türkiye İş Bankası",
+    "timestamp" : "2025-06-15T15:44:32.392119",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "TR646400000000000892479897",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "TR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b193588a-e2bf-4827-9bdd-5cd8cb5b32b0",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "47f63f00-0f9f-458a-81ef-92cd3f8015b3",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 97706.84 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:15.07461",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.074624",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.075813"
+}

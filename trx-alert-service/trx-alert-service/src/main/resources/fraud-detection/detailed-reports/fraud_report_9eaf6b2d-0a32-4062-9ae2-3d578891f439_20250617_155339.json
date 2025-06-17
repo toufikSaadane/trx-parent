@@ -1,0 +1,38 @@
+{
+  "transactionId" : "9eaf6b2d-0a32-4062-9ae2-3d578891f439",
+  "transaction" : {
+    "transactionId" : "9eaf6b2d-0a32-4062-9ae2-3d578891f439",
+    "fromAccount" : "5998207759",
+    "toAccount" : "454408616182",
+    "amount" : 764.97,
+    "currency" : "GBP",
+    "fromBankSwift" : "NWBKGB2L",
+    "toBankSwift" : "BCEELULL",
+    "fromBankName" : "NatWest Group",
+    "toBankName" : "BCEE",
+    "timestamp" : "2025-06-17T14:19:04.626766",
+    "status" : "PROCESSING",
+    "fromIBAN" : "GB08600000001576950971",
+    "toIBAN" : "LU430010001949893639",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "LU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9eaf6b2d-0a32-4062-9ae2-3d578891f439",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "ca04a871-2e58-4b7b-b041-47d0fab4fd8f",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 764.97 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:39.708489",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.708498",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.712986"
+}

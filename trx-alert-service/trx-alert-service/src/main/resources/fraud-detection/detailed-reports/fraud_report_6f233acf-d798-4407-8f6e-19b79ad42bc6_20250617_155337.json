@@ -1,0 +1,46 @@
+{
+  "transactionId" : "6f233acf-d798-4407-8f6e-19b79ad42bc6",
+  "transaction" : {
+    "transactionId" : "6f233acf-d798-4407-8f6e-19b79ad42bc6",
+    "fromAccount" : "140786879502",
+    "toAccount" : "6186557368",
+    "amount" : 50000,
+    "currency" : "CAD",
+    "fromBankSwift" : "ROYCCAT2XXX",
+    "toBankSwift" : "TDOMCATTTOR",
+    "fromBankName" : "RBC Royal Bank",
+    "toBankName" : "Toronto-Dominion Bank (TD)",
+    "timestamp" : "2025-06-17T13:26:43.458965",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6f233acf-d798-4407-8f6e-19b79ad42bc6",
+    "riskScore" : 110,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "dbf28ef4-39e0-4140-ad7e-bd2437b6a234",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 50000 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:37.251138",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "d2bfb139-4512-43ac-9422-de38a70d1498",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 50000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:37.251237",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.251243",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.25475"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "76a1ff57-31e3-41c2-ae44-27ffe2c56249",
+  "transaction" : {
+    "transactionId" : "76a1ff57-31e3-41c2-ae44-27ffe2c56249",
+    "fromAccount" : "536409954413",
+    "toAccount" : "0785226733",
+    "amount" : 830.15,
+    "currency" : "EUR",
+    "fromBankSwift" : "COMMDEFF",
+    "toBankSwift" : "SCBLKENX",
+    "fromBankName" : "Commerzbank AG",
+    "toBankName" : "Standard Chartered Kenya",
+    "timestamp" : "2025-06-17T13:58:29.739564",
+    "status" : "PENDING",
+    "fromIBAN" : "DE17400800001937874205",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "KE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "76a1ff57-31e3-41c2-ae44-27ffe2c56249",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e3d66cf8-c1d2-4891-9969-c6c3e45aa2cd",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 830.15 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:19.164132",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.164142",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.16817"
+}

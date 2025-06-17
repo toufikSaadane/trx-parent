@@ -1,0 +1,30 @@
+{
+  "transactionId" : "b5ed4aa2-fd66-4ef3-8e73-c185863b3ee8",
+  "transaction" : {
+    "transactionId" : "b5ed4aa2-fd66-4ef3-8e73-c185863b3ee8",
+    "fromAccount" : "1241662186",
+    "toAccount" : "472781261785",
+    "amount" : 4143.48,
+    "currency" : "NZD",
+    "fromBankSwift" : "ASBKNZ2A",
+    "toBankSwift" : "CTBAAU2S",
+    "fromBankName" : "ASB Bank Limited",
+    "toBankName" : "Commonwealth Bank of Australia",
+    "timestamp" : "2025-06-17T13:06:35.819374",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NZ",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b5ed4aa2-fd66-4ef3-8e73-c185863b3ee8",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.232017",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.236703"
+}

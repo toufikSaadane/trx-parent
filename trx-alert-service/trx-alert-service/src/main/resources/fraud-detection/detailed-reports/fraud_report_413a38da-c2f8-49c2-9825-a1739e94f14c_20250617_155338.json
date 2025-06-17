@@ -1,0 +1,46 @@
+{
+  "transactionId" : "413a38da-c2f8-49c2-9825-a1739e94f14c",
+  "transaction" : {
+    "transactionId" : "413a38da-c2f8-49c2-9825-a1739e94f14c",
+    "fromAccount" : "8683224714",
+    "toAccount" : "243696033806",
+    "amount" : 63734.58,
+    "currency" : "SGD",
+    "fromBankSwift" : "OCBCSGSG",
+    "toBankSwift" : "CBMMMY2X",
+    "fromBankName" : "OCBC Bank",
+    "toBankName" : "CB Bank",
+    "timestamp" : "2025-06-17T13:59:29.741087",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "413a38da-c2f8-49c2-9825-a1739e94f14c",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "15ea4bd4-dfae-4fdb-8d51-bb477617509d",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SG, To: MM",
+      "timestamp" : "2025-06-17T15:53:38.203263",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "2be1b283-e9ca-4033-8a3c-7d4972b57a49",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 63734.58 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:38.203285",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.203294",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.206768"
+}

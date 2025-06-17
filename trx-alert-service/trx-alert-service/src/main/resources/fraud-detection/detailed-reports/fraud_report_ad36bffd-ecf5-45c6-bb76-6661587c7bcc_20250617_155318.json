@@ -1,0 +1,30 @@
+{
+  "transactionId" : "ad36bffd-ecf5-45c6-bb76-6661587c7bcc",
+  "transaction" : {
+    "transactionId" : "ad36bffd-ecf5-45c6-bb76-6661587c7bcc",
+    "fromAccount" : "4181341309",
+    "toAccount" : "7294848817",
+    "amount" : 4308.05,
+    "currency" : "EUR",
+    "fromBankSwift" : "UNCRITMM",
+    "toBankSwift" : "ASBKNZ2A",
+    "fromBankName" : "UniCredit S.p.A.",
+    "toBankName" : "ASB Bank Limited",
+    "timestamp" : "2025-06-17T13:56:09.737746",
+    "status" : "PROCESSING",
+    "fromIBAN" : "IT9002008000000000861035330",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IT",
+    "toCountryCode" : "NZ"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ad36bffd-ecf5-45c6-bb76-6661587c7bcc",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.988369",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.998905"
+}

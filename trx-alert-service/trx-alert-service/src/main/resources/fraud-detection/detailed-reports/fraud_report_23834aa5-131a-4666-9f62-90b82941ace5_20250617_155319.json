@@ -1,0 +1,38 @@
+{
+  "transactionId" : "23834aa5-131a-4666-9f62-90b82941ace5",
+  "transaction" : {
+    "transactionId" : "23834aa5-131a-4666-9f62-90b82941ace5",
+    "fromAccount" : "739626534791",
+    "toAccount" : "667602823288",
+    "amount" : 191.66,
+    "currency" : "AUD",
+    "fromBankSwift" : "ANZBAU3M",
+    "toBankSwift" : "ICBKCNBJ",
+    "fromBankName" : "ANZ Banking Group",
+    "toBankName" : "Industrial and Commercial Bank of China",
+    "timestamp" : "2025-06-17T14:05:59.737498",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "23834aa5-131a-4666-9f62-90b82941ace5",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "03c62c59-1a0c-434b-89e2-1a0c52b7f23e",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 191.66 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:19.682417",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.68243",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.686504"
+}

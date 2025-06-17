@@ -1,0 +1,36 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:10.832568
+// Transaction ID: 4a7d2e72-fd76-410f-ba84-ff1f7143d53e
+// Amount: 37555.19 NZD
+// From: ASB Bank Limited
+// To: MUFG Bank Ltd
+// FRAUD STATUS: FRAUDULENT
+// Risk Score: 70/100
+// Risk Level: MEDIUM
+// Fraud Alerts: 1
+//   - High Amount Transaction
+//=====================================
+
+{1:F01ASBKNZ2AXXX0}{2:I103BOTKJPJTXXX0N}{3:{108:4a7d2e72-fd76-41}}
+{4:
+:20:4a7d2e72-fd76-41
+:23B:CRED
+:32A:250611NZD37555,19
+:33B:NZD37555,19
+:71A:SHA
+:50K:/0650189059
+ASB Bank Limited
+789 Commercial Blvd
+Financial District, New Zealand
+:52A:ASBKNZ2A
+:53B:/ASBKNZ2A
+:56A:BOTKJPJTXXX
+:57A:BOTKJPJT
+:59:/054263752892
+MUFG Bank Ltd
+654 Banking Center
+Tokyo, Japan
+:70:Payment for services - TXN ID: 4a7d2e72 - Cross-border transfer
+:72:/INS/ASBKNZ2A
+}
+{5:{MAC:5969887C}{CHK:A77B5D2E6047}}

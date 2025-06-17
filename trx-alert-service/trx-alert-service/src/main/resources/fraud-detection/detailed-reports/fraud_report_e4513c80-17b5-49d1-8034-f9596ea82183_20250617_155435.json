@@ -1,0 +1,30 @@
+{
+  "transactionId" : "e4513c80-17b5-49d1-8034-f9596ea82183",
+  "transaction" : {
+    "transactionId" : "e4513c80-17b5-49d1-8034-f9596ea82183",
+    "fromAccount" : "606842147127",
+    "toAccount" : "1360332630",
+    "amount" : 4090.55,
+    "currency" : "SGD",
+    "fromBankSwift" : "DBSBSGSG",
+    "toBankSwift" : "ICBKCNBJ",
+    "fromBankName" : "DBS Bank",
+    "toBankName" : "Industrial and Commercial Bank of China",
+    "timestamp" : "2025-06-17T15:54:35.524053",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e4513c80-17b5-49d1-8034-f9596ea82183",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:54:35.543243",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:54:35.55844"
+}

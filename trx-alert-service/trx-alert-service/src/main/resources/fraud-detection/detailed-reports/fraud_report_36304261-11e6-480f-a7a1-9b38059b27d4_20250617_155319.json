@@ -1,0 +1,46 @@
+{
+  "transactionId" : "36304261-11e6-480f-a7a1-9b38059b27d4",
+  "transaction" : {
+    "transactionId" : "36304261-11e6-480f-a7a1-9b38059b27d4",
+    "fromAccount" : "9814686819",
+    "toAccount" : "938641931134",
+    "amount" : 385.33,
+    "currency" : "AFN",
+    "fromBankSwift" : "AFIBAFKA",
+    "toBankSwift" : "CRLYFRPP",
+    "fromBankName" : "Afghanistan International Bank",
+    "toBankName" : "Crédit Lyonnais",
+    "timestamp" : "2025-06-17T14:08:34.634268",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "FR6630002000000001265239312",
+    "fromCountryCode" : "AF",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "36304261-11e6-480f-a7a1-9b38059b27d4",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "2eb83a85-81c2-429d-93ff-61435b737883",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AF, To: FR",
+      "timestamp" : "2025-06-17T15:53:19.841289",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "af620014-6a73-4871-bf03-cfdaea605503",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 385.33 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:19.841395",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.841405",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.844312"
+}

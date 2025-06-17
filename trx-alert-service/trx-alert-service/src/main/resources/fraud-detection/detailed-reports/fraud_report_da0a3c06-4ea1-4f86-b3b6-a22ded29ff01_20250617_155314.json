@@ -1,0 +1,38 @@
+{
+  "transactionId" : "da0a3c06-4ea1-4f86-b3b6-a22ded29ff01",
+  "transaction" : {
+    "transactionId" : "da0a3c06-4ea1-4f86-b3b6-a22ded29ff01",
+    "fromAccount" : "7053810427",
+    "toAccount" : "8913065250",
+    "amount" : 3692.45,
+    "currency" : "SYP",
+    "fromBankSwift" : "ARABSYMMXXX",
+    "toBankSwift" : "CTBAAU2S",
+    "fromBankName" : "Arab Bank Syria",
+    "toBankName" : "Commonwealth Bank of Australia",
+    "timestamp" : "2025-06-16T23:17:22.145141",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "da0a3c06-4ea1-4f86-b3b6-a22ded29ff01",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "b01b3218-8f44-4041-9cb9-0d06bf4831ee",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: AU",
+      "timestamp" : "2025-06-17T15:53:14.459867",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.459879",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.460792"
+}

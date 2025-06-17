@@ -1,0 +1,38 @@
+{
+  "transactionId" : "17b4a45c-af96-4afe-b40c-5878297f3cdc",
+  "transaction" : {
+    "transactionId" : "17b4a45c-af96-4afe-b40c-5878297f3cdc",
+    "fromAccount" : "9548745090",
+    "toAccount" : "947824426587",
+    "amount" : 833.06,
+    "currency" : "CAD",
+    "fromBankSwift" : "TDOMCATT",
+    "toBankSwift" : "COBADEFF",
+    "fromBankName" : "TD Canada Trust",
+    "toBankName" : "Commerzbank AG",
+    "timestamp" : "2025-06-16T23:28:12.685691",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "DE05100400001142322554",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "17b4a45c-af96-4afe-b40c-5878297f3cdc",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "d771171b-7fad-4e0b-b461-670888c1871d",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 833.06 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:14.554788",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.554801",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.556871"
+}

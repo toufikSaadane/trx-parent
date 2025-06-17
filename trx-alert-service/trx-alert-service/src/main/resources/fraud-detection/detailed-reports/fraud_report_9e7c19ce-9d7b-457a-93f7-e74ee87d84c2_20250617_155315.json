@@ -1,0 +1,38 @@
+{
+  "transactionId" : "9e7c19ce-9d7b-457a-93f7-e74ee87d84c2",
+  "transaction" : {
+    "transactionId" : "9e7c19ce-9d7b-457a-93f7-e74ee87d84c2",
+    "fromAccount" : "582127393728",
+    "toAccount" : "8743951710",
+    "amount" : 58.92,
+    "currency" : "USD",
+    "fromBankSwift" : "SCBLUS33",
+    "toBankSwift" : "BESCPTPL",
+    "fromBankName" : "Standard Chartered USA",
+    "toBankName" : "Novo Banco",
+    "timestamp" : "2025-06-16T23:28:37.677069",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "PT18000700000001386592031",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "PT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9e7c19ce-9d7b-457a-93f7-e74ee87d84c2",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "fb767994-fc34-451f-a8e1-4d00a0422fb9",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 58.92 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.231346",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.231351",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.233382"
+}

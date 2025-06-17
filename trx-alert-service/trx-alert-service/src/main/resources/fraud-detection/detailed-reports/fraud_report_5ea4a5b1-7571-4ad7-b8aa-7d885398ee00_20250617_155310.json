@@ -1,0 +1,30 @@
+{
+  "transactionId" : "5ea4a5b1-7571-4ad7-b8aa-7d885398ee00",
+  "transaction" : {
+    "transactionId" : "5ea4a5b1-7571-4ad7-b8aa-7d885398ee00",
+    "fromAccount" : "407551493866",
+    "toAccount" : "3742869379",
+    "amount" : 3759.62,
+    "currency" : "EUR",
+    "fromBankSwift" : "BNPAFRPP",
+    "toBankSwift" : "BARCGB22",
+    "fromBankName" : "BNP Paribas",
+    "toBankName" : "Barclays",
+    "timestamp" : "2025-06-12T13:13:43.457803",
+    "status" : "COMPLETED",
+    "fromIBAN" : "FR0630004000000001500493344",
+    "toIBAN" : "GB43203002001454184924",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5ea4a5b1-7571-4ad7-b8aa-7d885398ee00",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.906997",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.910288"
+}

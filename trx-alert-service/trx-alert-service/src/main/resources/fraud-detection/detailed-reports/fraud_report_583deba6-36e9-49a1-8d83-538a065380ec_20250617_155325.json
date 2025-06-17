@@ -1,0 +1,46 @@
+{
+  "transactionId" : "583deba6-36e9-49a1-8d83-538a065380ec",
+  "transaction" : {
+    "transactionId" : "583deba6-36e9-49a1-8d83-538a065380ec",
+    "fromAccount" : "4919340831",
+    "toAccount" : "453516193608",
+    "amount" : 235.61,
+    "currency" : "USD",
+    "fromBankSwift" : "SCBLUS33",
+    "toBankSwift" : "KORYOKT2X",
+    "fromBankName" : "Standard Chartered USA",
+    "toBankName" : "Korea Taesong Bank",
+    "timestamp" : "2025-06-17T14:10:44.633892",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "583deba6-36e9-49a1-8d83-538a065380ec",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "a9c8946c-a5a5-4730-8c96-1ff4e1fd2055",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: US, To: KP",
+      "timestamp" : "2025-06-17T15:53:25.798536",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "9d8b6a2b-ce3c-400e-a4dd-1afea846e075",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 235.61 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:25.79861",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.798627",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.805867"
+}

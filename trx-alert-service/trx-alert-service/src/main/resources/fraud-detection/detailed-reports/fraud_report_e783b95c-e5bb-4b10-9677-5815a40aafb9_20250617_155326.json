@@ -1,0 +1,30 @@
+{
+  "transactionId" : "e783b95c-e5bb-4b10-9677-5815a40aafb9",
+  "transaction" : {
+    "transactionId" : "e783b95c-e5bb-4b10-9677-5815a40aafb9",
+    "fromAccount" : "6008423819",
+    "toAccount" : "355932460873",
+    "amount" : 9058.43,
+    "currency" : "INR",
+    "fromBankSwift" : "IBOSINBB",
+    "toBankSwift" : "BOFMCAM2",
+    "fromBankName" : "Indian Overseas Bank",
+    "toBankName" : "Bank of Montreal",
+    "timestamp" : "2025-06-17T14:17:34.632822",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IN",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e783b95c-e5bb-4b10-9677-5815a40aafb9",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.707722",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.712766"
+}

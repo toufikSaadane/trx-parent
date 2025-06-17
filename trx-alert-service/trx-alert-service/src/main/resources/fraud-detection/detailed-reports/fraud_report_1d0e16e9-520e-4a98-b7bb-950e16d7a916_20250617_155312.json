@@ -1,0 +1,38 @@
+{
+  "transactionId" : "1d0e16e9-520e-4a98-b7bb-950e16d7a916",
+  "transaction" : {
+    "transactionId" : "1d0e16e9-520e-4a98-b7bb-950e16d7a916",
+    "fromAccount" : "358167316715",
+    "toAccount" : "179516865127",
+    "amount" : 90664.5,
+    "currency" : "CAD",
+    "fromBankSwift" : "BOFMCAM2",
+    "toBankSwift" : "NBPLT21",
+    "fromBankName" : "Bank of Montreal",
+    "toBankName" : "Šiaulių Bankas",
+    "timestamp" : "2025-06-13T15:47:29.20734",
+    "status" : "FAILED",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "LT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1d0e16e9-520e-4a98-b7bb-950e16d7a916",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "47cecc72-0cd8-4a30-abed-f3eeb82e720e",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 90664.5 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:12.50483",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:12.50484",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:12.505503"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "4de72ba3-5eea-41f8-b155-13994f929658",
+  "transaction" : {
+    "transactionId" : "4de72ba3-5eea-41f8-b155-13994f929658",
+    "fromAccount" : "021796207056",
+    "toAccount" : "566664011447",
+    "amount" : 9573.63,
+    "currency" : "CAD",
+    "fromBankSwift" : "BMOCCAMT",
+    "toBankSwift" : "AYABMMMY",
+    "fromBankName" : "Bank of Montreal",
+    "toBankName" : "Ayeyarwady Bank",
+    "timestamp" : "2025-06-17T14:20:29.647198",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "4de72ba3-5eea-41f8-b155-13994f929658",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "84f2b920-d7af-4aee-aec6-af3926f90dfa",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CA, To: MM",
+      "timestamp" : "2025-06-17T15:53:16.268379",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.268442",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.270538"
+}

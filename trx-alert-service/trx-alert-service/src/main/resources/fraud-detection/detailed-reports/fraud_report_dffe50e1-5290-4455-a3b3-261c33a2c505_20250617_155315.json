@@ -1,0 +1,38 @@
+{
+  "transactionId" : "dffe50e1-5290-4455-a3b3-261c33a2c505",
+  "transaction" : {
+    "transactionId" : "dffe50e1-5290-4455-a3b3-261c33a2c505",
+    "fromAccount" : "7024336238",
+    "toAccount" : "4951938584",
+    "amount" : 7048.87,
+    "currency" : "BRL",
+    "fromBankSwift" : "BSCHBRSP",
+    "toBankSwift" : "FTBKKPRKX",
+    "fromBankName" : "Santander Brasil",
+    "toBankName" : "Foreign Trade Bank",
+    "timestamp" : "2025-06-17T14:06:44.732201",
+    "status" : "PROCESSING",
+    "fromIBAN" : "BR34904008880001421209828",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "BR",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "dffe50e1-5290-4455-a3b3-261c33a2c505",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "d2b7ded2-0732-4029-a32c-4b70d2bf3d8c",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: BR, To: KP",
+      "timestamp" : "2025-06-17T15:53:15.931429",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.93149",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.933351"
+}

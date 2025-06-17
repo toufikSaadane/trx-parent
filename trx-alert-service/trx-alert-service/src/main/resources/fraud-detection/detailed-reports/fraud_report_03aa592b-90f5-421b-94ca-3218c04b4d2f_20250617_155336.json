@@ -1,0 +1,38 @@
+{
+  "transactionId" : "03aa592b-90f5-421b-94ca-3218c04b4d2f",
+  "transaction" : {
+    "transactionId" : "03aa592b-90f5-421b-94ca-3218c04b4d2f",
+    "fromAccount" : "5650201132",
+    "toAccount" : "0192551194",
+    "amount" : 3737.96,
+    "currency" : "KPW",
+    "fromBankSwift" : "FTBKKPRKX",
+    "toBankSwift" : "ITMRITMM",
+    "fromBankName" : "Foreign Trade Bank",
+    "toBankName" : "Intesa Sanpaolo S.p.A.",
+    "timestamp" : "2025-06-17T11:50:55.308325",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "IT7503069000000000040616245",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "IT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "03aa592b-90f5-421b-94ca-3218c04b4d2f",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "c8777c87-2279-41d0-8f34-eb4e48204ebb",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: IT",
+      "timestamp" : "2025-06-17T15:53:36.772042",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.772053",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.775271"
+}

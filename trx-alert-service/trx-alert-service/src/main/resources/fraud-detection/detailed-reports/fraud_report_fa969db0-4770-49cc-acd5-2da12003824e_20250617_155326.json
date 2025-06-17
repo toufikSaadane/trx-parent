@@ -1,0 +1,38 @@
+{
+  "transactionId" : "fa969db0-4770-49cc-acd5-2da12003824e",
+  "transaction" : {
+    "transactionId" : "fa969db0-4770-49cc-acd5-2da12003824e",
+    "fromAccount" : "7493275396",
+    "toAccount" : "873324533859",
+    "amount" : 7969.81,
+    "currency" : "SYP",
+    "fromBankSwift" : "CBSYSYMM",
+    "toBankSwift" : "GTBINGLA",
+    "fromBankName" : "Central Bank of Syria",
+    "toBankName" : "Guaranty Trust Bank PLC",
+    "timestamp" : "2025-06-17T14:13:34.645798",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "NG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "fa969db0-4770-49cc-acd5-2da12003824e",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "d7502d00-2da0-4b2a-9555-0588367c0b9c",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: NG",
+      "timestamp" : "2025-06-17T15:53:26.153945",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.153977",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.159749"
+}

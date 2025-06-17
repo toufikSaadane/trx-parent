@@ -1,0 +1,38 @@
+{
+  "transactionId" : "d25138e2-256f-4e8e-b812-723b7420d202",
+  "transaction" : {
+    "transactionId" : "d25138e2-256f-4e8e-b812-723b7420d202",
+    "fromAccount" : "266623994565",
+    "toAccount" : "923214181624",
+    "amount" : 4450.38,
+    "currency" : "KPW",
+    "fromBankSwift" : "CENKPRKX",
+    "toBankSwift" : "CENKPRKX",
+    "fromBankName" : "Central Bank of DPRK",
+    "toBankName" : "Central Bank of DPRK",
+    "timestamp" : "2025-06-17T15:54:05.524548",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d25138e2-256f-4e8e-b812-723b7420d202",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "6a36cbac-aeb2-48c0-9908-5ec2eca21f7c",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: KP",
+      "timestamp" : "2025-06-17T15:54:05.541725",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:54:05.541762",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:54:05.551666"
+}

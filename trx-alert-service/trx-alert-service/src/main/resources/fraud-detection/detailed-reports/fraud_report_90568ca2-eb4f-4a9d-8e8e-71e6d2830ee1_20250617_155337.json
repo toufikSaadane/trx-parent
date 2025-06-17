@@ -1,0 +1,46 @@
+{
+  "transactionId" : "90568ca2-eb4f-4a9d-8e8e-71e6d2830ee1",
+  "transaction" : {
+    "transactionId" : "90568ca2-eb4f-4a9d-8e8e-71e6d2830ee1",
+    "fromAccount" : "805449360980",
+    "toAccount" : "694305199846",
+    "amount" : 584.97,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33XXX",
+    "toBankSwift" : "CENKPRKX",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "Central Bank of DPRK",
+    "timestamp" : "2025-06-17T13:54:44.737409",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "90568ca2-eb4f-4a9d-8e8e-71e6d2830ee1",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "afd21cdc-4696-4cf2-8cb8-1b765d322e47",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: US, To: KP",
+      "timestamp" : "2025-06-17T15:53:37.816488",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "c1f56ec0-26c5-4f53-a256-9c0d521975c0",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 584.97 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:37.816619",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.816632",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.821152"
+}

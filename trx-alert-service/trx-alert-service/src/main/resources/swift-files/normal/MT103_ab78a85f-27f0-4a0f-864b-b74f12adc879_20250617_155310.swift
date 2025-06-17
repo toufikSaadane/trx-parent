@@ -1,0 +1,37 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:10.805686
+// Transaction ID: ab78a85f-27f0-4a0f-864b-b74f12adc879
+// Amount: 646.72 TRY
+// From: Akbank T.A.Ş.
+// To: Scotiabank Mexico
+// FRAUD STATUS: NORMAL
+// Risk Score: 40/100
+// Risk Level: MEDIUM
+// Fraud Alerts: 1
+//   - Frequent Small Amounts
+//=====================================
+
+{1:F01AKBKTRISXXX0}{2:I103SCOTMXMMXXX0N}{3:{108:ab78a85f-27f0-4a}}
+{4:
+:20:ab78a85f-27f0-4a
+:23B:CRED
+:32A:250610TRY646,72
+:33B:TRY646,72
+:71A:SHA
+:50K:/TR234600000000000013115451
+Akbank T.A.Ş.
+789 Commercial Blvd
+Istanbul, Turkey
+:52A:AKBKTRIS
+:53B:/AKBKTRIS
+:56A:DEUTDEFFXXX
+:57A:SCOTMXMM
+:59:/This country does not use IBAN
+Scotiabank Mexico
+456 Business Ave
+Mexico City, Mexico
+:70:Payment for services - TXN ID: ab78a85f - Cross-border transfer
+:72:/INS/AKBKTRIS
+/RETN/IBAN verification completed
+}
+{5:{MAC:F60EF73E}{CHK:9BF0E806ED17}}

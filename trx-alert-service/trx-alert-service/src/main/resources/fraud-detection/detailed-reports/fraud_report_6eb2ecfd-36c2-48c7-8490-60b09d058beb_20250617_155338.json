@@ -1,0 +1,38 @@
+{
+  "transactionId" : "6eb2ecfd-36c2-48c7-8490-60b09d058beb",
+  "transaction" : {
+    "transactionId" : "6eb2ecfd-36c2-48c7-8490-60b09d058beb",
+    "fromAccount" : "4487089065",
+    "toAccount" : "068990916347",
+    "amount" : 292.42,
+    "currency" : "",
+    "fromBankSwift" : "SBZAZAJJ",
+    "toBankSwift" : "SOGEFRPP",
+    "fromBankName" : "Standard Bank of South Africa",
+    "toBankName" : "Société Générale",
+    "timestamp" : "2025-06-17T14:01:29.735058",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "FR3130003000000001120382090",
+    "fromCountryCode" : "ZA",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6eb2ecfd-36c2-48c7-8490-60b09d058beb",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "6f31752c-81c2-4fee-b51f-33bd0a734757",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 292.42 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:38.348493",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.348502",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.35302"
+}

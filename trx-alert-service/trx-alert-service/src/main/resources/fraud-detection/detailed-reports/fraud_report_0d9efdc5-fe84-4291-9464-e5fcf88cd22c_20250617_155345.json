@@ -1,0 +1,30 @@
+{
+  "transactionId" : "0d9efdc5-fe84-4291-9464-e5fcf88cd22c",
+  "transaction" : {
+    "transactionId" : "0d9efdc5-fe84-4291-9464-e5fcf88cd22c",
+    "fromAccount" : "983289320077",
+    "toAccount" : "821800117708",
+    "amount" : 3149.59,
+    "currency" : "GBP",
+    "fromBankSwift" : "LLOYGB2L",
+    "toBankSwift" : "ITMRITMM",
+    "fromBankName" : "Lloyds Bank",
+    "toBankName" : "Intesa Sanpaolo S.p.A.",
+    "timestamp" : "2025-06-17T15:53:45.87233",
+    "status" : "PENDING",
+    "fromIBAN" : "GB61300000001023970882",
+    "toIBAN" : "IT1003069000000001336191319",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "IT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "0d9efdc5-fe84-4291-9464-e5fcf88cd22c",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:45.904416",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:45.911557"
+}

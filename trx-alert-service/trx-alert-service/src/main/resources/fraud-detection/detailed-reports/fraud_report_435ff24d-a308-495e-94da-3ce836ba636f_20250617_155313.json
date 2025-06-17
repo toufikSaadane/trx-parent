@@ -1,0 +1,38 @@
+{
+  "transactionId" : "435ff24d-a308-495e-94da-3ce836ba636f",
+  "transaction" : {
+    "transactionId" : "435ff24d-a308-495e-94da-3ce836ba636f",
+    "fromAccount" : "0685173408",
+    "toAccount" : "188257482478",
+    "amount" : 22466.23,
+    "currency" : "NZD",
+    "fromBankSwift" : "HSBCNZ2A",
+    "toBankSwift" : "SBZAZAJJ",
+    "fromBankName" : "HSBC New Zealand",
+    "toBankName" : "Standard Bank of South Africa",
+    "timestamp" : "2025-06-16T23:19:22.131371",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NZ",
+    "toCountryCode" : "ZA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "435ff24d-a308-495e-94da-3ce836ba636f",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "4150d6a8-c1e6-4502-8f61-0a131fbf5594",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 22466.23 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:13.711599",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.711611",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.712479"
+}

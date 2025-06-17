@@ -1,0 +1,38 @@
+{
+  "transactionId" : "3f65e65c-98a4-46ca-aaf6-b0e9ebdbcddf",
+  "transaction" : {
+    "transactionId" : "3f65e65c-98a4-46ca-aaf6-b0e9ebdbcddf",
+    "fromAccount" : "957484796304",
+    "toAccount" : "4683559927",
+    "amount" : 4469.79,
+    "currency" : "CAD",
+    "fromBankSwift" : "NOSCCATTXXX",
+    "toBankSwift" : "MELLATIR",
+    "fromBankName" : "The Bank of Nova Scotia",
+    "toBankName" : "Bank Mellat",
+    "timestamp" : "2025-06-17T14:19:24.623611",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3f65e65c-98a4-46ca-aaf6-b0e9ebdbcddf",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "48a4554e-9366-4109-9b30-fc1f3d5d1f0f",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CA, To: IR",
+      "timestamp" : "2025-06-17T15:53:20.649337",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.649353",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.65267"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "0c8c54b1-00de-4927-880c-e78a092b8b23",
+  "transaction" : {
+    "transactionId" : "0c8c54b1-00de-4927-880c-e78a092b8b23",
+    "fromAccount" : "1911754255",
+    "toAccount" : "252435635124",
+    "amount" : 1846.87,
+    "currency" : "SYP",
+    "fromBankSwift" : "CBSYSYMMXXX",
+    "toBankSwift" : "BESCPTPL",
+    "fromBankName" : "Commercial Bank of Syria",
+    "toBankName" : "Novo Banco",
+    "timestamp" : "2025-06-17T13:08:05.81926",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "PT57000700000000752704962",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "PT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "0c8c54b1-00de-4927-880c-e78a092b8b23",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "78e104ca-0921-4efb-97f0-af5563252996",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: PT",
+      "timestamp" : "2025-06-17T15:53:18.323539",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.323553",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.326456"
+}

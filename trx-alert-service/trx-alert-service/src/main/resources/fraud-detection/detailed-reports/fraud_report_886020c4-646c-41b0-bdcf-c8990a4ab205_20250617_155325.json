@@ -1,0 +1,38 @@
+{
+  "transactionId" : "886020c4-646c-41b0-bdcf-c8990a4ab205",
+  "transaction" : {
+    "transactionId" : "886020c4-646c-41b0-bdcf-c8990a4ab205",
+    "fromAccount" : "4706741945",
+    "toAccount" : "744094983719",
+    "amount" : 656.27,
+    "currency" : "EUR",
+    "fromBankSwift" : "COBADEFF",
+    "toBankSwift" : "SOGEFRPP",
+    "fromBankName" : "Commerzbank AG",
+    "toBankName" : "Société Générale",
+    "timestamp" : "2025-06-17T14:09:44.634483",
+    "status" : "PENDING",
+    "fromIBAN" : "DE14100400002100703247",
+    "toIBAN" : "FR0630003000000001783166177",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "886020c4-646c-41b0-bdcf-c8990a4ab205",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "576abad6-0a34-4edb-ac71-332e4e5a9756",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 656.27 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:25.651489",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.651532",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.658098"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "badebad6-5b09-4ed2-83a9-17b8f004130c",
+  "transaction" : {
+    "transactionId" : "badebad6-5b09-4ed2-83a9-17b8f004130c",
+    "fromAccount" : "733850501232",
+    "toAccount" : "494266220963",
+    "amount" : 1677.22,
+    "currency" : "EUR",
+    "fromBankSwift" : "ABNANL2A",
+    "toBankSwift" : "FINCAFXXXXX",
+    "fromBankName" : "ABN AMRO",
+    "toBankName" : "Central Afghanistan Investment Bank",
+    "timestamp" : "2025-06-17T09:38:28.519058",
+    "status" : "PROCESSING",
+    "fromIBAN" : "NL6351700877241591",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "badebad6-5b09-4ed2-83a9-17b8f004130c",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "cee08381-dead-496a-89b9-daa3e269af47",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: NL, To: AF",
+      "timestamp" : "2025-06-17T15:53:22.847119",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:22.847136",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:22.85051"
+}

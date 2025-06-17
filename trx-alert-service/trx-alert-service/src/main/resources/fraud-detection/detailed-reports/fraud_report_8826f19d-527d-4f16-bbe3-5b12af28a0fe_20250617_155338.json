@@ -1,0 +1,38 @@
+{
+  "transactionId" : "8826f19d-527d-4f16-bbe3-5b12af28a0fe",
+  "transaction" : {
+    "transactionId" : "8826f19d-527d-4f16-bbe3-5b12af28a0fe",
+    "fromAccount" : "340575101969",
+    "toAccount" : "3551482497",
+    "amount" : 535.11,
+    "currency" : "SGD",
+    "fromBankSwift" : "DBSSSGSG",
+    "toBankSwift" : "HKBCCATT",
+    "fromBankName" : "DBS Bank",
+    "toBankName" : "Hongkong and Shanghai Banking Corp",
+    "timestamp" : "2025-06-17T14:06:59.736792",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8826f19d-527d-4f16-bbe3-5b12af28a0fe",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "fa166a5d-abd9-49dd-9498-902710277eb5",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 535.11 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:38.788403",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.788412",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.792949"
+}

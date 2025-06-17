@@ -1,0 +1,36 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:15.955934
+// Transaction ID: e04a2ec5-0d52-4cd9-b256-4dd2cc478eb5
+// Amount: 280.46 USD
+// From: Shinhan Bank
+// To: Wells Fargo Bank N.A.
+// FRAUD STATUS: NORMAL
+// Risk Score: 40/100
+// Risk Level: MEDIUM
+// Fraud Alerts: 1
+//   - Frequent Small Amounts
+//=====================================
+
+{1:F01SHBKKRSEXXX0}{2:I103WFBIUS6SXXX0N}{3:{108:e04a2ec5-0d52-4c}}
+{4:
+:20:e04a2ec5-0d52-4c
+:23B:CRED
+:32A:250617USD280,46
+:33B:USD280,46
+:71A:SHA
+:50K:/141894673733
+Shinhan Bank
+123 Main Street
+Seoul, South Korea
+:52A:SHBKKRSE
+:53B:/SHBKKRSE
+:56A:CHASUS33XXX
+:57A:WFBIUS6S
+:59:/524969990564
+Wells Fargo Bank N.A.
+123 Main Street
+New York, United States
+:70:Payment for services - TXN ID: e04a2ec5 - Cross-border transfer
+:72:/INS/SHBKKRSE
+}
+{5:{MAC:A47F42E4}{CHK:FEF8979A92A7}}

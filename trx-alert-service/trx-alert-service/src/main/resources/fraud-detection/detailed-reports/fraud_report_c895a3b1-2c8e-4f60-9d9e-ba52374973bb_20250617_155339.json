@@ -1,0 +1,38 @@
+{
+  "transactionId" : "c895a3b1-2c8e-4f60-9d9e-ba52374973bb",
+  "transaction" : {
+    "transactionId" : "c895a3b1-2c8e-4f60-9d9e-ba52374973bb",
+    "fromAccount" : "818549884271",
+    "toAccount" : "9237889816",
+    "amount" : 9999.99,
+    "currency" : "SGD",
+    "fromBankSwift" : "DBSBSGSG",
+    "toBankSwift" : "ITMRITMM",
+    "fromBankName" : "DBS Bank",
+    "toBankName" : "Intesa Sanpaolo S.p.A.",
+    "timestamp" : "2025-06-17T15:47:13.926452",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "IT5003069000000000875965951",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "IT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c895a3b1-2c8e-4f60-9d9e-ba52374973bb",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "693e4de9-3174-4d42-83fe-da7ae2561d16",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9999.99 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-17T15:53:39.891739",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.891745",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.895138"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "08f75218-7ce3-44b4-ac7c-e6485c931f88",
+  "transaction" : {
+    "transactionId" : "08f75218-7ce3-44b4-ac7c-e6485c931f88",
+    "fromAccount" : "212837707226",
+    "toAccount" : "015161583016",
+    "amount" : 77897.81,
+    "currency" : "EUR",
+    "fromBankSwift" : "CAIXESBB",
+    "toBankSwift" : "BMOCCAMT",
+    "fromBankName" : "CaixaBank",
+    "toBankName" : "Bank of Montreal",
+    "timestamp" : "2025-06-15T15:44:32.386177",
+    "status" : "PENDING",
+    "fromIBAN" : "ES5621000000001783348255",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "ES",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "08f75218-7ce3-44b4-ac7c-e6485c931f88",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "142b0e71-07ac-4c5f-81dc-1865f1471997",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 77897.81 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:13.507032",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.507036",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.507768"
+}

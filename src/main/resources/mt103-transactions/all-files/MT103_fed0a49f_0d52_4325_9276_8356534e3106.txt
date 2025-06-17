@@ -1,0 +1,23 @@
+{1:F01NBYEMYMYXXX0}{2:I103WFBIUS6SXXX0N}{3:{108:fed0a49f-0d52-43}}
+{4:
+:20:fed0a49f-0d52-43
+:23B:CRED
+:32A:250617USD41317,17
+:33B:USD41317,17
+:71A:SHA
+:50K:/0317989973
+National Bank of Yemen
+987 Trade Plaza
+Financial District, Unknown Country
+:52A:NBYEMYMY
+:53B:/NBYEMYMY
+:56A:CHASUS33XXX
+:57A:WFBIUS6S
+:59:/969255247980
+Wells Fargo Bank N.A.
+789 Commercial Blvd
+New York, United States
+:70:Payment for services - TXN ID: fed0a49f - Cross-border transfer
+:72:/INS/NBYEMYMY
+}
+{5:{MAC:A0334421}{CHK:E8A4DD5343ED}}

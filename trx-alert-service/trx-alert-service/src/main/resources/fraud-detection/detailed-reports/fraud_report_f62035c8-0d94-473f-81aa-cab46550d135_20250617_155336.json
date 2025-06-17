@@ -1,0 +1,46 @@
+{
+  "transactionId" : "f62035c8-0d94-473f-81aa-cab46550d135",
+  "transaction" : {
+    "transactionId" : "f62035c8-0d94-473f-81aa-cab46550d135",
+    "fromAccount" : "1676676163",
+    "toAccount" : "4379368352",
+    "amount" : 21296.42,
+    "currency" : "MMK",
+    "fromBankSwift" : "KBZBMMMY",
+    "toBankSwift" : "COBADEFF",
+    "fromBankName" : "KBZ Bank",
+    "toBankName" : "Commerzbank AG",
+    "timestamp" : "2025-06-16T23:37:25.909218",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "DE29100400001689566052",
+    "fromCountryCode" : "MM",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f62035c8-0d94-473f-81aa-cab46550d135",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "7e56e791-b55d-4052-b864-353a8723ab2d",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MM, To: DE",
+      "timestamp" : "2025-06-17T15:53:36.220163",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "8bc35bb7-20e0-416e-966b-ad26026374eb",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 21296.42 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:36.220282",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.220291",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.223613"
+}

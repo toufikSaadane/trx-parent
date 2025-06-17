@@ -1,0 +1,38 @@
+{
+  "transactionId" : "68a89a4b-a0e8-46cc-8760-b9eec9ce141e",
+  "transaction" : {
+    "transactionId" : "68a89a4b-a0e8-46cc-8760-b9eec9ce141e",
+    "fromAccount" : "7250774416",
+    "toAccount" : "9492346580",
+    "amount" : 486.98,
+    "currency" : "EUR",
+    "fromBankSwift" : "RABONL2U",
+    "toBankSwift" : "AKBKTRIS",
+    "fromBankName" : "Rabobank",
+    "toBankName" : "Akbank T.A.Ş.",
+    "timestamp" : "2025-06-15T08:52:06.177981",
+    "status" : "FAILED",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "TR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "68a89a4b-a0e8-46cc-8760-b9eec9ce141e",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "21e8f5a2-a443-4e8f-9408-bafeafb00394",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 486.98 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:16.774884",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.774901",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.778943"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "9c9f4775-1447-40b7-ad77-3915e366e31e",
+  "transaction" : {
+    "transactionId" : "9c9f4775-1447-40b7-ad77-3915e366e31e",
+    "fromAccount" : "7244144454",
+    "toAccount" : "074868961112",
+    "amount" : 52645.39,
+    "currency" : "SGD",
+    "fromBankSwift" : "DBSSSGSG",
+    "toBankSwift" : "SBERRUMM",
+    "fromBankName" : "DBS Bank",
+    "toBankName" : "Sberbank",
+    "timestamp" : "2025-06-17T14:07:09.730087",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "RU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9c9f4775-1447-40b7-ad77-3915e366e31e",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "46f26387-fc67-4b72-8535-34071a8f21e8",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 52645.39 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:15.940768",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.940782",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.942603"
+}

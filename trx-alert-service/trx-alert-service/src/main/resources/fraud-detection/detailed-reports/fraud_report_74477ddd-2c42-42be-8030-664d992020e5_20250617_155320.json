@@ -1,0 +1,38 @@
+{
+  "transactionId" : "74477ddd-2c42-42be-8030-664d992020e5",
+  "transaction" : {
+    "transactionId" : "74477ddd-2c42-42be-8030-664d992020e5",
+    "fromAccount" : "3527814601",
+    "toAccount" : "251564964333",
+    "amount" : 4050.96,
+    "currency" : "CAD",
+    "fromBankSwift" : "ROYCCAT2",
+    "toBankSwift" : "AYABMMMY",
+    "fromBankName" : "Royal Bank of Canada",
+    "toBankName" : "Ayeyarwady Bank",
+    "timestamp" : "2025-06-17T14:14:59.62877",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "74477ddd-2c42-42be-8030-664d992020e5",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "31e3c18f-d7a5-44dd-8c7d-2ba8818d4251",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CA, To: MM",
+      "timestamp" : "2025-06-17T15:53:20.310501",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.310522",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.313709"
+}

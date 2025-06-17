@@ -1,0 +1,38 @@
+{
+  "transactionId" : "c784d227-0fe2-4f51-b39e-bcc0698aa055",
+  "transaction" : {
+    "transactionId" : "c784d227-0fe2-4f51-b39e-bcc0698aa055",
+    "fromAccount" : "542527489421",
+    "toAccount" : "511992655028",
+    "amount" : 2936.42,
+    "currency" : "CAD",
+    "fromBankSwift" : "TDOMCATTTOR",
+    "toBankSwift" : "CIBKCNBJ",
+    "fromBankName" : "Toronto-Dominion Bank (TD)",
+    "toBankName" : "China CITIC Bank",
+    "timestamp" : "2025-06-17T02:07:10.457314",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c784d227-0fe2-4f51-b39e-bcc0698aa055",
+    "riskScore" : 50,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "0596348f-37ab-4090-be31-67cf12b77921",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 02:07:10.457314",
+      "timestamp" : "2025-06-17T15:53:18.535853",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.53586",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.539451"
+}

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "6ecb39a9-59fd-42d9-8c44-cecc58a72027",
+  "transaction" : {
+    "transactionId" : "6ecb39a9-59fd-42d9-8c44-cecc58a72027",
+    "fromAccount" : "167746548427",
+    "toAccount" : "975592794419",
+    "amount" : 104.93,
+    "currency" : "USD",
+    "fromBankSwift" : "AZBAAFKAXXX",
+    "toBankSwift" : "BOFAUS3NXXX",
+    "fromBankName" : "Azizi Bank",
+    "toBankName" : "Bank of America N.A.",
+    "timestamp" : "2025-06-17T15:50:16.479915",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AF",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6ecb39a9-59fd-42d9-8c44-cecc58a72027",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "5cc373f8-1989-4207-bd08-097cc0bbca9e",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AF, To: US",
+      "timestamp" : "2025-06-17T15:53:40.053906",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "77bdbccd-2cd1-4605-9785-bbad2781da12",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 104.93 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:40.053967",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:40.053979",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:40.057407"
+}

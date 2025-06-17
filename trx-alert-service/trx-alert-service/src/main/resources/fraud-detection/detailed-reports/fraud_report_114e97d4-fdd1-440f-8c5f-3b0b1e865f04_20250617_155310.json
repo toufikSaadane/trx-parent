@@ -1,0 +1,38 @@
+{
+  "transactionId" : "114e97d4-fdd1-440f-8c5f-3b0b1e865f04",
+  "transaction" : {
+    "transactionId" : "114e97d4-fdd1-440f-8c5f-3b0b1e865f04",
+    "fromAccount" : "4990350883",
+    "toAccount" : "998796032573",
+    "amount" : 783.6,
+    "currency" : "CAD",
+    "fromBankSwift" : "ROYCCAT2XXX",
+    "toBankSwift" : "SHBKKRSE",
+    "fromBankName" : "RBC Royal Bank",
+    "toBankName" : "Shinhan Bank",
+    "timestamp" : "2025-06-12T13:14:20.425776",
+    "status" : "PROCESSING",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "KR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "114e97d4-fdd1-440f-8c5f-3b0b1e865f04",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "a15c0ca5-e521-41fa-93f4-0d9cb1c59742",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 783.6 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.911371",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.911402",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.912266"
+}

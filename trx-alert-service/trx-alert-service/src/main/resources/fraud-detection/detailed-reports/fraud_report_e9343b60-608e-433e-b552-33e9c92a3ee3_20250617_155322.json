@@ -1,0 +1,46 @@
+{
+  "transactionId" : "e9343b60-608e-433e-b552-33e9c92a3ee3",
+  "transaction" : {
+    "transactionId" : "e9343b60-608e-433e-b552-33e9c92a3ee3",
+    "fromAccount" : "2944360626",
+    "toAccount" : "228622168320",
+    "amount" : 190.60,
+    "currency" : "INR",
+    "fromBankSwift" : "IBOSINBB",
+    "toBankSwift" : "KBZBMMMY",
+    "fromBankName" : "Indian Overseas Bank",
+    "toBankName" : "KBZ Bank",
+    "timestamp" : "2025-06-16T23:31:02.681151",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IN",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e9343b60-608e-433e-b552-33e9c92a3ee3",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "7f75423d-b3a8-4756-942a-f8bfee7d04a1",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: IN, To: MM",
+      "timestamp" : "2025-06-17T15:53:22.665423",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "a41590f9-0294-4799-b626-2c6f9d4adc31",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 190.60 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:22.665533",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:22.665544",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:22.668816"
+}

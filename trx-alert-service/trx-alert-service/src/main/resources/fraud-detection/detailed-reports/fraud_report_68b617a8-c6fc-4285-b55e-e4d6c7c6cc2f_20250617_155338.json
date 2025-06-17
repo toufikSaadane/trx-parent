@@ -1,0 +1,46 @@
+{
+  "transactionId" : "68b617a8-c6fc-4285-b55e-e4d6c7c6cc2f",
+  "transaction" : {
+    "transactionId" : "68b617a8-c6fc-4285-b55e-e4d6c7c6cc2f",
+    "fromAccount" : "924701436706",
+    "toAccount" : "113634319503",
+    "amount" : 16281.26,
+    "currency" : "SYP",
+    "fromBankSwift" : "CBSYSYMM",
+    "toBankSwift" : "NEDSZAJJ",
+    "fromBankName" : "Central Bank of Syria",
+    "toBankName" : "Nedbank",
+    "timestamp" : "2025-06-17T14:00:49.735908",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "ZA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "68b617a8-c6fc-4285-b55e-e4d6c7c6cc2f",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "56b4b32b-8a58-4b11-962b-79eb18b587ec",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: ZA",
+      "timestamp" : "2025-06-17T15:53:38.294247",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "aac4f97f-0234-42eb-9262-db5fb72c0961",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 16281.26 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:38.294263",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.29427",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.297583"
+}

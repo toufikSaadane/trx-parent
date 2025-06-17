@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5cbb72de-0df8-4d58-a221-d64b3e8e92c3",
+  "transaction" : {
+    "transactionId" : "5cbb72de-0df8-4d58-a221-d64b3e8e92c3",
+    "fromAccount" : "3513508482",
+    "toAccount" : "821350817089",
+    "amount" : 4971.85,
+    "currency" : "EUR",
+    "fromBankSwift" : "COMMDEFF",
+    "toBankSwift" : "KESHAVIRZIR",
+    "fromBankName" : "Commerzbank AG",
+    "toBankName" : "Bank Keshavarzi",
+    "timestamp" : "2025-06-17T13:27:23.459215",
+    "status" : "PROCESSING",
+    "fromIBAN" : "DE43400800000636709141",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5cbb72de-0df8-4d58-a221-d64b3e8e92c3",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "02138ae3-f856-4bf0-b2c7-bbadc4a1887e",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: DE, To: IR",
+      "timestamp" : "2025-06-17T15:53:23.837083",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.837114",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.840611"
+}

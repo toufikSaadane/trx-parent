@@ -1,0 +1,34 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:10.837939
+// Transaction ID: 83935763-83fd-46be-89d1-f48d13b68c39
+// Amount: 5820.89 AUD
+// From: BNP Paribas Australia
+// To: Scotiabank Mexico
+// FRAUD STATUS: NORMAL
+// Risk Score: 0/100
+// Risk Level: LOW
+//=====================================
+
+{1:F01BNPAAU2SXXX0}{2:I103SCOTMXMMXXX0N}{3:{108:83935763-83fd-46}}
+{4:
+:20:83935763-83fd-46
+:23B:CRED
+:32A:250611AUD5820,89
+:33B:AUD5820,89
+:71A:SHA
+:50K:/8947188060
+BNP Paribas Australia
+456 Business Ave
+Sydney, Australia
+:52A:BNPAAU2S
+:53B:/BNPAAU2S
+:56A:DEUTDEFFXXX
+:57A:SCOTMXMM
+:59:/707610029569
+Scotiabank Mexico
+789 Commercial Blvd
+Mexico City, Mexico
+:70:Payment for services - TXN ID: 83935763 - Cross-border transfer
+:72:/INS/BNPAAU2S
+}
+{5:{MAC:C4FB9EA6}{CHK:402CA62B920B}}

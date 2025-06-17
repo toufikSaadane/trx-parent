@@ -1,0 +1,30 @@
+{
+  "transactionId" : "8bea62d9-7eb8-4687-9ed6-ae5cdafc87c6",
+  "transaction" : {
+    "transactionId" : "8bea62d9-7eb8-4687-9ed6-ae5cdafc87c6",
+    "fromAccount" : "237316211368",
+    "toAccount" : "038308474642",
+    "amount" : 7855.24,
+    "currency" : "EUR",
+    "fromBankSwift" : "DEUTDEFF",
+    "toBankSwift" : "NOSCCATTXXX",
+    "fromBankName" : "Deutsche Bank AG",
+    "toBankName" : "The Bank of Nova Scotia",
+    "timestamp" : "2025-06-13T15:56:14.199185",
+    "status" : "COMPLETED",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8bea62d9-7eb8-4687-9ed6-ae5cdafc87c6",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:11.790592",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:11.791853"
+}

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "f026db12-0e51-4fa8-8ab2-9e03ba90aee1",
+  "transaction" : {
+    "transactionId" : "f026db12-0e51-4fa8-8ab2-9e03ba90aee1",
+    "fromAccount" : "553139004930",
+    "toAccount" : "059525306144",
+    "amount" : 919.54,
+    "currency" : "MMK",
+    "fromBankSwift" : "CBMMMY2X",
+    "toBankSwift" : "AFIBAFKA",
+    "fromBankName" : "CB Bank",
+    "toBankName" : "Afghanistan International Bank",
+    "timestamp" : "2025-06-17T14:12:29.630275",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MM",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f026db12-0e51-4fa8-8ab2-9e03ba90aee1",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "def26a10-b25d-4e42-b24a-f8e8cf9dfbcf",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MM, To: AF",
+      "timestamp" : "2025-06-17T15:53:25.98336",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "204bd313-eab3-4d05-87ec-fad6bdd3171c",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 919.54 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:25.983431",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.98345",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.99057"
+}

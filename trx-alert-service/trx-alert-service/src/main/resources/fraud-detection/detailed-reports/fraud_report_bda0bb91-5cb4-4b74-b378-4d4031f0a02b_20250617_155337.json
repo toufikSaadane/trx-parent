@@ -1,0 +1,46 @@
+{
+  "transactionId" : "bda0bb91-5cb4-4b74-b378-4d4031f0a02b",
+  "transaction" : {
+    "transactionId" : "bda0bb91-5cb4-4b74-b378-4d4031f0a02b",
+    "fromAccount" : "5369634118",
+    "toAccount" : "331190037273",
+    "amount" : 41427.33,
+    "currency" : "SYP",
+    "fromBankSwift" : "CBSYSYMMXXX",
+    "toBankSwift" : "UBSWCHZH",
+    "fromBankName" : "Commercial Bank of Syria",
+    "toBankName" : "UBS Group AG",
+    "timestamp" : "2025-06-17T13:28:03.461653",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "CH7624400001237672495",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "bda0bb91-5cb4-4b74-b378-4d4031f0a02b",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "281b32e4-fc02-47a4-a6f2-763d3874cd11",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: CH",
+      "timestamp" : "2025-06-17T15:53:37.35181",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "dc02e650-d43e-4156-aea3-14084b9c7f6e",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 41427.33 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:37.351891",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.351903",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.35551"
+}

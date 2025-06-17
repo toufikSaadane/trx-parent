@@ -1,0 +1,38 @@
+{
+  "transactionId" : "792f45cd-2bf9-448f-90fa-be12928fdb45",
+  "transaction" : {
+    "transactionId" : "792f45cd-2bf9-448f-90fa-be12928fdb45",
+    "fromAccount" : "8684002817",
+    "toAccount" : "162847972604",
+    "amount" : 185.66,
+    "currency" : "ZAR",
+    "fromBankSwift" : "NEDSZAJJ",
+    "toBankSwift" : "SCBLKENX",
+    "fromBankName" : "Nedbank",
+    "toBankName" : "Standard Chartered Kenya",
+    "timestamp" : "2025-06-17T13:52:44.745481",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "ZA",
+    "toCountryCode" : "KE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "792f45cd-2bf9-448f-90fa-be12928fdb45",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "eb1e6d32-bbb0-4c16-8259-17ca62ef6a0a",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 185.66 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:24.161984",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.161994",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.166478"
+}

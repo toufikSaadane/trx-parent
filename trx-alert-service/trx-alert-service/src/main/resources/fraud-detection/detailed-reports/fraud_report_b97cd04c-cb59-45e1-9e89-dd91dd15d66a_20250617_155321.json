@@ -1,0 +1,30 @@
+{
+  "transactionId" : "b97cd04c-cb59-45e1-9e89-dd91dd15d66a",
+  "transaction" : {
+    "transactionId" : "b97cd04c-cb59-45e1-9e89-dd91dd15d66a",
+    "fromAccount" : "747972934325",
+    "toAccount" : "9181190966",
+    "amount" : 9235.2,
+    "currency" : "EUR",
+    "fromBankSwift" : "CRLYFRPP",
+    "toBankSwift" : "BAMXMXMM",
+    "fromBankName" : "Crédit Lyonnais",
+    "toBankName" : "Banco Azteca",
+    "timestamp" : "2025-06-13T15:57:44.198259",
+    "status" : "FAILED",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "MX"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b97cd04c-cb59-45e1-9e89-dd91dd15d66a",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.397491",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.402264"
+}

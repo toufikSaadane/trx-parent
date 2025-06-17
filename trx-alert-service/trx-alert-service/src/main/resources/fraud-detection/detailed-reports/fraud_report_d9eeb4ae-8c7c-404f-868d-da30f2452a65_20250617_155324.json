@@ -1,0 +1,38 @@
+{
+  "transactionId" : "d9eeb4ae-8c7c-404f-868d-da30f2452a65",
+  "transaction" : {
+    "transactionId" : "d9eeb4ae-8c7c-404f-868d-da30f2452a65",
+    "fromAccount" : "2277934393",
+    "toAccount" : "910451582878",
+    "amount" : 9999.99,
+    "currency" : "EUR",
+    "fromBankSwift" : "RABONL2U",
+    "toBankSwift" : "TADHYEMY",
+    "fromBankName" : "Rabobank",
+    "toBankName" : "Tadhamon International Islamic Bank",
+    "timestamp" : "2025-06-17T14:01:59.734457",
+    "status" : "PROCESSING",
+    "fromIBAN" : "NL7330001095206637",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "TADHYOYMY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d9eeb4ae-8c7c-404f-868d-da30f2452a65",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "15c5b1f0-6e97-41fa-b5d5-882a79337d17",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9999.99 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-17T15:53:24.873823",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.873831",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.877121"
+}

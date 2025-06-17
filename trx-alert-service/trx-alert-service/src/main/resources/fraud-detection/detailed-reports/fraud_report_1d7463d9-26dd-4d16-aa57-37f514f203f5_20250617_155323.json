@@ -1,0 +1,46 @@
+{
+  "transactionId" : "1d7463d9-26dd-4d16-aa57-37f514f203f5",
+  "transaction" : {
+    "transactionId" : "1d7463d9-26dd-4d16-aa57-37f514f203f5",
+    "fromAccount" : "947931715884",
+    "toAccount" : "419122404619",
+    "amount" : 745.9,
+    "currency" : "SYP",
+    "fromBankSwift" : "ARABSYMMXXX",
+    "toBankSwift" : "NBPLT21",
+    "fromBankName" : "Arab Bank Syria",
+    "toBankName" : "Šiaulių Bankas",
+    "timestamp" : "2025-06-17T13:09:25.81457",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "LT317300000809865157",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "LT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1d7463d9-26dd-4d16-aa57-37f514f203f5",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "7ff3d7da-1a6e-4ea2-87a6-c79bf292be15",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: LT",
+      "timestamp" : "2025-06-17T15:53:23.68199",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "c75575a0-9030-4932-9702-0035d35cf10a",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 745.9 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:23.682101",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.68211",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.685989"
+}

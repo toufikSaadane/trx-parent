@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5c6b24f4-a631-4648-9778-aa9598c38173",
+  "transaction" : {
+    "transactionId" : "5c6b24f4-a631-4648-9778-aa9598c38173",
+    "fromAccount" : "536266810449",
+    "toAccount" : "512028880093",
+    "amount" : 208.59,
+    "currency" : "EUR",
+    "fromBankSwift" : "ABNANL2A",
+    "toBankSwift" : "NBPLT21",
+    "fromBankName" : "ABN AMRO Bank N.V.",
+    "toBankName" : "Šiaulių Bankas",
+    "timestamp" : "2025-06-17T15:47:33.926555",
+    "status" : "PROCESSING",
+    "fromIBAN" : "NL7530002849008796",
+    "toIBAN" : "LT197300000640865862",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "LT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5c6b24f4-a631-4648-9778-aa9598c38173",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e7128dbf-b8f3-4127-9ac1-d6984bc9cc44",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 208.59 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:39.914935",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.914946",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.91952"
+}

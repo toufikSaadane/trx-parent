@@ -1,0 +1,38 @@
+{
+  "transactionId" : "436234bd-8012-4019-a028-357777b9e98d",
+  "transaction" : {
+    "transactionId" : "436234bd-8012-4019-a028-357777b9e98d",
+    "fromAccount" : "4648434553",
+    "toAccount" : "0946702320",
+    "amount" : 2442.04,
+    "currency" : "CHF",
+    "fromBankSwift" : "CRESCHZZ",
+    "toBankSwift" : "TDOMCATT",
+    "fromBankName" : "Credit Suisse",
+    "toBankName" : "TD Canada Trust",
+    "timestamp" : "2025-06-17T05:52:52.813483",
+    "status" : "PENDING",
+    "fromIBAN" : "CH1948350000317220892",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "436234bd-8012-4019-a028-357777b9e98d",
+    "riskScore" : 50,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "d260d943-c9bd-4947-8927-6af5d4cdfa97",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 05:52:52.813483",
+      "timestamp" : "2025-06-17T15:53:18.360989",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.361006",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.364945"
+}

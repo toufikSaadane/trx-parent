@@ -1,0 +1,38 @@
+{
+  "transactionId" : "9c65be48-2447-46d6-8826-aa8a7558a764",
+  "transaction" : {
+    "transactionId" : "9c65be48-2447-46d6-8826-aa8a7558a764",
+    "fromAccount" : "2117712446",
+    "toAccount" : "9754534753",
+    "amount" : 62008.9,
+    "currency" : "CAD",
+    "fromBankSwift" : "TDOMCATTTOR",
+    "toBankSwift" : "SBERRUMM",
+    "fromBankName" : "Toronto-Dominion Bank (TD)",
+    "toBankName" : "Sberbank",
+    "timestamp" : "2025-06-13T15:53:09.202829",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "RU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9c65be48-2447-46d6-8826-aa8a7558a764",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "bfd21a88-6fa6-4f67-9916-1789309e2618",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 62008.9 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:21.15287",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.152878",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.156141"
+}

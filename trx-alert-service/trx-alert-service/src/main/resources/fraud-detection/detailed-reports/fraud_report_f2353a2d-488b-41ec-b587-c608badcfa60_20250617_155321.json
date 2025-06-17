@@ -1,0 +1,38 @@
+{
+  "transactionId" : "f2353a2d-488b-41ec-b587-c608badcfa60",
+  "transaction" : {
+    "transactionId" : "f2353a2d-488b-41ec-b587-c608badcfa60",
+    "fromAccount" : "2545270710",
+    "toAccount" : "954841202385",
+    "amount" : 15473.3,
+    "currency" : "MXN",
+    "fromBankSwift" : "SCOTMXMM",
+    "toBankSwift" : "CIBKCNBJ",
+    "fromBankName" : "Scotiabank Mexico",
+    "toBankName" : "China CITIC Bank",
+    "timestamp" : "2025-06-13T15:55:29.199842",
+    "status" : "FAILED",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f2353a2d-488b-41ec-b587-c608badcfa60",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "869e785e-b301-4b0d-aa91-bddff98854b9",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 15473.3 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:21.27963",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.279639",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.283033"
+}

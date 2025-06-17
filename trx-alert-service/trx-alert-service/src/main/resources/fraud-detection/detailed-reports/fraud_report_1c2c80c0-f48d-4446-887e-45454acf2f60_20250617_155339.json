@@ -1,0 +1,38 @@
+{
+  "transactionId" : "1c2c80c0-f48d-4446-887e-45454acf2f60",
+  "transaction" : {
+    "transactionId" : "1c2c80c0-f48d-4446-887e-45454acf2f60",
+    "fromAccount" : "3663518527",
+    "toAccount" : "4300074922",
+    "amount" : 729.98,
+    "currency" : "AUD",
+    "fromBankSwift" : "WESTPAC",
+    "toBankSwift" : "ICBKCNBJ",
+    "fromBankName" : "Westpac Banking Corp",
+    "toBankName" : "Industrial and Commercial Bank of China",
+    "timestamp" : "2025-06-17T14:14:04.631268",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1c2c80c0-f48d-4446-887e-45454acf2f60",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "bc5d64d6-6c86-438b-a2b5-d280ed042b53",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 729.98 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:39.32353",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.323539",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.328072"
+}

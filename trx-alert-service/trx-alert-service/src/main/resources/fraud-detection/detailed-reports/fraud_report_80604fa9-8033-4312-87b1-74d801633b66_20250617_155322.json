@@ -1,0 +1,38 @@
+{
+  "transactionId" : "80604fa9-8033-4312-87b1-74d801633b66",
+  "transaction" : {
+    "transactionId" : "80604fa9-8033-4312-87b1-74d801633b66",
+    "fromAccount" : "109568347145",
+    "toAccount" : "667088549847",
+    "amount" : 2474.6,
+    "currency" : "GBP",
+    "fromBankSwift" : "BARCGB22",
+    "toBankSwift" : "CRDTIRXX",
+    "fromBankName" : "Barclays",
+    "toBankName" : "Central Iran Trust",
+    "timestamp" : "2025-06-16T23:31:50.074369",
+    "status" : "PENDING",
+    "fromIBAN" : "GB66203002001346465913",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "80604fa9-8033-4312-87b1-74d801633b66",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "e6a8b03e-10ea-4222-9d3c-0adf93de10b5",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: GB, To: IR",
+      "timestamp" : "2025-06-17T15:53:22.674539",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:22.674555",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:22.677869"
+}

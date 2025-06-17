@@ -1,0 +1,46 @@
+{
+  "transactionId" : "9c4ba7da-dde8-4b67-be15-4089fc746968",
+  "transaction" : {
+    "transactionId" : "9c4ba7da-dde8-4b67-be15-4089fc746968",
+    "fromAccount" : "586726824334",
+    "toAccount" : "755575052525",
+    "amount" : 853.86,
+    "currency" : "NGN",
+    "fromBankSwift" : "GTBINGLA",
+    "toBankSwift" : "MELLATIR",
+    "fromBankName" : "Guaranty Trust Bank PLC",
+    "toBankName" : "Bank Mellat",
+    "timestamp" : "2025-06-17T14:08:24.634854",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NG",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9c4ba7da-dde8-4b67-be15-4089fc746968",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "ed5ca242-7cb1-4296-881f-6f65a9c83a5c",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: NG, To: IR",
+      "timestamp" : "2025-06-17T15:53:38.874547",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "331c6746-0c3d-4409-b9c2-11ba79415833",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 853.86 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:38.874567",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.87458",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.878103"
+}

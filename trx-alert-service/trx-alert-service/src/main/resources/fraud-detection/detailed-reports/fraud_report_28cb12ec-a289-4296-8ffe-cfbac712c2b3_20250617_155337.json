@@ -1,0 +1,46 @@
+{
+  "transactionId" : "28cb12ec-a289-4296-8ffe-cfbac712c2b3",
+  "transaction" : {
+    "transactionId" : "28cb12ec-a289-4296-8ffe-cfbac712c2b3",
+    "fromAccount" : "779235139900",
+    "toAccount" : "7472860064",
+    "amount" : 771.28,
+    "currency" : "IRR",
+    "fromBankSwift" : "MELIIRTH",
+    "toBankSwift" : "GTBINGLA",
+    "fromBankName" : "Bank Melli Iran",
+    "toBankName" : "Guaranty Trust Bank PLC",
+    "timestamp" : "2025-06-17T13:27:03.459509",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IR",
+    "toCountryCode" : "NG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "28cb12ec-a289-4296-8ffe-cfbac712c2b3",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "32c4c437-f78c-49b4-b466-0de610d64de3",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: IR, To: NG",
+      "timestamp" : "2025-06-17T15:53:37.281375",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "59d4d70a-1ecf-4c01-a3e5-09f323d60e18",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 771.28 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:37.28139",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.281397",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.284742"
+}

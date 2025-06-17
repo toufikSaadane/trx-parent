@@ -1,0 +1,36 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:10.872162
+// Transaction ID: 3d5c1d36-0e1a-4e3f-853a-4d8d1363bfd0
+// Amount: 766.74 CHF
+// From: Credit Suisse
+// To: Westpac Banking Corp
+// FRAUD STATUS: NORMAL
+// Risk Score: 40/100
+// Risk Level: MEDIUM
+// Fraud Alerts: 1
+//   - Frequent Small Amounts
+//=====================================
+
+{1:F01CRESCHZZXXX0}{2:I103WESTPAC0N}{3:{108:3d5c1d36-0e1a-4e}}
+{4:
+:20:3d5c1d36-0e1a-4e
+:23B:CRED
+:32A:250611CHF766,74
+:33B:CHF766,74
+:71A:SHA
+:50K:/CH4348350002000785052
+Credit Suisse
+654 Banking Center
+Zurich, Switzerland
+:52A:CRESCHZZ
+:53B:/CRESCHZZ
+:56A:DEUTDEFFXXX
+:57A:WESTPAC
+:59:/170294640536
+Westpac Banking Corp
+987 Trade Plaza
+Sydney, Australia
+:70:Payment for services - TXN ID: 3d5c1d36 - Cross-border transfer
+:72:/INS/CRESCHZZ
+}
+{5:{MAC:7F8B6039}{CHK:00A8C4CE529B}}

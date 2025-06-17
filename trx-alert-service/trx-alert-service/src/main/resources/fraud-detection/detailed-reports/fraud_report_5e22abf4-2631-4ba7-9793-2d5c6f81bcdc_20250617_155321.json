@@ -1,0 +1,30 @@
+{
+  "transactionId" : "5e22abf4-2631-4ba7-9793-2d5c6f81bcdc",
+  "transaction" : {
+    "transactionId" : "5e22abf4-2631-4ba7-9793-2d5c6f81bcdc",
+    "fromAccount" : "257613728997",
+    "toAccount" : "3622662771",
+    "amount" : 1188.48,
+    "currency" : "",
+    "fromBankSwift" : "EBILAEADXXX",
+    "toBankSwift" : "BKCHCNBJ",
+    "fromBankName" : "Emirates NBD Bank",
+    "toBankName" : "Bank of China",
+    "timestamp" : "2025-06-13T15:53:49.201654",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AE",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5e22abf4-2631-4ba7-9793-2d5c6f81bcdc",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.187931",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.192485"
+}

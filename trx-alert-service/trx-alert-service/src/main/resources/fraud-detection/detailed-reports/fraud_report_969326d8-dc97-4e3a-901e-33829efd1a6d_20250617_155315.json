@@ -1,0 +1,46 @@
+{
+  "transactionId" : "969326d8-dc97-4e3a-901e-33829efd1a6d",
+  "transaction" : {
+    "transactionId" : "969326d8-dc97-4e3a-901e-33829efd1a6d",
+    "fromAccount" : "646228047507",
+    "toAccount" : "795513023982",
+    "amount" : 784.84,
+    "currency" : "MMK",
+    "fromBankSwift" : "KBZBMMMY",
+    "toBankSwift" : "CBMMMY2X",
+    "fromBankName" : "KBZ Bank",
+    "toBankName" : "CB Bank",
+    "timestamp" : "2025-06-17T11:02:12.532216",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MM",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "969326d8-dc97-4e3a-901e-33829efd1a6d",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "9bdc685e-be29-43fe-a24d-299de2ef1dce",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MM, To: MM",
+      "timestamp" : "2025-06-17T15:53:15.388055",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "3c9f080f-59b9-4abf-89ac-8c71fd5bcaf5",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 784.84 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.388162",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.388173",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.389314"
+}

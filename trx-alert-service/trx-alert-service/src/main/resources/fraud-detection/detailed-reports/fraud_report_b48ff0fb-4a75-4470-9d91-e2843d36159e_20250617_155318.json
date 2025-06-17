@@ -1,0 +1,30 @@
+{
+  "transactionId" : "b48ff0fb-4a75-4470-9d91-e2843d36159e",
+  "transaction" : {
+    "transactionId" : "b48ff0fb-4a75-4470-9d91-e2843d36159e",
+    "fromAccount" : "956074858025",
+    "toAccount" : "102056868537",
+    "amount" : 1931.77,
+    "currency" : "CHF",
+    "fromBankSwift" : "UBSWCHZH",
+    "toBankSwift" : "TADHYEMY",
+    "fromBankName" : "UBS Group AG",
+    "toBankName" : "Tadhamon International Islamic Bank",
+    "timestamp" : "2025-06-17T13:06:55.814767",
+    "status" : "PENDING",
+    "fromIBAN" : "CH9124400001358077355",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "TADHYOYMY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b48ff0fb-4a75-4470-9d91-e2843d36159e",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.248815",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.2524"
+}

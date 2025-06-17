@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5c11e978-59da-44c7-a9c4-61d88561c58f",
+  "transaction" : {
+    "transactionId" : "5c11e978-59da-44c7-a9c4-61d88561c58f",
+    "fromAccount" : "253890502232",
+    "toAccount" : "717967541936",
+    "amount" : 578.31,
+    "currency" : "EUR",
+    "fromBankSwift" : "HYVEDEMM",
+    "toBankSwift" : "SBZAZAJJ",
+    "fromBankName" : "UniCredit Bank AG",
+    "toBankName" : "Standard Bank of South Africa",
+    "timestamp" : "2025-06-15T21:26:37.054429",
+    "status" : "PENDING",
+    "fromIBAN" : "DE35700202700685770887",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "ZA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5c11e978-59da-44c7-a9c4-61d88561c58f",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "b90b80c1-47c2-4c48-b7e8-3e3c0b32e569",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 578.31 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:21.920843",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.920855",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.926695"
+}

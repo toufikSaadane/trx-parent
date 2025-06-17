@@ -1,0 +1,38 @@
+{
+  "transactionId" : "48ec875e-b8d8-4486-80e4-0b31fa1af94d",
+  "transaction" : {
+    "transactionId" : "48ec875e-b8d8-4486-80e4-0b31fa1af94d",
+    "fromAccount" : "114154009854",
+    "toAccount" : "0852559596",
+    "amount" : 60691.49,
+    "currency" : "EUR",
+    "fromBankSwift" : "BCEELULL",
+    "toBankSwift" : "COBADEFF",
+    "fromBankName" : "BCEE",
+    "toBankName" : "Commerzbank AG",
+    "timestamp" : "2025-06-17T10:59:31.999356",
+    "status" : "PENDING",
+    "fromIBAN" : "LU050010001915407622",
+    "toIBAN" : "DE65100400001892272318",
+    "fromCountryCode" : "LU",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "48ec875e-b8d8-4486-80e4-0b31fa1af94d",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "8b38792a-92e7-4f10-8594-bdf05aba4a29",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 60691.49 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:15.349774",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.349784",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.350914"
+}

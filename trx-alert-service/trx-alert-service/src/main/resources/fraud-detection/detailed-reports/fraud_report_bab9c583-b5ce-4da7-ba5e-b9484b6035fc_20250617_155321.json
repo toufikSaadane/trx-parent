@@ -1,0 +1,38 @@
+{
+  "transactionId" : "bab9c583-b5ce-4da7-ba5e-b9484b6035fc",
+  "transaction" : {
+    "transactionId" : "bab9c583-b5ce-4da7-ba5e-b9484b6035fc",
+    "fromAccount" : "2331626219",
+    "toAccount" : "783906503566",
+    "amount" : 180.24,
+    "currency" : "USD",
+    "fromBankSwift" : "ROYCCAT2XXX",
+    "toBankSwift" : "BOFAUS3NXXX",
+    "fromBankName" : "RBC Royal Bank",
+    "toBankName" : "Bank of America N.A.",
+    "timestamp" : "2025-06-13T15:56:39.201006",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "bab9c583-b5ce-4da7-ba5e-b9484b6035fc",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "83b9b6a2-3f44-416d-b7b8-c386ef09736e",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 180.24 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:21.338249",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.33826",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.342856"
+}

@@ -1,0 +1,30 @@
+{
+  "transactionId" : "5cf3a33a-8130-4ab4-838f-c15286557ffa",
+  "transaction" : {
+    "transactionId" : "5cf3a33a-8130-4ab4-838f-c15286557ffa",
+    "fromAccount" : "726503907872",
+    "toAccount" : "061014551762",
+    "amount" : 6597.61,
+    "currency" : "USD",
+    "fromBankSwift" : "WELLSFARG",
+    "toBankSwift" : "CRESCHZZ",
+    "fromBankName" : "Wells Fargo Bank",
+    "toBankName" : "Credit Suisse",
+    "timestamp" : "2025-06-16T23:30:22.684574",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "CH9348350001723899786",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5cf3a33a-8130-4ab4-838f-c15286557ffa",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.258324",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.260363"
+}

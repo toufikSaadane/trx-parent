@@ -1,0 +1,38 @@
+{
+  "transactionId" : "3a5e70a9-8a5d-4437-bca3-3d3652032634",
+  "transaction" : {
+    "transactionId" : "3a5e70a9-8a5d-4437-bca3-3d3652032634",
+    "fromAccount" : "449817393280",
+    "toAccount" : "783933358280",
+    "amount" : 820.94,
+    "currency" : "GBP",
+    "fromBankSwift" : "LLOYGB2L",
+    "toBankSwift" : "AKBKTRIS",
+    "fromBankName" : "Lloyds Bank",
+    "toBankName" : "Akbank T.A.Ş.",
+    "timestamp" : "2025-06-17T14:12:04.627616",
+    "status" : "PROCESSING",
+    "fromIBAN" : "GB80300000001001325890",
+    "toIBAN" : "TR304600000000002094390587",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "TR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3a5e70a9-8a5d-4437-bca3-3d3652032634",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "4eb5ef32-1b3b-44bf-a2c1-31fca61ba282",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 820.94 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:39.142506",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.142517",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.147933"
+}

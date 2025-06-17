@@ -1,0 +1,38 @@
+{
+  "transactionId" : "1f31a6e7-6012-4990-817c-d5967e3741e7",
+  "transaction" : {
+    "transactionId" : "1f31a6e7-6012-4990-817c-d5967e3741e7",
+    "fromAccount" : "649390816744",
+    "toAccount" : "4742331907",
+    "amount" : 70637.89,
+    "currency" : "USD",
+    "fromBankSwift" : "BNPAFRPP",
+    "toBankSwift" : "WFBIUS6SXXX",
+    "fromBankName" : "BNP Paribas SA",
+    "toBankName" : "Wells Fargo Bank",
+    "timestamp" : "2025-06-17T14:11:14.632338",
+    "status" : "PROCESSING",
+    "fromIBAN" : "FR4730004000000000982703017",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1f31a6e7-6012-4990-817c-d5967e3741e7",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "920a3b8f-51e8-469c-aefb-08cfa788d125",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 70637.89 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:20.03004",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.030052",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.033195"
+}

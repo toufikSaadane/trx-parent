@@ -1,0 +1,30 @@
+{
+  "transactionId" : "05da1ca2-87e9-4e7d-a7e4-438231335399",
+  "transaction" : {
+    "transactionId" : "05da1ca2-87e9-4e7d-a7e4-438231335399",
+    "fromAccount" : "8085590372",
+    "toAccount" : "6045812367",
+    "amount" : 1812.18,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33",
+    "toBankSwift" : "SBERRUMM",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "Sberbank",
+    "timestamp" : "2025-06-16T23:29:22.684409",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "RU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "05da1ca2-87e9-4e7d-a7e4-438231335399",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.602707",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.604691"
+}

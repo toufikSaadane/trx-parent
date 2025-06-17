@@ -1,0 +1,38 @@
+{
+  "transactionId" : "25eac161-a4dc-4774-9e91-d1972fc0764b",
+  "transaction" : {
+    "transactionId" : "25eac161-a4dc-4774-9e91-d1972fc0764b",
+    "fromAccount" : "0469434863",
+    "toAccount" : "915276179464",
+    "amount" : 3333.24,
+    "currency" : "USD",
+    "fromBankSwift" : "BKTOTRIS",
+    "toBankSwift" : "BOFAUS3N",
+    "fromBankName" : "Türkiye İş Bankası",
+    "toBankName" : "Bank of America N.A.",
+    "timestamp" : "2025-06-17T03:31:42.733739",
+    "status" : "PENDING",
+    "fromIBAN" : "TR686400000000000133065273",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "TR",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "25eac161-a4dc-4774-9e91-d1972fc0764b",
+    "riskScore" : 50,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "5a95eba1-fc52-48d6-9f95-be0b51373a8f",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 03:31:42.733739",
+      "timestamp" : "2025-06-17T15:53:25.121433",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.12145",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.126231"
+}

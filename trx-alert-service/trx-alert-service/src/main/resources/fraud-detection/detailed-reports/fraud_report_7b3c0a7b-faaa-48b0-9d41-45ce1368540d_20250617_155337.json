@@ -1,0 +1,38 @@
+{
+  "transactionId" : "7b3c0a7b-faaa-48b0-9d41-45ce1368540d",
+  "transaction" : {
+    "transactionId" : "7b3c0a7b-faaa-48b0-9d41-45ce1368540d",
+    "fromAccount" : "459300392105",
+    "toAccount" : "905739728157",
+    "amount" : 181.16,
+    "currency" : "EUR",
+    "fromBankSwift" : "NBPLT21",
+    "toBankSwift" : "COMMDEFF",
+    "fromBankName" : "Šiaulių Bankas",
+    "toBankName" : "Commerzbank AG",
+    "timestamp" : "2025-06-17T13:55:29.736858",
+    "status" : "PROCESSING",
+    "fromIBAN" : "LT517300000286279749",
+    "toIBAN" : "DE38400800000382987883",
+    "fromCountryCode" : "LT",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7b3c0a7b-faaa-48b0-9d41-45ce1368540d",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "af41f631-4b5e-4cd9-9468-a69c6a58e860",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 181.16 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:37.876668",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.87668",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.882349"
+}

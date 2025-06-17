@@ -1,0 +1,38 @@
+{
+  "transactionId" : "52341ff8-f741-44df-91a5-065ac037fbf4",
+  "transaction" : {
+    "transactionId" : "52341ff8-f741-44df-91a5-065ac037fbf4",
+    "fromAccount" : "386235703021",
+    "toAccount" : "332911736752",
+    "amount" : 5730.86,
+    "currency" : "KPW",
+    "fromBankSwift" : "FTBKKPRKX",
+    "toBankSwift" : "KORYOKT2X",
+    "fromBankName" : "Foreign Trade Bank",
+    "toBankName" : "Korea Taesong Bank",
+    "timestamp" : "2025-06-17T13:57:49.741106",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "52341ff8-f741-44df-91a5-065ac037fbf4",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "ba6959b6-eea7-4c85-b893-f32cb16a8dd6",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: KP",
+      "timestamp" : "2025-06-17T15:53:15.74572",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.745741",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.747219"
+}

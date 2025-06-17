@@ -1,0 +1,38 @@
+{
+  "transactionId" : "e7391f72-10fa-416b-8a1f-c19e57fc2869",
+  "transaction" : {
+    "transactionId" : "e7391f72-10fa-416b-8a1f-c19e57fc2869",
+    "fromAccount" : "038437199052",
+    "toAccount" : "422560369034",
+    "amount" : 829.69,
+    "currency" : "USD",
+    "fromBankSwift" : "CTBAAU2S",
+    "toBankSwift" : "CHASUS33",
+    "fromBankName" : "Commonwealth Bank of Australia",
+    "toBankName" : "JPMorgan Chase Bank",
+    "timestamp" : "2025-06-17T14:16:44.63189",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e7391f72-10fa-416b-8a1f-c19e57fc2869",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "90b7da4d-77a5-469e-8af7-b70f096a0ec0",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 829.69 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:26.602014",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.602035",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.611262"
+}

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "191dcb28-5ed1-4fa8-b94d-2b18b3a4e550",
+  "transaction" : {
+    "transactionId" : "191dcb28-5ed1-4fa8-b94d-2b18b3a4e550",
+    "fromAccount" : "5760076186",
+    "toAccount" : "160676077181",
+    "amount" : 15670.17,
+    "currency" : "AUD",
+    "fromBankSwift" : "ANZBAU3M",
+    "toBankSwift" : "FTBKKPRKX",
+    "fromBankName" : "ANZ Banking Group",
+    "toBankName" : "Foreign Trade Bank",
+    "timestamp" : "2025-06-17T14:19:14.630893",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "191dcb28-5ed1-4fa8-b94d-2b18b3a4e550",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "0e233eb2-3b44-4aa3-ae5b-a1afa8d01ca6",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AU, To: KP",
+      "timestamp" : "2025-06-17T15:53:27.015477",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "c84df328-ef30-470d-ade6-f025bf17b0bd",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 15670.17 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:27.015544",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:27.015581",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:27.01925"
+}

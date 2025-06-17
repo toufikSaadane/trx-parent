@@ -1,0 +1,46 @@
+{
+  "transactionId" : "e6b522b4-a9f2-439d-947d-176cfb33f3d8",
+  "transaction" : {
+    "transactionId" : "e6b522b4-a9f2-439d-947d-176cfb33f3d8",
+    "fromAccount" : "151469479979",
+    "toAccount" : "762621301652",
+    "amount" : 429.96,
+    "currency" : "SGD",
+    "fromBankSwift" : "DBSBSGSG",
+    "toBankSwift" : "AFIBAFKA",
+    "fromBankName" : "DBS Bank",
+    "toBankName" : "Afghanistan International Bank",
+    "timestamp" : "2025-06-17T13:26:03.47125",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e6b522b4-a9f2-439d-947d-176cfb33f3d8",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "0304c49c-7457-4974-81f8-829079c43f5b",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SG, To: AF",
+      "timestamp" : "2025-06-17T15:53:18.466001",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "b1368a6e-309e-4817-b148-62314af716cd",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 429.96 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:18.466017",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.466023",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.468345"
+}

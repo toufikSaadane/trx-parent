@@ -1,0 +1,38 @@
+{
+  "transactionId" : "8e241833-d1b6-4736-9a3f-7ab581da1f0f",
+  "transaction" : {
+    "transactionId" : "8e241833-d1b6-4736-9a3f-7ab581da1f0f",
+    "fromAccount" : "0145784143",
+    "toAccount" : "747860116153",
+    "amount" : 960.21,
+    "currency" : "AUD",
+    "fromBankSwift" : "DEUTAU2S",
+    "toBankSwift" : "LLOYGB2L",
+    "fromBankName" : "Deutsche Bank AG",
+    "toBankName" : "Lloyds Bank",
+    "timestamp" : "2025-06-17T13:50:49.741947",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "GB43300000000076398479",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8e241833-d1b6-4736-9a3f-7ab581da1f0f",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "ed291946-0fca-4d8e-b8dc-8f1c04ffa6e9",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 960.21 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.615401",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.615409",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.617842"
+}

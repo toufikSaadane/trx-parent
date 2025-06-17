@@ -1,0 +1,38 @@
+{
+  "transactionId" : "794f3f43-9af1-4216-9d37-9308471274dc",
+  "transaction" : {
+    "transactionId" : "794f3f43-9af1-4216-9d37-9308471274dc",
+    "fromAccount" : "314074542897",
+    "toAccount" : "647380937480",
+    "amount" : 618.37,
+    "currency" : "RUB",
+    "fromBankSwift" : "SBERRUMM",
+    "toBankSwift" : "CRLYFRPP",
+    "fromBankName" : "Sberbank",
+    "toBankName" : "Crédit Lyonnais",
+    "timestamp" : "2025-06-17T15:50:46.480569",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "FR6830002000000000336577087",
+    "fromCountryCode" : "RU",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "794f3f43-9af1-4216-9d37-9308471274dc",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "85828175-3b7f-4f8e-a93e-94674329880e",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 618.37 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:27.603661",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:27.603677",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:27.60876"
+}

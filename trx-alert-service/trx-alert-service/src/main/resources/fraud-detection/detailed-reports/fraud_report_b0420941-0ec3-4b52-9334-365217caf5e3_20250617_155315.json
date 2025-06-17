@@ -1,0 +1,38 @@
+{
+  "transactionId" : "b0420941-0ec3-4b52-9334-365217caf5e3",
+  "transaction" : {
+    "transactionId" : "b0420941-0ec3-4b52-9334-365217caf5e3",
+    "fromAccount" : "872662431379",
+    "toAccount" : "223426635297",
+    "amount" : 27561.79,
+    "currency" : "EUR",
+    "fromBankSwift" : "SOGEFRPP",
+    "toBankSwift" : "BSCHBRSP",
+    "fromBankName" : "Société Générale",
+    "toBankName" : "Santander Brasil",
+    "timestamp" : "2025-06-17T11:00:52.528581",
+    "status" : "PENDING",
+    "fromIBAN" : "FR0930003000000001121901506",
+    "toIBAN" : "BR69904008880000796772765",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "BR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b0420941-0ec3-4b52-9334-365217caf5e3",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "cf21b938-1751-4ca0-9395-746b2c528d9a",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 27561.79 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:15.362004",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.362013",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.363091"
+}

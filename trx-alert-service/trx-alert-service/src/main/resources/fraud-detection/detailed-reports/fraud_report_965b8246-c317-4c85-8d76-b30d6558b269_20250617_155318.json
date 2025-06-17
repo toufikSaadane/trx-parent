@@ -1,0 +1,38 @@
+{
+  "transactionId" : "965b8246-c317-4c85-8d76-b30d6558b269",
+  "transaction" : {
+    "transactionId" : "965b8246-c317-4c85-8d76-b30d6558b269",
+    "fromAccount" : "157863445921",
+    "toAccount" : "698097792927",
+    "amount" : 895.94,
+    "currency" : "HUF",
+    "fromBankSwift" : "HANDFIHH",
+    "toBankSwift" : "NWBKGB2L",
+    "fromBankName" : "Handelsbanken",
+    "toBankName" : "NatWest Group",
+    "timestamp" : "2025-06-17T13:08:10.812762",
+    "status" : "PENDING",
+    "fromIBAN" : "FI9130000103300709",
+    "toIBAN" : "GB09600000000486976697",
+    "fromCountryCode" : "FI",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "965b8246-c317-4c85-8d76-b30d6558b269",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "cb110342-be2a-4a40-ac33-d18500c1c6c6",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 895.94 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:18.32708",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.327092",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.33059"
+}

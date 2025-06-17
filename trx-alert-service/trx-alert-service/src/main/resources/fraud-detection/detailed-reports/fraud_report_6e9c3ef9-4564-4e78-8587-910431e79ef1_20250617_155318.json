@@ -1,0 +1,38 @@
+{
+  "transactionId" : "6e9c3ef9-4564-4e78-8587-910431e79ef1",
+  "transaction" : {
+    "transactionId" : "6e9c3ef9-4564-4e78-8587-910431e79ef1",
+    "fromAccount" : "9347969160",
+    "toAccount" : "5763826117",
+    "amount" : 51204.99,
+    "currency" : "BEL",
+    "fromBankSwift" : "KREDBEBB",
+    "toBankSwift" : "NBPLT21",
+    "fromBankName" : "KBC Bank N.V.",
+    "toBankName" : "Šiaulių Bankas",
+    "timestamp" : "2025-06-17T13:06:25.840033",
+    "status" : "PROCESSING",
+    "fromIBAN" : "BE62733000834548",
+    "toIBAN" : "LT837300001135529402",
+    "fromCountryCode" : "BE",
+    "toCountryCode" : "LT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6e9c3ef9-4564-4e78-8587-910431e79ef1",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "30c781b3-0e4c-4a83-877e-ef4eafccd59b",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 51204.99 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:18.226002",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.226015",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.228563"
+}

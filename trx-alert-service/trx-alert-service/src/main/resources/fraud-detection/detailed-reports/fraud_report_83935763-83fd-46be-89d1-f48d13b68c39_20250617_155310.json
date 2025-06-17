@@ -1,0 +1,30 @@
+{
+  "transactionId" : "83935763-83fd-46be-89d1-f48d13b68c39",
+  "transaction" : {
+    "transactionId" : "83935763-83fd-46be-89d1-f48d13b68c39",
+    "fromAccount" : "8947188060",
+    "toAccount" : "707610029569",
+    "amount" : 5820.89,
+    "currency" : "AUD",
+    "fromBankSwift" : "BNPAAU2S",
+    "toBankSwift" : "SCOTMXMM",
+    "fromBankName" : "BNP Paribas Australia",
+    "toBankName" : "Scotiabank Mexico",
+    "timestamp" : "2025-06-11T10:52:30.620553",
+    "status" : "FAILED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "MX"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "83935763-83fd-46be-89d1-f48d13b68c39",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.837157",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.837794"
+}

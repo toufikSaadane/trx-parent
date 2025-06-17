@@ -1,0 +1,46 @@
+{
+  "transactionId" : "6f92ca5b-4d7f-4f03-b175-b762df593ee3",
+  "transaction" : {
+    "transactionId" : "6f92ca5b-4d7f-4f03-b175-b762df593ee3",
+    "fromAccount" : "3055951170",
+    "toAccount" : "053240673339",
+    "amount" : 932.32,
+    "currency" : "CAD",
+    "fromBankSwift" : "NOSCCATT",
+    "toBankSwift" : "CENKPRKX",
+    "fromBankName" : "Scotiabank",
+    "toBankName" : "Central Bank of DPRK",
+    "timestamp" : "2025-06-17T14:08:54.629239",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6f92ca5b-4d7f-4f03-b175-b762df593ee3",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "f1ea9aeb-3f25-45e5-8612-296418656879",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CA, To: KP",
+      "timestamp" : "2025-06-17T15:53:25.533008",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "5b3bb0f8-6de7-468d-9a9c-477213ea9a83",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 932.32 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:25.53314",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.533181",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.540281"
+}

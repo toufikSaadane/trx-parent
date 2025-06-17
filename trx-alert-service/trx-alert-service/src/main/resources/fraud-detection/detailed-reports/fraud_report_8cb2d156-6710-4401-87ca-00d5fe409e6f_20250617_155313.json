@@ -1,0 +1,38 @@
+{
+  "transactionId" : "8cb2d156-6710-4401-87ca-00d5fe409e6f",
+  "transaction" : {
+    "transactionId" : "8cb2d156-6710-4401-87ca-00d5fe409e6f",
+    "fromAccount" : "0663752162",
+    "toAccount" : "7921488377",
+    "amount" : 496.0,
+    "currency" : "CHF",
+    "fromBankSwift" : "UBSWCHZH",
+    "toBankSwift" : "HSBCGB2L",
+    "fromBankName" : "UBS Group AG",
+    "toBankName" : "HSBC UK",
+    "timestamp" : "2025-06-16T23:29:52.687109",
+    "status" : "PENDING",
+    "fromIBAN" : "CH9524400000395393508",
+    "toIBAN" : "GB81404404001157332864",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8cb2d156-6710-4401-87ca-00d5fe409e6f",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "25766d7b-53c2-46b1-b2bd-9301b4e781c9",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 496.0 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:13.803185",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.803193",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.805373"
+}

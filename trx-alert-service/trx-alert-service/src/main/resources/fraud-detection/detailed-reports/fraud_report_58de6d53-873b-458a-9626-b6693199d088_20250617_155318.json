@@ -1,0 +1,38 @@
+{
+  "transactionId" : "58de6d53-873b-458a-9626-b6693199d088",
+  "transaction" : {
+    "transactionId" : "58de6d53-873b-458a-9626-b6693199d088",
+    "fromAccount" : "763341156198",
+    "toAccount" : "187236484404",
+    "amount" : 1550.09,
+    "currency" : "EUR",
+    "fromBankSwift" : "ABNANL2A",
+    "toBankSwift" : "KOEXKRSE",
+    "fromBankName" : "ABN AMRO Bank N.V.",
+    "toBankName" : "Korea Exchange Bank",
+    "timestamp" : "2025-06-17T13:05:45.822146",
+    "status" : "PROCESSING",
+    "fromIBAN" : "NL8030002736364934",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "KR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "58de6d53-873b-458a-9626-b6693199d088",
+    "riskScore" : 60,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "0addc119-a294-4578-824c-53052d803de2",
+      "fraudType" : "CRYPTOCURRENCY_KEYWORDS",
+      "description" : "Cryptocurrency Keywords",
+      "severity" : 6,
+      "details" : "Transaction contains cryptocurrency-related keywords in bank names: ABN AMRO Bank N.V. Korea Exchange Bank",
+      "timestamp" : "2025-06-17T15:53:18.185206",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.185223",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.188738"
+}

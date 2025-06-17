@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5beb8550-ce97-461d-a47a-ca2bf73b0f69",
+  "transaction" : {
+    "transactionId" : "5beb8550-ce97-461d-a47a-ca2bf73b0f69",
+    "fromAccount" : "6906727069",
+    "toAccount" : "6081470287",
+    "amount" : 903.99,
+    "currency" : "EUR",
+    "fromBankSwift" : "NBPLT21",
+    "toBankSwift" : "GTBINGLA",
+    "fromBankName" : "Šiaulių Bankas",
+    "toBankName" : "Guaranty Trust Bank PLC",
+    "timestamp" : "2025-06-17T14:16:44.636156",
+    "status" : "PROCESSING",
+    "fromIBAN" : "LT977300001908909568",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "LT",
+    "toCountryCode" : "NG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5beb8550-ce97-461d-a47a-ca2bf73b0f69",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "c012c5b7-63b4-456e-b711-d7df05bf7a8f",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 903.99 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:26.613988",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.61401",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.619784"
+}

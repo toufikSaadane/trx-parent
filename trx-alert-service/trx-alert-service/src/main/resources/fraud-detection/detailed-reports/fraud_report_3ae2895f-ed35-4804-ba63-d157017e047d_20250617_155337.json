@@ -1,0 +1,38 @@
+{
+  "transactionId" : "3ae2895f-ed35-4804-ba63-d157017e047d",
+  "transaction" : {
+    "transactionId" : "3ae2895f-ed35-4804-ba63-d157017e047d",
+    "fromAccount" : "547359536503",
+    "toAccount" : "042728143798",
+    "amount" : 5000,
+    "currency" : "AUD",
+    "fromBankSwift" : "BNPAAU2S",
+    "toBankSwift" : "NOSCCATTXXX",
+    "fromBankName" : "BNP Paribas Australia",
+    "toBankName" : "The Bank of Nova Scotia",
+    "timestamp" : "2025-06-17T13:51:59.73767",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3ae2895f-ed35-4804-ba63-d157017e047d",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "9343d404-847c-46c0-b428-2e1edcff5a4e",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 5000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:37.553953",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.553964",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.564349"
+}

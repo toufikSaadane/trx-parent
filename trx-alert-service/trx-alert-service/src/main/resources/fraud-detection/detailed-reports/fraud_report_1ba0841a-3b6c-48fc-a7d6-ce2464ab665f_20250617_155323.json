@@ -1,0 +1,38 @@
+{
+  "transactionId" : "1ba0841a-3b6c-48fc-a7d6-ce2464ab665f",
+  "transaction" : {
+    "transactionId" : "1ba0841a-3b6c-48fc-a7d6-ce2464ab665f",
+    "fromAccount" : "474047135119",
+    "toAccount" : "6570331471",
+    "amount" : 1000,
+    "currency" : "USD",
+    "fromBankSwift" : "TDOMCATT",
+    "toBankSwift" : "WFBIUS6SXXX",
+    "fromBankName" : "TD Canada Trust",
+    "toBankName" : "Wells Fargo Bank",
+    "timestamp" : "2025-06-17T13:25:33.455625",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1ba0841a-3b6c-48fc-a7d6-ce2464ab665f",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "1fe2d7b4-869b-457d-831e-1fbccff4ba28",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 1000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:23.70127",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.701281",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.705729"
+}

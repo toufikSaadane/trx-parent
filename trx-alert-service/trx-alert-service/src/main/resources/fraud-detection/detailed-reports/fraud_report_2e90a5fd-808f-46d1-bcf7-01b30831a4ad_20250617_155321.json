@@ -1,0 +1,38 @@
+{
+  "transactionId" : "2e90a5fd-808f-46d1-bcf7-01b30831a4ad",
+  "transaction" : {
+    "transactionId" : "2e90a5fd-808f-46d1-bcf7-01b30831a4ad",
+    "fromAccount" : "4102571141",
+    "toAccount" : "208947148413",
+    "amount" : 189.24,
+    "currency" : "GBP",
+    "fromBankSwift" : "NWBKGB2L",
+    "toBankSwift" : "BAMXMXMM",
+    "fromBankName" : "NatWest Group",
+    "toBankName" : "Banco Azteca",
+    "timestamp" : "2025-06-15T09:18:18.879105",
+    "status" : "FAILED",
+    "fromIBAN" : "GB47600000000750985278",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "MX"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "2e90a5fd-808f-46d1-bcf7-01b30831a4ad",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "52e50bdc-4db0-4ceb-8f76-63dbbdb8a85b",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 189.24 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:21.665972",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.665983",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.670616"
+}

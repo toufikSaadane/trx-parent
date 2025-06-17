@@ -1,0 +1,38 @@
+{
+  "transactionId" : "4fb8d83c-f0ec-4143-987f-0f0863ecc963",
+  "transaction" : {
+    "transactionId" : "4fb8d83c-f0ec-4143-987f-0f0863ecc963",
+    "fromAccount" : "4735744804",
+    "toAccount" : "987800523547",
+    "amount" : 349.78,
+    "currency" : "CNY",
+    "fromBankSwift" : "HSBCCNSH",
+    "toBankSwift" : "NOSCCATTXXX",
+    "fromBankName" : "HSBC Bank (China) Company Limited",
+    "toBankName" : "The Bank of Nova Scotia",
+    "timestamp" : "2025-06-17T14:12:54.630527",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "4fb8d83c-f0ec-4143-987f-0f0863ecc963",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "93e9c0aa-658d-476e-85d2-7c41fd83b4ec",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 349.78 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:20.167636",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.167653",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.172714"
+}

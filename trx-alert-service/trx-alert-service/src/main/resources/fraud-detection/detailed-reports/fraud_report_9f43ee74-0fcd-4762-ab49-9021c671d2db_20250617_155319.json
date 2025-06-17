@@ -1,0 +1,46 @@
+{
+  "transactionId" : "9f43ee74-0fcd-4762-ab49-9021c671d2db",
+  "transaction" : {
+    "transactionId" : "9f43ee74-0fcd-4762-ab49-9021c671d2db",
+    "fromAccount" : "116164204302",
+    "toAccount" : "776318561119",
+    "amount" : 572.37,
+    "currency" : "BEL",
+    "fromBankSwift" : "KREDBEBB",
+    "toBankSwift" : "CBSYSYMM",
+    "fromBankName" : "KBC Bank N.V.",
+    "toBankName" : "Central Bank of Syria",
+    "timestamp" : "2025-06-17T14:00:29.746534",
+    "status" : "PENDING",
+    "fromIBAN" : "BE71733000519912",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "BE",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9f43ee74-0fcd-4762-ab49-9021c671d2db",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "ef36eaec-320d-431e-9368-6304c6f0964c",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: BE, To: SY",
+      "timestamp" : "2025-06-17T15:53:19.296218",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "a6308803-ec99-4366-92ca-fceca995c200",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 572.37 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:19.296241",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.296249",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.298838"
+}

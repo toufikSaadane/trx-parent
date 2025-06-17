@@ -1,0 +1,38 @@
+{
+  "transactionId" : "d6300056-9132-4f64-a4af-88a628b4119f",
+  "transaction" : {
+    "transactionId" : "d6300056-9132-4f64-a4af-88a628b4119f",
+    "fromAccount" : "3394327822",
+    "toAccount" : "346996947180",
+    "amount" : 77600.79,
+    "currency" : "EUR",
+    "fromBankSwift" : "COMMDEFF",
+    "toBankSwift" : "AKBKTRIS",
+    "fromBankName" : "Commerzbank AG",
+    "toBankName" : "Akbank T.A.Ş.",
+    "timestamp" : "2025-06-16T23:18:52.131573",
+    "status" : "PENDING",
+    "fromIBAN" : "DE50400800001846297851",
+    "toIBAN" : "TR104600000000000008318162",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "TR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d6300056-9132-4f64-a4af-88a628b4119f",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "431e5721-36ee-455d-b09c-e8c5d0fa5ae0",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 77600.79 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:17.406316",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.406327",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.408167"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "859aab61-983b-4167-961c-622af77e932a",
+  "transaction" : {
+    "transactionId" : "859aab61-983b-4167-961c-622af77e932a",
+    "fromAccount" : "7645867700",
+    "toAccount" : "264459414209",
+    "amount" : 24233.26,
+    "currency" : "EUR",
+    "fromBankSwift" : "CAIXESBB",
+    "toBankSwift" : "HSBCGB2L",
+    "fromBankName" : "CaixaBank",
+    "toBankName" : "HSBC UK",
+    "timestamp" : "2025-06-13T15:51:19.203461",
+    "status" : "FAILED",
+    "fromIBAN" : "ES7121000000000843073150",
+    "toIBAN" : "GB66404404001244260460",
+    "fromCountryCode" : "ES",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "859aab61-983b-4167-961c-622af77e932a",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "7b51ae96-760d-4889-b8d6-c9542142dc7d",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 24233.26 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:11.707214",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:11.707224",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:11.707731"
+}

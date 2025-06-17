@@ -1,0 +1,38 @@
+{
+  "transactionId" : "1521a40b-703e-4505-9cb2-2d838a27d19f",
+  "transaction" : {
+    "transactionId" : "1521a40b-703e-4505-9cb2-2d838a27d19f",
+    "fromAccount" : "258055952974",
+    "toAccount" : "426918218070",
+    "amount" : 630.18,
+    "currency" : "USD",
+    "fromBankSwift" : "CIBVBRSP",
+    "toBankSwift" : "WFBIUS6S",
+    "fromBankName" : "Banco Votorantim",
+    "toBankName" : "Wells Fargo Bank N.A.",
+    "timestamp" : "2025-06-16T23:17:52.144868",
+    "status" : "PENDING",
+    "fromIBAN" : "BR72655000100001786780827",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "BR",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1521a40b-703e-4505-9cb2-2d838a27d19f",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "b296d064-35da-4179-a626-2289f7147e14",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 630.18 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:22.303295",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:22.303308",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:22.308014"
+}

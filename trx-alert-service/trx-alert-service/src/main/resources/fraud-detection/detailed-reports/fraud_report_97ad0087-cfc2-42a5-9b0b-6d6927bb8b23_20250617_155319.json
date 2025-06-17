@@ -1,0 +1,46 @@
+{
+  "transactionId" : "97ad0087-cfc2-42a5-9b0b-6d6927bb8b23",
+  "transaction" : {
+    "transactionId" : "97ad0087-cfc2-42a5-9b0b-6d6927bb8b23",
+    "fromAccount" : "564147754073",
+    "toAccount" : "153144404493",
+    "amount" : 2651.83,
+    "currency" : "KPW",
+    "fromBankSwift" : "FTBKKPRKX",
+    "toBankSwift" : "CIBVBRSP",
+    "fromBankName" : "Foreign Trade Bank",
+    "toBankName" : "Banco Votorantim",
+    "timestamp" : "2025-06-17T02:04:24.628702",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "BR96655000100001945211368",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "BR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "97ad0087-cfc2-42a5-9b0b-6d6927bb8b23",
+    "riskScore" : 130,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "59c723f1-ac51-454d-91a7-855fe140b62c",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: BR",
+      "timestamp" : "2025-06-17T15:53:19.905539",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "69fb8763-8a55-41fd-bd04-0ab586577198",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 02:04:24.628702",
+      "timestamp" : "2025-06-17T15:53:19.905571",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.905582",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.910131"
+}

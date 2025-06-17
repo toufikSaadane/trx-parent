@@ -1,0 +1,38 @@
+{
+  "transactionId" : "09be3112-3815-400c-bc05-c063cc3aff1d",
+  "transaction" : {
+    "transactionId" : "09be3112-3815-400c-bc05-c063cc3aff1d",
+    "fromAccount" : "7969556053",
+    "toAccount" : "212235547010",
+    "amount" : 10000,
+    "currency" : "CAD",
+    "fromBankSwift" : "BMOCCAMT",
+    "toBankSwift" : "UBSWCHZH",
+    "fromBankName" : "Bank of Montreal",
+    "toBankName" : "UBS Group AG",
+    "timestamp" : "2025-06-17T13:56:19.739158",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "CH7824400001357129608",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "09be3112-3815-400c-bc05-c063cc3aff1d",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e66edd72-5ff3-4a55-8085-79f1210ca09e",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 10000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:37.942638",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.942648",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.947278"
+}

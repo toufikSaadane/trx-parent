@@ -1,0 +1,46 @@
+{
+  "transactionId" : "a857cf56-1067-49d7-bc53-ae453578d43f",
+  "transaction" : {
+    "transactionId" : "a857cf56-1067-49d7-bc53-ae453578d43f",
+    "fromAccount" : "3091566720",
+    "toAccount" : "6001255107",
+    "amount" : 226.27,
+    "currency" : "IRR",
+    "fromBankSwift" : "MELLATIR",
+    "toBankSwift" : "ITMRITMM",
+    "fromBankName" : "Bank Mellat",
+    "toBankName" : "Intesa Sanpaolo S.p.A.",
+    "timestamp" : "2025-06-17T13:58:59.739554",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "IT1103069000000001190293601",
+    "fromCountryCode" : "IR",
+    "toCountryCode" : "IT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a857cf56-1067-49d7-bc53-ae453578d43f",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "78e3b937-fd12-4f9e-8d09-4e7228157bc4",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: IR, To: IT",
+      "timestamp" : "2025-06-17T15:53:24.658822",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "eae17f35-40b5-4c5e-9412-e425b4c3c604",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 226.27 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:24.658845",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.658854",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.662561"
+}

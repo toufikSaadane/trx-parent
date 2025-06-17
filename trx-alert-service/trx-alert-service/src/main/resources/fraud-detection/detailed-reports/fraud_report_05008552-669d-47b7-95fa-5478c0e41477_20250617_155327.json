@@ -1,0 +1,38 @@
+{
+  "transactionId" : "05008552-669d-47b7-95fa-5478c0e41477",
+  "transaction" : {
+    "transactionId" : "05008552-669d-47b7-95fa-5478c0e41477",
+    "fromAccount" : "784484098799",
+    "toAccount" : "141967366828",
+    "amount" : 2536.03,
+    "currency" : "KWR",
+    "fromBankSwift" : "KOEXKRSE",
+    "toBankSwift" : "ROYCCAT2",
+    "fromBankName" : "Korea Exchange Bank",
+    "toBankName" : "Royal Bank of Canada",
+    "timestamp" : "2025-06-17T15:47:23.931562",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KR",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "05008552-669d-47b7-95fa-5478c0e41477",
+    "riskScore" : 60,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "4773a4e5-c448-4ecb-af06-aef4238c899b",
+      "fraudType" : "CRYPTOCURRENCY_KEYWORDS",
+      "description" : "Cryptocurrency Keywords",
+      "severity" : 6,
+      "details" : "Transaction contains cryptocurrency-related keywords in bank names: Korea Exchange Bank Royal Bank of Canada",
+      "timestamp" : "2025-06-17T15:53:27.304145",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:27.30416",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:27.309649"
+}

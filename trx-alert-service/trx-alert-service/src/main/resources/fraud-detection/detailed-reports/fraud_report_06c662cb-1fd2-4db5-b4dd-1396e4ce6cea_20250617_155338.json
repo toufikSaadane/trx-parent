@@ -1,0 +1,30 @@
+{
+  "transactionId" : "06c662cb-1fd2-4db5-b4dd-1396e4ce6cea",
+  "transaction" : {
+    "transactionId" : "06c662cb-1fd2-4db5-b4dd-1396e4ce6cea",
+    "fromAccount" : "5122569276",
+    "toAccount" : "367844693265",
+    "amount" : 4277.02,
+    "currency" : "CAD",
+    "fromBankSwift" : "NOSCCATTXXX",
+    "toBankSwift" : "SBININBB104",
+    "fromBankName" : "The Bank of Nova Scotia",
+    "toBankName" : "State Bank of India",
+    "timestamp" : "2025-06-17T14:03:59.734676",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "IN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "06c662cb-1fd2-4db5-b4dd-1396e4ce6cea",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.527021",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.531411"
+}

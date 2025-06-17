@@ -1,0 +1,46 @@
+{
+  "transactionId" : "9ac3af3d-7c77-4740-801d-7f42105519e1",
+  "transaction" : {
+    "transactionId" : "9ac3af3d-7c77-4740-801d-7f42105519e1",
+    "fromAccount" : "1639317348",
+    "toAccount" : "706950730025",
+    "amount" : 72703.93,
+    "currency" : "USD",
+    "fromBankSwift" : "AYABMMMY",
+    "toBankSwift" : "CITIUS33",
+    "fromBankName" : "Ayeyarwady Bank",
+    "toBankName" : "Citibank N.A.",
+    "timestamp" : "2025-06-16T22:44:50.570605",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MM",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9ac3af3d-7c77-4740-801d-7f42105519e1",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "192abd35-152a-46d4-a351-86c6cfb9d328",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MM, To: US",
+      "timestamp" : "2025-06-17T15:53:14.378344",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "0ea98f63-3200-4759-98b7-1a91cd881d5b",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 72703.93 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:14.378356",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.378361",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.379233"
+}

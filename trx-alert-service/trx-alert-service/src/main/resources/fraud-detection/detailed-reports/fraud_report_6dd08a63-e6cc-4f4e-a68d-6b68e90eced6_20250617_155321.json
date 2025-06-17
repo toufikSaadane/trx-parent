@@ -1,0 +1,30 @@
+{
+  "transactionId" : "6dd08a63-e6cc-4f4e-a68d-6b68e90eced6",
+  "transaction" : {
+    "transactionId" : "6dd08a63-e6cc-4f4e-a68d-6b68e90eced6",
+    "fromAccount" : "9099907988",
+    "toAccount" : "360614725070",
+    "amount" : 3825.61,
+    "currency" : "GBP",
+    "fromBankSwift" : "BARCGB22",
+    "toBankSwift" : "NWBKGB2L",
+    "fromBankName" : "Barclays Bank PLC",
+    "toBankName" : "NatWest Group",
+    "timestamp" : "2025-06-15T08:59:15.216282",
+    "status" : "PENDING",
+    "fromIBAN" : "GB06204545002107093040",
+    "toIBAN" : "GB18600000000107469467",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6dd08a63-e6cc-4f4e-a68d-6b68e90eced6",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.450079",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.454742"
+}

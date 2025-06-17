@@ -1,0 +1,38 @@
+{
+  "transactionId" : "7415aee6-a156-408d-b3a3-bfb836b0c44a",
+  "transaction" : {
+    "transactionId" : "7415aee6-a156-408d-b3a3-bfb836b0c44a",
+    "fromAccount" : "825781529846",
+    "toAccount" : "589274969908",
+    "amount" : 805.64,
+    "currency" : "TRY",
+    "fromBankSwift" : "AKBKTRIS",
+    "toBankSwift" : "HANDFIHH",
+    "fromBankName" : "Akbank T.A.Ş.",
+    "toBankName" : "Handelsbanken",
+    "timestamp" : "2025-06-16T22:45:30.568142",
+    "status" : "PROCESSING",
+    "fromIBAN" : "TR264600000000001745794387",
+    "toIBAN" : "FI9030000134031394",
+    "fromCountryCode" : "TR",
+    "toCountryCode" : "FI"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7415aee6-a156-408d-b3a3-bfb836b0c44a",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "1ce464d2-12c2-4866-baf6-93891ee8ec65",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 805.64 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:13.614655",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.614662",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.616439"
+}

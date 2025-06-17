@@ -1,0 +1,38 @@
+{
+  "transactionId" : "bcd35c1d-f09f-495b-8a35-443799a967f7",
+  "transaction" : {
+    "transactionId" : "bcd35c1d-f09f-495b-8a35-443799a967f7",
+    "fromAccount" : "3499049133",
+    "toAccount" : "243315147562",
+    "amount" : 803.04,
+    "currency" : "EUR",
+    "fromBankSwift" : "CRLYFRPP",
+    "toBankSwift" : "SBININBB",
+    "fromBankName" : "Crédit Lyonnais",
+    "toBankName" : "State Bank of India",
+    "timestamp" : "2025-06-17T13:09:05.827436",
+    "status" : "PROCESSING",
+    "fromIBAN" : "FR2130002000000000097406973",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "IN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "bcd35c1d-f09f-495b-8a35-443799a967f7",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "959e1816-b92a-4b53-a50d-bada96f71994",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 803.04 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:23.662304",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.662314",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.666818"
+}

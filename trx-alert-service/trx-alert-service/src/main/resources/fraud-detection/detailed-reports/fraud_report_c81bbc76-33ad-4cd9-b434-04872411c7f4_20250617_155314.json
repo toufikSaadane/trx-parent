@@ -1,0 +1,38 @@
+{
+  "transactionId" : "c81bbc76-33ad-4cd9-b434-04872411c7f4",
+  "transaction" : {
+    "transactionId" : "c81bbc76-33ad-4cd9-b434-04872411c7f4",
+    "fromAccount" : "680737170658",
+    "toAccount" : "446359474503",
+    "amount" : 820.09,
+    "currency" : "USD",
+    "fromBankSwift" : "RABONL2U",
+    "toBankSwift" : "CHASUS33",
+    "fromBankName" : "Rabobank",
+    "toBankName" : "JPMorgan Chase Bank",
+    "timestamp" : "2025-06-15T08:59:15.489272",
+    "status" : "FAILED",
+    "fromIBAN" : "NL7730001074191612",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c81bbc76-33ad-4cd9-b434-04872411c7f4",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "febb761b-bd5e-4a2a-9c17-5f2f218bc6ca",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 820.09 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:14.931581",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.931592",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.933713"
+}

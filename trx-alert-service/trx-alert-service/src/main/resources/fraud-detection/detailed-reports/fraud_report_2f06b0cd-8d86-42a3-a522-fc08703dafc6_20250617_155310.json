@@ -1,0 +1,30 @@
+{
+  "transactionId" : "2f06b0cd-8d86-42a3-a522-fc08703dafc6",
+  "transaction" : {
+    "transactionId" : "2f06b0cd-8d86-42a3-a522-fc08703dafc6",
+    "fromAccount" : "813859379760",
+    "toAccount" : "023117171061",
+    "amount" : 6935.63,
+    "currency" : "EUR",
+    "fromBankSwift" : "RABONL2U",
+    "toBankSwift" : "DEUTDEFF",
+    "fromBankName" : "Rabobank",
+    "toBankName" : "Deutsche Bank AG",
+    "timestamp" : "2025-06-11T11:00:53.470968",
+    "status" : "PROCESSING",
+    "fromIBAN" : "NL7030001347692162",
+    "toIBAN" : "DE52500700100671123910",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "2f06b0cd-8d86-42a3-a522-fc08703dafc6",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.854203",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.854822"
+}

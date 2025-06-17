@@ -1,0 +1,38 @@
+{
+  "transactionId" : "f6a4e426-ff7a-48eb-b144-173721dc708e",
+  "transaction" : {
+    "transactionId" : "f6a4e426-ff7a-48eb-b144-173721dc708e",
+    "fromAccount" : "483163366468",
+    "toAccount" : "848375703440",
+    "amount" : 37669.53,
+    "currency" : "KRW",
+    "fromBankSwift" : "SHBKKRSE",
+    "toBankSwift" : "SBZAZAJJ",
+    "fromBankName" : "Shinhan Bank",
+    "toBankName" : "Standard Bank of South Africa",
+    "timestamp" : "2025-06-13T15:54:29.205046",
+    "status" : "FAILED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KR",
+    "toCountryCode" : "ZA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f6a4e426-ff7a-48eb-b144-173721dc708e",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e67b99a8-4b7b-4d96-97b8-71250384c882",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 37669.53 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:21.224257",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.224267",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.227623"
+}

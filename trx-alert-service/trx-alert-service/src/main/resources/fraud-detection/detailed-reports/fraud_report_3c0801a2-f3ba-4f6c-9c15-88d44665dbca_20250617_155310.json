@@ -1,0 +1,38 @@
+{
+  "transactionId" : "3c0801a2-f3ba-4f6c-9c15-88d44665dbca",
+  "transaction" : {
+    "transactionId" : "3c0801a2-f3ba-4f6c-9c15-88d44665dbca",
+    "fromAccount" : "045485488483",
+    "toAccount" : "314786476454",
+    "amount" : 253.29,
+    "currency" : "MXN",
+    "fromBankSwift" : "BAMXMXMM",
+    "toBankSwift" : "SBZAZAJJ",
+    "fromBankName" : "Banco Azteca",
+    "toBankName" : "Standard Bank of South Africa",
+    "timestamp" : "2025-06-11T10:52:20.620396",
+    "status" : "COMPLETED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "ZA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3c0801a2-f3ba-4f6c-9c15-88d44665dbca",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "2e01a98b-3f13-4b9f-886b-0800ae01c8c0",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 253.29 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.835765",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.835783",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.836421"
+}

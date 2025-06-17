@@ -1,0 +1,38 @@
+{
+  "transactionId" : "182ba229-67b4-41a7-bb62-65ef5e8eefd5",
+  "transaction" : {
+    "transactionId" : "182ba229-67b4-41a7-bb62-65ef5e8eefd5",
+    "fromAccount" : "600749306335",
+    "toAccount" : "617609375563",
+    "amount" : 10000,
+    "currency" : "USD",
+    "fromBankSwift" : "WELLSFARG",
+    "toBankSwift" : "SCBLKENX",
+    "fromBankName" : "Wells Fargo Bank",
+    "toBankName" : "Standard Chartered Kenya",
+    "timestamp" : "2025-06-17T15:48:13.922379",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "KE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "182ba229-67b4-41a7-bb62-65ef5e8eefd5",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "7e05c3d7-bd29-4576-9d2c-a6f8900722ea",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 10000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:27.446695",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:27.446716",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:27.452534"
+}

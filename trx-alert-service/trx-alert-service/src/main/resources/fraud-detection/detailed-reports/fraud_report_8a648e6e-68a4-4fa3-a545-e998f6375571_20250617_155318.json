@@ -1,0 +1,38 @@
+{
+  "transactionId" : "8a648e6e-68a4-4fa3-a545-e998f6375571",
+  "transaction" : {
+    "transactionId" : "8a648e6e-68a4-4fa3-a545-e998f6375571",
+    "fromAccount" : "656038498283",
+    "toAccount" : "289939361531",
+    "amount" : 21545.14,
+    "currency" : "CNY",
+    "fromBankSwift" : "HSBCCNSH",
+    "toBankSwift" : "SBZAZAJJ",
+    "fromBankName" : "HSBC Bank (China) Company Limited",
+    "toBankName" : "Standard Bank of South Africa",
+    "timestamp" : "2025-06-17T13:50:39.743946",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "ZA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8a648e6e-68a4-4fa3-a545-e998f6375571",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "851a6e94-56c3-4135-a7dd-5ebd8299ccf2",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 21545.14 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:18.645562",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.645575",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.647957"
+}

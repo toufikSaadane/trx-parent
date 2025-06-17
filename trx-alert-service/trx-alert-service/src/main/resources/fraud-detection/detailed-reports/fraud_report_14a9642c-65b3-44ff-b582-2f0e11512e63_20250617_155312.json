@@ -1,0 +1,38 @@
+{
+  "transactionId" : "14a9642c-65b3-44ff-b582-2f0e11512e63",
+  "transaction" : {
+    "transactionId" : "14a9642c-65b3-44ff-b582-2f0e11512e63",
+    "fromAccount" : "254655806893",
+    "toAccount" : "256284131737",
+    "amount" : 30107.33,
+    "currency" : "SGD",
+    "fromBankSwift" : "OCBCSGSG",
+    "toBankSwift" : "BNPAAU2S",
+    "fromBankName" : "OCBC Bank",
+    "toBankName" : "BNP Paribas Australia",
+    "timestamp" : "2025-06-15T21:26:46.691224",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "14a9642c-65b3-44ff-b582-2f0e11512e63",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "aaac31a9-38a8-42e1-8cfc-a2bbe37e11d8",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 30107.33 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:12.919777",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:12.919784",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:12.920507"
+}

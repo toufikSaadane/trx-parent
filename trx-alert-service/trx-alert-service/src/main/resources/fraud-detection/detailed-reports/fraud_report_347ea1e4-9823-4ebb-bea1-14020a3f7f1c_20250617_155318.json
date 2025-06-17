@@ -1,0 +1,38 @@
+{
+  "transactionId" : "347ea1e4-9823-4ebb-bea1-14020a3f7f1c",
+  "transaction" : {
+    "transactionId" : "347ea1e4-9823-4ebb-bea1-14020a3f7f1c",
+    "fromAccount" : "426464767980",
+    "toAccount" : "565561040144",
+    "amount" : 1581.63,
+    "currency" : "MXN",
+    "fromBankSwift" : "BAMXMXMM",
+    "toBankSwift" : "GHBKAFKA",
+    "fromBankName" : "Banco Azteca",
+    "toBankName" : "Ghazanfar Bank",
+    "timestamp" : "2025-06-17T11:50:10.313814",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "347ea1e4-9823-4ebb-bea1-14020a3f7f1c",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "78c2ecd1-0493-42f7-9088-1f7e5024fca1",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MX, To: AF",
+      "timestamp" : "2025-06-17T15:53:18.069214",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.069238",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.071441"
+}

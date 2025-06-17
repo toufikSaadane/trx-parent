@@ -1,0 +1,46 @@
+{
+  "transactionId" : "cf306b32-b378-418b-8001-e9221306b2f7",
+  "transaction" : {
+    "transactionId" : "cf306b32-b378-418b-8001-e9221306b2f7",
+    "fromAccount" : "706858492702",
+    "toAccount" : "0232150406",
+    "amount" : 53.17,
+    "currency" : "CAD",
+    "fromBankSwift" : "TDOMCATTTOR",
+    "toBankSwift" : "CBMMMY2X",
+    "fromBankName" : "Toronto-Dominion Bank (TD)",
+    "toBankName" : "CB Bank",
+    "timestamp" : "2025-06-17T14:14:54.628972",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "cf306b32-b378-418b-8001-e9221306b2f7",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "0314a23d-005c-4a25-b098-ffbd00cac31e",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CA, To: MM",
+      "timestamp" : "2025-06-17T15:53:20.306543",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "db8379c7-c710-4b89-a70f-c641c39c135e",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 53.17 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:20.306564",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.306575",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.309896"
+}

@@ -1,0 +1,30 @@
+{
+  "transactionId" : "7f5efb20-d0cf-4732-bd19-519e6d7dc042",
+  "transaction" : {
+    "transactionId" : "7f5efb20-d0cf-4732-bd19-519e6d7dc042",
+    "fromAccount" : "045847355284",
+    "toAccount" : "7392780431",
+    "amount" : 2157.44,
+    "currency" : "EUR",
+    "fromBankSwift" : "SOGEFRPP",
+    "toBankSwift" : "DEUTDEFF",
+    "fromBankName" : "Société Générale",
+    "toBankName" : "Deutsche Bank AG",
+    "timestamp" : "2025-06-15T09:16:36.631833",
+    "status" : "PENDING",
+    "fromIBAN" : "FR7930003000000002094089051",
+    "toIBAN" : "DE54500700100594918152",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7f5efb20-d0cf-4732-bd19-519e6d7dc042",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.396221",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.397913"
+}

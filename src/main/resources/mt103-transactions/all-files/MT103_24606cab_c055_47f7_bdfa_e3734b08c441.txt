@@ -1,0 +1,21 @@
+{1:F01BARCGB22XXX0}{2:I103HYVEDEMMXXX0N}{3:{108:24606cab-c055-47}}
+{4:
+:20:24606cab-c055-47
+:23B:CRED
+:32A:250617GBP2362,4
+:33B:GBP2362,4
+:71A:SHA
+:50K:/GB78204545000817192437
+Barclays Bank PLC
+456 Business Ave
+London, United Kingdom
+:52A:BARCGB22
+:53B:/BARCGB22
+:56A:DEUTDEFFXXX
+:57A:HYVEDEMM
+:59:/DE16700202701986668881
+UniCredit Bank AG
+789 Commercial Blvd
+Frankfurt, Germany
+:70:Payment for services - TXN ID: 24606cab - Cross-border transfer
+:72:/I

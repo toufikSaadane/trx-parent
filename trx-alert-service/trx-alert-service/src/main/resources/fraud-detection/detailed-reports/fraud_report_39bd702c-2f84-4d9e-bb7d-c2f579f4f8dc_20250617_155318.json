@@ -1,0 +1,38 @@
+{
+  "transactionId" : "39bd702c-2f84-4d9e-bb7d-c2f579f4f8dc",
+  "transaction" : {
+    "transactionId" : "39bd702c-2f84-4d9e-bb7d-c2f579f4f8dc",
+    "fromAccount" : "1854714814",
+    "toAccount" : "8372986641",
+    "amount" : 608.27,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33",
+    "toBankSwift" : "TDOMCATT",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "TD Canada Trust",
+    "timestamp" : "2025-06-17T13:51:59.740582",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "39bd702c-2f84-4d9e-bb7d-c2f579f4f8dc",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "97ec41b7-72c3-4ad1-b0cc-caf50916cc78",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 608.27 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:18.731024",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.731038",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.734893"
+}

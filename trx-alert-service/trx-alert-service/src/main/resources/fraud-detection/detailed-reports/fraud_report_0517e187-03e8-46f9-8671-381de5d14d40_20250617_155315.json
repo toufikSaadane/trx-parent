@@ -1,0 +1,30 @@
+{
+  "transactionId" : "0517e187-03e8-46f9-8671-381de5d14d40",
+  "transaction" : {
+    "transactionId" : "0517e187-03e8-46f9-8671-381de5d14d40",
+    "fromAccount" : "5446433071",
+    "toAccount" : "2446191049",
+    "amount" : 9428.08,
+    "currency" : "EUR",
+    "fromBankSwift" : "DEUTDEFF",
+    "toBankSwift" : "ABNANL2A",
+    "fromBankName" : "Deutsche Bank",
+    "toBankName" : "ABN AMRO",
+    "timestamp" : "2025-06-15T15:44:11.335243",
+    "status" : "PENDING",
+    "fromIBAN" : "DE04123456781326132631",
+    "toIBAN" : "NL8951701835267152",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "0517e187-03e8-46f9-8671-381de5d14d40",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.058267",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.060312"
+}

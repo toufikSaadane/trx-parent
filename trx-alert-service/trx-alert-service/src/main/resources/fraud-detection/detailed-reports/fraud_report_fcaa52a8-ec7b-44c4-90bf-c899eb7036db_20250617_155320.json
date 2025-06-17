@@ -1,0 +1,38 @@
+{
+  "transactionId" : "fcaa52a8-ec7b-44c4-90bf-c899eb7036db",
+  "transaction" : {
+    "transactionId" : "fcaa52a8-ec7b-44c4-90bf-c899eb7036db",
+    "fromAccount" : "6281156116",
+    "toAccount" : "037086912502",
+    "amount" : 20177.32,
+    "currency" : "USD",
+    "fromBankSwift" : "BOFAUS3N",
+    "toBankSwift" : "NBPLT21",
+    "fromBankName" : "Bank of America N.A.",
+    "toBankName" : "Šiaulių Bankas",
+    "timestamp" : "2025-06-17T14:11:54.628265",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "LT237300001453633737",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "LT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "fcaa52a8-ec7b-44c4-90bf-c899eb7036db",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "5503b436-ba61-4e0a-8918-41b12c7f1194",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 20177.32 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:20.078895",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.078915",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.082136"
+}

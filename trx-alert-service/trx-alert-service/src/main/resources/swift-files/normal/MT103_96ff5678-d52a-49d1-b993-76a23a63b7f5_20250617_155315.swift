@@ -1,0 +1,30 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:15.615046
+// Transaction ID: 96ff5678-d52a-49d1-b993-76a23a63b7f5
+// Amount: 9197.12 GBP
+// From: HSBC UK
+// To: BCEE
+// FRAUD STATUS: NORMAL
+// Risk Score: 0/100
+// Risk Level: LOW
+//=====================================
+
+{1:F01HSBCGB2LXXX0}{2:I103BCEELULLXXX0N}{3:{108:96ff5678-d52a-49}}
+{4:
+:20:96ff5678-d52a-49
+:23B:CRED
+:32A:250617GBP9197,12
+:33B:GBP9197,12
+:71A:SHA
+:50K:/GB24404404001787314552
+HSBC UK
+321 Financial District
+London, United Kingdom
+:52A:HSBCGB2L
+:53B:/HSBCGB2L
+:56A:DEUTDEFFXXX
+:57A:BCEELULL
+:59:/LU890010001032442076
+BCEE
+123 Main Street
+Financial District, Luxembourg

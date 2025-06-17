@@ -1,0 +1,38 @@
+{
+  "transactionId" : "4e6e45ed-8486-473d-ae61-6487026c9119",
+  "transaction" : {
+    "transactionId" : "4e6e45ed-8486-473d-ae61-6487026c9119",
+    "fromAccount" : "639430527103",
+    "toAccount" : "0140850756",
+    "amount" : 4465.42,
+    "currency" : "SYP",
+    "fromBankSwift" : "ARABSYMMXXX",
+    "toBankSwift" : "SBERRUMM",
+    "fromBankName" : "Arab Bank Syria",
+    "toBankName" : "Sberbank",
+    "timestamp" : "2025-06-17T13:55:49.736594",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "RU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "4e6e45ed-8486-473d-ae61-6487026c9119",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "4a570259-0830-4eca-85fa-0794b606c2de",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: RU",
+      "timestamp" : "2025-06-17T15:53:24.384535",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.384548",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.387805"
+}

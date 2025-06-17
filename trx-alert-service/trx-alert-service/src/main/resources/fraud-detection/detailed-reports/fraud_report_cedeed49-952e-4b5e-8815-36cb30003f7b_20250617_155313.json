@@ -1,0 +1,38 @@
+{
+  "transactionId" : "cedeed49-952e-4b5e-8815-36cb30003f7b",
+  "transaction" : {
+    "transactionId" : "cedeed49-952e-4b5e-8815-36cb30003f7b",
+    "fromAccount" : "418816318543",
+    "toAccount" : "4764085932",
+    "amount" : 559.78,
+    "currency" : "INR",
+    "fromBankSwift" : "SBININBB",
+    "toBankSwift" : "BKCHAU2S",
+    "fromBankName" : "State Bank of India",
+    "toBankName" : "Bank of China (Australia) Limited",
+    "timestamp" : "2025-06-16T23:28:22.68435",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IN",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "cedeed49-952e-4b5e-8815-36cb30003f7b",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "d3187a53-60e6-4820-a67f-14d541110250",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 559.78 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:13.74587",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.745874",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.747719"
+}

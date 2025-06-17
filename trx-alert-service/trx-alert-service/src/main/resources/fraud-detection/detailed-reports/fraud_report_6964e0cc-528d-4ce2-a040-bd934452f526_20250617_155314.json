@@ -1,0 +1,38 @@
+{
+  "transactionId" : "6964e0cc-528d-4ce2-a040-bd934452f526",
+  "transaction" : {
+    "transactionId" : "6964e0cc-528d-4ce2-a040-bd934452f526",
+    "fromAccount" : "342031956103",
+    "toAccount" : "5379903616",
+    "amount" : 35702.82,
+    "currency" : "JPY",
+    "fromBankSwift" : "BOTKJPJT",
+    "toBankSwift" : "NBPLT21",
+    "fromBankName" : "MUFG Bank Ltd",
+    "toBankName" : "Šiaulių Bankas",
+    "timestamp" : "2025-06-16T23:18:37.129672",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "LT067300001719991969",
+    "fromCountryCode" : "JP",
+    "toCountryCode" : "LT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6964e0cc-528d-4ce2-a040-bd934452f526",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "26e69017-5cc2-45d6-b85f-fc136d060609",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 35702.82 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:14.497687",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.497701",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.498626"
+}

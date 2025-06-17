@@ -1,0 +1,46 @@
+{
+  "transactionId" : "30f2e694-38fe-4512-888d-1fecfa324be9",
+  "transaction" : {
+    "transactionId" : "30f2e694-38fe-4512-888d-1fecfa324be9",
+    "fromAccount" : "932661665147",
+    "toAccount" : "653373216344",
+    "amount" : 123.07,
+    "currency" : "HUF",
+    "fromBankSwift" : "HANDFIHH",
+    "toBankSwift" : "MELIIRTH",
+    "fromBankName" : "Handelsbanken",
+    "toBankName" : "Bank Melli Iran",
+    "timestamp" : "2025-06-17T13:06:45.813528",
+    "status" : "PENDING",
+    "fromIBAN" : "FI4330000978502600",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FI",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "30f2e694-38fe-4512-888d-1fecfa324be9",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "2450eab0-36da-47d5-8eb6-fc0a8dc6b6b2",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: FI, To: IR",
+      "timestamp" : "2025-06-17T15:53:36.927072",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "49c2ed6e-acdb-46f1-ab53-c52026c26923",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 123.07 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:36.927246",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.92726",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.930682"
+}

@@ -1,0 +1,30 @@
+{
+  "transactionId" : "e14ef640-feaf-4217-8366-69c7c250e2f5",
+  "transaction" : {
+    "transactionId" : "e14ef640-feaf-4217-8366-69c7c250e2f5",
+    "fromAccount" : "9396586301",
+    "toAccount" : "628538337438",
+    "amount" : 2429.35,
+    "currency" : "EUR",
+    "fromBankSwift" : "NBPLT21",
+    "toBankSwift" : "BKCHAU2S",
+    "fromBankName" : "Šiaulių Bankas",
+    "toBankName" : "Bank of China (Australia) Limited",
+    "timestamp" : "2025-06-17T13:28:03.459603",
+    "status" : "PENDING",
+    "fromIBAN" : "LT497300001789978344",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "LT",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e14ef640-feaf-4217-8366-69c7c250e2f5",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.566923",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.57057"
+}

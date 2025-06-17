@@ -1,0 +1,38 @@
+{
+  "transactionId" : "6c8e7fb3-009b-428d-bcee-0eea4be27d57",
+  "transaction" : {
+    "transactionId" : "6c8e7fb3-009b-428d-bcee-0eea4be27d57",
+    "fromAccount" : "5813777720",
+    "toAccount" : "633687171801",
+    "amount" : 758.05,
+    "currency" : "EUR",
+    "fromBankSwift" : "ITMRITMM",
+    "toBankSwift" : "SBININBB104",
+    "fromBankName" : "Intesa Sanpaolo S.p.A.",
+    "toBankName" : "State Bank of India",
+    "timestamp" : "2025-06-13T15:54:14.200447",
+    "status" : "PENDING",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "IT",
+    "toCountryCode" : "IN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6c8e7fb3-009b-428d-bcee-0eea4be27d57",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "1fe8b659-4873-465a-9ff7-cd9f3a9b6541",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 758.05 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:13.243333",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.243344",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.245109"
+}

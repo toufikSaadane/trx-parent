@@ -1,0 +1,38 @@
+{
+  "transactionId" : "c0f75a46-2be6-4355-86b2-6331cc926ade",
+  "transaction" : {
+    "transactionId" : "c0f75a46-2be6-4355-86b2-6331cc926ade",
+    "fromAccount" : "4946948385",
+    "toAccount" : "311076955167",
+    "amount" : 421.8,
+    "currency" : "INR",
+    "fromBankSwift" : "SBININBB",
+    "toBankSwift" : "CTBAAU2S",
+    "fromBankName" : "State Bank of India",
+    "toBankName" : "Commonwealth Bank of Australia",
+    "timestamp" : "2025-06-15T21:26:37.047959",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IN",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c0f75a46-2be6-4355-86b2-6331cc926ade",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "271c63f5-e784-46e6-9c06-cb2fbf0d6808",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 421.8 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:13.535861",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.535869",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.537564"
+}

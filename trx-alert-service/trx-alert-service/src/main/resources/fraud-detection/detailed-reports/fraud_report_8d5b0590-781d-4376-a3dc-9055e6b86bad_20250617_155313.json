@@ -1,0 +1,38 @@
+{
+  "transactionId" : "8d5b0590-781d-4376-a3dc-9055e6b86bad",
+  "transaction" : {
+    "transactionId" : "8d5b0590-781d-4376-a3dc-9055e6b86bad",
+    "fromAccount" : "6513121519",
+    "toAccount" : "6607175054",
+    "amount" : 2341.03,
+    "currency" : "EUR",
+    "fromBankSwift" : "SOGEFRPP",
+    "toBankSwift" : "UBSWCHZH",
+    "fromBankName" : "Société Générale",
+    "toBankName" : "UBS Group AG",
+    "timestamp" : "2025-06-15T03:34:55.872964",
+    "status" : "COMPLETED",
+    "fromIBAN" : "FR9230003000000000065708722",
+    "toIBAN" : "CH6024400000061226713",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8d5b0590-781d-4376-a3dc-9055e6b86bad",
+    "riskScore" : 50,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e9bc9124-082b-4890-8d9a-dfc7d2c86fed",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 03:34:55.872964",
+      "timestamp" : "2025-06-17T15:53:13.421799",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.421812",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.423561"
+}

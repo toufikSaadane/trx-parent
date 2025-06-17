@@ -1,0 +1,38 @@
+{
+  "transactionId" : "e4d103da-1300-4f5b-81dd-acc3ecbc4587",
+  "transaction" : {
+    "transactionId" : "e4d103da-1300-4f5b-81dd-acc3ecbc4587",
+    "fromAccount" : "566454513333",
+    "toAccount" : "2303648496",
+    "amount" : 3430.56,
+    "currency" : "MMK",
+    "fromBankSwift" : "AYABMMMY",
+    "toBankSwift" : "DBSBSGSG",
+    "fromBankName" : "Ayeyarwady Bank",
+    "toBankName" : "DBS Bank",
+    "timestamp" : "2025-06-17T14:01:59.734821",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MM",
+    "toCountryCode" : "SG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e4d103da-1300-4f5b-81dd-acc3ecbc4587",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "698a2072-09cc-4a61-a991-739bab8abfc3",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MM, To: SG",
+      "timestamp" : "2025-06-17T15:53:19.384748",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.384759",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.388159"
+}

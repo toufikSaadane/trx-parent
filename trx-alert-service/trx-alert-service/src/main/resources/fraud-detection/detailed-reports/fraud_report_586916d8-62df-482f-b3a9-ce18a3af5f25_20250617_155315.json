@@ -1,0 +1,38 @@
+{
+  "transactionId" : "586916d8-62df-482f-b3a9-ce18a3af5f25",
+  "transaction" : {
+    "transactionId" : "586916d8-62df-482f-b3a9-ce18a3af5f25",
+    "fromAccount" : "290582902497",
+    "toAccount" : "506663622004",
+    "amount" : 701.16,
+    "currency" : "AUD",
+    "fromBankSwift" : "DEUTAU2S",
+    "toBankSwift" : "HKBCCATT",
+    "fromBankName" : "Deutsche Bank AG",
+    "toBankName" : "Hongkong and Shanghai Banking Corp",
+    "timestamp" : "2025-06-17T14:03:19.736911",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "586916d8-62df-482f-b3a9-ce18a3af5f25",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "376b4797-21fb-480e-9de9-7bb35134ed60",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 701.16 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.868457",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.868468",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.871352"
+}

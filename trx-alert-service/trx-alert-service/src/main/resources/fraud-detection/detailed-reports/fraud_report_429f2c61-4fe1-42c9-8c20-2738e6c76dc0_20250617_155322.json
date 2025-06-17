@@ -1,0 +1,38 @@
+{
+  "transactionId" : "429f2c61-4fe1-42c9-8c20-2738e6c76dc0",
+  "transaction" : {
+    "transactionId" : "429f2c61-4fe1-42c9-8c20-2738e6c76dc0",
+    "fromAccount" : "769279026910",
+    "toAccount" : "849473493758",
+    "amount" : 1000,
+    "currency" : "",
+    "fromBankSwift" : "EBILAEADXXX",
+    "toBankSwift" : "BCEELULL",
+    "fromBankName" : "Emirates NBD Bank",
+    "toBankName" : "BCEE",
+    "timestamp" : "2025-06-17T10:49:20.943922",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "LU930010001496913409",
+    "fromCountryCode" : "AE",
+    "toCountryCode" : "LU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "429f2c61-4fe1-42c9-8c20-2738e6c76dc0",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "91e37bdc-238c-4c57-8160-fb1614dae795",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 1000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:22.95525",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:22.955262",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:22.961937"
+}

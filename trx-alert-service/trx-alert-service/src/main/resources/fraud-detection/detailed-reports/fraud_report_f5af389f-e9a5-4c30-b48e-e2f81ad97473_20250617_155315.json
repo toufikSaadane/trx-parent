@@ -1,0 +1,38 @@
+{
+  "transactionId" : "f5af389f-e9a5-4c30-b48e-e2f81ad97473",
+  "transaction" : {
+    "transactionId" : "f5af389f-e9a5-4c30-b48e-e2f81ad97473",
+    "fromAccount" : "834473297372",
+    "toAccount" : "9662176033",
+    "amount" : 585.78,
+    "currency" : "AUD",
+    "fromBankSwift" : "BNPAAU2S",
+    "toBankSwift" : "CRESCHZZ",
+    "fromBankName" : "BNP Paribas Australia",
+    "toBankName" : "Credit Suisse",
+    "timestamp" : "2025-06-17T13:53:29.743209",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "CH0948350001073638809",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f5af389f-e9a5-4c30-b48e-e2f81ad97473",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "6a4ccaca-f16a-44cb-a54b-b348124b06b8",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 585.78 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.664303",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.664313",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.666795"
+}

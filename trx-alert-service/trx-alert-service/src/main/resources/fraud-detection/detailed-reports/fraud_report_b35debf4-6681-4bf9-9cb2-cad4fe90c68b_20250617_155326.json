@@ -1,0 +1,38 @@
+{
+  "transactionId" : "b35debf4-6681-4bf9-9cb2-cad4fe90c68b",
+  "transaction" : {
+    "transactionId" : "b35debf4-6681-4bf9-9cb2-cad4fe90c68b",
+    "fromAccount" : "333536169032",
+    "toAccount" : "5704373454",
+    "amount" : 23364.73,
+    "currency" : "CNY",
+    "fromBankSwift" : "ICBKCNBJ",
+    "toBankSwift" : "NOSCCATTXXX",
+    "fromBankName" : "Industrial and Commercial Bank of China",
+    "toBankName" : "The Bank of Nova Scotia",
+    "timestamp" : "2025-06-17T14:13:44.634552",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b35debf4-6681-4bf9-9cb2-cad4fe90c68b",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e554a10c-cd10-47d1-b8e8-84db4bdbca0c",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 23364.73 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:26.190007",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.190027",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.195673"
+}

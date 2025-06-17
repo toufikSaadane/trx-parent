@@ -1,0 +1,46 @@
+{
+  "transactionId" : "ecd79f10-3822-4f12-b9d2-169d31226af8",
+  "transaction" : {
+    "transactionId" : "ecd79f10-3822-4f12-b9d2-169d31226af8",
+    "fromAccount" : "140816753440",
+    "toAccount" : "490516624985",
+    "amount" : 509.62,
+    "currency" : "IRR",
+    "fromBankSwift" : "MELIIRTH",
+    "toBankSwift" : "MELLATIR",
+    "fromBankName" : "Bank Melli Iran",
+    "toBankName" : "Bank Mellat",
+    "timestamp" : "2025-06-17T14:13:14.637221",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IR",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ecd79f10-3822-4f12-b9d2-169d31226af8",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "e07badf5-fc0d-44e8-b918-bb51aaca8a3c",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: IR, To: IR",
+      "timestamp" : "2025-06-17T15:53:20.193496",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "b341a53e-c1a6-49d1-b515-514b12bc955c",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 509.62 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:20.193516",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.193528",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.197041"
+}

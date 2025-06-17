@@ -1,0 +1,46 @@
+{
+  "transactionId" : "5a917a6a-7bd6-45d8-b95b-b4a752cf99cd",
+  "transaction" : {
+    "transactionId" : "5a917a6a-7bd6-45d8-b95b-b4a752cf99cd",
+    "fromAccount" : "817700187021",
+    "toAccount" : "768928157073",
+    "amount" : 9999.99,
+    "currency" : "KPW",
+    "fromBankSwift" : "FTBKKPRKX",
+    "toBankSwift" : "CENKPRKX",
+    "fromBankName" : "Foreign Trade Bank",
+    "toBankName" : "Central Bank of DPRK",
+    "timestamp" : "2025-06-17T13:26:53.457633",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5a917a6a-7bd6-45d8-b95b-b4a752cf99cd",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "a453f753-08ab-46b4-827f-52a4659c23db",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: KP",
+      "timestamp" : "2025-06-17T15:53:37.264494",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "9f5a67b9-2e33-4b44-acc4-54ec3c0a82bb",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9999.99 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-17T15:53:37.264586",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.264592",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.267952"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "6cb31343-9b14-4bc7-80ab-ccc469ec7b22",
+  "transaction" : {
+    "transactionId" : "6cb31343-9b14-4bc7-80ab-ccc469ec7b22",
+    "fromAccount" : "9818262812",
+    "toAccount" : "3027900579",
+    "amount" : 132.23,
+    "currency" : "EUR",
+    "fromBankSwift" : "CAIXESBB",
+    "toBankSwift" : "DEUTDEFF",
+    "fromBankName" : "CaixaBank",
+    "toBankName" : "Deutsche Bank AG",
+    "timestamp" : "2025-06-17T13:57:14.735484",
+    "status" : "PENDING",
+    "fromIBAN" : "ES7621000000001607738319",
+    "toIBAN" : "DE97500700102098783456",
+    "fromCountryCode" : "ES",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6cb31343-9b14-4bc7-80ab-ccc469ec7b22",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "c0b29024-5338-4ca7-8cfc-3a9af27511ec",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 132.23 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:38.010312",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.010322",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.014806"
+}

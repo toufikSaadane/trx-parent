@@ -1,0 +1,46 @@
+{
+  "transactionId" : "55cbd32c-ce4a-46bf-bfa8-3bcec6b91699",
+  "transaction" : {
+    "transactionId" : "55cbd32c-ce4a-46bf-bfa8-3bcec6b91699",
+    "fromAccount" : "715436480390",
+    "toAccount" : "589825193943",
+    "amount" : 50000,
+    "currency" : "EUR",
+    "fromBankSwift" : "BNPAFRPP",
+    "toBankSwift" : "ABNANL2A",
+    "fromBankName" : "BNP Paribas",
+    "toBankName" : "ABN AMRO",
+    "timestamp" : "2025-06-17T13:03:28.773297",
+    "status" : "PROCESSING",
+    "fromIBAN" : "FR8130004000000000241165050",
+    "toIBAN" : "NL1151701851878254",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "55cbd32c-ce4a-46bf-bfa8-3bcec6b91699",
+    "riskScore" : 110,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "d4c762ef-6429-4cb9-b23b-29fb821d760a",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 50000 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:23.306904",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "8e7075c5-10a5-472b-ae22-ce1c0a1a2a67",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 50000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:23.307",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.307012",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.310415"
+}

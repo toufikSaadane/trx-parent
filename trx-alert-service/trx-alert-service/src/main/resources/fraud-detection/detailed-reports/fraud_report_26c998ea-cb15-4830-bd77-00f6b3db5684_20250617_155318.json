@@ -1,0 +1,46 @@
+{
+  "transactionId" : "26c998ea-cb15-4830-bd77-00f6b3db5684",
+  "transaction" : {
+    "transactionId" : "26c998ea-cb15-4830-bd77-00f6b3db5684",
+    "fromAccount" : "528687925609",
+    "toAccount" : "756973593438",
+    "amount" : 342.59,
+    "currency" : "MMK",
+    "fromBankSwift" : "AYABMMMY",
+    "toBankSwift" : "UBSWCHZH80A",
+    "fromBankName" : "Ayeyarwady Bank",
+    "toBankName" : "UBS Switzerland AG",
+    "timestamp" : "2025-06-17T13:06:15.819389",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "CH5024300001042848807",
+    "fromCountryCode" : "MM",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "26c998ea-cb15-4830-bd77-00f6b3db5684",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "19bf11fa-bf34-4e64-98f8-6795baee8f79",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MM, To: CH",
+      "timestamp" : "2025-06-17T15:53:18.216585",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "58d60573-6bed-4f64-8325-4f5f35f782b2",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 342.59 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:18.216601",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.216609",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.218882"
+}

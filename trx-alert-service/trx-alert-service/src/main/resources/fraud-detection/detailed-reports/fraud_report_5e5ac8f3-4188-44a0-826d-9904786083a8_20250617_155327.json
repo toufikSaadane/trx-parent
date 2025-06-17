@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5e5ac8f3-4188-44a0-826d-9904786083a8",
+  "transaction" : {
+    "transactionId" : "5e5ac8f3-4188-44a0-826d-9904786083a8",
+    "fromAccount" : "066669488023",
+    "toAccount" : "579889742370",
+    "amount" : 53243.56,
+    "currency" : "EUR",
+    "fromBankSwift" : "COBADEFF",
+    "toBankSwift" : "CAIXESBB",
+    "fromBankName" : "Commerzbank AG",
+    "toBankName" : "CaixaBank",
+    "timestamp" : "2025-06-17T15:50:21.475999",
+    "status" : "PENDING",
+    "fromIBAN" : "DE59100400001272448634",
+    "toIBAN" : "ES7621000000001234169785",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "ES"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5e5ac8f3-4188-44a0-826d-9904786083a8",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "d98aa123-e087-49e9-8c59-9f77002c6f79",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 53243.56 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:27.563497",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:27.563551",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:27.567424"
+}

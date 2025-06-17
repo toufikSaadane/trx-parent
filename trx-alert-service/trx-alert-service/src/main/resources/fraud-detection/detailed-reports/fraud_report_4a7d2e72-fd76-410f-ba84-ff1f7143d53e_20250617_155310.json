@@ -1,0 +1,38 @@
+{
+  "transactionId" : "4a7d2e72-fd76-410f-ba84-ff1f7143d53e",
+  "transaction" : {
+    "transactionId" : "4a7d2e72-fd76-410f-ba84-ff1f7143d53e",
+    "fromAccount" : "0650189059",
+    "toAccount" : "054263752892",
+    "amount" : 37555.19,
+    "currency" : "NZD",
+    "fromBankSwift" : "ASBKNZ2A",
+    "toBankSwift" : "BOTKJPJT",
+    "fromBankName" : "ASB Bank Limited",
+    "toBankName" : "MUFG Bank Ltd",
+    "timestamp" : "2025-06-11T10:51:50.623279",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NZ",
+    "toCountryCode" : "JP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "4a7d2e72-fd76-410f-ba84-ff1f7143d53e",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "4fd2ec36-4727-4dba-a2b2-27e734f09bf0",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 37555.19 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:10.83204",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.832061",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.832423"
+}

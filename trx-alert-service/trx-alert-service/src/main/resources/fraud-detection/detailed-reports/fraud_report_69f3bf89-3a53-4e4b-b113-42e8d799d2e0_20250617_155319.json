@@ -1,0 +1,38 @@
+{
+  "transactionId" : "69f3bf89-3a53-4e4b-b113-42e8d799d2e0",
+  "transaction" : {
+    "transactionId" : "69f3bf89-3a53-4e4b-b113-42e8d799d2e0",
+    "fromAccount" : "766583723669",
+    "toAccount" : "960764768369",
+    "amount" : 348.4,
+    "currency" : "EUR",
+    "fromBankSwift" : "SOGEFRPP",
+    "toBankSwift" : "DEUTDEFF",
+    "fromBankName" : "Société Générale",
+    "toBankName" : "Deutsche Bank AG",
+    "timestamp" : "2025-06-17T14:10:29.629659",
+    "status" : "PENDING",
+    "fromIBAN" : "FR1630003000000000320613286",
+    "toIBAN" : "DE71500700100797585281",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "69f3bf89-3a53-4e4b-b113-42e8d799d2e0",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "d594450b-b115-4d06-b3d9-111368d12251",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 348.4 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:19.972941",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.972952",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.977744"
+}

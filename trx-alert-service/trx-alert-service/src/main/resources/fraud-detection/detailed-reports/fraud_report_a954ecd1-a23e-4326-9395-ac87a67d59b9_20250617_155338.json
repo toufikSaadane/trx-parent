@@ -1,0 +1,46 @@
+{
+  "transactionId" : "a954ecd1-a23e-4326-9395-ac87a67d59b9",
+  "transaction" : {
+    "transactionId" : "a954ecd1-a23e-4326-9395-ac87a67d59b9",
+    "fromAccount" : "5962210353",
+    "toAccount" : "9329736341",
+    "amount" : 69702.87,
+    "currency" : "SYP",
+    "fromBankSwift" : "CBSYSYMM",
+    "toBankSwift" : "BAMXMXMM",
+    "fromBankName" : "Central Bank of Syria",
+    "toBankName" : "Banco Azteca",
+    "timestamp" : "2025-06-17T14:01:44.732716",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "MX"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a954ecd1-a23e-4326-9395-ac87a67d59b9",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "56173163-2cf7-4b9d-baee-3414a9e2a8bc",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: MX",
+      "timestamp" : "2025-06-17T15:53:38.362855",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "db81560f-97e2-41df-9f61-a7542437f910",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 69702.87 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:38.362874",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.362883",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.3663"
+}

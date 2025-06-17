@@ -1,0 +1,46 @@
+{
+  "transactionId" : "edb3bc3a-012a-4c99-9790-df708e5bcdf7",
+  "transaction" : {
+    "transactionId" : "edb3bc3a-012a-4c99-9790-df708e5bcdf7",
+    "fromAccount" : "5630069857",
+    "toAccount" : "8708799677",
+    "amount" : 283.37,
+    "currency" : "MMK",
+    "fromBankSwift" : "AYABMMMY",
+    "toBankSwift" : "HSBCCNSH",
+    "fromBankName" : "Ayeyarwady Bank",
+    "toBankName" : "HSBC Bank (China) Company Limited",
+    "timestamp" : "2025-06-17T13:27:48.457397",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MM",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "edb3bc3a-012a-4c99-9790-df708e5bcdf7",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "32e2dac2-6c1f-4b56-8e05-5608732c36b2",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MM, To: CN",
+      "timestamp" : "2025-06-17T15:53:18.556437",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "a6dabe09-4c7a-40c7-9fa5-b7a600552d9a",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 283.37 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:18.556451",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.556458",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.558936"
+}

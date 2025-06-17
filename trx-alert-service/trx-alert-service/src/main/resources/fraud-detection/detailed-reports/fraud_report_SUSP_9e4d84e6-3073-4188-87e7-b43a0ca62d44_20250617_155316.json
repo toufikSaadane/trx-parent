@@ -1,0 +1,30 @@
+{
+  "transactionId" : "SUSP_9e4d84e6-3073-4188-87e7-b43a0ca62d44",
+  "transaction" : {
+    "transactionId" : "SUSP_9e4d84e6-3073-4188-87e7-b43a0ca62d44",
+    "fromAccount" : "098701431425",
+    "toAccount" : "372767187476",
+    "amount" : 2030.52,
+    "currency" : "AUD",
+    "fromBankSwift" : "BNPAAU2S",
+    "toBankSwift" : "ITMRITMM",
+    "fromBankName" : "BNP Paribas Australia",
+    "toBankName" : "Intesa Sanpaolo S.p.A.",
+    "timestamp" : "2025-06-15T09:20:35.04717",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "IT9503069000000001269505587",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "IT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "SUSP_9e4d84e6-3073-4188-87e7-b43a0ca62d44",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.990783",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.993998"
+}

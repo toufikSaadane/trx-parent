@@ -1,0 +1,38 @@
+{
+  "transactionId" : "4676129c-7a15-4e9e-b010-f1ccead32b85",
+  "transaction" : {
+    "transactionId" : "4676129c-7a15-4e9e-b010-f1ccead32b85",
+    "fromAccount" : "945108971688",
+    "toAccount" : "3179586302",
+    "amount" : 747.08,
+    "currency" : "KRW",
+    "fromBankSwift" : "SHBKKRSE",
+    "toBankSwift" : "TADHYEMY",
+    "fromBankName" : "Shinhan Bank",
+    "toBankName" : "Tadhamon International Islamic Bank",
+    "timestamp" : "2025-06-17T13:59:14.735317",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KR",
+    "toCountryCode" : "TADHYOYMY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "4676129c-7a15-4e9e-b010-f1ccead32b85",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "9b525121-231d-4d92-85cf-7646233d863e",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 747.08 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:38.180652",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.180662",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.18522"
+}

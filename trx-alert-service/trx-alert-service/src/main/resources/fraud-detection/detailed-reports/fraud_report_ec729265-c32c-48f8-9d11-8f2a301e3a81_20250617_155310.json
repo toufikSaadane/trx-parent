@@ -1,0 +1,38 @@
+{
+  "transactionId" : "ec729265-c32c-48f8-9d11-8f2a301e3a81",
+  "transaction" : {
+    "transactionId" : "ec729265-c32c-48f8-9d11-8f2a301e3a81",
+    "fromAccount" : "415675629157",
+    "toAccount" : "9451362359",
+    "amount" : 423.3,
+    "currency" : "USD",
+    "fromBankSwift" : "SCBLUS33",
+    "toBankSwift" : "UBSWCHZH80A",
+    "fromBankName" : "Standard Chartered USA",
+    "toBankName" : "UBS Switzerland AG",
+    "timestamp" : "2025-06-10T23:51:21.162682",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "CH4724300002114452287",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ec729265-c32c-48f8-9d11-8f2a301e3a81",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "6d44dfc5-a0f3-41a1-93dd-04ef85ff13ce",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 423.3 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.810252",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.810302",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.811259"
+}

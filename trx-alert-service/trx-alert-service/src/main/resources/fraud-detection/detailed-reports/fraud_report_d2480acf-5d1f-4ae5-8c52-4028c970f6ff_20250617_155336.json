@@ -1,0 +1,38 @@
+{
+  "transactionId" : "d2480acf-5d1f-4ae5-8c52-4028c970f6ff",
+  "transaction" : {
+    "transactionId" : "d2480acf-5d1f-4ae5-8c52-4028c970f6ff",
+    "fromAccount" : "426301739813",
+    "toAccount" : "044741962287",
+    "amount" : 9544.81,
+    "currency" : "USD",
+    "fromBankSwift" : "SCBLUS33",
+    "toBankSwift" : "FTBKKPRKX",
+    "fromBankName" : "Standard Chartered USA",
+    "toBankName" : "Foreign Trade Bank",
+    "timestamp" : "2025-06-16T23:38:15.924923",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d2480acf-5d1f-4ae5-8c52-4028c970f6ff",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "b200e0e5-7eed-42f3-a1c2-115754d80e7c",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: US, To: KP",
+      "timestamp" : "2025-06-17T15:53:36.287892",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.287907",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.292234"
+}

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "779451fe-b1fd-4c02-b701-a1cccaae8d09",
+  "transaction" : {
+    "transactionId" : "779451fe-b1fd-4c02-b701-a1cccaae8d09",
+    "fromAccount" : "8131616361",
+    "toAccount" : "5734803316",
+    "amount" : 381.13,
+    "currency" : "HUF",
+    "fromBankSwift" : "HANDFIHH",
+    "toBankSwift" : "CBMMMY2X",
+    "fromBankName" : "Handelsbanken",
+    "toBankName" : "CB Bank",
+    "timestamp" : "2025-06-17T13:59:09.736948",
+    "status" : "PENDING",
+    "fromIBAN" : "FI8330000034130250",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FI",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "779451fe-b1fd-4c02-b701-a1cccaae8d09",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "5c0f8a97-7bd9-4249-9b26-80a76ca04019",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: FI, To: MM",
+      "timestamp" : "2025-06-17T15:53:19.204953",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "9cceca3e-7bd9-42dc-a7cb-5ed29dcdf3d0",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 381.13 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:19.205062",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.205074",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.207765"
+}

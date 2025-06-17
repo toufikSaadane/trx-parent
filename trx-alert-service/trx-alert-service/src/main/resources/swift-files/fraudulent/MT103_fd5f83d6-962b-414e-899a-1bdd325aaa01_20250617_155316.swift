@@ -1,0 +1,37 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:16.108404
+// Transaction ID: fd5f83d6-962b-414e-899a-1bdd325aaa01
+// Amount: 744.85 SYP
+// From: Commercial Bank of Syria
+// To: State Bank of India
+// FRAUD STATUS: FRAUDULENT
+// Risk Score: 120/100
+// Risk Level: LOW
+// Fraud Alerts: 2
+//   - Cross-Border High Risk
+//   - Frequent Small Amounts
+//=====================================
+
+{1:F01BANK123@XXX0}{2:I103BANK US330N}{3:{108:fd5f83d6-962b-41}}
+{4:
+:20:fd5f83d6-962b-41
+:23B:CRED
+:32A:250617SYP744,85
+:33B:SYP744,85
+:71A:SHA
+:50K:/1870902789
+Commercial Bank of Syria
+456 Business Ave
+Financial District, Unknown Country
+:52A:BANK123@
+:53B:/BANK123@
+:56A:DEUTDEFFXXX
+:57A:BANK US33
+:59:/616421687364
+State Bank of India
+321 Financial District
+Financial District, Unknown Country
+:70:Payment for services - TXN ID: fd5f83d6 - Cross-border transfer
+:72:/INS/BANK123@
+}
+{5:{MAC:8D8FDE90}{CHK:72CF2EB7C655}}

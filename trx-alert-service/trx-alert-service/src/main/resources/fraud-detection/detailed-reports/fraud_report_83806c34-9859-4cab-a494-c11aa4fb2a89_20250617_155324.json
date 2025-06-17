@@ -1,0 +1,38 @@
+{
+  "transactionId" : "83806c34-9859-4cab-a494-c11aa4fb2a89",
+  "transaction" : {
+    "transactionId" : "83806c34-9859-4cab-a494-c11aa4fb2a89",
+    "fromAccount" : "185548761141",
+    "toAccount" : "8588194794",
+    "amount" : 30896.92,
+    "currency" : "GBP",
+    "fromBankSwift" : "LLOYGB2L",
+    "toBankSwift" : "SBERRUMM",
+    "fromBankName" : "Lloyds Bank",
+    "toBankName" : "Sberbank",
+    "timestamp" : "2025-06-17T13:55:09.740124",
+    "status" : "PENDING",
+    "fromIBAN" : "GB72300000001567342471",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "RU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "83806c34-9859-4cab-a494-c11aa4fb2a89",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e9cacc10-c8eb-4988-9947-3384b3c7295d",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 30896.92 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:24.33835",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.338358",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.341629"
+}

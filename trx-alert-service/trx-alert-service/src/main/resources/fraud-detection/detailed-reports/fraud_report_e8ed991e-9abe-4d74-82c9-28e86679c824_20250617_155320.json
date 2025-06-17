@@ -1,0 +1,30 @@
+{
+  "transactionId" : "e8ed991e-9abe-4d74-82c9-28e86679c824",
+  "transaction" : {
+    "transactionId" : "e8ed991e-9abe-4d74-82c9-28e86679c824",
+    "fromAccount" : "130517441251",
+    "toAccount" : "883957303520",
+    "amount" : 4235.98,
+    "currency" : "CAD",
+    "fromBankSwift" : "ROYCCAT2XXX",
+    "toBankSwift" : "CRESCHZZ",
+    "fromBankName" : "RBC Royal Bank",
+    "toBankName" : "Credit Suisse",
+    "timestamp" : "2025-06-17T14:14:54.62868",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "CH8048350000664410245",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e8ed991e-9abe-4d74-82c9-28e86679c824",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.301475",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.305925"
+}

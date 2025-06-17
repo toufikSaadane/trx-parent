@@ -1,0 +1,38 @@
+{
+  "transactionId" : "95ca2c69-2fe6-4866-bc42-d88bc912c531",
+  "transaction" : {
+    "transactionId" : "95ca2c69-2fe6-4866-bc42-d88bc912c531",
+    "fromAccount" : "193033266143",
+    "toAccount" : "572034595557",
+    "amount" : 266.42,
+    "currency" : "EUR",
+    "fromBankSwift" : "BNPAFRPP",
+    "toBankSwift" : "SBININBB104",
+    "fromBankName" : "BNP Paribas SA",
+    "toBankName" : "State Bank of India",
+    "timestamp" : "2025-06-12T13:11:10.750974",
+    "status" : "PENDING",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "IN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "95ca2c69-2fe6-4866-bc42-d88bc912c531",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "9b2c5987-bec7-4ee4-87e3-e2c122ff4995",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 266.42 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.894236",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.894293",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.895114"
+}

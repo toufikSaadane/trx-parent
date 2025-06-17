@@ -1,0 +1,38 @@
+{
+  "transactionId" : "e73244bf-9908-4360-8d69-cb9c76e7676d",
+  "transaction" : {
+    "transactionId" : "e73244bf-9908-4360-8d69-cb9c76e7676d",
+    "fromAccount" : "042579427063",
+    "toAccount" : "3468692347",
+    "amount" : 221.22,
+    "currency" : "USD",
+    "fromBankSwift" : "VTBRRUMM",
+    "toBankSwift" : "CHASUS33",
+    "fromBankName" : "VTB Bank",
+    "toBankName" : "JPMorgan Chase Bank",
+    "timestamp" : "2025-06-17T13:08:35.818716",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "RU",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e73244bf-9908-4360-8d69-cb9c76e7676d",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "2033f614-0c5a-4481-9f5e-563c2bde0b7a",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 221.22 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:23.622669",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.622679",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.62732"
+}

@@ -1,0 +1,30 @@
+{
+  "transactionId" : "54b09c5a-db0b-40f5-863e-bb993449774a",
+  "transaction" : {
+    "transactionId" : "54b09c5a-db0b-40f5-863e-bb993449774a",
+    "fromAccount" : "295797480324",
+    "toAccount" : "814955866402",
+    "amount" : 5045.54,
+    "currency" : "EUR",
+    "fromBankSwift" : "INGBNL2A",
+    "toBankSwift" : "BOFMCAM2XXX",
+    "fromBankName" : "ING Bank",
+    "toBankName" : "Bank of Montreal",
+    "timestamp" : "2025-06-16T23:29:22.689098",
+    "status" : "PROCESSING",
+    "fromIBAN" : "NL2020000267922736",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "54b09c5a-db0b-40f5-863e-bb993449774a",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:22.549399",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:22.55387"
+}

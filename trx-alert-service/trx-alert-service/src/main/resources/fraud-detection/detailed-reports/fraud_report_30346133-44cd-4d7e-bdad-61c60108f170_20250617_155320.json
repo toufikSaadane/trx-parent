@@ -1,0 +1,38 @@
+{
+  "transactionId" : "30346133-44cd-4d7e-bdad-61c60108f170",
+  "transaction" : {
+    "transactionId" : "30346133-44cd-4d7e-bdad-61c60108f170",
+    "fromAccount" : "660252961193",
+    "toAccount" : "568183827072",
+    "amount" : 22185.32,
+    "currency" : "USD",
+    "fromBankSwift" : "NWBKGB2L",
+    "toBankSwift" : "CITIUS33",
+    "fromBankName" : "NatWest Group",
+    "toBankName" : "Citibank N.A.",
+    "timestamp" : "2025-06-17T14:17:44.626204",
+    "status" : "PENDING",
+    "fromIBAN" : "GB92600000000096701814",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "30346133-44cd-4d7e-bdad-61c60108f170",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "730bef85-5a82-4178-8b6b-6490dcbce212",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 22185.32 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:20.520842",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.520857",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.524179"
+}

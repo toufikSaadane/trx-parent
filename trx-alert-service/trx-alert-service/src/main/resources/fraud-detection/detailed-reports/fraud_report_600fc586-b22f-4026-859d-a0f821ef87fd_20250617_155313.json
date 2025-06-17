@@ -1,0 +1,38 @@
+{
+  "transactionId" : "600fc586-b22f-4026-859d-a0f821ef87fd",
+  "transaction" : {
+    "transactionId" : "600fc586-b22f-4026-859d-a0f821ef87fd",
+    "fromAccount" : "019034862598",
+    "toAccount" : "048383346105",
+    "amount" : 589.02,
+    "currency" : "ZAR",
+    "fromBankSwift" : "NEDSZAJJ",
+    "toBankSwift" : "SBZAZAJJ",
+    "fromBankName" : "Nedbank",
+    "toBankName" : "Standard Bank of South Africa",
+    "timestamp" : "2025-06-16T22:46:40.567376",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "ZA",
+    "toCountryCode" : "ZA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "600fc586-b22f-4026-859d-a0f821ef87fd",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "f4f7ce2c-c30c-4206-85ae-b8545728e6c3",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 589.02 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:13.650054",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.650059",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.651724"
+}

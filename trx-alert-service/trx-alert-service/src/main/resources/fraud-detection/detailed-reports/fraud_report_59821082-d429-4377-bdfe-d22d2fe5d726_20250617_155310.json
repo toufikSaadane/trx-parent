@@ -1,0 +1,30 @@
+{
+  "transactionId" : "59821082-d429-4377-bdfe-d22d2fe5d726",
+  "transaction" : {
+    "transactionId" : "59821082-d429-4377-bdfe-d22d2fe5d726",
+    "fromAccount" : "903241892540",
+    "toAccount" : "055208109027",
+    "amount" : 1691.51,
+    "currency" : "EUR",
+    "fromBankSwift" : "BCEELULL",
+    "toBankSwift" : "INGBNL2A",
+    "fromBankName" : "BCEE",
+    "toBankName" : "ING Bank",
+    "timestamp" : "2025-06-11T11:02:47.666382",
+    "status" : "PENDING",
+    "fromIBAN" : "LU220010000569956109",
+    "toIBAN" : "NL4620000808189861",
+    "fromCountryCode" : "LU",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "59821082-d429-4377-bdfe-d22d2fe5d726",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.857922",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.858595"
+}

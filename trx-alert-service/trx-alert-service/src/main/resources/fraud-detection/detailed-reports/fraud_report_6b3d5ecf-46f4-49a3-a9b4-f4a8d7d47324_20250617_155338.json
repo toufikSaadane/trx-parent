@@ -1,0 +1,46 @@
+{
+  "transactionId" : "6b3d5ecf-46f4-49a3-a9b4-f4a8d7d47324",
+  "transaction" : {
+    "transactionId" : "6b3d5ecf-46f4-49a3-a9b4-f4a8d7d47324",
+    "fromAccount" : "315628669171",
+    "toAccount" : "018209530197",
+    "amount" : 9999.99,
+    "currency" : "KPW",
+    "fromBankSwift" : "CENKPRKX",
+    "toBankSwift" : "VTBRRUMM",
+    "fromBankName" : "Central Bank of DPRK",
+    "toBankName" : "VTB Bank",
+    "timestamp" : "2025-06-17T14:09:24.629114",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "RU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6b3d5ecf-46f4-49a3-a9b4-f4a8d7d47324",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "6c2a1760-72d2-430d-b93b-4004a75c6a0a",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: RU",
+      "timestamp" : "2025-06-17T15:53:38.941705",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "af2fc76d-f288-48b7-b6e6-9b04c2fc10f1",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9999.99 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-17T15:53:38.941726",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.941731",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.94505"
+}

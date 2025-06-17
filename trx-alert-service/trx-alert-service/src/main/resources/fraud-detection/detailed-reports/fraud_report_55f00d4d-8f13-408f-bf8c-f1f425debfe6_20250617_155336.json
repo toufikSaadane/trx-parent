@@ -1,0 +1,46 @@
+{
+  "transactionId" : "55f00d4d-8f13-408f-bf8c-f1f425debfe6",
+  "transaction" : {
+    "transactionId" : "55f00d4d-8f13-408f-bf8c-f1f425debfe6",
+    "fromAccount" : "0469387300",
+    "toAccount" : "953364214129",
+    "amount" : 196.55,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33",
+    "toBankSwift" : "CRLYFRPP",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "Crédit Lyonnais",
+    "timestamp" : "2025-06-17T05:13:28.526345",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "FR1130002000000001098175747",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "55f00d4d-8f13-408f-bf8c-f1f425debfe6",
+    "riskScore" : 90,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "0b6d7f65-3b72-4ff3-a30c-7fb48964725c",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 196.55 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:36.594101",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "95f484bd-0e85-415c-9d14-a538c2582aaf",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 05:13:28.526345",
+      "timestamp" : "2025-06-17T15:53:36.594219",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.594227",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.597608"
+}

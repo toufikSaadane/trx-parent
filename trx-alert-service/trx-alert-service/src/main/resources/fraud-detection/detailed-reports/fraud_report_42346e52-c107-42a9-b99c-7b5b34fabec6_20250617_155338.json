@@ -1,0 +1,30 @@
+{
+  "transactionId" : "42346e52-c107-42a9-b99c-7b5b34fabec6",
+  "transaction" : {
+    "transactionId" : "42346e52-c107-42a9-b99c-7b5b34fabec6",
+    "fromAccount" : "897183949454",
+    "toAccount" : "7449846736",
+    "amount" : 3110.67,
+    "currency" : "GBP",
+    "fromBankSwift" : "HSBCGB2L",
+    "toBankSwift" : "DEUTDEFF",
+    "fromBankName" : "HSBC UK",
+    "toBankName" : "Deutsche Bank AG",
+    "timestamp" : "2025-06-17T14:05:29.738041",
+    "status" : "PROCESSING",
+    "fromIBAN" : "GB84404404001510201835",
+    "toIBAN" : "DE56500700100583814526",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "42346e52-c107-42a9-b99c-7b5b34fabec6",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.648437",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.652835"
+}

@@ -1,0 +1,30 @@
+{
+  "transactionId" : "3440f167-a317-4219-9070-42a22b23518a",
+  "transaction" : {
+    "transactionId" : "3440f167-a317-4219-9070-42a22b23518a",
+    "fromAccount" : "348540475204",
+    "toAccount" : "2722074134",
+    "amount" : 5122.31,
+    "currency" : "TRY",
+    "fromBankSwift" : "AKBKTRIS",
+    "toBankSwift" : "NOSCCATTXXX",
+    "fromBankName" : "Akbank T.A.Ş.",
+    "toBankName" : "The Bank of Nova Scotia",
+    "timestamp" : "2025-06-17T13:05:40.818568",
+    "status" : "PROCESSING",
+    "fromIBAN" : "TR154600000000001238899454",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "TR",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3440f167-a317-4219-9070-42a22b23518a",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.176788",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.180612"
+}

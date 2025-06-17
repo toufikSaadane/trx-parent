@@ -1,0 +1,38 @@
+{
+  "transactionId" : "50a9b77a-f924-4b5f-90d4-9f63bd07227e",
+  "transaction" : {
+    "transactionId" : "50a9b77a-f924-4b5f-90d4-9f63bd07227e",
+    "fromAccount" : "592486228823",
+    "toAccount" : "1580522159",
+    "amount" : 919.32,
+    "currency" : "NZD",
+    "fromBankSwift" : "HSBCNZ2A",
+    "toBankSwift" : "DEUTAU2S",
+    "fromBankName" : "HSBC New Zealand",
+    "toBankName" : "Deutsche Bank AG",
+    "timestamp" : "2025-06-13T15:49:59.205669",
+    "status" : "PENDING",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "NZ",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "50a9b77a-f924-4b5f-90d4-9f63bd07227e",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "15ea1111-e6bb-45ae-a686-c75c39e5ad8a",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 919.32 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:13.921152",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.921161",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.923262"
+}

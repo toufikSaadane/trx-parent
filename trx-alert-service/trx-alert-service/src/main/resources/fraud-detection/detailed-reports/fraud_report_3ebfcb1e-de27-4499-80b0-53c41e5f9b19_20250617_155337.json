@@ -1,0 +1,38 @@
+{
+  "transactionId" : "3ebfcb1e-de27-4499-80b0-53c41e5f9b19",
+  "transaction" : {
+    "transactionId" : "3ebfcb1e-de27-4499-80b0-53c41e5f9b19",
+    "fromAccount" : "1485200411",
+    "toAccount" : "204197928674",
+    "amount" : 361.15,
+    "currency" : "TRY",
+    "fromBankSwift" : "AKBKTRIS",
+    "toBankSwift" : "BKCHAU2S",
+    "fromBankName" : "Akbank T.A.Ş.",
+    "toBankName" : "Bank of China (Australia) Limited",
+    "timestamp" : "2025-06-17T13:52:19.741605",
+    "status" : "PENDING",
+    "fromIBAN" : "TR354600000000000454124862",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "TR",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3ebfcb1e-de27-4499-80b0-53c41e5f9b19",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "62044c82-03a3-48da-bf0e-c516a9794e0d",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 361.15 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:37.5962",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.596208",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.600907"
+}

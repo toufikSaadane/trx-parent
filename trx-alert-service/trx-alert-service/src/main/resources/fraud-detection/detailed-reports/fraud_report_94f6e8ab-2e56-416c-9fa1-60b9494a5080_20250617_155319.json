@@ -1,0 +1,38 @@
+{
+  "transactionId" : "94f6e8ab-2e56-416c-9fa1-60b9494a5080",
+  "transaction" : {
+    "transactionId" : "94f6e8ab-2e56-416c-9fa1-60b9494a5080",
+    "fromAccount" : "939222525305",
+    "toAccount" : "125080671850",
+    "amount" : 18942.85,
+    "currency" : "HUF",
+    "fromBankSwift" : "HANDFIHH",
+    "toBankSwift" : "DBSBSGSG",
+    "fromBankName" : "Handelsbanken",
+    "toBankName" : "DBS Bank",
+    "timestamp" : "2025-06-17T14:07:54.630897",
+    "status" : "PROCESSING",
+    "fromIBAN" : "FI8130001240338381",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FI",
+    "toCountryCode" : "SG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "94f6e8ab-2e56-416c-9fa1-60b9494a5080",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "ff1b8333-937c-4362-9f6f-b860b4aa2cbb",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 18942.85 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:19.790275",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.790286",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.793341"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "bbf6dc41-8bab-4483-aeda-868ead619509",
+  "transaction" : {
+    "transactionId" : "bbf6dc41-8bab-4483-aeda-868ead619509",
+    "fromAccount" : "665831726798",
+    "toAccount" : "804421038050",
+    "amount" : 871.5,
+    "currency" : "CAD",
+    "fromBankSwift" : "HKBCCATT",
+    "toBankSwift" : "SHBKKRSE",
+    "fromBankName" : "Hongkong and Shanghai Banking Corp",
+    "toBankName" : "Shinhan Bank",
+    "timestamp" : "2025-06-17T14:02:39.740026",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "KR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "bbf6dc41-8bab-4483-aeda-868ead619509",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "bfa94826-24c6-47fe-8866-6981dc80aba1",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 871.5 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:38.424954",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.424961",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.429578"
+}

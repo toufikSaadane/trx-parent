@@ -1,0 +1,38 @@
+{
+  "transactionId" : "bdac63e3-c4a4-4755-b69a-9e79d00633cb",
+  "transaction" : {
+    "transactionId" : "bdac63e3-c4a4-4755-b69a-9e79d00633cb",
+    "fromAccount" : "824560811215",
+    "toAccount" : "770586361090",
+    "amount" : 19231.55,
+    "currency" : "AUD",
+    "fromBankSwift" : "BNPAAU2S",
+    "toBankSwift" : "VTBRRUMM",
+    "fromBankName" : "BNP Paribas Australia",
+    "toBankName" : "VTB Bank",
+    "timestamp" : "2025-06-13T15:52:19.201972",
+    "status" : "FAILED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "RU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "bdac63e3-c4a4-4755-b69a-9e79d00633cb",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "c7ede924-0778-42b3-b80e-c9056692c311",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 19231.55 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:21.115626",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.115635",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.118926"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "454c4242-a5eb-45b4-8693-7033391b74f0",
+  "transaction" : {
+    "transactionId" : "454c4242-a5eb-45b4-8693-7033391b74f0",
+    "fromAccount" : "8167209697",
+    "toAccount" : "178651874386",
+    "amount" : 879.92,
+    "currency" : "EUR",
+    "fromBankSwift" : "COBADEFF",
+    "toBankSwift" : "ANZBAU3M",
+    "fromBankName" : "Commerzbank AG",
+    "toBankName" : "ANZ Banking Group",
+    "timestamp" : "2025-06-16T23:36:26.255691",
+    "status" : "PROCESSING",
+    "fromIBAN" : "DE02100400001882300979",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "454c4242-a5eb-45b4-8693-7033391b74f0",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "02be7663-8392-4098-99d3-d74bb0cebdae",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 879.92 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:14.67241",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.672417",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.674536"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "02ebcdfb-8b37-4879-b2d2-e24bd69c9795",
+  "transaction" : {
+    "transactionId" : "02ebcdfb-8b37-4879-b2d2-e24bd69c9795",
+    "fromAccount" : "948194836741",
+    "toAccount" : "381184999927",
+    "amount" : 19433.72,
+    "currency" : "ZAR",
+    "fromBankSwift" : "NEDSZAJJ",
+    "toBankSwift" : "BKTOTRIS",
+    "fromBankName" : "Nedbank",
+    "toBankName" : "Türkiye İş Bankası",
+    "timestamp" : "2025-06-17T13:56:09.738486",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "TR636400000000000437979334",
+    "fromCountryCode" : "ZA",
+    "toCountryCode" : "TR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "02ebcdfb-8b37-4879-b2d2-e24bd69c9795",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e606c201-5f3b-40fa-ac6a-9329296352b0",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 19433.72 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:18.99961",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.999634",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.002385"
+}

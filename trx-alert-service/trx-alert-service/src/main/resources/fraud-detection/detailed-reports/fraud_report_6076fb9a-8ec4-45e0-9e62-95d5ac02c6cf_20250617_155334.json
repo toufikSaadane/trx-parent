@@ -1,0 +1,30 @@
+{
+  "transactionId" : "6076fb9a-8ec4-45e0-9e62-95d5ac02c6cf",
+  "transaction" : {
+    "transactionId" : "6076fb9a-8ec4-45e0-9e62-95d5ac02c6cf",
+    "fromAccount" : "5626186640",
+    "toAccount" : "338610371896",
+    "amount" : 6841.63,
+    "currency" : "EUR",
+    "fromBankSwift" : "SOGEFRPP",
+    "toBankSwift" : "COMMDEFF",
+    "fromBankName" : "Société Générale",
+    "toBankName" : "Commerzbank AG",
+    "timestamp" : "2025-06-15T09:16:16.97686",
+    "status" : "PENDING",
+    "fromIBAN" : "FR3630003000000001560604472",
+    "toIBAN" : "DE49400800000266190373",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6076fb9a-8ec4-45e0-9e62-95d5ac02c6cf",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:34.939395",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:34.944595"
+}

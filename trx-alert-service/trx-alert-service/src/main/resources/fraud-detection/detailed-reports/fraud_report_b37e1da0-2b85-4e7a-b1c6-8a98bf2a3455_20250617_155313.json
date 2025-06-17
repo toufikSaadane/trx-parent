@@ -1,0 +1,38 @@
+{
+  "transactionId" : "b37e1da0-2b85-4e7a-b1c6-8a98bf2a3455",
+  "transaction" : {
+    "transactionId" : "b37e1da0-2b85-4e7a-b1c6-8a98bf2a3455",
+    "fromAccount" : "466950674292",
+    "toAccount" : "241977269861",
+    "amount" : 790.76,
+    "currency" : "AUD",
+    "fromBankSwift" : "BKCHAU2S",
+    "toBankSwift" : "HSBCGB2L",
+    "fromBankName" : "Bank of China (Australia) Limited",
+    "toBankName" : "HSBC UK",
+    "timestamp" : "2025-06-16T23:30:22.681719",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "GB65404404001951441112",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b37e1da0-2b85-4e7a-b1c6-8a98bf2a3455",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "438e1234-b6d0-4992-8bc1-c290c8e9bd9b",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 790.76 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:13.819499",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.819508",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.821502"
+}

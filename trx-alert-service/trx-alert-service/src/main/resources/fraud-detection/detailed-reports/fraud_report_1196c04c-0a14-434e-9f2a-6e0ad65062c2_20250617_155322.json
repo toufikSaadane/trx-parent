@@ -1,0 +1,46 @@
+{
+  "transactionId" : "1196c04c-0a14-434e-9f2a-6e0ad65062c2",
+  "transaction" : {
+    "transactionId" : "1196c04c-0a14-434e-9f2a-6e0ad65062c2",
+    "fromAccount" : "694297542882",
+    "toAccount" : "569885747349",
+    "amount" : 386.17,
+    "currency" : "USD",
+    "fromBankSwift" : "WELLSFARG",
+    "toBankSwift" : "AZBAAFKAXXX",
+    "fromBankName" : "Wells Fargo Bank",
+    "toBankName" : "Azizi Bank",
+    "timestamp" : "2025-06-16T22:45:25.561488",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1196c04c-0a14-434e-9f2a-6e0ad65062c2",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "a6537544-2d3c-4600-9e8f-9f3686d48e22",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: US, To: AF",
+      "timestamp" : "2025-06-17T15:53:22.130127",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "bfff42fb-6527-4e22-8530-a2889fda32ad",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 386.17 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:22.130168",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:22.13018",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:22.133641"
+}

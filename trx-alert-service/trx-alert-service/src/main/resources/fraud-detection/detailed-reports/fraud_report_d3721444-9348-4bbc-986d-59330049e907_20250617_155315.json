@@ -1,0 +1,46 @@
+{
+  "transactionId" : "d3721444-9348-4bbc-986d-59330049e907",
+  "transaction" : {
+    "transactionId" : "d3721444-9348-4bbc-986d-59330049e907",
+    "fromAccount" : "065571148612",
+    "toAccount" : "122666223443",
+    "amount" : 745.73,
+    "currency" : "AFN",
+    "fromBankSwift" : "AZBAAFKAXXX",
+    "toBankSwift" : "CBSYSYMMXXX",
+    "fromBankName" : "Azizi Bank",
+    "toBankName" : "Commercial Bank of Syria",
+    "timestamp" : "2025-06-17T13:05:25.818365",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AF",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d3721444-9348-4bbc-986d-59330049e907",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "9bfcfce3-84b0-47bc-a14c-09ec35595a7d",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AF, To: SY",
+      "timestamp" : "2025-06-17T15:53:15.439874",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "14549b81-9aab-427a-8d35-1a09ff9087e7",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 745.73 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.439897",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.439922",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.441217"
+}

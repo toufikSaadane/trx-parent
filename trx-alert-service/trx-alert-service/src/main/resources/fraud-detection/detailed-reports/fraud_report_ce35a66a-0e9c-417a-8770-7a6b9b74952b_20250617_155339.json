@@ -1,0 +1,38 @@
+{
+  "transactionId" : "ce35a66a-0e9c-417a-8770-7a6b9b74952b",
+  "transaction" : {
+    "transactionId" : "ce35a66a-0e9c-417a-8770-7a6b9b74952b",
+    "fromAccount" : "244426784648",
+    "toAccount" : "077456691994",
+    "amount" : 1301.93,
+    "currency" : "CHF",
+    "fromBankSwift" : "CRESCHZZ",
+    "toBankSwift" : "CBSYSYMMXXX",
+    "fromBankName" : "Credit Suisse",
+    "toBankName" : "Commercial Bank of Syria",
+    "timestamp" : "2025-06-17T14:20:04.643362",
+    "status" : "PROCESSING",
+    "fromIBAN" : "CH4548350001334544493",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ce35a66a-0e9c-417a-8770-7a6b9b74952b",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "ad658d7b-b349-4870-a85c-799eeb1463d3",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CH, To: SY",
+      "timestamp" : "2025-06-17T15:53:39.787364",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.787397",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.797517"
+}

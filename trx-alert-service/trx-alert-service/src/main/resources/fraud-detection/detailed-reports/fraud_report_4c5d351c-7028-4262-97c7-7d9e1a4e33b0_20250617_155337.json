@@ -1,0 +1,38 @@
+{
+  "transactionId" : "4c5d351c-7028-4262-97c7-7d9e1a4e33b0",
+  "transaction" : {
+    "transactionId" : "4c5d351c-7028-4262-97c7-7d9e1a4e33b0",
+    "fromAccount" : "877736312276",
+    "toAccount" : "018898020876",
+    "amount" : 9999.99,
+    "currency" : "EUR",
+    "fromBankSwift" : "ITMRITMM",
+    "toBankSwift" : "BOFMCAM2",
+    "fromBankName" : "Intesa Sanpaolo S.p.A.",
+    "toBankName" : "Bank of Montreal",
+    "timestamp" : "2025-06-17T13:54:19.735636",
+    "status" : "PENDING",
+    "fromIBAN" : "IT7603069000000000917983167",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IT",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "4c5d351c-7028-4262-97c7-7d9e1a4e33b0",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "4405c5ae-ed09-45ab-857f-84ac29b50023",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9999.99 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-17T15:53:37.782374",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.782383",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.785958"
+}

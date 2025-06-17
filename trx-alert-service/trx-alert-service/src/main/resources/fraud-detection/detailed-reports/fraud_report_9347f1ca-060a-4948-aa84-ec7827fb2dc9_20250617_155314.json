@@ -1,0 +1,38 @@
+{
+  "transactionId" : "9347f1ca-060a-4948-aa84-ec7827fb2dc9",
+  "transaction" : {
+    "transactionId" : "9347f1ca-060a-4948-aa84-ec7827fb2dc9",
+    "fromAccount" : "962945381801",
+    "toAccount" : "7434838255",
+    "amount" : 743.46,
+    "currency" : "USD",
+    "fromBankSwift" : "BOFAUS3NXXX",
+    "toBankSwift" : "BKTOTRIS",
+    "fromBankName" : "Bank of America N.A.",
+    "toBankName" : "Türkiye İş Bankası",
+    "timestamp" : "2025-06-13T15:48:59.209992",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "TR656400000000001824922643",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "TR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9347f1ca-060a-4948-aa84-ec7827fb2dc9",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "76cefa15-cbbc-4bec-9948-d7e839b094b3",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 743.46 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:14.753167",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.753181",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.755288"
+}

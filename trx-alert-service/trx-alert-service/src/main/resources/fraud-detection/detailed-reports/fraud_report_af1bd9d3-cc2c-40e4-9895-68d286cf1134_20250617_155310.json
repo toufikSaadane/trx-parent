@@ -1,0 +1,30 @@
+{
+  "transactionId" : "af1bd9d3-cc2c-40e4-9895-68d286cf1134",
+  "transaction" : {
+    "transactionId" : "af1bd9d3-cc2c-40e4-9895-68d286cf1134",
+    "fromAccount" : "4183471059",
+    "toAccount" : "782784805385",
+    "amount" : 6579.12,
+    "currency" : "CNY",
+    "fromBankSwift" : "BKCHCNBJ",
+    "toBankSwift" : "UBSWCHZH80A",
+    "fromBankName" : "Bank of China",
+    "toBankName" : "UBS Switzerland AG",
+    "timestamp" : "2025-06-11T11:03:17.6676",
+    "status" : "COMPLETED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "CH7224300001534061067",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "af1bd9d3-cc2c-40e4-9895-68d286cf1134",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.861745",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.862346"
+}

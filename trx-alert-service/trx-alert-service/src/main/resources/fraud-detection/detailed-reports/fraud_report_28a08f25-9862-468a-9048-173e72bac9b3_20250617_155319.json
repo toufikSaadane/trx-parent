@@ -1,0 +1,46 @@
+{
+  "transactionId" : "28a08f25-9862-468a-9048-173e72bac9b3",
+  "transaction" : {
+    "transactionId" : "28a08f25-9862-468a-9048-173e72bac9b3",
+    "fromAccount" : "0632116838",
+    "toAccount" : "2825392175",
+    "amount" : 43402.29,
+    "currency" : "EUR",
+    "fromBankSwift" : "RABONL2U",
+    "toBankSwift" : "CBMMMY2X",
+    "fromBankName" : "Rabobank",
+    "toBankName" : "CB Bank",
+    "timestamp" : "2025-06-17T14:08:59.632417",
+    "status" : "PROCESSING",
+    "fromIBAN" : "NL5630001903263212",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "28a08f25-9862-468a-9048-173e72bac9b3",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "a6322a80-2d65-40e6-9821-0f9a2a9cfc99",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: NL, To: MM",
+      "timestamp" : "2025-06-17T15:53:19.865295",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "2c4d35e3-7c74-412c-8820-0f5a8fe86069",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 43402.29 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:19.865323",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.865332",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.868314"
+}

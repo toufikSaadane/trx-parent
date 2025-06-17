@@ -1,0 +1,36 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:10.869163
+// Transaction ID: 0b42149a-8e5e-487c-93f1-540fc7fc94a2
+// Amount: 866.9 NZD
+// From: HSBC New Zealand
+// To: Bank of Montreal
+// FRAUD STATUS: NORMAL
+// Risk Score: 40/100
+// Risk Level: MEDIUM
+// Fraud Alerts: 1
+//   - Frequent Small Amounts
+//=====================================
+
+{1:F01HSBCNZ2AXXX0}{2:I103BMOCCAMTXXX0N}{3:{108:0b42149a-8e5e-48}}
+{4:
+:20:0b42149a-8e5e-48
+:23B:CRED
+:32A:250611NZD866,9
+:33B:NZD866,9
+:71A:SHA
+:50K:/961866413837
+HSBC New Zealand
+456 Business Ave
+Financial District, New Zealand
+:52A:HSBCNZ2A
+:53B:/HSBCNZ2A
+:56A:TDOMCATTTOR
+:57A:BMOCCAMT
+:59:/824722521072
+Bank of Montreal
+789 Commercial Blvd
+Toronto, Canada
+:70:Payment for services - TXN ID: 0b42149a - Cross-border transfer
+:72:/INS/HSBCNZ2A
+}
+{5:{MAC:71C2AB2B}{CHK:1CF45C5F7210}}

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "2544f294-4445-4b75-a465-f35e8f0aa363",
+  "transaction" : {
+    "transactionId" : "2544f294-4445-4b75-a465-f35e8f0aa363",
+    "fromAccount" : "7302335789",
+    "toAccount" : "199473364239",
+    "amount" : 753.65,
+    "currency" : "CAD",
+    "fromBankSwift" : "TDOMCATT",
+    "toBankSwift" : "MELIIRTH",
+    "fromBankName" : "TD Canada Trust",
+    "toBankName" : "Bank Melli Iran",
+    "timestamp" : "2025-06-17T14:17:29.624117",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "2544f294-4445-4b75-a465-f35e8f0aa363",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "5a5d09a0-34e4-4b56-be5d-7e3c2a13ccb9",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CA, To: IR",
+      "timestamp" : "2025-06-17T15:53:20.506067",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "38a2f139-397f-4149-93cd-0cdb0672ab0e",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 753.65 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:20.506086",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.506096",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.509908"
+}

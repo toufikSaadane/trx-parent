@@ -1,0 +1,38 @@
+{
+  "transactionId" : "519edd76-6bd4-42e3-899e-1e23edd23730",
+  "transaction" : {
+    "transactionId" : "519edd76-6bd4-42e3-899e-1e23edd23730",
+    "fromAccount" : "964058240648",
+    "toAccount" : "206859477384",
+    "amount" : 217.22,
+    "currency" : "USD",
+    "fromBankSwift" : "BOFAUS3N",
+    "toBankSwift" : "HANDFIHH",
+    "fromBankName" : "Bank of America N.A.",
+    "toBankName" : "Handelsbanken",
+    "timestamp" : "2025-06-17T13:28:13.459495",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "FI8030000113788159",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "FI"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "519edd76-6bd4-42e3-899e-1e23edd23730",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "0564e5e1-6dd0-42c8-b322-12bb8f60e29f",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 217.22 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:23.904624",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.904637",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.909282"
+}

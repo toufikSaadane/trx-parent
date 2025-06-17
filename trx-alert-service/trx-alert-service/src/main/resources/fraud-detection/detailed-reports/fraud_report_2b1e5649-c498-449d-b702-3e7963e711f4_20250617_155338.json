@@ -1,0 +1,38 @@
+{
+  "transactionId" : "2b1e5649-c498-449d-b702-3e7963e711f4",
+  "transaction" : {
+    "transactionId" : "2b1e5649-c498-449d-b702-3e7963e711f4",
+    "fromAccount" : "672567686350",
+    "toAccount" : "6081835250",
+    "amount" : 10000,
+    "currency" : "MXN",
+    "fromBankSwift" : "BAMXMXMM",
+    "toBankSwift" : "NEDSZAJJ",
+    "fromBankName" : "Banco Azteca",
+    "toBankName" : "Nedbank",
+    "timestamp" : "2025-06-17T14:01:19.735386",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "ZA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "2b1e5649-c498-449d-b702-3e7963e711f4",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e9565241-efb6-4516-9352-a4a0ab3d8808",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 10000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:38.330744",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.330752",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.335168"
+}

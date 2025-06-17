@@ -1,0 +1,38 @@
+{
+  "transactionId" : "3e80ea9d-3540-4754-8d6c-fd130c5519d0",
+  "transaction" : {
+    "transactionId" : "3e80ea9d-3540-4754-8d6c-fd130c5519d0",
+    "fromAccount" : "4232798886",
+    "toAccount" : "677873655881",
+    "amount" : 524.39,
+    "currency" : "CHF",
+    "fromBankSwift" : "UBSWCHZH",
+    "toBankSwift" : "COBADEFF",
+    "fromBankName" : "UBS Group AG",
+    "toBankName" : "Commerzbank AG",
+    "timestamp" : "2025-06-17T14:10:34.63357",
+    "status" : "PENDING",
+    "fromIBAN" : "CH7924400000063684739",
+    "toIBAN" : "DE93100400001044197031",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3e80ea9d-3540-4754-8d6c-fd130c5519d0",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "cdb10590-e9c4-4524-b256-34744dd52885",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 524.39 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:19.98221",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.98222",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.986534"
+}

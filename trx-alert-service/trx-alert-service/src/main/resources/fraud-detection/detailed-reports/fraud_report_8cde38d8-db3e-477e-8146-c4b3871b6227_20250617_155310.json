@@ -1,0 +1,38 @@
+{
+  "transactionId" : "8cde38d8-db3e-477e-8146-c4b3871b6227",
+  "transaction" : {
+    "transactionId" : "8cde38d8-db3e-477e-8146-c4b3871b6227",
+    "fromAccount" : "7323379167",
+    "toAccount" : "445761181089",
+    "amount" : 913.34,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33",
+    "toBankSwift" : "DBSBSGSG",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "DBS Bank",
+    "timestamp" : "2025-06-11T11:15:08.215689",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "SG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8cde38d8-db3e-477e-8146-c4b3871b6227",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "4672ee43-e5e9-4875-98eb-b1eae16c72b4",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 913.34 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.882915",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.882936",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.883536"
+}

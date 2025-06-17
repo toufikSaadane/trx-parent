@@ -1,0 +1,38 @@
+{
+  "transactionId" : "bbbcf46d-a273-49cc-ad95-03a42121e160",
+  "transaction" : {
+    "transactionId" : "bbbcf46d-a273-49cc-ad95-03a42121e160",
+    "fromAccount" : "695552935944",
+    "toAccount" : "494162652657",
+    "amount" : 454.4,
+    "currency" : "NZD",
+    "fromBankSwift" : "HSBCNZ2A",
+    "toBankSwift" : "BOFMCAM2XXX",
+    "fromBankName" : "HSBC New Zealand",
+    "toBankName" : "Bank of Montreal",
+    "timestamp" : "2025-06-17T13:08:40.815292",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NZ",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "bbbcf46d-a273-49cc-ad95-03a42121e160",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "2ed1c799-a6c8-4529-b349-83c2d1b6a149",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 454.4 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:18.356422",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.356438",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.360273"
+}

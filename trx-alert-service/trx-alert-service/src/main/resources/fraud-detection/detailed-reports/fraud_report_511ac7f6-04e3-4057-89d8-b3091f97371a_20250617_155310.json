@@ -1,0 +1,38 @@
+{
+  "transactionId" : "511ac7f6-04e3-4057-89d8-b3091f97371a",
+  "transaction" : {
+    "transactionId" : "511ac7f6-04e3-4057-89d8-b3091f97371a",
+    "fromAccount" : "564667236991",
+    "toAccount" : "515862071498",
+    "amount" : 113.63,
+    "currency" : "USD",
+    "fromBankSwift" : "TDOMCATT",
+    "toBankSwift" : "WFBIUS6SXXX",
+    "fromBankName" : "TD Canada Trust",
+    "toBankName" : "Wells Fargo Bank",
+    "timestamp" : "2025-06-11T11:14:48.217854",
+    "status" : "COMPLETED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "511ac7f6-04e3-4057-89d8-b3091f97371a",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "fdbd9945-eb85-4ab1-bcbf-39f10b579e4e",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 113.63 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.880258",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.880275",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.880845"
+}

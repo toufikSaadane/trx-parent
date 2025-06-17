@@ -1,0 +1,38 @@
+{
+  "transactionId" : "2187c283-a44e-43c7-98e8-bddf5b66f614",
+  "transaction" : {
+    "transactionId" : "2187c283-a44e-43c7-98e8-bddf5b66f614",
+    "fromAccount" : "055384443185",
+    "toAccount" : "690167146778",
+    "amount" : 575.25,
+    "currency" : "CAD",
+    "fromBankSwift" : "BOFMCAM2",
+    "toBankSwift" : "NWBKGB2L",
+    "fromBankName" : "Bank of Montreal",
+    "toBankName" : "NatWest Group",
+    "timestamp" : "2025-06-13T15:51:14.202545",
+    "status" : "PENDING",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "2187c283-a44e-43c7-98e8-bddf5b66f614",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "2f059ef2-6c5e-40df-b07e-239111bd4077",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 575.25 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:34.32254",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:34.322557",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:34.328135"
+}

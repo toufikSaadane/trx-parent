@@ -1,0 +1,38 @@
+{
+  "transactionId" : "231e77af-0838-49a5-896f-34f9c8b3307e",
+  "transaction" : {
+    "transactionId" : "231e77af-0838-49a5-896f-34f9c8b3307e",
+    "fromAccount" : "6093617376",
+    "toAccount" : "0620972514",
+    "amount" : 244.49,
+    "currency" : "USD",
+    "fromBankSwift" : "BOFAUS3N",
+    "toBankSwift" : "NWBKGB2L",
+    "fromBankName" : "Bank of America N.A.",
+    "toBankName" : "NatWest Group",
+    "timestamp" : "2025-06-13T15:47:59.205808",
+    "status" : "PENDING",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "US",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "231e77af-0838-49a5-896f-34f9c8b3307e",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "39170e3e-051c-480d-8567-1025f5589bf2",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 244.49 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.941057",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.941085",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.942129"
+}

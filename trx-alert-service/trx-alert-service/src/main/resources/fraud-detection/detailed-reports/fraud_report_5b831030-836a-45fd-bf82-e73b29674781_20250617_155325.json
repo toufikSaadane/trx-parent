@@ -1,0 +1,30 @@
+{
+  "transactionId" : "5b831030-836a-45fd-bf82-e73b29674781",
+  "transaction" : {
+    "transactionId" : "5b831030-836a-45fd-bf82-e73b29674781",
+    "fromAccount" : "7449294142",
+    "toAccount" : "799345892965",
+    "amount" : 2644.86,
+    "currency" : "CHF",
+    "fromBankSwift" : "CRESCHZZ",
+    "toBankSwift" : "HYVEDEMM",
+    "fromBankName" : "Credit Suisse",
+    "toBankName" : "UniCredit Bank AG",
+    "timestamp" : "2025-06-17T14:03:49.741123",
+    "status" : "PROCESSING",
+    "fromIBAN" : "CH7048350000751037148",
+    "toIBAN" : "DE09700202700742668548",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5b831030-836a-45fd-bf82-e73b29674781",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.031219",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.036825"
+}

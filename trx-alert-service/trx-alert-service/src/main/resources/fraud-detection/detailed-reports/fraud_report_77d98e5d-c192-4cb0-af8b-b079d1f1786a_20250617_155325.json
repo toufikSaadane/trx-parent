@@ -1,0 +1,38 @@
+{
+  "transactionId" : "77d98e5d-c192-4cb0-af8b-b079d1f1786a",
+  "transaction" : {
+    "transactionId" : "77d98e5d-c192-4cb0-af8b-b079d1f1786a",
+    "fromAccount" : "575739568140",
+    "toAccount" : "189630557562",
+    "amount" : 177.44,
+    "currency" : "USD",
+    "fromBankSwift" : "BKCHCNBJ",
+    "toBankSwift" : "CHASUS33",
+    "fromBankName" : "Bank of China",
+    "toBankName" : "JPMorgan Chase Bank",
+    "timestamp" : "2025-06-17T14:04:29.743018",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "77d98e5d-c192-4cb0-af8b-b079d1f1786a",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "dbcb2ed3-9c08-4b2d-9de4-b38a2a3a75e0",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 177.44 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:25.089101",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.089116",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.09404"
+}

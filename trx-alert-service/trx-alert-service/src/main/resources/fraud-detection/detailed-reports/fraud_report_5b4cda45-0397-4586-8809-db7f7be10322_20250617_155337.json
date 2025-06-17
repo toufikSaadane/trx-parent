@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5b4cda45-0397-4586-8809-db7f7be10322",
+  "transaction" : {
+    "transactionId" : "5b4cda45-0397-4586-8809-db7f7be10322",
+    "fromAccount" : "471518230675",
+    "toAccount" : "645952005148",
+    "amount" : 10000,
+    "currency" : "NZD",
+    "fromBankSwift" : "HSBCNZ2A",
+    "toBankSwift" : "IBOSINBB",
+    "fromBankName" : "HSBC New Zealand",
+    "toBankName" : "Indian Overseas Bank",
+    "timestamp" : "2025-06-17T13:53:19.740202",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NZ",
+    "toCountryCode" : "IN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5b4cda45-0397-4586-8809-db7f7be10322",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "c3d97052-9e23-4e02-ad7f-819a5e8d3d1a",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 10000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:37.685013",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.685023",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.689799"
+}

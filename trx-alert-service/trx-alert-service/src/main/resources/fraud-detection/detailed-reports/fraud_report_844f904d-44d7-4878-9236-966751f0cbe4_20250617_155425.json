@@ -1,0 +1,46 @@
+{
+  "transactionId" : "844f904d-44d7-4878-9236-966751f0cbe4",
+  "transaction" : {
+    "transactionId" : "844f904d-44d7-4878-9236-966751f0cbe4",
+    "fromAccount" : "159061974848",
+    "toAccount" : "587735027966",
+    "amount" : 50000,
+    "currency" : "EUR",
+    "fromBankSwift" : "COBADEFF",
+    "toBankSwift" : "CRLYFRPP",
+    "fromBankName" : "Commerzbank AG",
+    "toBankName" : "Crédit Lyonnais",
+    "timestamp" : "2025-06-17T15:54:25.526858",
+    "status" : "PENDING",
+    "fromIBAN" : "DE48100400000344114212",
+    "toIBAN" : "FR8430002000000002056438985",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "844f904d-44d7-4878-9236-966751f0cbe4",
+    "riskScore" : 110,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "12ce3cdc-5659-45af-ae9a-1e100e78f20a",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 50000 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:54:25.544723",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "0e3baf07-f93e-4f3f-869e-9baf58c77d33",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 50000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:54:25.544786",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:54:25.544898",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:54:25.555894"
+}

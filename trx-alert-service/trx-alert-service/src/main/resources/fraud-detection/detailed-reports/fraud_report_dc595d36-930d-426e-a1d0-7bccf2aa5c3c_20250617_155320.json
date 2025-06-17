@@ -1,0 +1,38 @@
+{
+  "transactionId" : "dc595d36-930d-426e-a1d0-7bccf2aa5c3c",
+  "transaction" : {
+    "transactionId" : "dc595d36-930d-426e-a1d0-7bccf2aa5c3c",
+    "fromAccount" : "717232005197",
+    "toAccount" : "521725990569",
+    "amount" : 77.9,
+    "currency" : "MXN",
+    "fromBankSwift" : "SCOTMXMM",
+    "toBankSwift" : "NEDSZAJJ",
+    "fromBankName" : "Scotiabank Mexico",
+    "toBankName" : "Nedbank",
+    "timestamp" : "2025-06-17T14:11:29.627753",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "ZA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "dc595d36-930d-426e-a1d0-7bccf2aa5c3c",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e5a48864-e418-4262-a21e-19407d874f1a",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 77.9 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:20.049082",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.049095",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.05335"
+}

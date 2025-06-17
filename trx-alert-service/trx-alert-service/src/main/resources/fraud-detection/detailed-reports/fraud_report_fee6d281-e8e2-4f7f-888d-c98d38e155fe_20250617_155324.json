@@ -1,0 +1,38 @@
+{
+  "transactionId" : "fee6d281-e8e2-4f7f-888d-c98d38e155fe",
+  "transaction" : {
+    "transactionId" : "fee6d281-e8e2-4f7f-888d-c98d38e155fe",
+    "fromAccount" : "097195287510",
+    "toAccount" : "027811259509",
+    "amount" : 10000,
+    "currency" : "EUR",
+    "fromBankSwift" : "BNPAFRPP",
+    "toBankSwift" : "BOFMCAM2XXX",
+    "fromBankName" : "BNP Paribas SA",
+    "toBankName" : "Bank of Montreal",
+    "timestamp" : "2025-06-17T14:01:09.733864",
+    "status" : "PROCESSING",
+    "fromIBAN" : "FR3930004000000000496378238",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "fee6d281-e8e2-4f7f-888d-c98d38e155fe",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "09fa576f-b617-499a-b897-26e9ed9fd86b",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 10000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:24.815478",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.815488",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.819949"
+}

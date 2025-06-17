@@ -1,0 +1,46 @@
+{
+  "transactionId" : "14efce84-7c3e-43e0-b498-d9f25809e8cf",
+  "transaction" : {
+    "transactionId" : "14efce84-7c3e-43e0-b498-d9f25809e8cf",
+    "fromAccount" : "7073000271",
+    "toAccount" : "654978896419",
+    "amount" : 436.12,
+    "currency" : "IRR",
+    "fromBankSwift" : "KESHAVIRZIR",
+    "toBankSwift" : "ROYCCAT2XXX",
+    "fromBankName" : "Bank Keshavarzi",
+    "toBankName" : "RBC Royal Bank",
+    "timestamp" : "2025-06-16T23:29:42.681001",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IR",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "14efce84-7c3e-43e0-b498-d9f25809e8cf",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "ef3d4e6f-e0db-407e-8884-84672f562a5e",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: IR, To: CA",
+      "timestamp" : "2025-06-17T15:53:13.800137",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "9b6776fa-ffb6-4edc-8c41-9f67b0091548",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 436.12 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:13.800157",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.800164",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.801241"
+}

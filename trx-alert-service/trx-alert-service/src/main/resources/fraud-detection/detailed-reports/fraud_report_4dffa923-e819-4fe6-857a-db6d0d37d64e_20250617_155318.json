@@ -1,0 +1,38 @@
+{
+  "transactionId" : "4dffa923-e819-4fe6-857a-db6d0d37d64e",
+  "transaction" : {
+    "transactionId" : "4dffa923-e819-4fe6-857a-db6d0d37d64e",
+    "fromAccount" : "1653160063",
+    "toAccount" : "066474246374",
+    "amount" : 94462.79,
+    "currency" : "USD",
+    "fromBankSwift" : "DBSBSGSG",
+    "toBankSwift" : "BOFAUS3NXXX",
+    "fromBankName" : "DBS Bank",
+    "toBankName" : "Bank of America N.A.",
+    "timestamp" : "2025-06-17T13:53:14.736158",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "4dffa923-e819-4fe6-857a-db6d0d37d64e",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "5a1ff742-ddd1-44a0-81b7-1fcae2a00c14",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 94462.79 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:18.813603",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.813613",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.816098"
+}

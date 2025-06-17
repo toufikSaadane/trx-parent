@@ -1,0 +1,46 @@
+{
+  "transactionId" : "a9e7daa1-18d5-430c-824f-e01f903e94c3",
+  "transaction" : {
+    "transactionId" : "a9e7daa1-18d5-430c-824f-e01f903e94c3",
+    "fromAccount" : "390235916861",
+    "toAccount" : "139647352781",
+    "amount" : 102.74,
+    "currency" : "USD",
+    "fromBankSwift" : "SCBLUS33",
+    "toBankSwift" : "KESHAVIRZIR",
+    "fromBankName" : "Standard Chartered USA",
+    "toBankName" : "Bank Keshavarzi",
+    "timestamp" : "2025-06-17T14:06:09.731332",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a9e7daa1-18d5-430c-824f-e01f903e94c3",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "7b8df197-8f78-484b-9522-d3e20b8e109f",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: US, To: IR",
+      "timestamp" : "2025-06-17T15:53:25.238968",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "3e007938-5503-49e0-9f04-866c3d4cf495",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 102.74 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:25.239074",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.239087",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.242693"
+}

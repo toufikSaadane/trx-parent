@@ -1,0 +1,38 @@
+{
+  "transactionId" : "b36ddb56-dc9f-469d-9eb1-5aeab7853fbd",
+  "transaction" : {
+    "transactionId" : "b36ddb56-dc9f-469d-9eb1-5aeab7853fbd",
+    "fromAccount" : "001903979300",
+    "toAccount" : "948125496089",
+    "amount" : 3385.18,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33XXX",
+    "toBankSwift" : "UBSWCHZH",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "UBS Group AG",
+    "timestamp" : "2025-06-15T02:04:03.03587",
+    "status" : "COMPLETED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "CH4724400001607051927",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b36ddb56-dc9f-469d-9eb1-5aeab7853fbd",
+    "riskScore" : 50,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "1d557e41-5ecf-4706-8491-3ff47ecc60b1",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 02:04:03.035870",
+      "timestamp" : "2025-06-17T15:53:35.221398",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:35.221422",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:35.226844"
+}

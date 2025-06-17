@@ -1,0 +1,38 @@
+{
+  "transactionId" : "f0d7e792-c24a-48d7-89b6-09b26dad5b61",
+  "transaction" : {
+    "transactionId" : "f0d7e792-c24a-48d7-89b6-09b26dad5b61",
+    "fromAccount" : "270115073536",
+    "toAccount" : "048899525224",
+    "amount" : 418.65,
+    "currency" : "GBP",
+    "fromBankSwift" : "BARCGB22",
+    "toBankSwift" : "ABNANL2A",
+    "fromBankName" : "Barclays",
+    "toBankName" : "ABN AMRO",
+    "timestamp" : "2025-06-11T17:17:52.849545",
+    "status" : "COMPLETED",
+    "fromIBAN" : "GB70203002000679564554",
+    "toIBAN" : "NL3351700730017568",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f0d7e792-c24a-48d7-89b6-09b26dad5b61",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "0a78a22e-b3c8-4bd9-bae7-6b7ce1fb44af",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 418.65 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.891835",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.891877",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.893092"
+}

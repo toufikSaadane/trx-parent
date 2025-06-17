@@ -1,0 +1,38 @@
+{
+  "transactionId" : "3730e666-7130-4b3c-950c-f20d5b9f1e5e",
+  "transaction" : {
+    "transactionId" : "3730e666-7130-4b3c-950c-f20d5b9f1e5e",
+    "fromAccount" : "723113486853",
+    "toAccount" : "003655833290",
+    "amount" : 703.51,
+    "currency" : "INR",
+    "fromBankSwift" : "IBOSINBB",
+    "toBankSwift" : "ROYCCAT2XXX",
+    "fromBankName" : "Indian Overseas Bank",
+    "toBankName" : "RBC Royal Bank",
+    "timestamp" : "2025-06-13T15:57:19.199676",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IN",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3730e666-7130-4b3c-950c-f20d5b9f1e5e",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "f9996b20-72c9-4a68-a767-c639c4b245a9",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 703.51 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:16.732883",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.732899",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.736429"
+}

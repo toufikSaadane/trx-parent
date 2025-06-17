@@ -1,0 +1,38 @@
+{
+  "transactionId" : "9117e18a-d73c-4dd0-a508-d941ae4ccd22",
+  "transaction" : {
+    "transactionId" : "9117e18a-d73c-4dd0-a508-d941ae4ccd22",
+    "fromAccount" : "987554039711",
+    "toAccount" : "069022940523",
+    "amount" : 29.69,
+    "currency" : "USD",
+    "fromBankSwift" : "TADHYEMY",
+    "toBankSwift" : "BOFAUS3N",
+    "fromBankName" : "Tadhamon International Islamic Bank",
+    "toBankName" : "Bank of America N.A.",
+    "timestamp" : "2025-06-17T14:14:14.632587",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "TADHYOYMY",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9117e18a-d73c-4dd0-a508-d941ae4ccd22",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "ab70ab85-1e79-452f-8305-5307f9fd2e4e",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 29.69 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:16.099937",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.099944",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.103067"
+}

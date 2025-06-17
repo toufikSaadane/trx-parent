@@ -1,0 +1,30 @@
+{
+  "transactionId" : "b9e734d1-81dd-4e27-8398-f3e5140a6fe2",
+  "transaction" : {
+    "transactionId" : "b9e734d1-81dd-4e27-8398-f3e5140a6fe2",
+    "fromAccount" : "019986208749",
+    "toAccount" : "2790499203",
+    "amount" : 7152.25,
+    "currency" : "CHF",
+    "fromBankSwift" : "CRESCHZZ",
+    "toBankSwift" : "BSCHBRSP",
+    "fromBankName" : "Credit Suisse",
+    "toBankName" : "Santander Brasil",
+    "timestamp" : "2025-06-17T13:09:25.828948",
+    "status" : "PENDING",
+    "fromIBAN" : "CH7748350001836093087",
+    "toIBAN" : "BR32904008880000111939075",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "BR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b9e734d1-81dd-4e27-8398-f3e5140a6fe2",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.694168",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.698647"
+}

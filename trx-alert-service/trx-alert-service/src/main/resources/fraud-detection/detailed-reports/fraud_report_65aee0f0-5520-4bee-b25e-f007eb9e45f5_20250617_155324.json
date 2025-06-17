@@ -1,0 +1,38 @@
+{
+  "transactionId" : "65aee0f0-5520-4bee-b25e-f007eb9e45f5",
+  "transaction" : {
+    "transactionId" : "65aee0f0-5520-4bee-b25e-f007eb9e45f5",
+    "fromAccount" : "6414921098",
+    "toAccount" : "738179323282",
+    "amount" : 33469.67,
+    "currency" : "USD",
+    "fromBankSwift" : "WELLSFARG",
+    "toBankSwift" : "TADHYEMY",
+    "fromBankName" : "Wells Fargo Bank",
+    "toBankName" : "Tadhamon International Islamic Bank",
+    "timestamp" : "2025-06-17T13:55:19.74033",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "TADHYOYMY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "65aee0f0-5520-4bee-b25e-f007eb9e45f5",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "1e010914-fa16-4230-8fbb-45ddc98d912b",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 33469.67 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:24.349711",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.349718",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.353636"
+}

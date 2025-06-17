@@ -1,0 +1,30 @@
+{
+  "transactionId" : "9ef8f2f4-7a1f-42dd-acc2-ff245b2ad70a",
+  "transaction" : {
+    "transactionId" : "9ef8f2f4-7a1f-42dd-acc2-ff245b2ad70a",
+    "fromAccount" : "5298258553",
+    "toAccount" : "3617884513",
+    "amount" : 3939.19,
+    "currency" : "AUD",
+    "fromBankSwift" : "ANZBAU3M",
+    "toBankSwift" : "VTBRRUMM",
+    "fromBankName" : "ANZ Banking Group",
+    "toBankName" : "VTB Bank",
+    "timestamp" : "2025-06-17T14:15:34.628082",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "RU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9ef8f2f4-7a1f-42dd-acc2-ff245b2ad70a",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.433141",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.440014"
+}

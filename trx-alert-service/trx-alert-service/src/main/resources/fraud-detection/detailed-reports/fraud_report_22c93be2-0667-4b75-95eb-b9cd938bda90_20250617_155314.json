@@ -1,0 +1,38 @@
+{
+  "transactionId" : "22c93be2-0667-4b75-95eb-b9cd938bda90",
+  "transaction" : {
+    "transactionId" : "22c93be2-0667-4b75-95eb-b9cd938bda90",
+    "fromAccount" : "0046812349",
+    "toAccount" : "7867345792",
+    "amount" : 85066.77,
+    "currency" : "GBP",
+    "fromBankSwift" : "HSBCGB2L",
+    "toBankSwift" : "HKBCCATT",
+    "fromBankName" : "HSBC UK",
+    "toBankName" : "Hongkong and Shanghai Banking Corp",
+    "timestamp" : "2025-06-16T23:30:07.678372",
+    "status" : "PENDING",
+    "fromIBAN" : "GB14404404001061225985",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "22c93be2-0667-4b75-95eb-b9cd938bda90",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "619fe46c-1565-4207-8063-06ab3e55ce2b",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 85066.77 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:14.627292",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.627298",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.628237"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "edda3907-abee-462c-aad0-8db2cc04bd00",
+  "transaction" : {
+    "transactionId" : "edda3907-abee-462c-aad0-8db2cc04bd00",
+    "fromAccount" : "544253662923",
+    "toAccount" : "102648019286",
+    "amount" : 1919.9,
+    "currency" : "CHF",
+    "fromBankSwift" : "UBSWCHZH80A",
+    "toBankSwift" : "AFIBAFKA",
+    "fromBankName" : "UBS Switzerland AG",
+    "toBankName" : "Afghanistan International Bank",
+    "timestamp" : "2025-06-17T13:52:19.740256",
+    "status" : "PROCESSING",
+    "fromIBAN" : "CH7324300000717846013",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "edda3907-abee-462c-aad0-8db2cc04bd00",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "192e2ca4-b117-4abc-9807-8c0cd3b8a02c",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CH, To: AF",
+      "timestamp" : "2025-06-17T15:53:24.130681",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.130698",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.134011"
+}

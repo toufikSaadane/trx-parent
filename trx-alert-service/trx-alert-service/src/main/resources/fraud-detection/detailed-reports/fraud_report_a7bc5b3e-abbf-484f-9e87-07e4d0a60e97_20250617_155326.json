@@ -1,0 +1,46 @@
+{
+  "transactionId" : "a7bc5b3e-abbf-484f-9e87-07e4d0a60e97",
+  "transaction" : {
+    "transactionId" : "a7bc5b3e-abbf-484f-9e87-07e4d0a60e97",
+    "fromAccount" : "038964909186",
+    "toAccount" : "8971018919",
+    "amount" : 4771.95,
+    "currency" : "KWR",
+    "fromBankSwift" : "KOEXKRSE",
+    "toBankSwift" : "HKBCCATT",
+    "fromBankName" : "Korea Exchange Bank",
+    "toBankName" : "Hongkong and Shanghai Banking Corp",
+    "timestamp" : "2025-06-17T03:57:40.629278",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KR",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a7bc5b3e-abbf-484f-9e87-07e4d0a60e97",
+    "riskScore" : 110,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "3ffc851a-0e78-4d7c-b422-1d55cd44defa",
+      "fraudType" : "CRYPTOCURRENCY_KEYWORDS",
+      "description" : "Cryptocurrency Keywords",
+      "severity" : 6,
+      "details" : "Transaction contains cryptocurrency-related keywords in bank names: Korea Exchange Bank Hongkong and Shanghai Banking Corp",
+      "timestamp" : "2025-06-17T15:53:26.271104",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "a24b045b-298d-4314-b801-e0f44c4bc14d",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 03:57:40.629278",
+      "timestamp" : "2025-06-17T15:53:26.271151",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.271166",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.275421"
+}

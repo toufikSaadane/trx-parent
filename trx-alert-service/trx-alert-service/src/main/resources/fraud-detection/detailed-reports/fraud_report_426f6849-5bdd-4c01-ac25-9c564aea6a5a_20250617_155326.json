@@ -1,0 +1,30 @@
+{
+  "transactionId" : "426f6849-5bdd-4c01-ac25-9c564aea6a5a",
+  "transaction" : {
+    "transactionId" : "426f6849-5bdd-4c01-ac25-9c564aea6a5a",
+    "fromAccount" : "890405080940",
+    "toAccount" : "961698406304",
+    "amount" : 3459.93,
+    "currency" : "AUD",
+    "fromBankSwift" : "WESTPAC",
+    "toBankSwift" : "BSCHBRSP",
+    "fromBankName" : "Westpac Banking Corp",
+    "toBankName" : "Santander Brasil",
+    "timestamp" : "2025-06-17T14:15:14.630018",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "BR38904008880000910378462",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "BR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "426f6849-5bdd-4c01-ac25-9c564aea6a5a",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.389703",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.399126"
+}

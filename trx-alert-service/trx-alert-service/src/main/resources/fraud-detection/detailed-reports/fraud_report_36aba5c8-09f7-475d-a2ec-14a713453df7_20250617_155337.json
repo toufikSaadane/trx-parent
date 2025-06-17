@@ -1,0 +1,38 @@
+{
+  "transactionId" : "36aba5c8-09f7-475d-a2ec-14a713453df7",
+  "transaction" : {
+    "transactionId" : "36aba5c8-09f7-475d-a2ec-14a713453df7",
+    "fromAccount" : "2951146138",
+    "toAccount" : "849420162369",
+    "amount" : 115.55,
+    "currency" : "NZD",
+    "fromBankSwift" : "ASBKNZ2A",
+    "toBankSwift" : "SHBKKRSE",
+    "fromBankName" : "ASB Bank Limited",
+    "toBankName" : "Shinhan Bank",
+    "timestamp" : "2025-06-17T13:52:49.743",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NZ",
+    "toCountryCode" : "KR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "36aba5c8-09f7-475d-a2ec-14a713453df7",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e2b36a00-2227-4fd4-a029-7a9fd53e37bb",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 115.55 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:37.643104",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.643116",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.648193"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "2fc9fedd-70f7-4575-92a6-218b99d13664",
+  "transaction" : {
+    "transactionId" : "2fc9fedd-70f7-4575-92a6-218b99d13664",
+    "fromAccount" : "501142921098",
+    "toAccount" : "3814039005",
+    "amount" : 3965.68,
+    "currency" : "EUR",
+    "fromBankSwift" : "UNCRITMM",
+    "toBankSwift" : "CIBKCNBJ",
+    "fromBankName" : "UniCredit S.p.A.",
+    "toBankName" : "China CITIC Bank",
+    "timestamp" : "2025-06-15T03:46:26.035078",
+    "status" : "PENDING",
+    "fromIBAN" : "IT0502008000000002023828240",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IT",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "2fc9fedd-70f7-4575-92a6-218b99d13664",
+    "riskScore" : 50,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "73a356e1-e3ae-472d-9ca0-ab91186ef9fe",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 03:46:26.035078",
+      "timestamp" : "2025-06-17T15:53:21.713848",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.713859",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.718536"
+}

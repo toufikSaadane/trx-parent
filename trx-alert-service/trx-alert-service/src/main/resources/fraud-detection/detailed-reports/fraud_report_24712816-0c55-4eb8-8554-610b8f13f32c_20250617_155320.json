@@ -1,0 +1,30 @@
+{
+  "transactionId" : "24712816-0c55-4eb8-8554-610b8f13f32c",
+  "transaction" : {
+    "transactionId" : "24712816-0c55-4eb8-8554-610b8f13f32c",
+    "fromAccount" : "3360916999",
+    "toAccount" : "891100558736",
+    "amount" : 3124.79,
+    "currency" : "AUD",
+    "fromBankSwift" : "WESTPAC",
+    "toBankSwift" : "SCBLKENX",
+    "fromBankName" : "Westpac Banking Corp",
+    "toBankName" : "Standard Chartered Kenya",
+    "timestamp" : "2025-06-17T14:13:14.639867",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "KE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "24712816-0c55-4eb8-8554-610b8f13f32c",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.197547",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.201983"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "efd6a4fb-c647-410a-a374-510eed747ecc",
+  "transaction" : {
+    "transactionId" : "efd6a4fb-c647-410a-a374-510eed747ecc",
+    "fromAccount" : "6263459344",
+    "toAccount" : "616674801724",
+    "amount" : 561.9,
+    "currency" : "EUR",
+    "fromBankSwift" : "SOGEFRPP",
+    "toBankSwift" : "VTBRRUMM",
+    "fromBankName" : "Société Générale",
+    "toBankName" : "VTB Bank",
+    "timestamp" : "2025-06-16T23:31:02.686093",
+    "status" : "PROCESSING",
+    "fromIBAN" : "FR8730003000000001274698964",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "RU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "efd6a4fb-c647-410a-a374-510eed747ecc",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "4786dc3d-2ffd-4c85-96a2-db8a865f42b0",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 561.9 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:36.128523",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.128532",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.13295"
+}

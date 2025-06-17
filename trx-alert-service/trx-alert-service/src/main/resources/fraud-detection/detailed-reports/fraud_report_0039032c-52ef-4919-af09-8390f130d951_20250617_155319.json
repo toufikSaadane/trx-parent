@@ -1,0 +1,46 @@
+{
+  "transactionId" : "0039032c-52ef-4919-af09-8390f130d951",
+  "transaction" : {
+    "transactionId" : "0039032c-52ef-4919-af09-8390f130d951",
+    "fromAccount" : "116350755761",
+    "toAccount" : "498904272145",
+    "amount" : 170.69,
+    "currency" : "KPW",
+    "fromBankSwift" : "KORYOKT2X",
+    "toBankSwift" : "ROYCCAT2",
+    "fromBankName" : "Korea Taesong Bank",
+    "toBankName" : "Royal Bank of Canada",
+    "timestamp" : "2025-06-17T14:01:29.733766",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "0039032c-52ef-4919-af09-8390f130d951",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "49195c59-6c16-4312-8d6c-40bf341ecba2",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: CA",
+      "timestamp" : "2025-06-17T15:53:19.35439",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "de9d4e1f-b384-457f-b644-2ee6d12e352f",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 170.69 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:19.354404",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.354411",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.357114"
+}

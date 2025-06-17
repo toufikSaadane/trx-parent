@@ -1,0 +1,46 @@
+{
+  "transactionId" : "03f8b30b-d1b0-4163-a6be-25cf71d72735",
+  "transaction" : {
+    "transactionId" : "03f8b30b-d1b0-4163-a6be-25cf71d72735",
+    "fromAccount" : "749481672143",
+    "toAccount" : "678406194980",
+    "amount" : 22772.68,
+    "currency" : "EUR",
+    "fromBankSwift" : "HYVEDEMM",
+    "toBankSwift" : "GHBKAFKA",
+    "fromBankName" : "UniCredit Bank AG",
+    "toBankName" : "Ghazanfar Bank",
+    "timestamp" : "2025-06-17T11:02:52.526911",
+    "status" : "PENDING",
+    "fromIBAN" : "DE26700202701602817488",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "03f8b30b-d1b0-4163-a6be-25cf71d72735",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "eb9b760d-c167-4c8b-b22e-6470386bf825",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: DE, To: AF",
+      "timestamp" : "2025-06-17T15:53:18.033874",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "e52416e2-884d-4367-b6cf-5793e28e279e",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 22772.68 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:18.033902",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.033913",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.036022"
+}

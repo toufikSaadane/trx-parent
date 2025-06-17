@@ -1,0 +1,38 @@
+{
+  "transactionId" : "00ae9fc2-b834-428a-ac76-891a9fac71f9",
+  "transaction" : {
+    "transactionId" : "00ae9fc2-b834-428a-ac76-891a9fac71f9",
+    "fromAccount" : "3773123837",
+    "toAccount" : "738618904479",
+    "amount" : 818.94,
+    "currency" : "USD",
+    "fromBankSwift" : "BARCGB22",
+    "toBankSwift" : "WELLSFARG",
+    "fromBankName" : "Barclays Bank PLC",
+    "toBankName" : "Wells Fargo Bank",
+    "timestamp" : "2025-06-17T10:49:35.942856",
+    "status" : "PENDING",
+    "fromIBAN" : "GB55204545001224087190",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "00ae9fc2-b834-428a-ac76-891a9fac71f9",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "3353249b-cb2d-4fd9-a425-24ecf15148a6",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 818.94 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.34421",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.344237",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.346654"
+}

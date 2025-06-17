@@ -1,0 +1,46 @@
+{
+  "transactionId" : "92a4edd1-a054-4c63-a392-4d86f6284dab",
+  "transaction" : {
+    "transactionId" : "92a4edd1-a054-4c63-a392-4d86f6284dab",
+    "fromAccount" : "5826058189",
+    "toAccount" : "7682342099",
+    "amount" : 369.68,
+    "currency" : "BRL",
+    "fromBankSwift" : "CIBVBRSP",
+    "toBankSwift" : "AYABMMMY",
+    "fromBankName" : "Banco Votorantim",
+    "toBankName" : "Ayeyarwady Bank",
+    "timestamp" : "2025-06-17T14:02:09.738029",
+    "status" : "PENDING",
+    "fromIBAN" : "BR22655000100000911890906",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "BR",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "92a4edd1-a054-4c63-a392-4d86f6284dab",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "a99ad49b-676f-48f4-8e77-79303d05bc56",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: BR, To: MM",
+      "timestamp" : "2025-06-17T15:53:38.392799",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "dbb61749-aa53-4e88-987c-d9fb399f47ba",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 369.68 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:38.392817",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.392826",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.396315"
+}

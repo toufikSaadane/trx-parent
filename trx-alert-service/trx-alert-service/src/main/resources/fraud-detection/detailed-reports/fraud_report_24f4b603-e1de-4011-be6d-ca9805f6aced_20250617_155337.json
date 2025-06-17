@@ -1,0 +1,38 @@
+{
+  "transactionId" : "24f4b603-e1de-4011-be6d-ca9805f6aced",
+  "transaction" : {
+    "transactionId" : "24f4b603-e1de-4011-be6d-ca9805f6aced",
+    "fromAccount" : "358011901520",
+    "toAccount" : "393073077393",
+    "amount" : 513.56,
+    "currency" : "USD",
+    "fromBankSwift" : "BOFAUS3N",
+    "toBankSwift" : "HYVEDEMM",
+    "fromBankName" : "Bank of America N.A.",
+    "toBankName" : "UniCredit Bank AG",
+    "timestamp" : "2025-06-17T13:52:59.743849",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "DE60700202701460534172",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "24f4b603-e1de-4011-be6d-ca9805f6aced",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "2eb2dd26-a3a5-4d6a-a380-94a7832cd609",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 513.56 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:37.661222",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.661244",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.66748"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "06722b94-dba8-4f5d-8b30-8022543d50e6",
+  "transaction" : {
+    "transactionId" : "06722b94-dba8-4f5d-8b30-8022543d50e6",
+    "fromAccount" : "0616936879",
+    "toAccount" : "3139421941",
+    "amount" : 3489.12,
+    "currency" : "CAD",
+    "fromBankSwift" : "BOFMCAM2",
+    "toBankSwift" : "KESHAVIRZIR",
+    "fromBankName" : "Bank of Montreal",
+    "toBankName" : "Bank Keshavarzi",
+    "timestamp" : "2025-06-17T14:03:39.734287",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "06722b94-dba8-4f5d-8b30-8022543d50e6",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "5a0d64cb-c986-4801-9e3d-0d900d93a0c9",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CA, To: IR",
+      "timestamp" : "2025-06-17T15:53:25.010682",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.010705",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.014204"
+}

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "fd5f83d6-962b-414e-899a-1bdd325aaa01",
+  "transaction" : {
+    "transactionId" : "fd5f83d6-962b-414e-899a-1bdd325aaa01",
+    "fromAccount" : "1870902789",
+    "toAccount" : "616421687364",
+    "amount" : 744.85,
+    "currency" : "SYP",
+    "fromBankSwift" : "CBSYSYMMXXX",
+    "toBankSwift" : "SBININBB104",
+    "fromBankName" : "Commercial Bank of Syria",
+    "toBankName" : "State Bank of India",
+    "timestamp" : "2025-06-17T14:14:29.62521",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "IN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "fd5f83d6-962b-414e-899a-1bdd325aaa01",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "8be6da23-5bd1-44db-808e-2f3534b1ef4c",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: IN",
+      "timestamp" : "2025-06-17T15:53:16.106218",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "a43e3f40-31d8-4d98-b1cf-33d392713981",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 744.85 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:16.106293",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.106304",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.108209"
+}

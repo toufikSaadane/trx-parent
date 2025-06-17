@@ -1,0 +1,38 @@
+{
+  "transactionId" : "224157c1-ad24-4ff0-a383-c82eeadb01dd",
+  "transaction" : {
+    "transactionId" : "224157c1-ad24-4ff0-a383-c82eeadb01dd",
+    "fromAccount" : "819686882648",
+    "toAccount" : "600755121939",
+    "amount" : 32888.15,
+    "currency" : "USD",
+    "fromBankSwift" : "BOFAUS3NXXX",
+    "toBankSwift" : "DEUTDEFF",
+    "fromBankName" : "Bank of America N.A.",
+    "toBankName" : "Deutsche Bank AG",
+    "timestamp" : "2025-06-15T08:59:15.492167",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "DE24500700100024038384",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "224157c1-ad24-4ff0-a383-c82eeadb01dd",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "b870d733-038b-43cf-a861-261ac1fac5d8",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 32888.15 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:13.362308",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.362317",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.363088"
+}

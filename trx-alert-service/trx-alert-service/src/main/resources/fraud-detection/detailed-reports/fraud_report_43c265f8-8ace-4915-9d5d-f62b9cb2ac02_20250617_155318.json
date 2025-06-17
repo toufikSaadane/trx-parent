@@ -1,0 +1,30 @@
+{
+  "transactionId" : "43c265f8-8ace-4915-9d5d-f62b9cb2ac02",
+  "transaction" : {
+    "transactionId" : "43c265f8-8ace-4915-9d5d-f62b9cb2ac02",
+    "fromAccount" : "802484736561",
+    "toAccount" : "851733467566",
+    "amount" : 6062.74,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33",
+    "toBankSwift" : "HSBCCNSH",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "HSBC Bank (China) Company Limited",
+    "timestamp" : "2025-06-17T13:51:19.743329",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "43c265f8-8ace-4915-9d5d-f62b9cb2ac02",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.687996",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.692975"
+}

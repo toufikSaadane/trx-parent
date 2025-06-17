@@ -1,0 +1,30 @@
+{
+  "transactionId" : "1909d3d9-b7a4-479a-ba19-6d791f91ef9a",
+  "transaction" : {
+    "transactionId" : "1909d3d9-b7a4-479a-ba19-6d791f91ef9a",
+    "fromAccount" : "762508388496",
+    "toAccount" : "1698458660",
+    "amount" : 5001.21,
+    "currency" : "GBP",
+    "fromBankSwift" : "NWBKGB2L",
+    "toBankSwift" : "TDOMCATT",
+    "fromBankName" : "NatWest Group",
+    "toBankName" : "TD Canada Trust",
+    "timestamp" : "2025-06-17T14:00:59.733409",
+    "status" : "PENDING",
+    "fromIBAN" : "GB30600000000558417304",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1909d3d9-b7a4-479a-ba19-6d791f91ef9a",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.799461",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.803879"
+}

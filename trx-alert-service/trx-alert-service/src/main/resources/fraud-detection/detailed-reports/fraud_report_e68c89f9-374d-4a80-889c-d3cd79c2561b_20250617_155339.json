@@ -1,0 +1,38 @@
+{
+  "transactionId" : "e68c89f9-374d-4a80-889c-d3cd79c2561b",
+  "transaction" : {
+    "transactionId" : "e68c89f9-374d-4a80-889c-d3cd79c2561b",
+    "fromAccount" : "8809916875",
+    "toAccount" : "264373305581",
+    "amount" : 320.11,
+    "currency" : "YER",
+    "fromBankSwift" : "TADHYEMY",
+    "toBankSwift" : "BAMXMXMM",
+    "fromBankName" : "Tadhamon International Islamic Bank",
+    "toBankName" : "Banco Azteca",
+    "timestamp" : "2025-06-17T14:16:44.64092",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "TADHYOYMY",
+    "toCountryCode" : "MX"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e68c89f9-374d-4a80-889c-d3cd79c2561b",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "00423644-0032-405d-ac55-0041333dc3ca",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 320.11 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:39.523495",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.523504",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.527988"
+}

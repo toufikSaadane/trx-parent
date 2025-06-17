@@ -1,0 +1,38 @@
+{
+  "transactionId" : "22f33744-cb30-4498-834d-d35464b050f1",
+  "transaction" : {
+    "transactionId" : "22f33744-cb30-4498-834d-d35464b050f1",
+    "fromAccount" : "987708720641",
+    "toAccount" : "170190605070",
+    "amount" : 99.19,
+    "currency" : "EUR",
+    "fromBankSwift" : "BNPAFRPP",
+    "toBankSwift" : "HANDFIHH",
+    "fromBankName" : "BNP Paribas SA",
+    "toBankName" : "Handelsbanken",
+    "timestamp" : "2025-06-17T13:09:15.817238",
+    "status" : "PENDING",
+    "fromIBAN" : "FR8230004000000000207042469",
+    "toIBAN" : "FI0230000271747564",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "FI"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "22f33744-cb30-4498-834d-d35464b050f1",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "899c1ccc-4bcb-4fc6-bf94-b6032f7f6792",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 99.19 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:23.676886",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.676895",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.681454"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "7ec71493-2ed2-4c3f-97da-8cf25d4920ba",
+  "transaction" : {
+    "transactionId" : "7ec71493-2ed2-4c3f-97da-8cf25d4920ba",
+    "fromAccount" : "867720230657",
+    "toAccount" : "7682043318",
+    "amount" : 157.83,
+    "currency" : "AUD",
+    "fromBankSwift" : "BKCHAU2S",
+    "toBankSwift" : "BOTKJPJT",
+    "fromBankName" : "Bank of China (Australia) Limited",
+    "toBankName" : "MUFG Bank Ltd",
+    "timestamp" : "2025-06-17T14:17:14.626186",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "JP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7ec71493-2ed2-4c3f-97da-8cf25d4920ba",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "76adf595-2038-4c08-af40-8e9db9eed6aa",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 157.83 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:39.575627",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.575642",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.581901"
+}

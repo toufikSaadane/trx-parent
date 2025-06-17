@@ -1,0 +1,30 @@
+{
+  "transactionId" : "cb046fb4-6451-4276-bfaa-9025f25ce2df",
+  "transaction" : {
+    "transactionId" : "cb046fb4-6451-4276-bfaa-9025f25ce2df",
+    "fromAccount" : "395569369389",
+    "toAccount" : "8446077643",
+    "amount" : 6703.81,
+    "currency" : "ZAR",
+    "fromBankSwift" : "NEDSZAJJ",
+    "toBankSwift" : "HYVEDEMM",
+    "fromBankName" : "Nedbank",
+    "toBankName" : "UniCredit Bank AG",
+    "timestamp" : "2025-06-16T23:36:55.913107",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "DE62700202700625894435",
+    "fromCountryCode" : "ZA",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "cb046fb4-6451-4276-bfaa-9025f25ce2df",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:22.728578",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:22.733024"
+}

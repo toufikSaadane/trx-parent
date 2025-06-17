@@ -1,0 +1,38 @@
+{
+  "transactionId" : "ff9be572-e5ae-416d-9e0b-7d23c1b1a35c",
+  "transaction" : {
+    "transactionId" : "ff9be572-e5ae-416d-9e0b-7d23c1b1a35c",
+    "fromAccount" : "198430052410",
+    "toAccount" : "945119762168",
+    "amount" : 846.89,
+    "currency" : "USD",
+    "fromBankSwift" : "BOFAUS3NXXX",
+    "toBankSwift" : "BESCPTPL",
+    "fromBankName" : "Bank of America N.A.",
+    "toBankName" : "Novo Banco",
+    "timestamp" : "2025-06-17T13:07:45.824003",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "PT49000700000000208171841",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "PT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ff9be572-e5ae-416d-9e0b-7d23c1b1a35c",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "cc9e208a-e16d-49de-9fb2-5bce01d74608",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 846.89 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.484169",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.484177",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.486566"
+}

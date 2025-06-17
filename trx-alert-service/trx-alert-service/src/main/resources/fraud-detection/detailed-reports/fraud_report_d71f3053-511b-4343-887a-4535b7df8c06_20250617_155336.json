@@ -1,0 +1,38 @@
+{
+  "transactionId" : "d71f3053-511b-4343-887a-4535b7df8c06",
+  "transaction" : {
+    "transactionId" : "d71f3053-511b-4343-887a-4535b7df8c06",
+    "fromAccount" : "7887741380",
+    "toAccount" : "082648996172",
+    "amount" : 475.08,
+    "currency" : "CAD",
+    "fromBankSwift" : "BOFMCAM2XXX",
+    "toBankSwift" : "OCBCSGSG",
+    "fromBankName" : "Bank of Montreal",
+    "toBankName" : "OCBC Bank",
+    "timestamp" : "2025-06-17T11:01:22.528757",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "SG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d71f3053-511b-4343-887a-4535b7df8c06",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "a4594a91-8610-457b-9217-15467297371f",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 475.08 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:36.55943",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.55944",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.563946"
+}

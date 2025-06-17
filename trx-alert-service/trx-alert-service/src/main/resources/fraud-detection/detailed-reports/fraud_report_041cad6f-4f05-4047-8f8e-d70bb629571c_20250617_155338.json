@@ -1,0 +1,30 @@
+{
+  "transactionId" : "041cad6f-4f05-4047-8f8e-d70bb629571c",
+  "transaction" : {
+    "transactionId" : "041cad6f-4f05-4047-8f8e-d70bb629571c",
+    "fromAccount" : "773985223741",
+    "toAccount" : "772711345940",
+    "amount" : 4240.44,
+    "currency" : "EUR",
+    "fromBankSwift" : "COBADEFF",
+    "toBankSwift" : "DEUTDEFF",
+    "fromBankName" : "Commerzbank AG",
+    "toBankName" : "Deutsche Bank AG",
+    "timestamp" : "2025-06-17T14:01:19.737431",
+    "status" : "PROCESSING",
+    "fromIBAN" : "DE83100400001463955108",
+    "toIBAN" : "DE90500700101853837242",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "041cad6f-4f05-4047-8f8e-d70bb629571c",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.335699",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.340153"
+}

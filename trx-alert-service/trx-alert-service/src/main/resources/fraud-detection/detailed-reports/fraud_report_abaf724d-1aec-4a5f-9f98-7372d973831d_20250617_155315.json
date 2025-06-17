@@ -1,0 +1,46 @@
+{
+  "transactionId" : "abaf724d-1aec-4a5f-9f98-7372d973831d",
+  "transaction" : {
+    "transactionId" : "abaf724d-1aec-4a5f-9f98-7372d973831d",
+    "fromAccount" : "9199929311",
+    "toAccount" : "768025309458",
+    "amount" : 294.02,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33XXX",
+    "toBankSwift" : "ARABSYMMXXX",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "Arab Bank Syria",
+    "timestamp" : "2025-06-17T13:56:49.739887",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "abaf724d-1aec-4a5f-9f98-7372d973831d",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "94ea7422-a4ed-43b9-a8ca-02938ab041f3",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: US, To: SY",
+      "timestamp" : "2025-06-17T15:53:15.72299",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "3dde3719-e42c-45e1-b315-fabc70320da3",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 294.02 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.723015",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.723028",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.724616"
+}

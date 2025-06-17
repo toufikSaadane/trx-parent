@@ -1,0 +1,38 @@
+{
+  "transactionId" : "c0b13032-e13b-45b1-ae45-ff5f66eeac53",
+  "transaction" : {
+    "transactionId" : "c0b13032-e13b-45b1-ae45-ff5f66eeac53",
+    "fromAccount" : "877631029710",
+    "toAccount" : "064650344885",
+    "amount" : 5000,
+    "currency" : "EUR",
+    "fromBankSwift" : "BNPAFRPP",
+    "toBankSwift" : "ABNANL2A",
+    "fromBankName" : "BNP Paribas",
+    "toBankName" : "ABN AMRO",
+    "timestamp" : "2025-06-16T17:43:45.734291",
+    "status" : "PENDING",
+    "fromIBAN" : "FR7030004000000001796831557",
+    "toIBAN" : "NL7651702052265019",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c0b13032-e13b-45b1-ae45-ff5f66eeac53",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "980b0c0f-b2ad-4b6b-89d1-b18858b8427a",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 5000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:13.562609",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.562615",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.564405"
+}

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "caa36e61-0b9e-4ca2-8e82-494c8924a86a",
+  "transaction" : {
+    "transactionId" : "caa36e61-0b9e-4ca2-8e82-494c8924a86a",
+    "fromAccount" : "197155551371",
+    "toAccount" : "340117131398",
+    "amount" : 18944.62,
+    "currency" : "USD",
+    "fromBankSwift" : "SCBLUS33",
+    "toBankSwift" : "AFIBAFKA",
+    "fromBankName" : "Standard Chartered USA",
+    "toBankName" : "Afghanistan International Bank",
+    "timestamp" : "2025-06-17T15:50:16.47634",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "caa36e61-0b9e-4ca2-8e82-494c8924a86a",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "83af1b4e-5f3f-4d8a-b530-4eeaeace7b9a",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: US, To: AF",
+      "timestamp" : "2025-06-17T15:53:40.049938",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "104ad3cd-bc46-4612-98b4-6abfdcac3919",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 18944.62 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:40.049955",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:40.049961",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:40.053428"
+}

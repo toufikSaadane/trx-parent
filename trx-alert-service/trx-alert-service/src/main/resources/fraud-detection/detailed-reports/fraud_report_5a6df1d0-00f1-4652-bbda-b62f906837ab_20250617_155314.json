@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5a6df1d0-00f1-4652-bbda-b62f906837ab",
+  "transaction" : {
+    "transactionId" : "5a6df1d0-00f1-4652-bbda-b62f906837ab",
+    "fromAccount" : "223933491966",
+    "toAccount" : "728001193082",
+    "amount" : 621.52,
+    "currency" : "USD",
+    "fromBankSwift" : "BOFAUS3N",
+    "toBankSwift" : "SBZAZAJJ",
+    "fromBankName" : "Bank of America N.A.",
+    "toBankName" : "Standard Bank of South Africa",
+    "timestamp" : "2025-06-16T23:17:42.142279",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "ZA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5a6df1d0-00f1-4652-bbda-b62f906837ab",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "09a02676-04d4-44fd-b626-18a3b45f2c75",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 621.52 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:14.467865",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.467879",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.471371"
+}

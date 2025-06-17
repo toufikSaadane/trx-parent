@@ -1,0 +1,46 @@
+{
+  "transactionId" : "fc1c67c5-5abe-4b31-8db2-a7af4a99a363",
+  "transaction" : {
+    "transactionId" : "fc1c67c5-5abe-4b31-8db2-a7af4a99a363",
+    "fromAccount" : "497994577837",
+    "toAccount" : "318084952060",
+    "amount" : 321.48,
+    "currency" : "SYP",
+    "fromBankSwift" : "CBSYSYMMXXX",
+    "toBankSwift" : "COMMDEFF",
+    "fromBankName" : "Commercial Bank of Syria",
+    "toBankName" : "Commerzbank AG",
+    "timestamp" : "2025-06-16T23:29:52.682243",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "DE47400800000559685734",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "fc1c67c5-5abe-4b31-8db2-a7af4a99a363",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "49e43154-b0d1-4b42-8431-f73ab79e4f2c",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: DE",
+      "timestamp" : "2025-06-17T15:53:36.034369",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "6ec6f167-785f-439b-aee6-07465ae7475a",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 321.48 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:36.034385",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.034391",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.037774"
+}

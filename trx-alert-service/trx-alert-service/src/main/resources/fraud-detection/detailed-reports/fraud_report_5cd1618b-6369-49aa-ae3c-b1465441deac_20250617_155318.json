@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5cd1618b-6369-49aa-ae3c-b1465441deac",
+  "transaction" : {
+    "transactionId" : "5cd1618b-6369-49aa-ae3c-b1465441deac",
+    "fromAccount" : "607858263783",
+    "toAccount" : "360915757605",
+    "amount" : 10000,
+    "currency" : "SGD",
+    "fromBankSwift" : "DBSBSGSG",
+    "toBankSwift" : "HSBCNZ2A",
+    "fromBankName" : "DBS Bank",
+    "toBankName" : "HSBC New Zealand",
+    "timestamp" : "2025-06-17T13:51:49.738181",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "NZ"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5cd1618b-6369-49aa-ae3c-b1465441deac",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "26d8677f-aae7-45ab-8196-696061abd747",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 10000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:18.717603",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:18.717612",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:18.721412"
+}

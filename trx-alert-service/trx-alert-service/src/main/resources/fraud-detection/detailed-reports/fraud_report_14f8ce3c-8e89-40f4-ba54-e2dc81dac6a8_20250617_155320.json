@@ -1,0 +1,38 @@
+{
+  "transactionId" : "14f8ce3c-8e89-40f4-ba54-e2dc81dac6a8",
+  "transaction" : {
+    "transactionId" : "14f8ce3c-8e89-40f4-ba54-e2dc81dac6a8",
+    "fromAccount" : "907292929789",
+    "toAccount" : "980630601555",
+    "amount" : 366.22,
+    "currency" : "MXN",
+    "fromBankSwift" : "SCOTMXMM",
+    "toBankSwift" : "BKCHCNBJ",
+    "fromBankName" : "Scotiabank Mexico",
+    "toBankName" : "Bank of China",
+    "timestamp" : "2025-06-17T14:15:29.628647",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "14f8ce3c-8e89-40f4-ba54-e2dc81dac6a8",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e1112ccd-f900-48aa-886e-b23fd57e9338",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 366.22 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:20.349203",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.349214",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.353694"
+}

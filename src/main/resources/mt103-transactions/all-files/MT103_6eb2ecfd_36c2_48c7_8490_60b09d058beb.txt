@@ -1,0 +1,13 @@
+{1:F01SBZAZAJJXXX0}{2:I103SOGEFRPPXXX0N}{3:{108:6eb2ecfd-36c2-48}}
+{4:
+:20:6eb2ecfd-36c2-48
+:23B:CRED
+:32A:250617292,42
+:33B:292,42
+:71A:SHA
+:50K:/4487089065
+Standard Bank of South Africa
+987 Trade Plaza
+Johannesburg, South Africa
+:52A:SBZAZAJJ
+:5

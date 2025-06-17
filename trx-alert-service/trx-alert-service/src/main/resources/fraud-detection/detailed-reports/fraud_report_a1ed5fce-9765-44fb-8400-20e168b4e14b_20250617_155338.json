@@ -1,0 +1,38 @@
+{
+  "transactionId" : "a1ed5fce-9765-44fb-8400-20e168b4e14b",
+  "transaction" : {
+    "transactionId" : "a1ed5fce-9765-44fb-8400-20e168b4e14b",
+    "fromAccount" : "1247867369",
+    "toAccount" : "916304662394",
+    "amount" : 311.33,
+    "currency" : "CAD",
+    "fromBankSwift" : "NOSCCATTXXX",
+    "toBankSwift" : "NWBKGB2L",
+    "fromBankName" : "The Bank of Nova Scotia",
+    "toBankName" : "NatWest Group",
+    "timestamp" : "2025-06-17T13:59:59.738763",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "GB32600000000542728779",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a1ed5fce-9765-44fb-8400-20e168b4e14b",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "4317b301-5a91-47d9-b776-0895fe02f677",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 311.33 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:38.240358",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.240367",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.244933"
+}

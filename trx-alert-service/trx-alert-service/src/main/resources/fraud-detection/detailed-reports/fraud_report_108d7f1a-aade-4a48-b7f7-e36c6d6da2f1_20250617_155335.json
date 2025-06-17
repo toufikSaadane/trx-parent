@@ -1,0 +1,38 @@
+{
+  "transactionId" : "108d7f1a-aade-4a48-b7f7-e36c6d6da2f1",
+  "transaction" : {
+    "transactionId" : "108d7f1a-aade-4a48-b7f7-e36c6d6da2f1",
+    "fromAccount" : "192382986448",
+    "toAccount" : "612324418147",
+    "amount" : 846.98,
+    "currency" : "TRY",
+    "fromBankSwift" : "BKTOTRIS",
+    "toBankSwift" : "BSCHBRSP",
+    "fromBankName" : "Türkiye İş Bankası",
+    "toBankName" : "Santander Brasil",
+    "timestamp" : "2025-06-16T23:19:37.110708",
+    "status" : "PENDING",
+    "fromIBAN" : "TR916400000000001385349700",
+    "toIBAN" : "BR29904008880001014968777",
+    "fromCountryCode" : "TR",
+    "toCountryCode" : "BR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "108d7f1a-aade-4a48-b7f7-e36c6d6da2f1",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "4e3bf216-d9e1-40cd-ba86-fbc956390d29",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 846.98 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:35.851109",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:35.851128",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:35.856017"
+}

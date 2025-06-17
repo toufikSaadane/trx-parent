@@ -1,0 +1,38 @@
+{
+  "transactionId" : "705c6099-b6f3-46b2-8716-3d5a90fc19d1",
+  "transaction" : {
+    "transactionId" : "705c6099-b6f3-46b2-8716-3d5a90fc19d1",
+    "fromAccount" : "599269604503",
+    "toAccount" : "079654637828",
+    "amount" : 500.19,
+    "currency" : "BRL",
+    "fromBankSwift" : "BSCHBRSP",
+    "toBankSwift" : "BCEELULL",
+    "fromBankName" : "Santander Brasil",
+    "toBankName" : "BCEE",
+    "timestamp" : "2025-06-17T14:10:44.631738",
+    "status" : "PENDING",
+    "fromIBAN" : "BR06904008880000672143934",
+    "toIBAN" : "LU610010001196716057",
+    "fromCountryCode" : "BR",
+    "toCountryCode" : "LU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "705c6099-b6f3-46b2-8716-3d5a90fc19d1",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "5ee358bd-5df4-4457-97df-c1e9e79c454e",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 500.19 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:19.987694",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.987705",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.993244"
+}

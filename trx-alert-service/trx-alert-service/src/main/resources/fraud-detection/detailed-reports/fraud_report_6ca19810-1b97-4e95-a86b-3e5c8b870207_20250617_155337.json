@@ -1,0 +1,46 @@
+{
+  "transactionId" : "6ca19810-1b97-4e95-a86b-3e5c8b870207",
+  "transaction" : {
+    "transactionId" : "6ca19810-1b97-4e95-a86b-3e5c8b870207",
+    "fromAccount" : "094977942199",
+    "toAccount" : "888832913180",
+    "amount" : 30881.72,
+    "currency" : "USD",
+    "fromBankSwift" : "AZBAAFKAXXX",
+    "toBankSwift" : "WFBIUS6SXXX",
+    "fromBankName" : "Azizi Bank",
+    "toBankName" : "Wells Fargo Bank",
+    "timestamp" : "2025-06-17T13:25:53.455064",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AF",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6ca19810-1b97-4e95-a86b-3e5c8b870207",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "5af0aa4e-e8d8-4c0b-adb9-f9d79ab28f97",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AF, To: US",
+      "timestamp" : "2025-06-17T15:53:37.196326",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "01b15e70-4d2a-4228-b3e1-9a0b2fa7a8fe",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 30881.72 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:37.196344",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.196351",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.199841"
+}

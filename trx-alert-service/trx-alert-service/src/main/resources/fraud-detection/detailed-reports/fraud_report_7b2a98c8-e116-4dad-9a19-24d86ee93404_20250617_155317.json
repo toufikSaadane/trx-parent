@@ -1,0 +1,30 @@
+{
+  "transactionId" : "7b2a98c8-e116-4dad-9a19-24d86ee93404",
+  "transaction" : {
+    "transactionId" : "7b2a98c8-e116-4dad-9a19-24d86ee93404",
+    "fromAccount" : "273332207257",
+    "toAccount" : "361842281314",
+    "amount" : 6609.41,
+    "currency" : "AUD",
+    "fromBankSwift" : "BKCHAU2S",
+    "toBankSwift" : "NWBKGB2L",
+    "fromBankName" : "Bank of China (Australia) Limited",
+    "toBankName" : "NatWest Group",
+    "timestamp" : "2025-06-17T11:01:02.529072",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "GB13600000000388250413",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7b2a98c8-e116-4dad-9a19-24d86ee93404",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.940638",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.944573"
+}

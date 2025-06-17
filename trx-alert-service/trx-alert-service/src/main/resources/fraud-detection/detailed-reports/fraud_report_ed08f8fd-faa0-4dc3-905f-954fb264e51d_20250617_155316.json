@@ -1,0 +1,38 @@
+{
+  "transactionId" : "ed08f8fd-faa0-4dc3-905f-954fb264e51d",
+  "transaction" : {
+    "transactionId" : "ed08f8fd-faa0-4dc3-905f-954fb264e51d",
+    "fromAccount" : "571373203300",
+    "toAccount" : "4208965083",
+    "amount" : 70761.35,
+    "currency" : "CAD",
+    "fromBankSwift" : "BOFMCAM2",
+    "toBankSwift" : "HANDFIHH",
+    "fromBankName" : "Bank of Montreal",
+    "toBankName" : "Handelsbanken",
+    "timestamp" : "2025-06-13T15:55:14.199587",
+    "status" : "PENDING",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "FI"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ed08f8fd-faa0-4dc3-905f-954fb264e51d",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "0aba0eb1-e05c-49e5-947c-880ff4197e93",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 70761.35 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:16.635135",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.635148",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.637481"
+}

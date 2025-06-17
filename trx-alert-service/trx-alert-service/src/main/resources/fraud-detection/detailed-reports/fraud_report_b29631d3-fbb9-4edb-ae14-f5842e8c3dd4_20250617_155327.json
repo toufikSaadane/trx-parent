@@ -1,0 +1,38 @@
+{
+  "transactionId" : "b29631d3-fbb9-4edb-ae14-f5842e8c3dd4",
+  "transaction" : {
+    "transactionId" : "b29631d3-fbb9-4edb-ae14-f5842e8c3dd4",
+    "fromAccount" : "120638986575",
+    "toAccount" : "440188762465",
+    "amount" : 114.19,
+    "currency" : "USD",
+    "fromBankSwift" : "KREDBEBB",
+    "toBankSwift" : "CHASUS33XXX",
+    "fromBankName" : "KBC Bank N.V.",
+    "toBankName" : "JPMorgan Chase Bank",
+    "timestamp" : "2025-06-17T14:19:14.63555",
+    "status" : "PROCESSING",
+    "fromIBAN" : "BE20733000677000",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "BE",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b29631d3-fbb9-4edb-ae14-f5842e8c3dd4",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "8f1f1899-2b01-4b6c-9e59-ca6f0791b0de",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 114.19 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:27.020812",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:27.020849",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:27.026898"
+}

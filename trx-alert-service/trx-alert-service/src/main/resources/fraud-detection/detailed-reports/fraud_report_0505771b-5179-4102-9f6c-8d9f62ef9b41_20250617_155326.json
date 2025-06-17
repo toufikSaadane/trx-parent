@@ -1,0 +1,38 @@
+{
+  "transactionId" : "0505771b-5179-4102-9f6c-8d9f62ef9b41",
+  "transaction" : {
+    "transactionId" : "0505771b-5179-4102-9f6c-8d9f62ef9b41",
+    "fromAccount" : "458681882002",
+    "toAccount" : "441484561219",
+    "amount" : 153.6,
+    "currency" : "USD",
+    "fromBankSwift" : "HSBCGB2L",
+    "toBankSwift" : "SCBLUS33",
+    "fromBankName" : "HSBC UK",
+    "toBankName" : "Standard Chartered USA",
+    "timestamp" : "2025-06-17T14:18:44.62914",
+    "status" : "PENDING",
+    "fromIBAN" : "GB10404404001442702904",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "0505771b-5179-4102-9f6c-8d9f62ef9b41",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "24f7a140-d5f1-42d7-acf1-eea5ec07c4a2",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 153.6 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:26.950098",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.950117",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.95622"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "8ec61753-d5db-4c26-8205-4cde481678cc",
+  "transaction" : {
+    "transactionId" : "8ec61753-d5db-4c26-8205-4cde481678cc",
+    "fromAccount" : "4701188305",
+    "toAccount" : "257998865252",
+    "amount" : 24901.23,
+    "currency" : "INR",
+    "fromBankSwift" : "SBININBB",
+    "toBankSwift" : "TDOMCATTTOR",
+    "fromBankName" : "State Bank of India",
+    "toBankName" : "Toronto-Dominion Bank (TD)",
+    "timestamp" : "2025-06-17T10:49:00.943076",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IN",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8ec61753-d5db-4c26-8205-4cde481678cc",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "8f36026b-f61e-4359-ad9f-77ba50d7d972",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 24901.23 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:17.820566",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.820574",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.823551"
+}

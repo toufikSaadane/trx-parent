@@ -1,0 +1,38 @@
+{
+  "transactionId" : "848fec6b-27ff-4bdc-a3f8-edf35351d0b7",
+  "transaction" : {
+    "transactionId" : "848fec6b-27ff-4bdc-a3f8-edf35351d0b7",
+    "fromAccount" : "719653272818",
+    "toAccount" : "256351263439",
+    "amount" : 390.38,
+    "currency" : "BRL",
+    "fromBankSwift" : "BSCHBRSP",
+    "toBankSwift" : "TDOMCATT",
+    "fromBankName" : "Santander Brasil",
+    "toBankName" : "TD Canada Trust",
+    "timestamp" : "2025-06-17T14:14:34.62786",
+    "status" : "PENDING",
+    "fromIBAN" : "BR49904008880000900161351",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "BR",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "848fec6b-27ff-4bdc-a3f8-edf35351d0b7",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "bce35625-fbeb-4763-b83e-995fa84b9fe7",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 390.38 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:16.108866",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.108882",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.112418"
+}

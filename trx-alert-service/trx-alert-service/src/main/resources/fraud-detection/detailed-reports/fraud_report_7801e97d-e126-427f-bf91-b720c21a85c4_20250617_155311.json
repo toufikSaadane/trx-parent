@@ -1,0 +1,38 @@
+{
+  "transactionId" : "7801e97d-e126-427f-bf91-b720c21a85c4",
+  "transaction" : {
+    "transactionId" : "7801e97d-e126-427f-bf91-b720c21a85c4",
+    "fromAccount" : "650957304875",
+    "toAccount" : "115606612081",
+    "amount" : 900.32,
+    "currency" : "SGD",
+    "fromBankSwift" : "OCBCSGSG",
+    "toBankSwift" : "TDOMCATT",
+    "fromBankName" : "OCBC Bank",
+    "toBankName" : "TD Canada Trust",
+    "timestamp" : "2025-06-13T15:49:19.203991",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7801e97d-e126-427f-bf91-b720c21a85c4",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "362a3e80-9b64-4cd6-a716-0c1e61edf469",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 900.32 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:11.670673",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:11.670745",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:11.67214"
+}

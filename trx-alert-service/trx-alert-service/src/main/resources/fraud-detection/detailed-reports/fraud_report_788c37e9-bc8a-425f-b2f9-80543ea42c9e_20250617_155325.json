@@ -1,0 +1,38 @@
+{
+  "transactionId" : "788c37e9-bc8a-425f-b2f9-80543ea42c9e",
+  "transaction" : {
+    "transactionId" : "788c37e9-bc8a-425f-b2f9-80543ea42c9e",
+    "fromAccount" : "6859901054",
+    "toAccount" : "489392832716",
+    "amount" : 983.05,
+    "currency" : "RUB",
+    "fromBankSwift" : "SBERRUMM",
+    "toBankSwift" : "HSBCCNSH",
+    "fromBankName" : "Sberbank",
+    "toBankName" : "HSBC Bank (China) Company Limited",
+    "timestamp" : "2025-06-17T14:07:44.666282",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "RU",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "788c37e9-bc8a-425f-b2f9-80543ea42c9e",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "35872887-e01c-4030-b1d8-c6d5bd5c0cf2",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 983.05 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:25.364567",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.364584",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.369394"
+}

@@ -1,0 +1,54 @@
+{
+  "transactionId" : "b13dfde6-afd0-42a4-93fc-c19219d052d5",
+  "transaction" : {
+    "transactionId" : "b13dfde6-afd0-42a4-93fc-c19219d052d5",
+    "fromAccount" : "0728840961",
+    "toAccount" : "659138269414",
+    "amount" : 20000,
+    "currency" : "USD",
+    "fromBankSwift" : "KOEXKRSE",
+    "toBankSwift" : "WELLSFARG",
+    "fromBankName" : "Korea Exchange Bank",
+    "toBankName" : "Wells Fargo Bank",
+    "timestamp" : "2025-06-17T14:04:19.73788",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KR",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b13dfde6-afd0-42a4-93fc-c19219d052d5",
+    "riskScore" : 170,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "c49cc05b-945f-40ca-8c61-730032a9193a",
+      "fraudType" : "CRYPTOCURRENCY_KEYWORDS",
+      "description" : "Cryptocurrency Keywords",
+      "severity" : 6,
+      "details" : "Transaction contains cryptocurrency-related keywords in bank names: Korea Exchange Bank Wells Fargo Bank",
+      "timestamp" : "2025-06-17T15:53:19.544332",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "e58a0aff-dfc4-452b-b0db-83f93342d769",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 20000 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:19.544353",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "21453af8-1f82-4fc9-8a8f-5dbe9201d28d",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 20000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:19.54437",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.544392",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.547411"
+}

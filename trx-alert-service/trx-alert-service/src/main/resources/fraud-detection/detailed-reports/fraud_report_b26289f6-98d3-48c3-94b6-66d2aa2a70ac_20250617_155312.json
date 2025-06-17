@@ -1,0 +1,38 @@
+{
+  "transactionId" : "b26289f6-98d3-48c3-94b6-66d2aa2a70ac",
+  "transaction" : {
+    "transactionId" : "b26289f6-98d3-48c3-94b6-66d2aa2a70ac",
+    "fromAccount" : "178844145992",
+    "toAccount" : "9261016789",
+    "amount" : 1160.07,
+    "currency" : "MXN",
+    "fromBankSwift" : "SCOTMXMM",
+    "toBankSwift" : "ASBKNZ2A",
+    "fromBankName" : "Scotiabank Mexico",
+    "toBankName" : "ASB Bank Limited",
+    "timestamp" : "2025-06-15T03:50:28.766448",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "NZ"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b26289f6-98d3-48c3-94b6-66d2aa2a70ac",
+    "riskScore" : 50,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "556cab82-9b5f-4217-9883-deb90d62e972",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 03:50:28.766448",
+      "timestamp" : "2025-06-17T15:53:12.767115",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:12.767126",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:12.769838"
+}

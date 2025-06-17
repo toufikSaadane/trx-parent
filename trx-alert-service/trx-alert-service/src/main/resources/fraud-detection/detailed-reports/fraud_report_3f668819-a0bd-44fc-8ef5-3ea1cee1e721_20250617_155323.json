@@ -1,0 +1,38 @@
+{
+  "transactionId" : "3f668819-a0bd-44fc-8ef5-3ea1cee1e721",
+  "transaction" : {
+    "transactionId" : "3f668819-a0bd-44fc-8ef5-3ea1cee1e721",
+    "fromAccount" : "5630943467",
+    "toAccount" : "059235439001",
+    "amount" : 2000,
+    "currency" : "AUD",
+    "fromBankSwift" : "BKCHAU2S",
+    "toBankSwift" : "HKBCCATT",
+    "fromBankName" : "Bank of China (Australia) Limited",
+    "toBankName" : "Hongkong and Shanghai Banking Corp",
+    "timestamp" : "2025-06-17T11:00:42.5272",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3f668819-a0bd-44fc-8ef5-3ea1cee1e721",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "3aa08866-a31e-4253-a50c-561ceddf2583",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 2000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:23.03371",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.033719",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.038168"
+}

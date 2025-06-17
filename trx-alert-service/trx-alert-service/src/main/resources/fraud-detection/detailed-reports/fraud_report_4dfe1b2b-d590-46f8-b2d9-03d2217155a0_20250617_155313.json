@@ -1,0 +1,46 @@
+{
+  "transactionId" : "4dfe1b2b-d590-46f8-b2d9-03d2217155a0",
+  "transaction" : {
+    "transactionId" : "4dfe1b2b-d590-46f8-b2d9-03d2217155a0",
+    "fromAccount" : "156121615896",
+    "toAccount" : "045749742673",
+    "amount" : 522.55,
+    "currency" : "IRR",
+    "fromBankSwift" : "KESHAVIRZIR",
+    "toBankSwift" : "SHBKKRSE",
+    "fromBankName" : "Bank Keshavarzi",
+    "toBankName" : "Shinhan Bank",
+    "timestamp" : "2025-06-15T21:27:26.69167",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IR",
+    "toCountryCode" : "KR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "4dfe1b2b-d590-46f8-b2d9-03d2217155a0",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "2299705d-4da1-4461-a309-22db2139176f",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: IR, To: KR",
+      "timestamp" : "2025-06-17T15:53:13.561405",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "8f876ceb-b89d-473e-a2d1-702003565f09",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 522.55 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:13.561417",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.561422",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.56215"
+}

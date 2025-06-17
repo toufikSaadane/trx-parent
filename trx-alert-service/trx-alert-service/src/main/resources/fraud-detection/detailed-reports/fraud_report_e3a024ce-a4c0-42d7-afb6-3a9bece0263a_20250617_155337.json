@@ -1,0 +1,46 @@
+{
+  "transactionId" : "e3a024ce-a4c0-42d7-afb6-3a9bece0263a",
+  "transaction" : {
+    "transactionId" : "e3a024ce-a4c0-42d7-afb6-3a9bece0263a",
+    "fromAccount" : "983638922295",
+    "toAccount" : "297097124678",
+    "amount" : 990.86,
+    "currency" : "CNY",
+    "fromBankSwift" : "ICBKCNBJ",
+    "toBankSwift" : "GHBKAFKA",
+    "fromBankName" : "Industrial and Commercial Bank of China",
+    "toBankName" : "Ghazanfar Bank",
+    "timestamp" : "2025-06-17T13:54:29.736117",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e3a024ce-a4c0-42d7-afb6-3a9bece0263a",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "9634fbb8-4483-4ecb-87b6-546558face81",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CN, To: AF",
+      "timestamp" : "2025-06-17T15:53:37.790926",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "63eec90d-1e85-4dbe-87b8-8e72a21f2ae3",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 990.86 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:37.791039",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.791055",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.794604"
+}

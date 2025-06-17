@@ -1,0 +1,30 @@
+{
+  "transactionId" : "d6f6a8df-aecb-4b1b-8b1a-278185bff448",
+  "transaction" : {
+    "transactionId" : "d6f6a8df-aecb-4b1b-8b1a-278185bff448",
+    "fromAccount" : "536589298842",
+    "toAccount" : "377764006970",
+    "amount" : 1718.58,
+    "currency" : "CHF",
+    "fromBankSwift" : "CRESCHZZ",
+    "toBankSwift" : "BNPAFRPP",
+    "fromBankName" : "Credit Suisse",
+    "toBankName" : "BNP Paribas SA",
+    "timestamp" : "2025-06-17T13:58:59.735806",
+    "status" : "PROCESSING",
+    "fromIBAN" : "CH4048350001410632547",
+    "toIBAN" : "FR8530004000000000655659170",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d6f6a8df-aecb-4b1b-8b1a-278185bff448",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.640608",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.652135"
+}

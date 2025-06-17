@@ -1,0 +1,38 @@
+{
+  "transactionId" : "c535d286-8ea9-46fa-b9b3-9e2dc9e95870",
+  "transaction" : {
+    "transactionId" : "c535d286-8ea9-46fa-b9b3-9e2dc9e95870",
+    "fromAccount" : "215343924662",
+    "toAccount" : "314943885475",
+    "amount" : 2062.71,
+    "currency" : "EUR",
+    "fromBankSwift" : "SOGEFRPP",
+    "toBankSwift" : "ARABSYMMXXX",
+    "fromBankName" : "Société Générale",
+    "toBankName" : "Arab Bank Syria",
+    "timestamp" : "2025-06-17T15:49:56.477225",
+    "status" : "PROCESSING",
+    "fromIBAN" : "FR2230003000000000621231795",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c535d286-8ea9-46fa-b9b3-9e2dc9e95870",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "e3009778-8c4b-4c89-b3a0-e01924a622b0",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: FR, To: SY",
+      "timestamp" : "2025-06-17T15:53:40.0258",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:40.025825",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:40.029394"
+}

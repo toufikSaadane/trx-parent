@@ -1,0 +1,54 @@
+{
+  "transactionId" : "37878e0c-707c-41a1-8858-0930f79d4d61",
+  "transaction" : {
+    "transactionId" : "37878e0c-707c-41a1-8858-0930f79d4d61",
+    "fromAccount" : "773886380359",
+    "toAccount" : "827097873257",
+    "amount" : 20000,
+    "currency" : "EUR",
+    "fromBankSwift" : "BNPAFRPP",
+    "toBankSwift" : "KBZBMMMY",
+    "fromBankName" : "BNP Paribas SA",
+    "toBankName" : "KBZ Bank",
+    "timestamp" : "2025-06-17T14:04:39.731121",
+    "status" : "PROCESSING",
+    "fromIBAN" : "FR5930004000000000101976945",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "37878e0c-707c-41a1-8858-0930f79d4d61",
+    "riskScore" : 190,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "241e84a1-99b0-4ba5-bc24-2a7f2ec12575",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: FR, To: MM",
+      "timestamp" : "2025-06-17T15:53:19.581278",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "9e45f9f3-aaf5-4b2c-92ff-d891f881f832",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 20000 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:19.581311",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "b795aa92-f7c8-49e3-a325-a1cbf62fe2d8",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 20000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:19.581325",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.581334",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.584843"
+}

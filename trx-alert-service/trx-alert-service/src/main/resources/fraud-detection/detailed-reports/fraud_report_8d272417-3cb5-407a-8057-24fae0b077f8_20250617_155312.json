@@ -1,0 +1,38 @@
+{
+  "transactionId" : "8d272417-3cb5-407a-8057-24fae0b077f8",
+  "transaction" : {
+    "transactionId" : "8d272417-3cb5-407a-8057-24fae0b077f8",
+    "fromAccount" : "0399512335",
+    "toAccount" : "490512484639",
+    "amount" : 533.78,
+    "currency" : "TRY",
+    "fromBankSwift" : "AKBKTRIS",
+    "toBankSwift" : "CRESCHZZ",
+    "fromBankName" : "Akbank T.A.Ş.",
+    "toBankName" : "Credit Suisse",
+    "timestamp" : "2025-06-13T15:48:39.204487",
+    "status" : "COMPLETED",
+    "fromIBAN" : "TR094600000000001660396766",
+    "toIBAN" : "CH8748350000907257961",
+    "fromCountryCode" : "TR",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8d272417-3cb5-407a-8057-24fae0b077f8",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "ffb5f988-9245-47a2-a69e-81be1afe048a",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 533.78 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:12.526053",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:12.526063",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:12.527718"
+}

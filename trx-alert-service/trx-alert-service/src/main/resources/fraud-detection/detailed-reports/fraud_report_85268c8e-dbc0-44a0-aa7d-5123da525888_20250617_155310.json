@@ -1,0 +1,30 @@
+{
+  "transactionId" : "85268c8e-dbc0-44a0-aa7d-5123da525888",
+  "transaction" : {
+    "transactionId" : "85268c8e-dbc0-44a0-aa7d-5123da525888",
+    "fromAccount" : "5380162199",
+    "toAccount" : "8908924516",
+    "amount" : 13701.59,
+    "currency" : "TRY",
+    "fromBankSwift" : "BKTOTRIS",
+    "toBankSwift" : "SBZAZAJJ",
+    "fromBankName" : "Türkiye İş Bankası",
+    "toBankName" : "Standard Bank of South Africa",
+    "timestamp" : "2025-06-11T11:08:48.544994",
+    "status" : "FAILED",
+    "fromIBAN" : "TR516400000000000401693402",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "TR",
+    "toCountryCode" : "ZA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "85268c8e-dbc0-44a0-aa7d-5123da525888",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.866665",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.867333"
+}

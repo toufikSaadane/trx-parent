@@ -1,0 +1,38 @@
+{
+  "transactionId" : "2c5b2500-7ae3-41da-956c-50eb33f7f1ce",
+  "transaction" : {
+    "transactionId" : "2c5b2500-7ae3-41da-956c-50eb33f7f1ce",
+    "fromAccount" : "468702942889",
+    "toAccount" : "3810305205",
+    "amount" : 4528.07,
+    "currency" : "USD",
+    "fromBankSwift" : "BOTKJPJT",
+    "toBankSwift" : "KESHAVIRZIR",
+    "fromBankName" : "MUFG Bank Ltd",
+    "toBankName" : "Bank Keshavarzi",
+    "timestamp" : "2025-06-17T14:15:34.627588",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "JP",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "2c5b2500-7ae3-41da-956c-50eb33f7f1ce",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "2dcd205d-f086-414f-83ca-c2d5a125235b",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: JP, To: IR",
+      "timestamp" : "2025-06-17T15:53:39.431759",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.431773",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.435129"
+}

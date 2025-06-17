@@ -1,0 +1,38 @@
+{
+  "transactionId" : "b7ee4e0e-a943-49a0-b73b-01eb3c629a0d",
+  "transaction" : {
+    "transactionId" : "b7ee4e0e-a943-49a0-b73b-01eb3c629a0d",
+    "fromAccount" : "779828635367",
+    "toAccount" : "260817933657",
+    "amount" : 328.06,
+    "currency" : "CAD",
+    "fromBankSwift" : "NOSCCATT",
+    "toBankSwift" : "IBOSINBB",
+    "fromBankName" : "Scotiabank",
+    "toBankName" : "Indian Overseas Bank",
+    "timestamp" : "2025-06-13T15:48:29.204619",
+    "status" : "COMPLETED",
+    "fromIBAN" : null,
+    "toIBAN" : null,
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "IN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b7ee4e0e-a943-49a0-b73b-01eb3c629a0d",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "eefaa3ad-ab50-4a8a-b820-b35164b07b0d",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 328.06 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:20.930957",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:20.930967",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:20.935455"
+}

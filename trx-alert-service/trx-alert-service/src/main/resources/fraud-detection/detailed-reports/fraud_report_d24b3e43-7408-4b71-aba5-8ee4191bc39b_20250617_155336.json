@@ -1,0 +1,38 @@
+{
+  "transactionId" : "d24b3e43-7408-4b71-aba5-8ee4191bc39b",
+  "transaction" : {
+    "transactionId" : "d24b3e43-7408-4b71-aba5-8ee4191bc39b",
+    "fromAccount" : "936098320390",
+    "toAccount" : "982134435105",
+    "amount" : 975.89,
+    "currency" : "USD",
+    "fromBankSwift" : "LLOYGB2L",
+    "toBankSwift" : "WFBIUS6S",
+    "fromBankName" : "Lloyds Bank",
+    "toBankName" : "Wells Fargo Bank N.A.",
+    "timestamp" : "2025-06-16T23:36:45.91423",
+    "status" : "PENDING",
+    "fromIBAN" : "GB09300000001043437972",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d24b3e43-7408-4b71-aba5-8ee4191bc39b",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "c9f14e3b-5508-4010-b4cb-5eb15b8df0e7",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 975.89 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:36.179259",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.179268",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.183808"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "aec1a0bc-d664-4471-8f51-5d4871a932a8",
+  "transaction" : {
+    "transactionId" : "aec1a0bc-d664-4471-8f51-5d4871a932a8",
+    "fromAccount" : "5032904144",
+    "toAccount" : "528543907667",
+    "amount" : 61.32,
+    "currency" : "EUR",
+    "fromBankSwift" : "CAIXESBB",
+    "toBankSwift" : "BNPAAU2S",
+    "fromBankName" : "CaixaBank",
+    "toBankName" : "BNP Paribas Australia",
+    "timestamp" : "2025-06-15T09:20:15.043114",
+    "status" : "COMPLETED",
+    "fromIBAN" : "ES4821000000000891436018",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "ES",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "aec1a0bc-d664-4471-8f51-5d4871a932a8",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "83d4dffb-da1d-41d2-a430-888df27d5f0e",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 61.32 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:14.223987",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.223992",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.225909"
+}

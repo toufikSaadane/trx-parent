@@ -1,0 +1,46 @@
+{
+  "transactionId" : "6e9f2474-f301-4bf1-8d73-0b7d5336f580",
+  "transaction" : {
+    "transactionId" : "6e9f2474-f301-4bf1-8d73-0b7d5336f580",
+    "fromAccount" : "631917371374",
+    "toAccount" : "813826919036",
+    "amount" : 95411.22,
+    "currency" : "CHF",
+    "fromBankSwift" : "UBSWCHZH80A",
+    "toBankSwift" : "CBMMMY2X",
+    "fromBankName" : "UBS Switzerland AG",
+    "toBankName" : "CB Bank",
+    "timestamp" : "2025-06-17T14:02:39.746145",
+    "status" : "PENDING",
+    "fromIBAN" : "CH2124300001475776722",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6e9f2474-f301-4bf1-8d73-0b7d5336f580",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "f8fb2904-c3d9-4c84-90ef-656c6b0706bf",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CH, To: MM",
+      "timestamp" : "2025-06-17T15:53:19.431764",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "d4306df2-459f-4cef-99f8-f8d2ef28249e",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 95411.22 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:19.431787",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.431796",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.434553"
+}

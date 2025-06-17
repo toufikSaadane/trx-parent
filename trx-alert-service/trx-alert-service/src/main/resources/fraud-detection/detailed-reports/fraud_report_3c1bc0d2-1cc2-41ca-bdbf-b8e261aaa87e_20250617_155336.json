@@ -1,0 +1,38 @@
+{
+  "transactionId" : "3c1bc0d2-1cc2-41ca-bdbf-b8e261aaa87e",
+  "transaction" : {
+    "transactionId" : "3c1bc0d2-1cc2-41ca-bdbf-b8e261aaa87e",
+    "fromAccount" : "110203078450",
+    "toAccount" : "278493409313",
+    "amount" : 760.69,
+    "currency" : "USD",
+    "fromBankSwift" : "BOFAUS3N",
+    "toBankSwift" : "DBSSSGSG",
+    "fromBankName" : "Bank of America N.A.",
+    "toBankName" : "DBS Bank",
+    "timestamp" : "2025-06-17T13:05:15.819348",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "SG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3c1bc0d2-1cc2-41ca-bdbf-b8e261aaa87e",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "6765641f-0cc7-4bc3-a109-68a09d24387e",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 760.69 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:36.820402",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.820412",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.824861"
+}

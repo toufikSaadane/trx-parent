@@ -1,0 +1,38 @@
+{
+  "transactionId" : "a7919883-3f26-4d58-8dbd-495ef422a5df",
+  "transaction" : {
+    "transactionId" : "a7919883-3f26-4d58-8dbd-495ef422a5df",
+    "fromAccount" : "8516009466",
+    "toAccount" : "859928084285",
+    "amount" : 681.77,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33",
+    "toBankSwift" : "DEUTDEFF",
+    "fromBankName" : "Chase Bank",
+    "toBankName" : "Deutsche Bank",
+    "timestamp" : "2025-06-11T09:56:48.960057",
+    "status" : "FAILED",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "DE27123456780456783782",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a7919883-3f26-4d58-8dbd-495ef422a5df",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "5f5b63af-cd86-4f9e-b6ef-42f40cc554f5",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 681.77 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.822628",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.822666",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.823562"
+}

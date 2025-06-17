@@ -1,0 +1,30 @@
+{
+  "transactionId" : "0367ffb0-c707-4256-9ce7-ce147e9fece4",
+  "transaction" : {
+    "transactionId" : "0367ffb0-c707-4256-9ce7-ce147e9fece4",
+    "fromAccount" : "581925156233",
+    "toAccount" : "3581291348",
+    "amount" : 7805.32,
+    "currency" : "EUR",
+    "fromBankSwift" : "SOGEFRPP",
+    "toBankSwift" : "DBSSSGSG",
+    "fromBankName" : "Société Générale",
+    "toBankName" : "DBS Bank",
+    "timestamp" : "2025-06-16T23:16:52.455497",
+    "status" : "PROCESSING",
+    "fromIBAN" : "FR5830003000000002090836146",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "SG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "0367ffb0-c707-4256-9ce7-ce147e9fece4",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:22.253838",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:22.258221"
+}

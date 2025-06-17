@@ -1,0 +1,38 @@
+{
+  "transactionId" : "153d7452-49c0-41fc-931c-da2939bb8c84",
+  "transaction" : {
+    "transactionId" : "153d7452-49c0-41fc-931c-da2939bb8c84",
+    "fromAccount" : "1749669623",
+    "toAccount" : "091992037111",
+    "amount" : 575.5,
+    "currency" : "EUR",
+    "fromBankSwift" : "COMMDEFF",
+    "toBankSwift" : "TADHYEMY",
+    "fromBankName" : "Commerzbank AG",
+    "toBankName" : "Tadhamon International Islamic Bank",
+    "timestamp" : "2025-06-17T11:49:55.325525",
+    "status" : "PROCESSING",
+    "fromIBAN" : "DE90400800000587452471",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "TADHYOYMY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "153d7452-49c0-41fc-931c-da2939bb8c84",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "7d1c1163-7b05-4893-b678-18d81071371a",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 575.5 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:23.224641",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.22465",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.229123"
+}

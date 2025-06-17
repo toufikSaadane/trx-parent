@@ -1,0 +1,38 @@
+{
+  "transactionId" : "64167b73-c2c7-451c-9214-ff5ca92eb332",
+  "transaction" : {
+    "transactionId" : "64167b73-c2c7-451c-9214-ff5ca92eb332",
+    "fromAccount" : "617586933259",
+    "toAccount" : "139288232555",
+    "amount" : 867.18,
+    "currency" : "EUR",
+    "fromBankSwift" : "SOGEFRPP",
+    "toBankSwift" : "NBPLT21",
+    "fromBankName" : "Société Générale",
+    "toBankName" : "Šiaulių Bankas",
+    "timestamp" : "2025-06-15T21:26:51.682327",
+    "status" : "PENDING",
+    "fromIBAN" : "FR4130003000000001825665612",
+    "toIBAN" : "LT167300000538930847",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "LT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "64167b73-c2c7-451c-9214-ff5ca92eb332",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "4a087a6b-cfab-42ce-ba7d-440e371dcfc3",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 867.18 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:35.40648",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:35.406488",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:35.410994"
+}

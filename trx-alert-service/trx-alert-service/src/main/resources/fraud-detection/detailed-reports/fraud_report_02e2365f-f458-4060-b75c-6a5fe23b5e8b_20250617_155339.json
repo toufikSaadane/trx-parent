@@ -1,0 +1,38 @@
+{
+  "transactionId" : "02e2365f-f458-4060-b75c-6a5fe23b5e8b",
+  "transaction" : {
+    "transactionId" : "02e2365f-f458-4060-b75c-6a5fe23b5e8b",
+    "fromAccount" : "0145013597",
+    "toAccount" : "8944458418",
+    "amount" : 301.46,
+    "currency" : "EUR",
+    "fromBankSwift" : "BCEELULL",
+    "toBankSwift" : "CIBKCNBJ",
+    "fromBankName" : "BCEE",
+    "toBankName" : "China CITIC Bank",
+    "timestamp" : "2025-06-17T14:19:34.626944",
+    "status" : "PROCESSING",
+    "fromIBAN" : "LU760010001862733501",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "LU",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "02e2365f-f458-4060-b75c-6a5fe23b5e8b",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "36da9c7b-24cc-4e5a-bf85-19dfb5531688",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 301.46 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:39.741314",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.741325",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.745779"
+}

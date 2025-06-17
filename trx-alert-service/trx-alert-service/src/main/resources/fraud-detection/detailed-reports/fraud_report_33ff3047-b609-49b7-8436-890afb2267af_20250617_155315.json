@@ -1,0 +1,30 @@
+{
+  "transactionId" : "33ff3047-b609-49b7-8436-890afb2267af",
+  "transaction" : {
+    "transactionId" : "33ff3047-b609-49b7-8436-890afb2267af",
+    "fromAccount" : "058789124830",
+    "toAccount" : "2274549078",
+    "amount" : 4696.98,
+    "currency" : "EUR",
+    "fromBankSwift" : "CAIXESBB",
+    "toBankSwift" : "CRLYFRPP",
+    "fromBankName" : "CaixaBank",
+    "toBankName" : "Crédit Lyonnais",
+    "timestamp" : "2025-06-16T22:46:00.565961",
+    "status" : "PROCESSING",
+    "fromIBAN" : "ES5021000000001718101895",
+    "toIBAN" : "FR6530002000000000423802548",
+    "fromCountryCode" : "ES",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "33ff3047-b609-49b7-8436-890afb2267af",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.147672",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.149651"
+}

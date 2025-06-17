@@ -1,0 +1,38 @@
+{
+  "transactionId" : "b4a577f3-37db-438f-a01f-3f02fad32bf1",
+  "transaction" : {
+    "transactionId" : "b4a577f3-37db-438f-a01f-3f02fad32bf1",
+    "fromAccount" : "6356654301",
+    "toAccount" : "337386193568",
+    "amount" : 836.69,
+    "currency" : "YER",
+    "fromBankSwift" : "TADHYEMY",
+    "toBankSwift" : "HKBCCATT",
+    "fromBankName" : "Tadhamon International Islamic Bank",
+    "toBankName" : "Hongkong and Shanghai Banking Corp",
+    "timestamp" : "2025-06-17T13:49:59.738585",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "TADHYOYMY",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "b4a577f3-37db-438f-a01f-3f02fad32bf1",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "b516369d-58ef-4aeb-a4ca-2b7cc8ed780b",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 836.69 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:37.384979",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.384998",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.389875"
+}

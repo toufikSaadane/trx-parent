@@ -1,0 +1,38 @@
+{
+  "transactionId" : "4a089646-7a43-458f-967a-81443da358f4",
+  "transaction" : {
+    "transactionId" : "4a089646-7a43-458f-967a-81443da358f4",
+    "fromAccount" : "045263274206",
+    "toAccount" : "3191458556",
+    "amount" : 5000,
+    "currency" : "EUR",
+    "fromBankSwift" : "BNPAFRPP",
+    "toBankSwift" : "DBSBSGSG",
+    "fromBankName" : "BNP Paribas SA",
+    "toBankName" : "DBS Bank",
+    "timestamp" : "2025-06-17T14:12:54.627913",
+    "status" : "PROCESSING",
+    "fromIBAN" : "FR1330004000000000069496935",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "SG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "4a089646-7a43-458f-967a-81443da358f4",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "ea5d9338-f6f2-40b0-9ace-dfc38b87c01e",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 5000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:26.028214",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.028272",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.033868"
+}

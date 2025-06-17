@@ -1,0 +1,46 @@
+{
+  "transactionId" : "facb93fe-c6ce-4f6d-95f0-c3b5dc6a2ead",
+  "transaction" : {
+    "transactionId" : "facb93fe-c6ce-4f6d-95f0-c3b5dc6a2ead",
+    "fromAccount" : "1734115807",
+    "toAccount" : "700479993201",
+    "amount" : 256.67,
+    "currency" : "IRR",
+    "fromBankSwift" : "KESHAVIRZIR",
+    "toBankSwift" : "CTBAAU2S",
+    "fromBankName" : "Bank Keshavarzi",
+    "toBankName" : "Commonwealth Bank of Australia",
+    "timestamp" : "2025-06-17T13:26:18.458133",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IR",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "facb93fe-c6ce-4f6d-95f0-c3b5dc6a2ead",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "f2ac1543-6e56-4465-b5ac-8a8fdf8d48da",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: IR, To: AU",
+      "timestamp" : "2025-06-17T15:53:15.541985",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "d04c0ea2-3d27-4a3a-8354-138f9622adfa",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 256.67 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.542006",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.542019",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.543586"
+}

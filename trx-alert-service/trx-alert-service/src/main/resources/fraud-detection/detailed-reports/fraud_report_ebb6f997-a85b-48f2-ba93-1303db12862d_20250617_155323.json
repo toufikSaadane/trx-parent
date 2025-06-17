@@ -1,0 +1,46 @@
+{
+  "transactionId" : "ebb6f997-a85b-48f2-ba93-1303db12862d",
+  "transaction" : {
+    "transactionId" : "ebb6f997-a85b-48f2-ba93-1303db12862d",
+    "fromAccount" : "529312138730",
+    "toAccount" : "799918286059",
+    "amount" : 388.49,
+    "currency" : "CHF",
+    "fromBankSwift" : "UBSWCHZH",
+    "toBankSwift" : "GHBKAFKA",
+    "fromBankName" : "UBS Group AG",
+    "toBankName" : "Ghazanfar Bank",
+    "timestamp" : "2025-06-17T11:02:22.524856",
+    "status" : "PROCESSING",
+    "fromIBAN" : "CH4024400000671484822",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ebb6f997-a85b-48f2-ba93-1303db12862d",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "227bfb41-c383-42ff-aac2-ba5799a03726",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CH, To: AF",
+      "timestamp" : "2025-06-17T15:53:23.162264",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "b0f9cf28-dc46-4f4c-8d29-8be8ed8c0565",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 388.49 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:23.162377",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.162385",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.165588"
+}

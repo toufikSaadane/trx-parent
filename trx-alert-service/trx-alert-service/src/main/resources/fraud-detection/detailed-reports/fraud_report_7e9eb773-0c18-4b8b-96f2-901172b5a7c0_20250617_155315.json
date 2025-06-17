@@ -1,0 +1,38 @@
+{
+  "transactionId" : "7e9eb773-0c18-4b8b-96f2-901172b5a7c0",
+  "transaction" : {
+    "transactionId" : "7e9eb773-0c18-4b8b-96f2-901172b5a7c0",
+    "fromAccount" : "622501656957",
+    "toAccount" : "866235437586",
+    "amount" : 555.71,
+    "currency" : "MXN",
+    "fromBankSwift" : "BAMXMXMM",
+    "toBankSwift" : "CIBKCNBJ",
+    "fromBankName" : "Banco Azteca",
+    "toBankName" : "China CITIC Bank",
+    "timestamp" : "2025-06-16T23:37:45.913078",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7e9eb773-0c18-4b8b-96f2-901172b5a7c0",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "487786b9-258e-4351-b0bb-46a517cb0cd7",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 555.71 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.30181",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.301819",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.303862"
+}

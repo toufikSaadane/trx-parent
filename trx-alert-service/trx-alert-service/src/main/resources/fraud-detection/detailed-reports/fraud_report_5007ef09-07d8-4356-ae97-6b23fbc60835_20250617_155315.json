@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5007ef09-07d8-4356-ae97-6b23fbc60835",
+  "transaction" : {
+    "transactionId" : "5007ef09-07d8-4356-ae97-6b23fbc60835",
+    "fromAccount" : "636370280252",
+    "toAccount" : "1440563542",
+    "amount" : 569.41,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33XXX",
+    "toBankSwift" : "HANDFIHH",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "Handelsbanken",
+    "timestamp" : "2025-06-17T14:05:29.734982",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "FI7630001113536288",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "FI"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5007ef09-07d8-4356-ae97-6b23fbc60835",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "5eea4d10-d704-499b-9cca-7c04dc80dd48",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 569.41 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:15.907559",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.907571",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.910903"
+}

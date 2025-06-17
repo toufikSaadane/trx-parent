@@ -1,0 +1,38 @@
+{
+  "transactionId" : "aa53198a-a0c7-4c4f-90e4-0dc9721a1e9e",
+  "transaction" : {
+    "transactionId" : "aa53198a-a0c7-4c4f-90e4-0dc9721a1e9e",
+    "fromAccount" : "103003158949",
+    "toAccount" : "2406249330",
+    "amount" : 728.29,
+    "currency" : "AUD",
+    "fromBankSwift" : "BNPAAU2S",
+    "toBankSwift" : "KREDBEBB",
+    "fromBankName" : "BNP Paribas Australia",
+    "toBankName" : "KBC Bank N.V.",
+    "timestamp" : "2025-06-17T11:50:30.319188",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "BE49733000754175",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "BE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "aa53198a-a0c7-4c4f-90e4-0dc9721a1e9e",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e6608433-9beb-49fd-8c6f-f195139a0908",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 728.29 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:23.273553",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.273568",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.278844"
+}

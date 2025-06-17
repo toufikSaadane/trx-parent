@@ -1,0 +1,46 @@
+{
+  "transactionId" : "974dfe49-dcdc-4382-a210-ed9be3b74701",
+  "transaction" : {
+    "transactionId" : "974dfe49-dcdc-4382-a210-ed9be3b74701",
+    "fromAccount" : "3960502990",
+    "toAccount" : "933075397308",
+    "amount" : 73391.75,
+    "currency" : "SYP",
+    "fromBankSwift" : "CBSYSYMMXXX",
+    "toBankSwift" : "FTBKKPRKX",
+    "fromBankName" : "Commercial Bank of Syria",
+    "toBankName" : "Foreign Trade Bank",
+    "timestamp" : "2025-06-17T14:04:49.734427",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "974dfe49-dcdc-4382-a210-ed9be3b74701",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "d1e3b522-d8bd-4746-a580-eb2cfaec2e4c",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: KP",
+      "timestamp" : "2025-06-17T15:53:25.116786",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "5a1555c9-f625-434e-9ed4-3d61736912a4",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 73391.75 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:25.116858",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.11688",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.120587"
+}

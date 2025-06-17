@@ -1,0 +1,30 @@
+{
+  "transactionId" : "43976d58-b68e-4abd-ae8d-b25c3c38df8c",
+  "transaction" : {
+    "transactionId" : "43976d58-b68e-4abd-ae8d-b25c3c38df8c",
+    "fromAccount" : "157501927375",
+    "toAccount" : "105257210816",
+    "amount" : 5049.22,
+    "currency" : "EUR",
+    "fromBankSwift" : "BESCPTPL",
+    "toBankSwift" : "BNPAFRPP",
+    "fromBankName" : "Novo Banco",
+    "toBankName" : "BNP Paribas SA",
+    "timestamp" : "2025-06-16T22:46:30.563274",
+    "status" : "PROCESSING",
+    "fromIBAN" : "PT51000700000002025082006",
+    "toIBAN" : "FR8730004000000000598000394",
+    "fromCountryCode" : "PT",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "43976d58-b68e-4abd-ae8d-b25c3c38df8c",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.321864",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.324943"
+}

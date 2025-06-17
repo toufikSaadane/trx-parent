@@ -1,0 +1,38 @@
+{
+  "transactionId" : "9b43a34d-c7b9-47ec-b320-bb642512aa04",
+  "transaction" : {
+    "transactionId" : "9b43a34d-c7b9-47ec-b320-bb642512aa04",
+    "fromAccount" : "4195270293",
+    "toAccount" : "2018324329",
+    "amount" : 409.82,
+    "currency" : "USD",
+    "fromBankSwift" : "WELLSFARG",
+    "toBankSwift" : "BESCPTPL",
+    "fromBankName" : "Wells Fargo Bank",
+    "toBankName" : "Novo Banco",
+    "timestamp" : "2025-06-17T13:55:59.73718",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "PT73000700000001367579914",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "PT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "9b43a34d-c7b9-47ec-b320-bb642512aa04",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "94670571-aa63-4ba5-bb91-33bef27a6818",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 409.82 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:24.393158",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.393168",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.39765"
+}

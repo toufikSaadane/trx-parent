@@ -1,0 +1,38 @@
+{
+  "transactionId" : "420adb81-a16f-4cb0-a274-91a8d227522d",
+  "transaction" : {
+    "transactionId" : "420adb81-a16f-4cb0-a274-91a8d227522d",
+    "fromAccount" : "935494968466",
+    "toAccount" : "7855122619",
+    "amount" : 2187.8,
+    "currency" : "GBP",
+    "fromBankSwift" : "HSBCGB2L",
+    "toBankSwift" : "KORYOKT2X",
+    "fromBankName" : "HSBC UK",
+    "toBankName" : "Korea Taesong Bank",
+    "timestamp" : "2025-06-17T14:03:29.733754",
+    "status" : "PROCESSING",
+    "fromIBAN" : "GB14404404001433853037",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "420adb81-a16f-4cb0-a274-91a8d227522d",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "8de1529f-3f8e-4c01-b404-f647cc9fc6fa",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: GB, To: KP",
+      "timestamp" : "2025-06-17T15:53:19.483273",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.483291",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.486125"
+}

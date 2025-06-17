@@ -1,0 +1,38 @@
+{
+  "transactionId" : "08c616b8-66c6-4615-af36-688ad72bc64b",
+  "transaction" : {
+    "transactionId" : "08c616b8-66c6-4615-af36-688ad72bc64b",
+    "fromAccount" : "814491281997",
+    "toAccount" : "8562389205",
+    "amount" : 5553.62,
+    "currency" : "IRR",
+    "fromBankSwift" : "KESHAVIRZIR",
+    "toBankSwift" : "RABONL2U",
+    "fromBankName" : "Bank Keshavarzi",
+    "toBankName" : "Rabobank",
+    "timestamp" : "2025-06-17T14:07:14.727518",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "NL8130001159087492",
+    "fromCountryCode" : "IR",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "08c616b8-66c6-4615-af36-688ad72bc64b",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "7f4c2632-fadf-44b1-a166-9b6c787bbacf",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: IR, To: NL",
+      "timestamp" : "2025-06-17T15:53:19.764974",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.764985",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.76774"
+}

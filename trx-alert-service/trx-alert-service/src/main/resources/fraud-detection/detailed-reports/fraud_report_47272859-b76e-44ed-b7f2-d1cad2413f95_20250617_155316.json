@@ -1,0 +1,46 @@
+{
+  "transactionId" : "47272859-b76e-44ed-b7f2-d1cad2413f95",
+  "transaction" : {
+    "transactionId" : "47272859-b76e-44ed-b7f2-d1cad2413f95",
+    "fromAccount" : "7056483095",
+    "toAccount" : "8586700934",
+    "amount" : 50000,
+    "currency" : "USD",
+    "fromBankSwift" : "CRESCHZZ",
+    "toBankSwift" : "CITIUS33",
+    "fromBankName" : "Credit Suisse",
+    "toBankName" : "Citibank N.A.",
+    "timestamp" : "2025-06-15T09:20:15.035792",
+    "status" : "PENDING",
+    "fromIBAN" : "CH8548350001320416887",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "47272859-b76e-44ed-b7f2-d1cad2413f95",
+    "riskScore" : 110,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "412c72e8-84b7-48ec-9740-030ba359939c",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 50000 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:16.970675",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "c3945c7d-846d-4661-ac7e-0cd959402c70",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 50000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:16.970763",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:16.970774",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:16.973438"
+}

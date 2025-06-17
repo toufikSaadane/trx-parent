@@ -1,0 +1,38 @@
+{
+  "transactionId" : "106588a7-b133-4876-9ab7-2fa8d323b7b8",
+  "transaction" : {
+    "transactionId" : "106588a7-b133-4876-9ab7-2fa8d323b7b8",
+    "fromAccount" : "639677687307",
+    "toAccount" : "0720454273",
+    "amount" : 181.83,
+    "currency" : "CNY",
+    "fromBankSwift" : "HSBCCNSH",
+    "toBankSwift" : "TDOMCATT",
+    "fromBankName" : "HSBC Bank (China) Company Limited",
+    "toBankName" : "TD Canada Trust",
+    "timestamp" : "2025-06-17T13:50:59.751673",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "106588a7-b133-4876-9ab7-2fa8d323b7b8",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "18b55dad-b240-4087-abb6-abede62e7a30",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 181.83 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:24.0051",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.005111",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.009492"
+}

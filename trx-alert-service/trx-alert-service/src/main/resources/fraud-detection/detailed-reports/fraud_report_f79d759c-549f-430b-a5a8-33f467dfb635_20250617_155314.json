@@ -1,0 +1,46 @@
+{
+  "transactionId" : "f79d759c-549f-430b-a5a8-33f467dfb635",
+  "transaction" : {
+    "transactionId" : "f79d759c-549f-430b-a5a8-33f467dfb635",
+    "fromAccount" : "189548280588",
+    "toAccount" : "202867720199",
+    "amount" : 17192.35,
+    "currency" : "",
+    "fromBankSwift" : "SBZAZAJJ",
+    "toBankSwift" : "CBSYSYMMXXX",
+    "fromBankName" : "Standard Bank of South Africa",
+    "toBankName" : "Commercial Bank of Syria",
+    "timestamp" : "2025-06-16T22:45:10.568204",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "ZA",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f79d759c-549f-430b-a5a8-33f467dfb635",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "d23f50df-8bfa-413f-8a7c-541b4fd85f17",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: ZA, To: SY",
+      "timestamp" : "2025-06-17T15:53:14.384349",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "952f48c8-3996-4217-9d92-408821d3af2b",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 17192.35 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:14.384358",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.384361",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.385204"
+}

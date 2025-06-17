@@ -1,0 +1,38 @@
+{
+  "transactionId" : "44177f13-de16-444e-9b74-a3823c262bf4",
+  "transaction" : {
+    "transactionId" : "44177f13-de16-444e-9b74-a3823c262bf4",
+    "fromAccount" : "984815915131",
+    "toAccount" : "969895363637",
+    "amount" : 9999.99,
+    "currency" : "USD",
+    "fromBankSwift" : "ROYCCAT2",
+    "toBankSwift" : "BOFAUS3NXXX",
+    "fromBankName" : "Royal Bank of Canada",
+    "toBankName" : "Bank of America N.A.",
+    "timestamp" : "2025-06-17T14:10:14.628361",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "44177f13-de16-444e-9b74-a3823c262bf4",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "d89e652f-41e2-4790-819a-4aec010cf45f",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9999.99 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-17T15:53:39.000551",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:39.000558",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:39.004067"
+}

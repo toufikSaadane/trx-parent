@@ -1,0 +1,38 @@
+{
+  "transactionId" : "a8422e4d-2fe0-4614-8900-70da49674320",
+  "transaction" : {
+    "transactionId" : "a8422e4d-2fe0-4614-8900-70da49674320",
+    "fromAccount" : "5728207271",
+    "toAccount" : "4425585663",
+    "amount" : 857.6,
+    "currency" : "BEL",
+    "fromBankSwift" : "KREDBEBB",
+    "toBankSwift" : "EBILAEADXXX",
+    "fromBankName" : "KBC Bank N.V.",
+    "toBankName" : "Emirates NBD Bank",
+    "timestamp" : "2025-06-17T10:49:20.950876",
+    "status" : "PENDING",
+    "fromIBAN" : "BE86733000784549",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "BE",
+    "toCountryCode" : "AE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a8422e4d-2fe0-4614-8900-70da49674320",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "5305faa5-ec8d-4150-b453-db488bf2eef6",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 857.6 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:36.434658",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.434669",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.440254"
+}

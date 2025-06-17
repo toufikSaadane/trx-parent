@@ -1,0 +1,46 @@
+{
+  "transactionId" : "794a0f06-70c8-4416-b432-d2c1215eb782",
+  "transaction" : {
+    "transactionId" : "794a0f06-70c8-4416-b432-d2c1215eb782",
+    "fromAccount" : "253885418732",
+    "toAccount" : "579530446982",
+    "amount" : 259.77,
+    "currency" : "MMK",
+    "fromBankSwift" : "AYABMMMY",
+    "toBankSwift" : "COMMDEFF",
+    "fromBankName" : "Ayeyarwady Bank",
+    "toBankName" : "Commerzbank AG",
+    "timestamp" : "2025-06-17T13:58:44.738351",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "DE15400800001540879528",
+    "fromCountryCode" : "MM",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "794a0f06-70c8-4416-b432-d2c1215eb782",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "849aa0dc-e0d5-43a3-8c5c-847e75e4d79d",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MM, To: DE",
+      "timestamp" : "2025-06-17T15:53:38.143266",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "d29f0eed-21c9-489b-a454-94d5d5e5325a",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 259.77 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:38.143401",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:38.143412",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:38.147361"
+}

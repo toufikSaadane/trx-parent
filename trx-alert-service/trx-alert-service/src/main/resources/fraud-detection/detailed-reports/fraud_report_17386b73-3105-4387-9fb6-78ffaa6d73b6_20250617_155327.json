@@ -1,0 +1,38 @@
+{
+  "transactionId" : "17386b73-3105-4387-9fb6-78ffaa6d73b6",
+  "transaction" : {
+    "transactionId" : "17386b73-3105-4387-9fb6-78ffaa6d73b6",
+    "fromAccount" : "289184903104",
+    "toAccount" : "711391138386",
+    "amount" : 36916.17,
+    "currency" : "USD",
+    "fromBankSwift" : "SCBLKENX",
+    "toBankSwift" : "WFBIUS6SXXX",
+    "fromBankName" : "Standard Chartered Kenya",
+    "toBankName" : "Wells Fargo Bank",
+    "timestamp" : "2025-06-17T15:49:56.480025",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KE",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "17386b73-3105-4387-9fb6-78ffaa6d73b6",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "1ca919b5-1c04-4e2e-9f09-4a017be24a08",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 36916.17 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:27.525314",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:27.525334",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:27.530015"
+}

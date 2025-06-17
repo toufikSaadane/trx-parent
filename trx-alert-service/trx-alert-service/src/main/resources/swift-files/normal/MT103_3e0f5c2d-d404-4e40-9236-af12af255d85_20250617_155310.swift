@@ -1,0 +1,36 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:10.887084
+// Transaction ID: 3e0f5c2d-d404-4e40-9236-af12af255d85
+// Amount: 694.91 USD
+// From: MUFG Bank Ltd
+// To: Wells Fargo Bank
+// FRAUD STATUS: NORMAL
+// Risk Score: 40/100
+// Risk Level: MEDIUM
+// Fraud Alerts: 1
+//   - Frequent Small Amounts
+//=====================================
+
+{1:F01BOTKJPJTXXX0}{2:I103WFBIUS6SXXX0N}{3:{108:3e0f5c2d-d404-4e}}
+{4:
+:20:3e0f5c2d-d404-4e
+:23B:CRED
+:32A:250611USD694,91
+:33B:USD694,91
+:71A:SHA
+:50K:/001371009900
+MUFG Bank Ltd
+123 Main Street
+Tokyo, Japan
+:52A:BOTKJPJT
+:53B:/BOTKJPJT
+:56A:CHASUS33XXX
+:57A:WFBIUS6SXXX
+:59:/0156242105
+Wells Fargo Bank
+456 Business Ave
+New York, United States
+:70:Payment for services - TXN ID: 3e0f5c2d - Cross-border transfer
+:72:/INS/BOTKJPJT
+}
+{5:{MAC:10F6B890}{CHK:0180B7CC1123}}

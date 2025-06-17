@@ -1,0 +1,38 @@
+{
+  "transactionId" : "ca3cdb06-2688-40a6-b35e-69690fd8e10b",
+  "transaction" : {
+    "transactionId" : "ca3cdb06-2688-40a6-b35e-69690fd8e10b",
+    "fromAccount" : "4223265518",
+    "toAccount" : "0322788268",
+    "amount" : 246.29,
+    "currency" : "MXN",
+    "fromBankSwift" : "BAMXMXMM",
+    "toBankSwift" : "BARCGB22",
+    "fromBankName" : "Banco Azteca",
+    "toBankName" : "Barclays Bank PLC",
+    "timestamp" : "2025-06-11T10:53:00.619542",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "GB18204545001466142432",
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ca3cdb06-2688-40a6-b35e-69690fd8e10b",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "8d7b3477-dc98-4e56-90ff-eb421a1ef161",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 246.29 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:10.841728",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:10.841755",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:10.842509"
+}

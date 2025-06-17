@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5062cd84-f915-4695-8674-e03b40e35ec1",
+  "transaction" : {
+    "transactionId" : "5062cd84-f915-4695-8674-e03b40e35ec1",
+    "fromAccount" : "447412708271",
+    "toAccount" : "852788932971",
+    "amount" : 747.1,
+    "currency" : "AUD",
+    "fromBankSwift" : "BKCHAU2S",
+    "toBankSwift" : "SCOTMXMM",
+    "fromBankName" : "Bank of China (Australia) Limited",
+    "toBankName" : "Scotiabank Mexico",
+    "timestamp" : "2025-06-17T14:03:59.737584",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "MX"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5062cd84-f915-4695-8674-e03b40e35ec1",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "69b13be6-ecca-4f2a-896e-dfbb66add43c",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 747.1 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:19.526644",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:19.526662",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:19.531164"
+}

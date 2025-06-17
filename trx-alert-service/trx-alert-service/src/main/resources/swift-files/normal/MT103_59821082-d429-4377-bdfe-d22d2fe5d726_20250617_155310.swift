@@ -1,0 +1,34 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:10.858803
+// Transaction ID: 59821082-d429-4377-bdfe-d22d2fe5d726
+// Amount: 1691.51 EUR
+// From: BCEE
+// To: ING Bank
+// FRAUD STATUS: NORMAL
+// Risk Score: 0/100
+// Risk Level: LOW
+//=====================================
+
+{1:F01BCEELULLXXX0}{2:I103INGBNL2AXXX0N}{3:{108:59821082-d429-43}}
+{4:
+:20:59821082-d429-43
+:23B:CRED
+:32A:250611EUR1691,51
+:33B:EUR1691,51
+:71A:SHA
+:50K:/LU220010000569956109
+BCEE
+123 Main Street
+Financial District, Luxembourg
+:52A:BCEELULL
+:53B:/BCEELULL
+:56A:INGBNL2AXXX
+:57A:INGBNL2A
+:59:/NL4620000808189861
+ING Bank
+987 Trade Plaza
+Amsterdam, Netherlands
+:70:Payment for services - TXN ID: 59821082 - Cross-border transfer
+:72:/INS/BCEELULL
+}
+{5:{MAC:99D54A23}{CHK:0A95A4FD9757}}

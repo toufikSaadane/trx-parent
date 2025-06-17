@@ -1,0 +1,46 @@
+{
+  "transactionId" : "5b84d0f1-d775-4e35-8bcb-0ab3dec1af09",
+  "transaction" : {
+    "transactionId" : "5b84d0f1-d775-4e35-8bcb-0ab3dec1af09",
+    "fromAccount" : "9165553490",
+    "toAccount" : "075759932314",
+    "amount" : 873.93,
+    "currency" : "CHF",
+    "fromBankSwift" : "UBSWCHZH",
+    "toBankSwift" : "AZBAAFKAXXX",
+    "fromBankName" : "UBS Group AG",
+    "toBankName" : "Azizi Bank",
+    "timestamp" : "2025-06-17T10:49:05.948825",
+    "status" : "PROCESSING",
+    "fromIBAN" : "CH9624400000001104495",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5b84d0f1-d775-4e35-8bcb-0ab3dec1af09",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "0ecb355d-55c5-4172-87eb-8d9be8c6399f",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CH, To: AF",
+      "timestamp" : "2025-06-17T15:53:17.826922",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "c2b4df9b-6a4b-4b92-9de2-5c86aa5e6d49",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 873.93 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:17.82695",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.826966",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.829331"
+}

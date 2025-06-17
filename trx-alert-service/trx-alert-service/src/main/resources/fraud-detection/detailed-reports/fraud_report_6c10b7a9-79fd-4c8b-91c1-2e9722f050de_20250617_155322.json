@@ -1,0 +1,46 @@
+{
+  "transactionId" : "6c10b7a9-79fd-4c8b-91c1-2e9722f050de",
+  "transaction" : {
+    "transactionId" : "6c10b7a9-79fd-4c8b-91c1-2e9722f050de",
+    "fromAccount" : "649897040434",
+    "toAccount" : "2808525909",
+    "amount" : 989.43,
+    "currency" : "SYP",
+    "fromBankSwift" : "CBSYSYMM",
+    "toBankSwift" : "LLOYGB2L",
+    "fromBankName" : "Central Bank of Syria",
+    "toBankName" : "Lloyds Bank",
+    "timestamp" : "2025-06-16T22:44:20.565057",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "GB85300000001892670440",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6c10b7a9-79fd-4c8b-91c1-2e9722f050de",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "8efa704f-018b-4377-8d7b-1dda01856fe7",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: GB",
+      "timestamp" : "2025-06-17T15:53:22.041069",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "7f902f76-c787-4e31-83bb-d2dbe2b5e892",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 989.43 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:22.0411",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:22.041112",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:22.045215"
+}

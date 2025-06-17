@@ -1,0 +1,36 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-17T15:53:10.839451
+// Transaction ID: 160b4e66-7774-48d5-a7de-925aab9d3b55
+// Amount: 247.54 USD
+// From: Wells Fargo Bank N.A.
+// To: HSBC New Zealand
+// FRAUD STATUS: NORMAL
+// Risk Score: 40/100
+// Risk Level: MEDIUM
+// Fraud Alerts: 1
+//   - Frequent Small Amounts
+//=====================================
+
+{1:F01WFBIUS6SXXX0}{2:I103HSBCNZ2AXXX0N}{3:{108:160b4e66-7774-48}}
+{4:
+:20:160b4e66-7774-48
+:23B:CRED
+:32A:250611USD247,54
+:33B:USD247,54
+:71A:SHA
+:50K:/349460469900
+Wells Fargo Bank N.A.
+456 Business Ave
+New York, United States
+:52A:WFBIUS6S
+:53B:/WFBIUS6S
+:56A:DEUTDEFFXXX
+:57A:HSBCNZ2A
+:59:/567904180094
+HSBC New Zealand
+789 Commercial Blvd
+Financial District, New Zealand
+:70:Payment for services - TXN ID: 160b4e66 - Cross-border transfer
+:72:/INS/WFBIUS6S
+}
+{5:{MAC:AE624E51}{CHK:1EDC0B12A3D2}}

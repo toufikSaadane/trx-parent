@@ -1,0 +1,38 @@
+{
+  "transactionId" : "72f843e6-3421-47d5-8370-ccd2b5e44f4c",
+  "transaction" : {
+    "transactionId" : "72f843e6-3421-47d5-8370-ccd2b5e44f4c",
+    "fromAccount" : "838963712740",
+    "toAccount" : "5173323077",
+    "amount" : 503.84,
+    "currency" : "USD",
+    "fromBankSwift" : "BOFMCAM2",
+    "toBankSwift" : "WFBIUS6S",
+    "fromBankName" : "Bank of Montreal",
+    "toBankName" : "Wells Fargo Bank N.A.",
+    "timestamp" : "2025-06-13T15:55:49.213094",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "72f843e6-3421-47d5-8370-ccd2b5e44f4c",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "f2f08f79-9e30-4d1a-951a-fbb9ed05bfbf",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 503.84 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:11.784152",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:11.784164",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:11.785484"
+}

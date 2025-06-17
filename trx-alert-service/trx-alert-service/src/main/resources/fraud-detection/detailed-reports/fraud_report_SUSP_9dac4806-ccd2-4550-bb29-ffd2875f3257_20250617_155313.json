@@ -1,0 +1,30 @@
+{
+  "transactionId" : "SUSP_9dac4806-ccd2-4550-bb29-ffd2875f3257",
+  "transaction" : {
+    "transactionId" : "SUSP_9dac4806-ccd2-4550-bb29-ffd2875f3257",
+    "fromAccount" : "394843219223",
+    "toAccount" : "388903363002",
+    "amount" : 3282.48,
+    "currency" : "USD",
+    "fromBankSwift" : "LLOYGB2L",
+    "toBankSwift" : "SCBLUS33",
+    "fromBankName" : "Lloyds Bank",
+    "toBankName" : "Standard Chartered USA",
+    "timestamp" : "2025-06-15T15:44:52.028122",
+    "status" : "PROCESSING",
+    "fromIBAN" : "GB08300000001192401278",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "SUSP_9dac4806-ccd2-4550-bb29-ffd2875f3257",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:13.516493",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:13.518186"
+}

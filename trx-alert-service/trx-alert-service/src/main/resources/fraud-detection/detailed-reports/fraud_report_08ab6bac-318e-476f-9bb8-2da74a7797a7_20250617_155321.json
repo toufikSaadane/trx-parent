@@ -1,0 +1,38 @@
+{
+  "transactionId" : "08ab6bac-318e-476f-9bb8-2da74a7797a7",
+  "transaction" : {
+    "transactionId" : "08ab6bac-318e-476f-9bb8-2da74a7797a7",
+    "fromAccount" : "0712240306",
+    "toAccount" : "724942600318",
+    "amount" : 381.76,
+    "currency" : "USD",
+    "fromBankSwift" : "CRLYFRPP",
+    "toBankSwift" : "CITIUS33",
+    "fromBankName" : "Crédit Lyonnais",
+    "toBankName" : "Citibank N.A.",
+    "timestamp" : "2025-06-13T15:50:49.204223",
+    "status" : "COMPLETED",
+    "fromIBAN" : "FR5230002000000000936371443",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "08ab6bac-318e-476f-9bb8-2da74a7797a7",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "8d8616d5-e48c-455e-9f20-32965f3a520d",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 381.76 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:21.04523",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.045239",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.049683"
+}

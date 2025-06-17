@@ -1,0 +1,38 @@
+{
+  "transactionId" : "305b602f-86a1-4149-b461-3bc8ef8257d1",
+  "transaction" : {
+    "transactionId" : "305b602f-86a1-4149-b461-3bc8ef8257d1",
+    "fromAccount" : "309778344192",
+    "toAccount" : "940675852389",
+    "amount" : 154.16,
+    "currency" : "EUR",
+    "fromBankSwift" : "NBPLT21",
+    "toBankSwift" : "BNPAFRPP",
+    "fromBankName" : "Šiaulių Bankas",
+    "toBankName" : "BNP Paribas SA",
+    "timestamp" : "2025-06-16T22:44:25.561121",
+    "status" : "PROCESSING",
+    "fromIBAN" : "LT387300000267556461",
+    "toIBAN" : "FR5530004000000001328321730",
+    "fromCountryCode" : "LT",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "305b602f-86a1-4149-b461-3bc8ef8257d1",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "c8b3148e-df3c-404c-9e3b-b3adcc199166",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 154.16 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:12.959893",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:12.9599",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:12.961544"
+}

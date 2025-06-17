@@ -1,0 +1,38 @@
+{
+  "transactionId" : "68d3c80c-8698-4e8b-9f18-1beda5652d6c",
+  "transaction" : {
+    "transactionId" : "68d3c80c-8698-4e8b-9f18-1beda5652d6c",
+    "fromAccount" : "830793314877",
+    "toAccount" : "881010847000",
+    "amount" : 52208.22,
+    "currency" : "CAD",
+    "fromBankSwift" : "NOSCCATT",
+    "toBankSwift" : "BKCHAU2S",
+    "fromBankName" : "Scotiabank",
+    "toBankName" : "Bank of China (Australia) Limited",
+    "timestamp" : "2025-06-16T23:17:22.137521",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "68d3c80c-8698-4e8b-9f18-1beda5652d6c",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "17112bbe-f0a4-4b31-9a47-970410fc2bed",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 52208.22 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:14.45843",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:14.45844",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:14.459407"
+}

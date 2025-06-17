@@ -1,0 +1,30 @@
+{
+  "transactionId" : "59933f1a-e2f6-4acc-a3bc-f6974f0aaa14",
+  "transaction" : {
+    "transactionId" : "59933f1a-e2f6-4acc-a3bc-f6974f0aaa14",
+    "fromAccount" : "520781980143",
+    "toAccount" : "928581203483",
+    "amount" : 2303.92,
+    "currency" : "USD",
+    "fromBankSwift" : "WELLSFARG",
+    "toBankSwift" : "SCBLUS33",
+    "fromBankName" : "Wells Fargo Bank",
+    "toBankName" : "Standard Chartered USA",
+    "timestamp" : "2025-06-17T13:56:59.735242",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "59933f1a-e2f6-4acc-a3bc-f6974f0aaa14",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.463962",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.468346"
+}

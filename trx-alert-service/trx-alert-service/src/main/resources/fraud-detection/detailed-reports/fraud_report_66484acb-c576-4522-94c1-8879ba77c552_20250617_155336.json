@@ -1,0 +1,38 @@
+{
+  "transactionId" : "66484acb-c576-4522-94c1-8879ba77c552",
+  "transaction" : {
+    "transactionId" : "66484acb-c576-4522-94c1-8879ba77c552",
+    "fromAccount" : "1061161909",
+    "toAccount" : "791787045993",
+    "amount" : 1758.95,
+    "currency" : "AUD",
+    "fromBankSwift" : "WESTPAC",
+    "toBankSwift" : "MELIIRTH",
+    "fromBankName" : "Westpac Banking Corp",
+    "toBankName" : "Bank Melli Iran",
+    "timestamp" : "2025-06-17T11:50:50.313169",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "66484acb-c576-4522-94c1-8879ba77c552",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "9316fdfe-b3cc-434d-8122-49443149b2e1",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AU, To: IR",
+      "timestamp" : "2025-06-17T15:53:36.768159",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.768171",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.771409"
+}

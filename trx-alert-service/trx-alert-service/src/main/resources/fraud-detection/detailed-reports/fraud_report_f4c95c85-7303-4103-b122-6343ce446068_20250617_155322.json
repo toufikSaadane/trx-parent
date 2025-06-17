@@ -1,0 +1,46 @@
+{
+  "transactionId" : "f4c95c85-7303-4103-b122-6343ce446068",
+  "transaction" : {
+    "transactionId" : "f4c95c85-7303-4103-b122-6343ce446068",
+    "fromAccount" : "722257899364",
+    "toAccount" : "412455441117",
+    "amount" : 50000,
+    "currency" : "KES",
+    "fromBankSwift" : "SCBLKENX",
+    "toBankSwift" : "UBSWCHZH80A",
+    "fromBankName" : "Standard Chartered Kenya",
+    "toBankName" : "UBS Switzerland AG",
+    "timestamp" : "2025-06-16T22:46:10.568846",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "CH0624300001257059355",
+    "fromCountryCode" : "KE",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f4c95c85-7303-4103-b122-6343ce446068",
+    "riskScore" : 110,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "bb10bcc4-0447-4eef-b918-4faff35cba4f",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 50000 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-17T15:53:22.186115",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "76ae05dc-41c3-43c3-937e-323aec081c59",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 50000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:22.186207",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:22.186214",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:22.189462"
+}

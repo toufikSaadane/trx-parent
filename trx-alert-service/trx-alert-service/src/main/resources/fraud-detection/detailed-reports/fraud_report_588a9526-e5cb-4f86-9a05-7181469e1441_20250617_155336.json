@@ -1,0 +1,38 @@
+{
+  "transactionId" : "588a9526-e5cb-4f86-9a05-7181469e1441",
+  "transaction" : {
+    "transactionId" : "588a9526-e5cb-4f86-9a05-7181469e1441",
+    "fromAccount" : "166357080023",
+    "toAccount" : "6987676349",
+    "amount" : 573.74,
+    "currency" : "EUR",
+    "fromBankSwift" : "SOGEFRPP",
+    "toBankSwift" : "BAMXMXMM",
+    "fromBankName" : "Société Générale",
+    "toBankName" : "Banco Azteca",
+    "timestamp" : "2025-06-17T11:49:40.554628",
+    "status" : "PENDING",
+    "fromIBAN" : "FR7530003000000000646424845",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "MX"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "588a9526-e5cb-4f86-9a05-7181469e1441",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "47426607-896b-437c-b2dc-755e6dbc62d2",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 573.74 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:36.682759",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:36.682767",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:36.687301"
+}

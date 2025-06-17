@@ -1,0 +1,46 @@
+{
+  "transactionId" : "800e3a54-4738-45de-bb64-15bce612113f",
+  "transaction" : {
+    "transactionId" : "800e3a54-4738-45de-bb64-15bce612113f",
+    "fromAccount" : "532162651994",
+    "toAccount" : "607664448567",
+    "amount" : 901.36,
+    "currency" : "AFN",
+    "fromBankSwift" : "GHBKAFKA",
+    "toBankSwift" : "AYABMMMY",
+    "fromBankName" : "Ghazanfar Bank",
+    "toBankName" : "Ayeyarwady Bank",
+    "timestamp" : "2025-06-17T13:09:05.817081",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AF",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "800e3a54-4738-45de-bb64-15bce612113f",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "ea3cca90-c723-47cc-b3fc-1a46da0e79de",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AF, To: MM",
+      "timestamp" : "2025-06-17T15:53:23.658379",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "65c089d2-814e-42b1-a4b1-f3efca3969ad",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 901.36 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:23.658488",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.658501",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.661792"
+}

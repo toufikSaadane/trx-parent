@@ -1,0 +1,38 @@
+{
+  "transactionId" : "a47fd49e-bdd4-4a70-9371-c77783d67944",
+  "transaction" : {
+    "transactionId" : "a47fd49e-bdd4-4a70-9371-c77783d67944",
+    "fromAccount" : "495732128566",
+    "toAccount" : "1406868671",
+    "amount" : 937.87,
+    "currency" : "AUD",
+    "fromBankSwift" : "ANZBAU3M",
+    "toBankSwift" : "BESCPTPL",
+    "fromBankName" : "ANZ Banking Group",
+    "toBankName" : "Novo Banco",
+    "timestamp" : "2025-06-17T11:01:27.527843",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "PT20000700000000446645505",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "PT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a47fd49e-bdd4-4a70-9371-c77783d67944",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "9ec0bc7a-0840-4b32-ac58-3626834fe53f",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 937.87 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:23.094828",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.094838",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.099237"
+}

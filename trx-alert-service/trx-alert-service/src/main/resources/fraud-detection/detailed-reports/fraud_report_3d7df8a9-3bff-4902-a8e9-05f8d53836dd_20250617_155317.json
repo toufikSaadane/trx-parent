@@ -1,0 +1,30 @@
+{
+  "transactionId" : "3d7df8a9-3bff-4902-a8e9-05f8d53836dd",
+  "transaction" : {
+    "transactionId" : "3d7df8a9-3bff-4902-a8e9-05f8d53836dd",
+    "fromAccount" : "9905089151",
+    "toAccount" : "253392854107",
+    "amount" : 4843.02,
+    "currency" : "EUR",
+    "fromBankSwift" : "ABNANL2A",
+    "toBankSwift" : "WESTPAC",
+    "fromBankName" : "ABN AMRO Bank N.V.",
+    "toBankName" : "Westpac Banking Corp",
+    "timestamp" : "2025-06-17T11:01:42.530781",
+    "status" : "PENDING",
+    "fromIBAN" : "NL5330002714211105",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NL",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3d7df8a9-3bff-4902-a8e9-05f8d53836dd",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:17.974106",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:17.978095"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "54f1b50a-49c4-467b-98aa-c3f377d54e88",
+  "transaction" : {
+    "transactionId" : "54f1b50a-49c4-467b-98aa-c3f377d54e88",
+    "fromAccount" : "8361482873",
+    "toAccount" : "4199449537",
+    "amount" : 403.18,
+    "currency" : "NZD",
+    "fromBankSwift" : "HSBCNZ2A",
+    "toBankSwift" : "NOSCCATTXXX",
+    "fromBankName" : "HSBC New Zealand",
+    "toBankName" : "The Bank of Nova Scotia",
+    "timestamp" : "2025-06-17T13:56:39.733546",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "NZ",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "54f1b50a-49c4-467b-98aa-c3f377d54e88",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "52e6da68-e74d-445e-817d-12566515604a",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 403.18 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:24.446045",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:24.446053",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:24.45062"
+}

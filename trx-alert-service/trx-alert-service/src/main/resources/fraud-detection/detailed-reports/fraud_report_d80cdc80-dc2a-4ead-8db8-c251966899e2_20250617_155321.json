@@ -1,0 +1,38 @@
+{
+  "transactionId" : "d80cdc80-dc2a-4ead-8db8-c251966899e2",
+  "transaction" : {
+    "transactionId" : "d80cdc80-dc2a-4ead-8db8-c251966899e2",
+    "fromAccount" : "724412289853",
+    "toAccount" : "6104004343",
+    "amount" : 10000,
+    "currency" : "USD",
+    "fromBankSwift" : "ICBKCNBJ",
+    "toBankSwift" : "CHASUS33XXX",
+    "fromBankName" : "Industrial and Commercial Bank of China",
+    "toBankName" : "JPMorgan Chase Bank",
+    "timestamp" : "2025-06-15T09:18:08.872096",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d80cdc80-dc2a-4ead-8db8-c251966899e2",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "792b4593-f42a-4371-8c25-1fcabf6d7f73",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 10000 follows suspicious round pattern",
+      "timestamp" : "2025-06-17T15:53:21.644058",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:21.644078",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:21.65026"
+}

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "6e1bd688-7720-4dbb-82fc-1ad0fbb306d8",
+  "transaction" : {
+    "transactionId" : "6e1bd688-7720-4dbb-82fc-1ad0fbb306d8",
+    "fromAccount" : "772381019638",
+    "toAccount" : "416023522858",
+    "amount" : 49.26,
+    "currency" : "CNY",
+    "fromBankSwift" : "CIBKCNBJ",
+    "toBankSwift" : "CBSYSYMM",
+    "fromBankName" : "China CITIC Bank",
+    "toBankName" : "Central Bank of Syria",
+    "timestamp" : "2025-06-17T13:55:39.738984",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6e1bd688-7720-4dbb-82fc-1ad0fbb306d8",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "4ebdd1a2-792d-463a-b4a1-79c9b6072674",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CN, To: SY",
+      "timestamp" : "2025-06-17T15:53:37.891827",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "ce2956a1-5f52-461b-98de-a21f6bf3d282",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 49.26 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:37.89194",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:37.891953",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:37.895578"
+}

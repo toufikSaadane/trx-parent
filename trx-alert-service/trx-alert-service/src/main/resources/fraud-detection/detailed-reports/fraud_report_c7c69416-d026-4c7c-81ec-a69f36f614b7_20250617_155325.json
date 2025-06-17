@@ -1,0 +1,30 @@
+{
+  "transactionId" : "c7c69416-d026-4c7c-81ec-a69f36f614b7",
+  "transaction" : {
+    "transactionId" : "c7c69416-d026-4c7c-81ec-a69f36f614b7",
+    "fromAccount" : "879607326195",
+    "toAccount" : "212826924589",
+    "amount" : 6672.49,
+    "currency" : "USD",
+    "fromBankSwift" : "WELLSFARG",
+    "toBankSwift" : "BCEELULL",
+    "fromBankName" : "Wells Fargo Bank",
+    "toBankName" : "BCEE",
+    "timestamp" : "2025-06-17T14:07:59.632922",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "LU510010000059675932",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "LU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c7c69416-d026-4c7c-81ec-a69f36f614b7",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:25.388594",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:25.393764"
+}

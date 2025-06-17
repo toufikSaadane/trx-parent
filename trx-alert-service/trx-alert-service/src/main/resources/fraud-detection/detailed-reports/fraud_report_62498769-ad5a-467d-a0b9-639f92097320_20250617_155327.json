@@ -1,0 +1,46 @@
+{
+  "transactionId" : "62498769-ad5a-467d-a0b9-639f92097320",
+  "transaction" : {
+    "transactionId" : "62498769-ad5a-467d-a0b9-639f92097320",
+    "fromAccount" : "9743949475",
+    "toAccount" : "1595219212",
+    "amount" : 13.67,
+    "currency" : "USD",
+    "fromBankSwift" : "SCBLUS33",
+    "toBankSwift" : "MELLATIR",
+    "fromBankName" : "Standard Chartered USA",
+    "toBankName" : "Bank Mellat",
+    "timestamp" : "2025-06-17T15:50:36.499722",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "62498769-ad5a-467d-a0b9-639f92097320",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "515530ee-7c69-45c7-a1cc-a38f6099c7e6",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: US, To: IR",
+      "timestamp" : "2025-06-17T15:53:27.593404",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "c9b5317d-e541-4881-b7c6-cf4de4c43fbf",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 13.67 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:27.593438",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:27.593453",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:27.597699"
+}

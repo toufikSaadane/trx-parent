@@ -1,0 +1,30 @@
+{
+  "transactionId" : "a0ef0273-90f5-4c53-801e-fec0250ce9b9",
+  "transaction" : {
+    "transactionId" : "a0ef0273-90f5-4c53-801e-fec0250ce9b9",
+    "fromAccount" : "163890531970",
+    "toAccount" : "5105068358",
+    "amount" : 6821.83,
+    "currency" : "TRY",
+    "fromBankSwift" : "BKTOTRIS",
+    "toBankSwift" : "UBSWCHZH80A",
+    "fromBankName" : "Türkiye İş Bankası",
+    "toBankName" : "UBS Switzerland AG",
+    "timestamp" : "2025-06-16T23:38:05.927511",
+    "status" : "PENDING",
+    "fromIBAN" : "TR846400000000001685909952",
+    "toIBAN" : "CH5224300001221843259",
+    "fromCountryCode" : "TR",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a0ef0273-90f5-4c53-801e-fec0250ce9b9",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:15.304433",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:15.306446"
+}

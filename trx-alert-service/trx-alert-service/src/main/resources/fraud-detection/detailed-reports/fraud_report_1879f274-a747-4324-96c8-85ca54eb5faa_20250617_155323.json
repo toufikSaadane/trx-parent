@@ -1,0 +1,38 @@
+{
+  "transactionId" : "1879f274-a747-4324-96c8-85ca54eb5faa",
+  "transaction" : {
+    "transactionId" : "1879f274-a747-4324-96c8-85ca54eb5faa",
+    "fromAccount" : "126796664633",
+    "toAccount" : "5087574294",
+    "amount" : 696.04,
+    "currency" : "USD",
+    "fromBankSwift" : "NEDSZAJJ",
+    "toBankSwift" : "BOFAUS3N",
+    "fromBankName" : "Nedbank",
+    "toBankName" : "Bank of America N.A.",
+    "timestamp" : "2025-06-17T11:50:40.323137",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "ZA",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1879f274-a747-4324-96c8-85ca54eb5faa",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "49e14ff2-ca24-4f93-96d2-ee3ef8f3c3a6",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 696.04 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:23.283688",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:23.283699",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:23.288416"
+}

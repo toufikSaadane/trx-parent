@@ -1,0 +1,46 @@
+{
+  "transactionId" : "de78ecfc-dd60-4941-8119-5ca9c01c1f34",
+  "transaction" : {
+    "transactionId" : "de78ecfc-dd60-4941-8119-5ca9c01c1f34",
+    "fromAccount" : "8767663963",
+    "toAccount" : "285409465002",
+    "amount" : 5096.82,
+    "currency" : "MMK",
+    "fromBankSwift" : "AYABMMMY",
+    "toBankSwift" : "CBMMMY2X",
+    "fromBankName" : "Ayeyarwady Bank",
+    "toBankName" : "CB Bank",
+    "timestamp" : "2025-06-17T02:29:07.6264",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MM",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "de78ecfc-dd60-4941-8119-5ca9c01c1f34",
+    "riskScore" : 130,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "272c7cde-a1a5-4d61-9337-2b94ce49b1bd",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MM, To: MM",
+      "timestamp" : "2025-06-17T15:53:26.969257",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "e88cb780-0d4e-4e0e-b240-4cdfe4ce9869",
+      "fraudType" : "OFF_HOURS_TRANSACTION",
+      "description" : "Off-Hours Transaction",
+      "severity" : 5,
+      "details" : "Transaction occurred during off-hours at 02:29:07.626400",
+      "timestamp" : "2025-06-17T15:53:26.969446",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:26.969461",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:26.977221"
+}

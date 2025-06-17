@@ -1,0 +1,38 @@
+{
+  "transactionId" : "29222e76-4119-4b23-94f6-8ddb4f7e7038",
+  "transaction" : {
+    "transactionId" : "29222e76-4119-4b23-94f6-8ddb4f7e7038",
+    "fromAccount" : "409583925554",
+    "toAccount" : "573734181734",
+    "amount" : 808.86,
+    "currency" : "EUR",
+    "fromBankSwift" : "DEUTDEFF",
+    "toBankSwift" : "ABNANL2A",
+    "fromBankName" : "Deutsche Bank",
+    "toBankName" : "ABN AMRO",
+    "timestamp" : "2025-06-15T21:26:27.246072",
+    "status" : "PROCESSING",
+    "fromIBAN" : "DE41123456780951688491",
+    "toIBAN" : "NL7751700509037099",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "29222e76-4119-4b23-94f6-8ddb4f7e7038",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "17b55d11-6388-4561-b1be-7703f7dde71f",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 808.86 may indicate structuring behavior",
+      "timestamp" : "2025-06-17T15:53:11.987339",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-17T15:53:11.98735",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-17T15:53:11.988919"
+}
