@@ -1,0 +1,38 @@
+{
+  "transactionId" : "6f35e2ee-809e-47ed-9a1a-37063298b80b",
+  "transaction" : {
+    "transactionId" : "6f35e2ee-809e-47ed-9a1a-37063298b80b",
+    "fromAccount" : "126405338326",
+    "toAccount" : "430590748265",
+    "amount" : 24080.78,
+    "currency" : "CHF",
+    "fromBankSwift" : "UBSWCHZH80A",
+    "toBankSwift" : "CRLYFRPP",
+    "fromBankName" : "UBS Switzerland AG",
+    "toBankName" : "Crédit Lyonnais",
+    "timestamp" : "2025-06-18T19:39:16.803925",
+    "status" : "PROCESSING",
+    "fromIBAN" : "CH2024300000085804861",
+    "toIBAN" : "FR4730002000000000649397809",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "FR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6f35e2ee-809e-47ed-9a1a-37063298b80b",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "92badccf-f0bd-46be-b8a3-c4665bab2d17",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 24080.78 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-18T21:06:52.475198",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T21:06:52.475219",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T21:06:52.475601"
+}

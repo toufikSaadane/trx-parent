@@ -1,0 +1,38 @@
+{
+  "transactionId" : "ca6a1073-6667-4996-b713-9245ef9efd0a",
+  "transaction" : {
+    "transactionId" : "ca6a1073-6667-4996-b713-9245ef9efd0a",
+    "fromAccount" : "7203924521",
+    "toAccount" : "460101908009",
+    "amount" : 7328.39,
+    "currency" : "MMK",
+    "fromBankSwift" : "AYABMMMY",
+    "toBankSwift" : "BSCHBRSP",
+    "fromBankName" : "Ayeyarwady Bank",
+    "toBankName" : "Santander Brasil",
+    "timestamp" : "2025-06-18T21:03:25.062437",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "BR55904008880000629036252",
+    "fromCountryCode" : "MM",
+    "toCountryCode" : "BR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ca6a1073-6667-4996-b713-9245ef9efd0a",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "f8cfe26a-891d-488f-8edd-98e4ed416c02",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MM, To: BR",
+      "timestamp" : "2025-06-18T22:10:44.365503",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T22:10:44.365514",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T22:10:44.366153"
+}

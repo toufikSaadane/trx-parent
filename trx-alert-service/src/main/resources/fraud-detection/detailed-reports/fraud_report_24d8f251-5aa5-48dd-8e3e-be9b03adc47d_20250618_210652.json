@@ -1,0 +1,46 @@
+{
+  "transactionId" : "24d8f251-5aa5-48dd-8e3e-be9b03adc47d",
+  "transaction" : {
+    "transactionId" : "24d8f251-5aa5-48dd-8e3e-be9b03adc47d",
+    "fromAccount" : "4593956026",
+    "toAccount" : "680521384921",
+    "amount" : 17507.46,
+    "currency" : "AUD",
+    "fromBankSwift" : "WESTPAC",
+    "toBankSwift" : "AFIBAFKA",
+    "fromBankName" : "Westpac Banking Corp",
+    "toBankName" : "Afghanistan International Bank",
+    "timestamp" : "2025-06-18T21:03:20.063843",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "24d8f251-5aa5-48dd-8e3e-be9b03adc47d",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "80748ff3-d068-470d-872e-6070ec9564bd",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AU, To: AF",
+      "timestamp" : "2025-06-18T21:06:52.53013",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "3e07b6ac-4914-4556-b6f5-d19a54104c70",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 17507.46 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-18T21:06:52.530162",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T21:06:52.530174",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T21:06:52.530589"
+}

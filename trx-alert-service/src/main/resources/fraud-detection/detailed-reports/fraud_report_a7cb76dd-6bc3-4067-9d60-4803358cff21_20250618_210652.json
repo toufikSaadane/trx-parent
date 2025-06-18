@@ -1,0 +1,46 @@
+{
+  "transactionId" : "a7cb76dd-6bc3-4067-9d60-4803358cff21",
+  "transaction" : {
+    "transactionId" : "a7cb76dd-6bc3-4067-9d60-4803358cff21",
+    "fromAccount" : "406803352899",
+    "toAccount" : "018571159663",
+    "amount" : 770.66,
+    "currency" : "KPW",
+    "fromBankSwift" : "KORYOKT2X",
+    "toBankSwift" : "BAMXMXMM",
+    "fromBankName" : "Korea Taesong Bank",
+    "toBankName" : "Banco Azteca",
+    "timestamp" : "2025-06-18T21:03:40.068482",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KP",
+    "toCountryCode" : "MX"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a7cb76dd-6bc3-4067-9d60-4803358cff21",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "9b93e726-ade3-412a-acd0-460905472c9f",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: KP, To: MX",
+      "timestamp" : "2025-06-18T21:06:52.47958",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "eabdbd94-6a36-49fd-b8ca-75644df421cd",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 770.66 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T21:06:52.479622",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T21:06:52.479646",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T21:06:52.480177"
+}

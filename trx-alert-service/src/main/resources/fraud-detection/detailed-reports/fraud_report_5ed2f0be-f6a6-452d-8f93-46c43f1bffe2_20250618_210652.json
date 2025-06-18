@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5ed2f0be-f6a6-452d-8f93-46c43f1bffe2",
+  "transaction" : {
+    "transactionId" : "5ed2f0be-f6a6-452d-8f93-46c43f1bffe2",
+    "fromAccount" : "270442163113",
+    "toAccount" : "142689289252",
+    "amount" : 137.34,
+    "currency" : "CAD",
+    "fromBankSwift" : "BMOCCAMT",
+    "toBankSwift" : "TDOMCATTTOR",
+    "fromBankName" : "Bank of Montreal",
+    "toBankName" : "Toronto-Dominion Bank (TD)",
+    "timestamp" : "2025-06-18T21:02:55.063369",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5ed2f0be-f6a6-452d-8f93-46c43f1bffe2",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "2f22c1bd-9097-48ac-ab4f-271d187a84cf",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 137.34 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T21:06:52.522509",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T21:06:52.522525",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T21:06:52.527705"
+}

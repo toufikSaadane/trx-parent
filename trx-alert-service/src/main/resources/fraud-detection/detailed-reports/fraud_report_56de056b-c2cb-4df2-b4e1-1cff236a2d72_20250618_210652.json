@@ -1,0 +1,38 @@
+{
+  "transactionId" : "56de056b-c2cb-4df2-b4e1-1cff236a2d72",
+  "transaction" : {
+    "transactionId" : "56de056b-c2cb-4df2-b4e1-1cff236a2d72",
+    "fromAccount" : "193851690599",
+    "toAccount" : "037417397920",
+    "amount" : 717.41,
+    "currency" : "CAD",
+    "fromBankSwift" : "TDOMCATT",
+    "toBankSwift" : "BOTKJPJT",
+    "fromBankName" : "TD Canada Trust",
+    "toBankName" : "MUFG Bank Ltd",
+    "timestamp" : "2025-06-18T19:39:16.808145",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "JP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "56de056b-c2cb-4df2-b4e1-1cff236a2d72",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "4595e9c1-728b-450a-842c-299369c42774",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 717.41 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T21:06:52.505374",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T21:06:52.505394",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T21:06:52.506316"
+}

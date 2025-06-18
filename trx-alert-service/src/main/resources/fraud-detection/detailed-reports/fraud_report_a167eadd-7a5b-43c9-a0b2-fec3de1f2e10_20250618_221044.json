@@ -1,0 +1,38 @@
+{
+  "transactionId" : "a167eadd-7a5b-43c9-a0b2-fec3de1f2e10",
+  "transaction" : {
+    "transactionId" : "a167eadd-7a5b-43c9-a0b2-fec3de1f2e10",
+    "fromAccount" : "846317251046",
+    "toAccount" : "6841974392",
+    "amount" : 97739.96,
+    "currency" : "GBP",
+    "fromBankSwift" : "BARCGB22",
+    "toBankSwift" : "DEUTDEFF",
+    "fromBankName" : "Barclays",
+    "toBankName" : "Deutsche Bank",
+    "timestamp" : "2025-06-18T21:15:55.727189",
+    "status" : "PROCESSING",
+    "fromIBAN" : "GB36203002001772817149",
+    "toIBAN" : "DE92123456781800909963",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a167eadd-7a5b-43c9-a0b2-fec3de1f2e10",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "294204a6-7467-47b4-947a-2137c7c45e59",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 97739.96 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-18T22:10:44.369244",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T22:10:44.369252",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T22:10:44.369615"
+}

@@ -1,0 +1,10 @@
+{2:I103NBPLT210N}
+{4:
+:20:d8d3269e-cccc-4f
+:23B:CRED
+:32A:250618YER9534,39
+:50K:/3970317336
+National Bank of Yemen
+:59:/380895084826
+Šiaulių Bankas
+}

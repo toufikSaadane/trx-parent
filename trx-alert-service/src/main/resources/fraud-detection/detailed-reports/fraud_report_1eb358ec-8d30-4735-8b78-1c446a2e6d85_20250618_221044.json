@@ -1,0 +1,46 @@
+{
+  "transactionId" : "1eb358ec-8d30-4735-8b78-1c446a2e6d85",
+  "transaction" : {
+    "transactionId" : "1eb358ec-8d30-4735-8b78-1c446a2e6d85",
+    "fromAccount" : "049813322805",
+    "toAccount" : "979690349857",
+    "amount" : 2000,
+    "currency" : "MMK",
+    "fromBankSwift" : "AYABMMMY",
+    "toBankSwift" : "KREDBEBB",
+    "fromBankName" : "Ayeyarwady Bank",
+    "toBankName" : "KBC Bank N.V.",
+    "timestamp" : "2025-06-18T19:38:36.80754",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "BE71733000616524",
+    "fromCountryCode" : "MM",
+    "toCountryCode" : "BE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1eb358ec-8d30-4735-8b78-1c446a2e6d85",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "17aa52fe-bcbc-4294-9bff-77d5f7ee2e53",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MM, To: BE",
+      "timestamp" : "2025-06-18T22:10:44.287281",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "5324174d-2cc0-45aa-a86b-1043cd572c25",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 2000 follows suspicious round pattern",
+      "timestamp" : "2025-06-18T22:10:44.287301",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T22:10:44.28731",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T22:10:44.287698"
+}

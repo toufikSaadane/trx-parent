@@ -1,0 +1,30 @@
+{
+  "transactionId" : "92f59b19-1b2e-4d21-b0fd-8f3f56e1b2c3",
+  "transaction" : {
+    "transactionId" : "92f59b19-1b2e-4d21-b0fd-8f3f56e1b2c3",
+    "fromAccount" : "5520702521",
+    "toAccount" : "353245433567",
+    "amount" : 4696.71,
+    "currency" : "USD",
+    "fromBankSwift" : "WFBIUS6SXXX",
+    "toBankSwift" : "ABNANL2A",
+    "fromBankName" : "Wells Fargo Bank",
+    "toBankName" : "ABN AMRO Bank N.V.",
+    "timestamp" : "2025-06-18T22:08:19.635719",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "NL0730002690712228",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "92f59b19-1b2e-4d21-b0fd-8f3f56e1b2c3",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T22:10:44.199795",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T22:10:44.200311"
+}

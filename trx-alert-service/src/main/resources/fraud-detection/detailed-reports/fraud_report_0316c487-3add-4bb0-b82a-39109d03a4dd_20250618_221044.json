@@ -1,0 +1,30 @@
+{
+  "transactionId" : "0316c487-3add-4bb0-b82a-39109d03a4dd",
+  "transaction" : {
+    "transactionId" : "0316c487-3add-4bb0-b82a-39109d03a4dd",
+    "fromAccount" : "963853084312",
+    "toAccount" : "917671274885",
+    "amount" : 2407.23,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33XXX",
+    "toBankSwift" : "BKTOTRIS",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "Türkiye İş Bankası",
+    "timestamp" : "2025-06-18T21:03:40.072101",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "TR196400000000001032940393",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "TR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "0316c487-3add-4bb0-b82a-39109d03a4dd",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T22:10:44.367107",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T22:10:44.367506"
+}

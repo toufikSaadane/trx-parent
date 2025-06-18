@@ -1,0 +1,34 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-18T21:06:52.505127
+// Transaction ID: 3b69f3e2-e757-49d3-a989-bda405a05c1c
+// Amount: 1989.33 INR
+// From: State Bank of India
+// To: Commerzbank AG
+// FRAUD STATUS: NORMAL
+// Risk Score: 0/100
+// Risk Level: LOW
+//=====================================
+
+{1:F01SBININBB1040}{2:I103COMMDEFFXXX0N}{3:{108:3b69f3e2-e757-49}}
+{4:
+:20:3b69f3e2-e757-49
+:23B:CRED
+:32A:250618INR1989,33
+:33B:INR1989,33
+:71A:SHA
+:50K:/098686610213
+State Bank of India
+789 Commercial Blvd
+Mumbai, India
+:52A:SBININBB104
+:53B:/SBININBB104
+:56A:DEUTDEFFXXX
+:57A:COMMDEFF
+:59:/DE52400800000249463833
+Commerzbank AG
+654 Banking Center
+Frankfurt, Germany
+:70:Payment for services - TXN ID: 3b69f3e2 - Cross-border transfer
+:72:/INS/SBININBB104
+}
+{5:{MAC:446158F0}{CHK:71D371A64CB3}}

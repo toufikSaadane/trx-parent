@@ -1,0 +1,38 @@
+{
+  "transactionId" : "8a8aed44-86fc-45f6-97bb-5afa4113db39",
+  "transaction" : {
+    "transactionId" : "8a8aed44-86fc-45f6-97bb-5afa4113db39",
+    "fromAccount" : "547393583643",
+    "toAccount" : "084752519650",
+    "amount" : 63.98,
+    "currency" : "BEL",
+    "fromBankSwift" : "KREDBEBB",
+    "toBankSwift" : "CIBKCNBJ",
+    "fromBankName" : "KBC Bank N.V.",
+    "toBankName" : "China CITIC Bank",
+    "timestamp" : "2025-06-18T19:38:46.82036",
+    "status" : "PENDING",
+    "fromIBAN" : "BE68733000322086",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "BE",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8a8aed44-86fc-45f6-97bb-5afa4113db39",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "df415b0e-e51e-468e-a9bc-4f5060382ae0",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 63.98 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T21:06:52.498238",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T21:06:52.498261",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T21:06:52.49931"
+}

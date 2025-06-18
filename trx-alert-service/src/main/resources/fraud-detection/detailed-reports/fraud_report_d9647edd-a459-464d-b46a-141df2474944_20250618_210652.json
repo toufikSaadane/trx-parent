@@ -1,0 +1,38 @@
+{
+  "transactionId" : "d9647edd-a459-464d-b46a-141df2474944",
+  "transaction" : {
+    "transactionId" : "d9647edd-a459-464d-b46a-141df2474944",
+    "fromAccount" : "531322824605",
+    "toAccount" : "706452476342",
+    "amount" : 5000,
+    "currency" : "USD",
+    "fromBankSwift" : "CHASUS33",
+    "toBankSwift" : "SBERRUMM",
+    "fromBankName" : "JPMorgan Chase Bank",
+    "toBankName" : "Sberbank",
+    "timestamp" : "2025-06-18T19:38:56.803026",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "RU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d9647edd-a459-464d-b46a-141df2474944",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "d8e4daa2-1416-4c49-8c89-d6c171799fea",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 5000 follows suspicious round pattern",
+      "timestamp" : "2025-06-18T21:06:52.4998",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T21:06:52.499818",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T21:06:52.500745"
+}

@@ -1,0 +1,34 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-18T22:10:44.200450
+// Transaction ID: 92f59b19-1b2e-4d21-b0fd-8f3f56e1b2c3
+// Amount: 4696.71 USD
+// From: Wells Fargo Bank
+// To: ABN AMRO Bank N.V.
+// FRAUD STATUS: NORMAL
+// Risk Score: 0/100
+// Risk Level: LOW
+//=====================================
+
+{1:F01WFBIUS6SXXX0}{2:I103ABNANL2AXXX0N}{3:{108:92f59b19-1b2e-4d}}
+{4:
+:20:92f59b19-1b2e-4d
+:23B:CRED
+:32A:250618USD4696,71
+:33B:USD4696,71
+:71A:SHA
+:50K:/5520702521
+Wells Fargo Bank
+321 Financial District
+New York, United States
+:52A:WFBIUS6SXXX
+:53B:/WFBIUS6SXXX
+:56A:INGBNL2AXXX
+:57A:ABNANL2A
+:59:/NL0730002690712228
+ABN AMRO Bank N.V.
+789 Commercial Blvd
+Amsterdam, Netherlands
+:70:Payment for services - TXN ID: 92f59b19 - Cross-border transfer
+:72:/INS/WFBIUS6SXXX
+}
+{5:{MAC:F8D400C8}{CHK:780D4ED60FAE}}

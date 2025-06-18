@@ -1,0 +1,30 @@
+{
+  "transactionId" : "ed27c2dc-ad9e-4b3e-a90b-ab6c445d2352",
+  "transaction" : {
+    "transactionId" : "ed27c2dc-ad9e-4b3e-a90b-ab6c445d2352",
+    "fromAccount" : "658207044365",
+    "toAccount" : "1159878848",
+    "amount" : 10870.19,
+    "currency" : "AUD",
+    "fromBankSwift" : "BKCHAU2S",
+    "toBankSwift" : "BARCGB22",
+    "fromBankName" : "Bank of China (Australia) Limited",
+    "toBankName" : "Barclays Bank PLC",
+    "timestamp" : "2025-06-18T22:08:49.632411",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "GB08204545000826663225",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ed27c2dc-ad9e-4b3e-a90b-ab6c445d2352",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T22:10:44.373727",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T22:10:44.374226"
+}

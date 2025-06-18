@@ -1,0 +1,116 @@
+#services:
+#  kafka:
+#    image: confluentinc/cp-kafka:7.4.0
+#    hostname: kafka
+#    container_name: kafka
+#    ports:
+#      - "9092:9092"
+#    user: root
+#    environment:
+#      KAFKA_BROKER_ID: 1
+#      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT,CONTROLLER:PLAINTEXT
+#      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
+#      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+#      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+#      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+#      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+#      KAFKA_AUTO_CREATE_TOPICS_ENABLE: 'false'
+#      KAFKA_PROCESS_ROLES: 'broker,controller'
+#      KAFKA_NODE_ID: 1
+#      KAFKA_CONTROLLER_QUORUM_VOTERS: '1@kafka:29093'
+#      KAFKA_LISTENERS: 'PLAINTEXT://kafka:29092,CONTROLLER://kafka:29093,PLAINTEXT_HOST://0.0.0.0:9092'
+#      KAFKA_INTER_BROKER_LISTENER_NAME: 'PLAINTEXT'
+#      KAFKA_CONTROLLER_LISTENER_NAMES: 'CONTROLLER'
+#      KAFKA_LOG_DIRS: '/var/lib/kafka/data'
+#      CLUSTER_ID: '4L6g3nShT-eMCtK--X86sw'
+#    volumes:
+#      - kafka-data:/var/lib/kafka/data
+#    restart: unless-stopped
+#    healthcheck:
+#      test: kafka-topics --bootstrap-server kafka:29092 --list
+#      interval: 30s
+#      timeout: 10s
+#      retries: 3
+#      start_period: 120s
+#
+#  kafka-ui:
+#    image: provectuslabs/kafka-ui:latest
+#    container_name: kafka-ui
+#    depends_on:
+#      kafka:
+#        condition: service_healthy
+#    ports:
+#      - "8080:8080"
+#    environment:
+#      KAFKA_CLUSTERS_0_NAME: local
+#      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:29092
+#    restart: unless-stopped
+#
+#  kafka-setup:
+#    image: confluentinc/cp-kafka:7.4.0
+#    container_name: kafka-setup
+#    depends_on:
+#      kafka:
+#        condition: service_healthy
+#    command: |
+#      bash -c '
+#        echo "🔍 Listing existing topics..."
+#        kafka-topics --bootstrap-server kafka:29092 --list
+#
+#        echo "🗑️ Deleting existing topics..."
+#        topics=$(kafka-topics --bootstrap-server kafka:29092 --list | grep -v "^$")
+#        for topic in $topics; do
+#          echo "Deleting topic: $topic"
+#          kafka-topics --bootstrap-server kafka:29092 --delete --topic "$topic" || true
+#        done
+#
+#        echo "⏳ Waiting for cleanup..."
+#        sleep 3
+#
+#        echo "✨ Creating new topics..."
+#        kafka-topics --create --if-not-exists --bootstrap-server kafka:29092 --partitions 3 --replication-factor 1 --topic transaction_generator
+#        kafka-topics --create --if-not-exists --bootstrap-server kafka:29092 --partitions 3 --replication-factor 1 --topic transaction_alert
+#
+#        echo "📋 Final topic list:"
+#        kafka-topics --list --bootstrap-server kafka:29092
+#        echo "✅ Setup complete!"
+#      '
+#
+#  mongodb:
+#    image: mongo:7.0
+#    container_name: mongodb
+#    ports:
+#      - "27017:27017"
+#    environment:
+#      MONGO_INITDB_ROOT_USERNAME: admin
+#      MONGO_INITDB_ROOT_PASSWORD: password123
+#      MONGO_INITDB_DATABASE: transactions
+#    volumes:
+#      - mongodb-data:/data/db
+#      - ./mongo-init:/docker-entrypoint-initdb.d:ro
+#    restart: unless-stopped
+#    healthcheck:
+#      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/test --quiet
+#      interval: 30s
+#      timeout: 10s
+#      retries: 3
+#      start_period: 40s
+#
+#  mongo-express:
+#    image: mongo-express:1.0.2
+#    container_name: mongo-express
+#    depends_on:
+#      mongodb:
+#        condition: service_healthy
+#    ports:
+#      - "8081:8081"
+#    environment:
+#      ME_CONFIG_MONGODB_ADMINUSERNAME: admin
+#      ME_CONFIG_MONGODB_ADMINPASSWORD: password123
+#      ME_CONFIG_MONGODB_URL: mongodb://admin:password123@mongodb:27017/
+#      ME_CONFIG_BASICAUTH: false
+#    restart: unless-stopped
+#
+#volumes:
+#  kafka-data:
+#  mongodb-data:

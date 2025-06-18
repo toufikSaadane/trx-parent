@@ -1,0 +1,38 @@
+{
+  "transactionId" : "639de5e3-8175-4096-b4ba-1bdb9cc3494f",
+  "transaction" : {
+    "transactionId" : "639de5e3-8175-4096-b4ba-1bdb9cc3494f",
+    "fromAccount" : "211024124996",
+    "toAccount" : "1888462684",
+    "amount" : 76040.57,
+    "currency" : "CNY",
+    "fromBankSwift" : "BKCHCNBJ",
+    "toBankSwift" : "GTBINGLA",
+    "fromBankName" : "Bank of China",
+    "toBankName" : "Guaranty Trust Bank PLC",
+    "timestamp" : "2025-06-18T21:03:10.070305",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CN",
+    "toCountryCode" : "NG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "639de5e3-8175-4096-b4ba-1bdb9cc3494f",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "8923c9aa-38f1-4448-8897-efeccb484711",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 76040.57 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-18T22:10:44.363504",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T22:10:44.363512",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T22:10:44.364052"
+}

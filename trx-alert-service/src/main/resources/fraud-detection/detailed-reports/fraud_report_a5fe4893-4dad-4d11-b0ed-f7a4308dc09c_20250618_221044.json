@@ -1,0 +1,38 @@
+{
+  "transactionId" : "a5fe4893-4dad-4d11-b0ed-f7a4308dc09c",
+  "transaction" : {
+    "transactionId" : "a5fe4893-4dad-4d11-b0ed-f7a4308dc09c",
+    "fromAccount" : "827875986628",
+    "toAccount" : "0039200136",
+    "amount" : 9301.76,
+    "currency" : "SYP",
+    "fromBankSwift" : "CBSYSYMM",
+    "toBankSwift" : "KREDBEBB",
+    "fromBankName" : "Central Bank of Syria",
+    "toBankName" : "KBC Bank N.V.",
+    "timestamp" : "2025-06-18T21:03:10.072767",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "BE66733000166728",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "BE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a5fe4893-4dad-4d11-b0ed-f7a4308dc09c",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "309e466f-1fa0-43d0-bf50-85ffd19830ab",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: BE",
+      "timestamp" : "2025-06-18T22:10:44.294522",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T22:10:44.294535",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T22:10:44.299753"
+}

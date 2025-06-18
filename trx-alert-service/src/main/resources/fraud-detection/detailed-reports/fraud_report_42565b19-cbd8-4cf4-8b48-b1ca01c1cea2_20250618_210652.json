@@ -1,0 +1,38 @@
+{
+  "transactionId" : "42565b19-cbd8-4cf4-8b48-b1ca01c1cea2",
+  "transaction" : {
+    "transactionId" : "42565b19-cbd8-4cf4-8b48-b1ca01c1cea2",
+    "fromAccount" : "4107763171",
+    "toAccount" : "175222428257",
+    "amount" : 100.33,
+    "currency" : "MXN",
+    "fromBankSwift" : "BAMXMXMM",
+    "toBankSwift" : "INGBNL2A",
+    "fromBankName" : "Banco Azteca",
+    "toBankName" : "ING Bank",
+    "timestamp" : "2025-06-18T21:02:40.067006",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "NL4520000113357539",
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "42565b19-cbd8-4cf4-8b48-b1ca01c1cea2",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "b2625623-b6e5-4d22-922a-dd5247a1cec8",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 100.33 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T21:06:52.47622",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T21:06:52.476241",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T21:06:52.476767"
+}

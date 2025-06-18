@@ -1,0 +1,46 @@
+{
+  "transactionId" : "f4b303ce-c469-4dd5-9de2-094e18c95bd7",
+  "transaction" : {
+    "transactionId" : "f4b303ce-c469-4dd5-9de2-094e18c95bd7",
+    "fromAccount" : "843147731905",
+    "toAccount" : "117803154159",
+    "amount" : 5000,
+    "currency" : "SYP",
+    "fromBankSwift" : "ARABSYMMXXX",
+    "toBankSwift" : "MELLATIR",
+    "fromBankName" : "Arab Bank Syria",
+    "toBankName" : "Bank Mellat",
+    "timestamp" : "2025-06-18T22:08:19.625468",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f4b303ce-c469-4dd5-9de2-094e18c95bd7",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "c7cf58f1-6053-4f5e-8286-128cf674714d",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: IR",
+      "timestamp" : "2025-06-18T22:10:44.198859",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "ca174766-0169-46f1-ae70-054c34f13394",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 5000 follows suspicious round pattern",
+      "timestamp" : "2025-06-18T22:10:44.198925",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T22:10:44.198939",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T22:10:44.199417"
+}

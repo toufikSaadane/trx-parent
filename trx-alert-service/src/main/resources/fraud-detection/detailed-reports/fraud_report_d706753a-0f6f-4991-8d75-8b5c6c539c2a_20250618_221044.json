@@ -1,0 +1,38 @@
+{
+  "transactionId" : "d706753a-0f6f-4991-8d75-8b5c6c539c2a",
+  "transaction" : {
+    "transactionId" : "d706753a-0f6f-4991-8d75-8b5c6c539c2a",
+    "fromAccount" : "260264332804",
+    "toAccount" : "509533832700",
+    "amount" : 968.18,
+    "currency" : "SGD",
+    "fromBankSwift" : "DBSBSGSG",
+    "toBankSwift" : "ITMRITMM",
+    "fromBankName" : "DBS Bank",
+    "toBankName" : "Intesa Sanpaolo S.p.A.",
+    "timestamp" : "2025-06-18T19:38:51.803229",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "IT7903069000000000928860887",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "IT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d706753a-0f6f-4991-8d75-8b5c6c539c2a",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "efe65334-c76d-4b15-ad9b-28b4f949cc66",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 968.18 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T22:10:44.178866",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T22:10:44.178884",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T22:10:44.179411"
+}

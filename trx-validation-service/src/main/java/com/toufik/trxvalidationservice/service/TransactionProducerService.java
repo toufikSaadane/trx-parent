@@ -7,58 +7,150 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.atomic.AtomicLong;
 
-@Service
 @Slf4j
+@Service
 public class TransactionProducerService {
 
     private static final String TOPIC = "transaction_alert";
+    private static final DateTimeFormatter TIMESTAMP_FORMATTER =
+            DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS");
 
     @Autowired
     private KafkaTemplate<String, TransactionWithMT103Event> kafkaTemplate;
 
-    public void sendTransactionAlert(TransactionWithMT103Event transactionWithMT103Event) {
+    private final AtomicLong sentCount = new AtomicLong(0);
+    private final AtomicLong successCount = new AtomicLong(0);
+    private final AtomicLong failureCount = new AtomicLong(0);
+
+    public void sendTransactionAlert(TransactionWithMT103Event event) {
+        String transactionId = event.getTransaction().getTransactionId();
+        long currentSent = sentCount.incrementAndGet();
+
+        log.info("🚀 Sending transaction alert #{} for ID: {}", currentSent, transactionId);
+        log.info("   📤 Target Topic: {}", TOPIC);
+        log.info("   ⏰ Send Time: {}", LocalDateTime.now().format(TIMESTAMP_FORMATTER));
+
         try {
-
-            log.info("======================= PRODUCING TRANSACTION =============================");
-            log.info("Kafka Message Details:");
-            log.info("Transaction Details:");
-            log.info("  Transaction ID: {}", transactionWithMT103Event.getTransaction().getTransactionId());
-            log.info("  From Account: {}", transactionWithMT103Event.getTransaction().getFromAccount());
-            log.info("  To Account: {}", transactionWithMT103Event.getTransaction().getToAccount());
-            log.info("  Amount: {} {}",
-                    transactionWithMT103Event.getTransaction().getAmount(),
-                    transactionWithMT103Event.getTransaction().getCurrency());
-            log.info("  From Bank: {}", transactionWithMT103Event.getTransaction().getFromBankName());
-            log.info("  To Bank: {}", transactionWithMT103Event.getTransaction().getToBankName());
-            log.info("  Status: {}", transactionWithMT103Event.getTransaction().getStatus());
-            log.info("  Timestamp: {}", transactionWithMT103Event.getTransaction().getTimestamp());
-
-            log.info("MT103 Content Preview:");
-
-            String key = transactionWithMT103Event.getTransaction().getTransactionId();
-
-            log.info("Sending transaction alert to topic '{}' with key '{}'", TOPIC, key);
+            // Validate event before sending
+            validateEvent(event);
 
             CompletableFuture<SendResult<String, TransactionWithMT103Event>> future =
-                    kafkaTemplate.send(TOPIC, key, transactionWithMT103Event);
+                    kafkaTemplate.send(TOPIC, transactionId, event);
 
             future.whenComplete((result, ex) -> {
                 if (ex == null) {
-                    log.info("Successfully sent transaction alert for transaction '{}' with offset=[{}]",
-                            key, result.getRecordMetadata().offset());
+                    handleSendSuccess(result, transactionId);
                 } else {
-                    log.error("Failed to send transaction alert for transaction '{}': {}",
-                            key, ex.getMessage(), ex);
+                    handleSendFailure(ex, transactionId);
                 }
             });
 
         } catch (Exception e) {
-            log.error("Error sending transaction alert for transaction '{}': {}",
-                    transactionWithMT103Event.getTransaction().getTransactionId(),
-                    e.getMessage(), e);
-            throw new RuntimeException("Failed to send transaction alert", e);
+            log.error("❌ Exception during send operation for transaction {}: {}",
+                    transactionId, e.getMessage(), e);
+            failureCount.incrementAndGet();
+            throw new RuntimeException("Kafka send failure for transaction: " + transactionId, e);
         }
+    }
+
+    private void validateEvent(TransactionWithMT103Event event) {
+        if (event == null) {
+            throw new IllegalArgumentException("Event cannot be null");
+        }
+
+        if (event.getTransaction() == null) {
+            throw new IllegalArgumentException("Transaction cannot be null");
+        }
+
+        if (event.getTransaction().getTransactionId() == null ||
+                event.getTransaction().getTransactionId().trim().isEmpty()) {
+            throw new IllegalArgumentException("Transaction ID cannot be null or empty");
+        }
+
+        if (event.getMt103Content() == null || event.getMt103Content().trim().isEmpty()) {
+            log.warn("⚠️ MT103 content is null or empty for transaction: {}",
+                    event.getTransaction().getTransactionId());
+        }
+    }
+
+    private void handleSendSuccess(SendResult<String, TransactionWithMT103Event> result,
+                                   String transactionId) {
+        long currentSuccess = successCount.incrementAndGet();
+        var metadata = result.getRecordMetadata();
+
+        log.info("✅ Transaction {} sent successfully", transactionId);
+        log.info("   📊 Success #{} - Partition: {}, Offset: {}",
+                currentSuccess, metadata.partition(), metadata.offset());
+        log.info("   📏 Message size: {} bytes", metadata.serializedValueSize());
+        log.info("   ⏱️ Timestamp: {}",
+                LocalDateTime.ofEpochSecond(metadata.timestamp() / 1000, 0,
+                        java.time.ZoneOffset.UTC).format(TIMESTAMP_FORMATTER));
+
+        logStatistics();
+    }
+
+    private void handleSendFailure(Throwable ex, String transactionId) {
+        long currentFailure = failureCount.incrementAndGet();
+
+        log.error("❌ Failed to send transaction {} (Failure #{})", transactionId, currentFailure);
+        log.error("   💥 Error: {}", ex.getMessage());
+        log.error("   🔍 Error Type: {}", ex.getClass().getSimpleName());
+
+        // Log additional details for specific exception types
+        if (ex instanceof org.apache.kafka.common.errors.TimeoutException) {
+            log.error("   ⏱️ Timeout occurred - check broker connectivity");
+        } else if (ex instanceof org.apache.kafka.common.errors.NotLeaderForPartitionException) {
+            log.error("   🔄 Leadership change detected - retry may succeed");
+        } else if (ex instanceof org.apache.kafka.common.errors.RecordTooLargeException) {
+            log.error("   📏 Message too large - check message size limits");
+        }
+
+        logStatistics();
+    }
+
+    private void logStatistics() {
+        long sent = sentCount.get();
+        long success = successCount.get();
+        long failure = failureCount.get();
+
+        if (sent % 10 == 0) { // Log stats every 10 sends
+            double successRate = sent > 0 ? (double) success / sent * 100 : 0.0;
+            double failureRate = sent > 0 ? (double) failure / sent * 100 : 0.0;
+
+            log.info("📈 PRODUCER STATISTICS:");
+            log.info("   Total Sent: {}", sent);
+            log.info("   Successful: {} ({:.1f}%)", success, successRate);
+            log.info("   Failed: {} ({:.1f}%)", failure, failureRate);
+            log.info("   ═══════════════════════════");
+        }
+    }
+
+    /**
+     * Get current producer statistics
+     * @return Statistics summary
+     */
+    public String getStatistics() {
+        long sent = sentCount.get();
+        long success = successCount.get();
+        long failure = failureCount.get();
+        double successRate = sent > 0 ? (double) success / sent * 100 : 0.0;
+
+        return String.format("Producer Stats - Sent: %d, Success: %d (%.1f%%), Failed: %d",
+                sent, success, successRate, failure);
+    }
+
+    /**
+     * Reset statistics counters
+     */
+    public void resetStatistics() {
+        sentCount.set(0);
+        successCount.set(0);
+        failureCount.set(0);
+        log.info("📊 Producer statistics reset");
     }
 }

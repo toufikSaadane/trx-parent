@@ -40,15 +40,11 @@
             <artifactId>jackson-datatype-jsr310</artifactId>
         </dependency>
 
-        <!-- Prowide SWIFT Core -->
         <dependency>
             <groupId>com.prowidesoftware</groupId>
             <artifactId>pw-swift-core</artifactId>
             <version>SRU2024-10.2.7</version>
         </dependency>
-
-
-        <!-- Lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

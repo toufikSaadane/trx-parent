@@ -1,0 +1,30 @@
+{
+  "transactionId" : "8400229a-3fa0-4aa3-af09-db5a50f3dc2d",
+  "transaction" : {
+    "transactionId" : "8400229a-3fa0-4aa3-af09-db5a50f3dc2d",
+    "fromAccount" : "382061225178",
+    "toAccount" : "785545202212",
+    "amount" : 3092.41,
+    "currency" : "GBP",
+    "fromBankSwift" : "BARCGB22",
+    "toBankSwift" : "NOSCCATT",
+    "fromBankName" : "Barclays Bank PLC",
+    "toBankName" : "Scotiabank",
+    "timestamp" : "2025-06-18T19:38:37.177229",
+    "status" : "PENDING",
+    "fromIBAN" : "GB29204545000011239525",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8400229a-3fa0-4aa3-af09-db5a50f3dc2d",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T22:10:44.177958",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T22:10:44.17849"
+}

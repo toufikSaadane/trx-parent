@@ -1,0 +1,38 @@
+{
+  "transactionId" : "8be9a68a-5ba1-4922-b163-6166a86763fa",
+  "transaction" : {
+    "transactionId" : "8be9a68a-5ba1-4922-b163-6166a86763fa",
+    "fromAccount" : "397058395895",
+    "toAccount" : "671957608183",
+    "amount" : 60680.52,
+    "currency" : "USD",
+    "fromBankSwift" : "BNPAFRPP",
+    "toBankSwift" : "CHASUS33",
+    "fromBankName" : "BNP Paribas",
+    "toBankName" : "Chase Bank",
+    "timestamp" : "2025-06-18T22:06:22.145458",
+    "status" : "PROCESSING",
+    "fromIBAN" : "FR3630004000000001714057607",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "FR",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "8be9a68a-5ba1-4922-b163-6166a86763fa",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "d325ca0d-b78f-4e59-86ae-94a613a0d769",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 60680.52 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-18T22:10:44.37122",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T22:10:44.371231",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T22:10:44.371622"
+}

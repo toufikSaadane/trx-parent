@@ -1,0 +1,38 @@
+{
+  "transactionId" : "e59065de-5eed-4d18-8511-1c76b98dc1c9",
+  "transaction" : {
+    "transactionId" : "e59065de-5eed-4d18-8511-1c76b98dc1c9",
+    "fromAccount" : "847170371806",
+    "toAccount" : "653016673854",
+    "amount" : 404.95,
+    "currency" : "MXN",
+    "fromBankSwift" : "BAMXMXMM",
+    "toBankSwift" : "UBSWCHZH",
+    "fromBankName" : "Banco Azteca",
+    "toBankName" : "UBS Group AG",
+    "timestamp" : "2025-06-18T21:03:40.064116",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "CH6824400001412897222",
+    "fromCountryCode" : "MX",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e59065de-5eed-4d18-8511-1c76b98dc1c9",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "92f7e53e-17fc-4b04-8f74-38a5bec5b729",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 404.95 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T22:10:44.300779",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T22:10:44.300788",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T22:10:44.301149"
+}

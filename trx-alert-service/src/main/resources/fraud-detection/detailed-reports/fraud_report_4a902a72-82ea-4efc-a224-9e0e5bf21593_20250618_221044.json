@@ -1,0 +1,38 @@
+{
+  "transactionId" : "4a902a72-82ea-4efc-a224-9e0e5bf21593",
+  "transaction" : {
+    "transactionId" : "4a902a72-82ea-4efc-a224-9e0e5bf21593",
+    "fromAccount" : "7750271501",
+    "toAccount" : "464130140882",
+    "amount" : 908.94,
+    "currency" : "CAD",
+    "fromBankSwift" : "ROYCCAT2",
+    "toBankSwift" : "SCOTMXMM",
+    "fromBankName" : "Royal Bank of Canada",
+    "toBankName" : "Scotiabank Mexico",
+    "timestamp" : "2025-06-18T22:08:39.629054",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "MX"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "4a902a72-82ea-4efc-a224-9e0e5bf21593",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "eabb3cc1-ee37-4c3b-8b93-c1110a964f85",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 908.94 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T22:10:44.304462",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T22:10:44.304471",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T22:10:44.304869"
+}

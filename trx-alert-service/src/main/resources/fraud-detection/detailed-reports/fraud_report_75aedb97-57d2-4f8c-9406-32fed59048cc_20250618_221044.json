@@ -1,0 +1,38 @@
+{
+  "transactionId" : "75aedb97-57d2-4f8c-9406-32fed59048cc",
+  "transaction" : {
+    "transactionId" : "75aedb97-57d2-4f8c-9406-32fed59048cc",
+    "fromAccount" : "0843558354",
+    "toAccount" : "6605494372",
+    "amount" : 64307.35,
+    "currency" : "CAD",
+    "fromBankSwift" : "BOFMCAM2",
+    "toBankSwift" : "KREDBEBB",
+    "fromBankName" : "Bank of Montreal",
+    "toBankName" : "KBC Bank N.V.",
+    "timestamp" : "2025-06-18T21:03:00.068487",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "BE97733000526428",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "BE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "75aedb97-57d2-4f8c-9406-32fed59048cc",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "f5a2f37f-a5cf-47a3-b2d8-8a0e44c4fbc6",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 64307.35 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-18T22:10:44.293916",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T22:10:44.293924",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T22:10:44.294282"
+}

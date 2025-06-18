@@ -1,0 +1,38 @@
+{
+  "transactionId" : "1ee09990-365a-4b84-a41f-9896bc50bbe8",
+  "transaction" : {
+    "transactionId" : "1ee09990-365a-4b84-a41f-9896bc50bbe8",
+    "fromAccount" : "616148305499",
+    "toAccount" : "239829112547",
+    "amount" : 85530.25,
+    "currency" : "SGD",
+    "fromBankSwift" : "OCBCSGSG",
+    "toBankSwift" : "NEDSZAJJ",
+    "fromBankName" : "OCBC Bank",
+    "toBankName" : "Nedbank",
+    "timestamp" : "2025-06-18T21:02:40.435262",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "ZA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1ee09990-365a-4b84-a41f-9896bc50bbe8",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "03f0bac9-6d85-4d64-9abd-b4bcff2b2113",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 85530.25 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-18T22:10:44.182006",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T22:10:44.182029",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T22:10:44.183606"
+}

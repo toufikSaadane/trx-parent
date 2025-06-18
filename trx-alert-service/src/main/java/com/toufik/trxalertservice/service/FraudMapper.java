@@ -27,7 +27,6 @@ public class FraudMapper {
                 .toCountryCode(transaction.getToCountryCode())
                 .timestamp(transaction.getTimestamp())
                 .status(transaction.getStatus())
-//                .remittanceInfo(transaction.getRemittanceInfo())
                 .isFraudulent(fraudResult.isFraudulent())
                 .riskScore(fraudResult.getRiskScore())
                 .riskLevel(fraudResult.getRiskLevel())

@@ -1,0 +1,46 @@
+{
+  "transactionId" : "59024d4d-5938-4c76-aa77-a7b85ee39f4c",
+  "transaction" : {
+    "transactionId" : "59024d4d-5938-4c76-aa77-a7b85ee39f4c",
+    "fromAccount" : "447402226646",
+    "toAccount" : "209717111603",
+    "amount" : 65561.4,
+    "currency" : "MMK",
+    "fromBankSwift" : "AYABMMMY",
+    "toBankSwift" : "CIBKCNBJ",
+    "fromBankName" : "Ayeyarwady Bank",
+    "toBankName" : "China CITIC Bank",
+    "timestamp" : "2025-06-18T21:04:00.066113",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "MM",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "59024d4d-5938-4c76-aa77-a7b85ee39f4c",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "039f1f2f-144d-414e-8d99-0fec5e90a098",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: MM, To: CN",
+      "timestamp" : "2025-06-18T21:06:52.480924",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "38e4ed9d-2017-4fd2-befe-b043956788f8",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 65561.4 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-18T21:06:52.480968",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T21:06:52.481",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T21:06:52.481627"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "6376c0d2-c0fb-432b-bf3f-fa4b760f3093",
+  "transaction" : {
+    "transactionId" : "6376c0d2-c0fb-432b-bf3f-fa4b760f3093",
+    "fromAccount" : "221237678292",
+    "toAccount" : "679013522540",
+    "amount" : 21457.17,
+    "currency" : "EUR",
+    "fromBankSwift" : "DEUTDEFF",
+    "toBankSwift" : "ABNANL2A",
+    "fromBankName" : "Deutsche Bank",
+    "toBankName" : "ABN AMRO",
+    "timestamp" : "2025-06-18T21:15:55.406457",
+    "status" : "PROCESSING",
+    "fromIBAN" : "DE53123456781151128423",
+    "toIBAN" : "NL4251701760909738",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6376c0d2-c0fb-432b-bf3f-fa4b760f3093",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "a0fe5fb4-271c-4067-a48c-0f1eb70b73cb",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 21457.17 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-18T22:10:44.193211",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T22:10:44.193272",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T22:10:44.194478"
+}

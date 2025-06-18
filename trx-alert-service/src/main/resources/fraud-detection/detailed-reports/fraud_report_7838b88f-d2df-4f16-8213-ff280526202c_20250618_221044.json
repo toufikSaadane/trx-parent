@@ -1,0 +1,46 @@
+{
+  "transactionId" : "7838b88f-d2df-4f16-8213-ff280526202c",
+  "transaction" : {
+    "transactionId" : "7838b88f-d2df-4f16-8213-ff280526202c",
+    "fromAccount" : "725232778034",
+    "toAccount" : "887187006580",
+    "amount" : 5000,
+    "currency" : "BEL",
+    "fromBankSwift" : "KREDBEBB",
+    "toBankSwift" : "KESHAVIRZIR",
+    "fromBankName" : "KBC Bank N.V.",
+    "toBankName" : "Bank Keshavarzi",
+    "timestamp" : "2025-06-18T21:03:30.063464",
+    "status" : "PENDING",
+    "fromIBAN" : "BE09733000692912",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "BE",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "7838b88f-d2df-4f16-8213-ff280526202c",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "57a025bd-edac-44df-a3ba-047761f6a388",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: BE, To: IR",
+      "timestamp" : "2025-06-18T22:10:44.366401",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "0d04ae28-e802-4fbe-8929-f8d6c428ac91",
+      "fraudType" : "ROUND_AMOUNT_PATTERN",
+      "description" : "Round Amount Pattern",
+      "severity" : 4,
+      "details" : "Transaction amount 5000 follows suspicious round pattern",
+      "timestamp" : "2025-06-18T22:10:44.366435",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T22:10:44.366443",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T22:10:44.366816"
+}
