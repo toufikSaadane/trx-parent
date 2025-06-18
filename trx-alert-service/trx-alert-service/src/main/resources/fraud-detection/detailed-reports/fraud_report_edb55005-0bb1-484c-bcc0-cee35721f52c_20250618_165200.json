@@ -1,0 +1,46 @@
+{
+  "transactionId" : "edb55005-0bb1-484c-bcc0-cee35721f52c",
+  "transaction" : {
+    "transactionId" : "edb55005-0bb1-484c-bcc0-cee35721f52c",
+    "fromAccount" : "801625630825",
+    "toAccount" : "104064550275",
+    "amount" : 71266.72,
+    "currency" : "SYP",
+    "fromBankSwift" : "CBSYSYMM",
+    "toBankSwift" : "UBSWCHZH",
+    "fromBankName" : "Central Bank of Syria",
+    "toBankName" : "UBS Group AG",
+    "timestamp" : "2025-06-18T07:43:52.741546",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "CH6024400000715669223",
+    "fromCountryCode" : "SY",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "edb55005-0bb1-484c-bcc0-cee35721f52c",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "445eb6f0-bc34-4bf7-9202-dc6fe361e3ab",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: SY, To: CH",
+      "timestamp" : "2025-06-18T16:52:00.167891",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "e8396c59-4163-48d3-8ebf-c8581895f51f",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 71266.72 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-18T16:52:00.167983",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.168016",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.168736"
+}

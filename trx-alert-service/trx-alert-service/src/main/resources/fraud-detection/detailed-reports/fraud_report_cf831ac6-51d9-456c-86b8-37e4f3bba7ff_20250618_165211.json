@@ -1,0 +1,46 @@
+{
+  "transactionId" : "cf831ac6-51d9-456c-86b8-37e4f3bba7ff",
+  "transaction" : {
+    "transactionId" : "cf831ac6-51d9-456c-86b8-37e4f3bba7ff",
+    "fromAccount" : "852278054696",
+    "toAccount" : "498614032637",
+    "amount" : 904.38,
+    "currency" : "CHF",
+    "fromBankSwift" : "CRESCHZZ",
+    "toBankSwift" : "MELIIRTH",
+    "fromBankName" : "Credit Suisse",
+    "toBankName" : "Bank Melli Iran",
+    "timestamp" : "2025-06-18T16:52:10.826968",
+    "status" : "PROCESSING",
+    "fromIBAN" : "CH6948350001721008066",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "IR"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "cf831ac6-51d9-456c-86b8-37e4f3bba7ff",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "f44d9fa0-7436-499a-b134-5723d4fdfcee",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CH, To: IR",
+      "timestamp" : "2025-06-18T16:52:11.208212",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "c2e95c5d-7b15-4563-ad76-ef683dc8958f",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 904.38 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T16:52:11.208462",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:11.208764",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:11.212438"
+}

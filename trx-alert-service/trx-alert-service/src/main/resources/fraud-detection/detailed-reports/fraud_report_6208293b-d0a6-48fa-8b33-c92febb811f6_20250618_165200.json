@@ -1,0 +1,38 @@
+{
+  "transactionId" : "6208293b-d0a6-48fa-8b33-c92febb811f6",
+  "transaction" : {
+    "transactionId" : "6208293b-d0a6-48fa-8b33-c92febb811f6",
+    "fromAccount" : "7204518697",
+    "toAccount" : "261559942624",
+    "amount" : 15163.43,
+    "currency" : "EUR",
+    "fromBankSwift" : "ITMRITMM",
+    "toBankSwift" : "SBZAZAJJ",
+    "fromBankName" : "Intesa Sanpaolo S.p.A.",
+    "toBankName" : "Standard Bank of South Africa",
+    "timestamp" : "2025-06-18T07:42:52.738793",
+    "status" : "PENDING",
+    "fromIBAN" : "IT3903069000000000123670039",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IT",
+    "toCountryCode" : "ZA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "6208293b-d0a6-48fa-8b33-c92febb811f6",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "f459a8e7-4108-4147-83ca-93edb5109ebd",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 15163.43 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-18T16:52:00.155745",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.155773",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.156628"
+}

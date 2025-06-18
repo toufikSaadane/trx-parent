@@ -1,0 +1,34 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-18T16:52:00.099329
+// Transaction ID: 3dc7a6f6-b6ed-4497-807b-6c017e413569
+// Amount: 7726.98 GBP
+// From: Lloyds Bank
+// To: Banco Votorantim
+// FRAUD STATUS: NORMAL
+// Risk Score: 0/100
+// Risk Level: LOW
+//=====================================
+
+{1:F01LLOYGB2LXXX0}{2:I103CIBVBRSPXXX0N}{3:{108:3dc7a6f6-b6ed-44}}
+{4:
+:20:3dc7a6f6-b6ed-44
+:23B:CRED
+:32A:250618GBP7726,98
+:33B:GBP7726,98
+:71A:SHA
+:50K:/GB75300000001065329490
+Lloyds Bank
+321 Financial District
+London, United Kingdom
+:52A:LLOYGB2L
+:53B:/LLOYGB2L
+:56A:DEUTDEFFXXX
+:57A:CIBVBRSP
+:59:/BR30655000100001069280731
+Banco Votorantim
+321 Financial District
+São Paulo, Brazil
+:70:Payment for services - TXN ID: 3dc7a6f6 - Cross-border transfer
+:72:/INS/LLOYGB2L
+}
+{5:{MAC:6BC1A9E7}{CHK:10546538C3B7}}

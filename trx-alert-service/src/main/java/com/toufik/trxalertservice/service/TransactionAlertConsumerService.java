@@ -28,8 +28,11 @@ public class TransactionAlertConsumerService {
     }
 
     @KafkaListener(
-            topics = "transactions_alert",
-            groupId = "transaction-alert-group"
+            topics = "transaction_alert",
+            groupId = "transaction-alert-group",
+            properties = {
+                    "auto.offset.reset=latest"  // Force ignore old messages
+            }
     )
     public void consumeTransactionAlert(
             @Payload TransactionWithMT103Event transactionWithMT103Event,

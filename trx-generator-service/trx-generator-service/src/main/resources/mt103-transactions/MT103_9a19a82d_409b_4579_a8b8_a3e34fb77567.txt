@@ -1,0 +1,23 @@
+{1:F01KESHAVIRZIR0}{2:I103BOFAUS3NXXX0N}{3:{108:9a19a82d-409b-45}}
+{4:
+:20:9a19a82d-409b-45
+:23B:CRED
+:32A:250618USD94136,54
+:33B:USD94136,54
+:71A:SHA
+:50K:/923290482054
+Bank Keshavarzi
+456 Business Ave
+Financial District, Unknown Country
+:52A:KESHAVIRZIR
+:53B:/KESHAVIRZIR
+:56A:CHASUS33XXX
+:57A:BOFAUS3NXXX
+:59:/0006664640
+Bank of America N.A.
+987 Trade Plaza
+New York, United States
+:70:Payment for services - TXN ID: 9a19a82d - Cross-border transfer
+:72:/INS/KESHAVIRZIR
+}
+{5:{MAC:2F8D24C5}{CHK:36490752D3ED}}

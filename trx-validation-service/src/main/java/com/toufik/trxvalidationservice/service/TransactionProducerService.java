@@ -13,7 +13,7 @@ import java.util.concurrent.CompletableFuture;
 @Slf4j
 public class TransactionProducerService {
 
-    private static final String TOPIC = "transactions_alert";
+    private static final String TOPIC = "transaction_alert";
 
     @Autowired
     private KafkaTemplate<String, TransactionWithMT103Event> kafkaTemplate;

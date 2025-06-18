@@ -1,0 +1,38 @@
+{
+  "transactionId" : "3b226086-b179-4d07-962f-a5ff746182bb",
+  "transaction" : {
+    "transactionId" : "3b226086-b179-4d07-962f-a5ff746182bb",
+    "fromAccount" : "260260160990",
+    "toAccount" : "317402414106",
+    "amount" : 753.77,
+    "currency" : "TRY",
+    "fromBankSwift" : "BKTOTRIS",
+    "toBankSwift" : "INGBNL2A",
+    "fromBankName" : "Türkiye İş Bankası",
+    "toBankName" : "ING Bank",
+    "timestamp" : "2025-06-18T16:50:32.856732",
+    "status" : "PROCESSING",
+    "fromIBAN" : "TR526400000000000680881403",
+    "toIBAN" : "NL9220000863051651",
+    "fromCountryCode" : "TR",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3b226086-b179-4d07-962f-a5ff746182bb",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "9e7798d8-9520-46d8-a115-de9c4e266957",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 753.77 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T16:52:00.082506",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.08259",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.084265"
+}

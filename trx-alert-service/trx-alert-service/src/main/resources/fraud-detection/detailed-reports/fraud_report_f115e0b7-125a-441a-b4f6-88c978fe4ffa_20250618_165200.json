@@ -1,0 +1,38 @@
+{
+  "transactionId" : "f115e0b7-125a-441a-b4f6-88c978fe4ffa",
+  "transaction" : {
+    "transactionId" : "f115e0b7-125a-441a-b4f6-88c978fe4ffa",
+    "fromAccount" : "816962433169",
+    "toAccount" : "449110657825",
+    "amount" : 804.44,
+    "currency" : "AUD",
+    "fromBankSwift" : "ANZBAU3M",
+    "toBankSwift" : "DBSSSGSG",
+    "fromBankName" : "ANZ Banking Group",
+    "toBankName" : "DBS Bank",
+    "timestamp" : "2025-06-18T07:44:32.742315",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "AU",
+    "toCountryCode" : "SG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "f115e0b7-125a-441a-b4f6-88c978fe4ffa",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "0f4ed452-288c-4764-b3bc-e641a199740d",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 804.44 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T16:52:00.172101",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.172142",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.173112"
+}

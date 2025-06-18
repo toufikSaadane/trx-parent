@@ -1,0 +1,38 @@
+{
+  "transactionId" : "d4e4bfe3-d55b-44ed-9cb9-b2dc4e3c92b6",
+  "transaction" : {
+    "transactionId" : "d4e4bfe3-d55b-44ed-9cb9-b2dc4e3c92b6",
+    "fromAccount" : "069591962031",
+    "toAccount" : "962689593997",
+    "amount" : 280.65,
+    "currency" : "GBP",
+    "fromBankSwift" : "NWBKGB2L",
+    "toBankSwift" : "ROYCCAT2",
+    "fromBankName" : "NatWest Group",
+    "toBankName" : "Royal Bank of Canada",
+    "timestamp" : "2025-06-18T07:43:52.743602",
+    "status" : "PENDING",
+    "fromIBAN" : "GB04600000001785013133",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "GB",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "d4e4bfe3-d55b-44ed-9cb9-b2dc4e3c92b6",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "10500002-a019-4969-b483-dbb99dce474e",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 280.65 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T16:52:00.239183",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.239208",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.240091"
+}

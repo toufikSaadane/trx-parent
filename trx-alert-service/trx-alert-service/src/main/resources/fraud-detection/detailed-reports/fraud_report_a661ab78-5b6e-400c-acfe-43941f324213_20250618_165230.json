@@ -1,0 +1,30 @@
+{
+  "transactionId" : "a661ab78-5b6e-400c-acfe-43941f324213",
+  "transaction" : {
+    "transactionId" : "a661ab78-5b6e-400c-acfe-43941f324213",
+    "fromAccount" : "265316207295",
+    "toAccount" : "522169775145",
+    "amount" : 3101.89,
+    "currency" : "SGD",
+    "fromBankSwift" : "DBSSSGSG",
+    "toBankSwift" : "DEUTAU2S",
+    "fromBankName" : "DBS Bank",
+    "toBankName" : "Deutsche Bank AG",
+    "timestamp" : "2025-06-18T16:52:30.822667",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "AU"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a661ab78-5b6e-400c-acfe-43941f324213",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:30.839101",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:30.840042"
+}

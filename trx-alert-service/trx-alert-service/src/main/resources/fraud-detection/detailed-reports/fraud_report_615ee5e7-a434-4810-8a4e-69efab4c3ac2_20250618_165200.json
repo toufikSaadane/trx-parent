@@ -1,0 +1,46 @@
+{
+  "transactionId" : "615ee5e7-a434-4810-8a4e-69efab4c3ac2",
+  "transaction" : {
+    "transactionId" : "615ee5e7-a434-4810-8a4e-69efab4c3ac2",
+    "fromAccount" : "588507844394",
+    "toAccount" : "2781482789",
+    "amount" : 194.31,
+    "currency" : "AFN",
+    "fromBankSwift" : "GHBKAFKA",
+    "toBankSwift" : "COMMDEFF",
+    "fromBankName" : "Ghazanfar Bank",
+    "toBankName" : "Commerzbank AG",
+    "timestamp" : "2025-06-18T16:50:47.51562",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "DE04400800000968372728",
+    "fromCountryCode" : "AF",
+    "toCountryCode" : "DE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "615ee5e7-a434-4810-8a4e-69efab4c3ac2",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "b429b906-8a64-4ce0-b352-09a1f3ef1eae",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AF, To: DE",
+      "timestamp" : "2025-06-18T16:52:00.090138",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "151c47c7-26d2-458c-9adc-75f126b08590",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 194.31 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T16:52:00.090482",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.090526",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.091868"
+}

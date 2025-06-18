@@ -1,0 +1,30 @@
+{
+  "transactionId" : "ddecbbe2-dcdf-4347-8253-b05631c2b41f",
+  "transaction" : {
+    "transactionId" : "ddecbbe2-dcdf-4347-8253-b05631c2b41f",
+    "fromAccount" : "9451168047",
+    "toAccount" : "452744471911",
+    "amount" : 3926.12,
+    "currency" : "CAD",
+    "fromBankSwift" : "BMOCCAMT",
+    "toBankSwift" : "HSBCCNSH",
+    "fromBankName" : "Bank of Montreal",
+    "toBankName" : "HSBC Bank (China) Company Limited",
+    "timestamp" : "2025-06-18T07:44:32.737564",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "CN"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ddecbbe2-dcdf-4347-8253-b05631c2b41f",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.251608",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.252548"
+}

@@ -67,6 +67,17 @@
             <artifactId>spring-kafka-test</artifactId>
             <scope>test</scope>
         </dependency>
+            <!-- Spring Boot MongoDB Starter -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-mongodb</artifactId>
+            </dependency>
+
+            <!-- MongoDB Driver (included in starter, but explicit version if needed) -->
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>mongodb-driver-sync</artifactId>
+            </dependency>
     </dependencies>
 
     <build>

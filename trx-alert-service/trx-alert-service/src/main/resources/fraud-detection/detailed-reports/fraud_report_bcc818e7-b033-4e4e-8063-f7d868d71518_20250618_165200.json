@@ -1,0 +1,38 @@
+{
+  "transactionId" : "bcc818e7-b033-4e4e-8063-f7d868d71518",
+  "transaction" : {
+    "transactionId" : "bcc818e7-b033-4e4e-8063-f7d868d71518",
+    "fromAccount" : "804581041595",
+    "toAccount" : "715977429861",
+    "amount" : 81119.26,
+    "currency" : "INR",
+    "fromBankSwift" : "SBININBB",
+    "toBankSwift" : "CRESCHZZ",
+    "fromBankName" : "State Bank of India",
+    "toBankName" : "Credit Suisse",
+    "timestamp" : "2025-06-18T07:43:37.733916",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "CH8348350000942630538",
+    "fromCountryCode" : "IN",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "bcc818e7-b033-4e4e-8063-f7d868d71518",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "3ccc676c-07ef-4f84-82a9-cbf3c665de99",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 81119.26 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-18T16:52:00.050448",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.050581",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.052345"
+}

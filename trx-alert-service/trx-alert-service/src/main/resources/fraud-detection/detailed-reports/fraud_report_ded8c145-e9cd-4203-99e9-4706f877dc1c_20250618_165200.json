@@ -1,0 +1,30 @@
+{
+  "transactionId" : "ded8c145-e9cd-4203-99e9-4706f877dc1c",
+  "transaction" : {
+    "transactionId" : "ded8c145-e9cd-4203-99e9-4706f877dc1c",
+    "fromAccount" : "939050654846",
+    "toAccount" : "815408898550",
+    "amount" : 4534.63,
+    "currency" : "CAD",
+    "fromBankSwift" : "BOFMCAM2XXX",
+    "toBankSwift" : "ROYCCAT2",
+    "fromBankName" : "Bank of Montreal",
+    "toBankName" : "Royal Bank of Canada",
+    "timestamp" : "2025-06-18T07:43:32.742881",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ded8c145-e9cd-4203-99e9-4706f877dc1c",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.236044",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.236765"
+}

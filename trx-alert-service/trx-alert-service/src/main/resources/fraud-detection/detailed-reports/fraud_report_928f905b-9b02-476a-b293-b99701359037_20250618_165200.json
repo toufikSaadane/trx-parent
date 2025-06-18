@@ -1,0 +1,30 @@
+{
+  "transactionId" : "928f905b-9b02-476a-b293-b99701359037",
+  "transaction" : {
+    "transactionId" : "928f905b-9b02-476a-b293-b99701359037",
+    "fromAccount" : "775636430891",
+    "toAccount" : "190754433779",
+    "amount" : 4522.37,
+    "currency" : "YER",
+    "fromBankSwift" : "TADHYEMY",
+    "toBankSwift" : "DBSSSGSG",
+    "fromBankName" : "Tadhamon International Islamic Bank",
+    "toBankName" : "DBS Bank",
+    "timestamp" : "2025-06-18T07:44:12.737019",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "TADHYOYMY",
+    "toCountryCode" : "SG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "928f905b-9b02-476a-b293-b99701359037",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.248157",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.249055"
+}

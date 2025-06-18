@@ -1,0 +1,38 @@
+{
+  "transactionId" : "ed32d626-89a2-42bb-bcce-a1b3033e4ad9",
+  "transaction" : {
+    "transactionId" : "ed32d626-89a2-42bb-bcce-a1b3033e4ad9",
+    "fromAccount" : "6605677864",
+    "toAccount" : "2709339917",
+    "amount" : 462.61,
+    "currency" : "USD",
+    "fromBankSwift" : "WELLSFARG",
+    "toBankSwift" : "CITIUS33",
+    "fromBankName" : "Wells Fargo Bank",
+    "toBankName" : "Citibank N.A.",
+    "timestamp" : "2025-06-18T07:44:52.738076",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "ed32d626-89a2-42bb-bcce-a1b3033e4ad9",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "3e9b9230-062f-4845-8e74-1bebbae2c5aa",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 462.61 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T16:52:00.065415",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.065444",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.067231"
+}

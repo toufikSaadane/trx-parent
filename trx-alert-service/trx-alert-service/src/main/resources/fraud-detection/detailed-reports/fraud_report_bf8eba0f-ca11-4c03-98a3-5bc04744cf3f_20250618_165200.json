@@ -1,0 +1,46 @@
+{
+  "transactionId" : "bf8eba0f-ca11-4c03-98a3-5bc04744cf3f",
+  "transaction" : {
+    "transactionId" : "bf8eba0f-ca11-4c03-98a3-5bc04744cf3f",
+    "fromAccount" : "531054858609",
+    "toAccount" : "198995735476",
+    "amount" : 9999.99,
+    "currency" : "AFN",
+    "fromBankSwift" : "GHBKAFKA",
+    "toBankSwift" : "UBSWCHZH80A",
+    "fromBankName" : "Ghazanfar Bank",
+    "toBankName" : "UBS Switzerland AG",
+    "timestamp" : "2025-06-18T07:45:12.739756",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "CH8424300002000075041",
+    "fromCountryCode" : "AF",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "bf8eba0f-ca11-4c03-98a3-5bc04744cf3f",
+    "riskScore" : 150,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "425d982c-f08c-40a2-8253-839588ca8c62",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AF, To: CH",
+      "timestamp" : "2025-06-18T16:52:00.260287",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "4060bf5a-130e-4462-bd0d-5630760f085f",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9999.99 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-18T16:52:00.26033",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.260362",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.260907"
+}

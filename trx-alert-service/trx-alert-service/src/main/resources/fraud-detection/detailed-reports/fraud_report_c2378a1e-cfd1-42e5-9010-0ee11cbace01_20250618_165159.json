@@ -1,0 +1,38 @@
+{
+  "transactionId" : "c2378a1e-cfd1-42e5-9010-0ee11cbace01",
+  "transaction" : {
+    "transactionId" : "c2378a1e-cfd1-42e5-9010-0ee11cbace01",
+    "fromAccount" : "766625918196",
+    "toAccount" : "6042501171",
+    "amount" : 465.65,
+    "currency" : "INR",
+    "fromBankSwift" : "SBININBB",
+    "toBankSwift" : "GTBINGLA",
+    "fromBankName" : "State Bank of India",
+    "toBankName" : "Guaranty Trust Bank PLC",
+    "timestamp" : "2025-06-18T07:44:42.737201",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IN",
+    "toCountryCode" : "NG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "c2378a1e-cfd1-42e5-9010-0ee11cbace01",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "d99d83c0-4b13-481e-b1a2-03bc61a08f2b",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 465.65 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T16:51:59.966354",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:51:59.966458",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T16:51:59.96757"
+}

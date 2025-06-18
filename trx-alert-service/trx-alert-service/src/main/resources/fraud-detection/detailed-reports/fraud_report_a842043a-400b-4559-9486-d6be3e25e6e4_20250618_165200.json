@@ -1,0 +1,30 @@
+{
+  "transactionId" : "a842043a-400b-4559-9486-d6be3e25e6e4",
+  "transaction" : {
+    "transactionId" : "a842043a-400b-4559-9486-d6be3e25e6e4",
+    "fromAccount" : "958860020103",
+    "toAccount" : "225871143176",
+    "amount" : 3180.21,
+    "currency" : "USD",
+    "fromBankSwift" : "SBERRUMM",
+    "toBankSwift" : "CITIUS33",
+    "fromBankName" : "Sberbank",
+    "toBankName" : "Citibank N.A.",
+    "timestamp" : "2025-06-18T07:44:52.734654",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "RU",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a842043a-400b-4559-9486-d6be3e25e6e4",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.17414",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.174884"
+}

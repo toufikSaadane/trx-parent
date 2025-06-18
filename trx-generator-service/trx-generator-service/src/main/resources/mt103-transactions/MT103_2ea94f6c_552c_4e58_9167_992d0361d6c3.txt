@@ -1,0 +1,23 @@
+{1:F01BOTKJPJTXXX0}{2:I103CTBAAU2SXXX0N}{3:{108:2ea94f6c-552c-4e}}
+{4:
+:20:2ea94f6c-552c-4e
+:23B:CRED
+:32A:250618JPY639,78
+:33B:JPY639,78
+:71A:SHA
+:50K:/7046914645
+MUFG Bank Ltd
+789 Commercial Blvd
+Tokyo, Japan
+:52A:BOTKJPJT
+:53B:/BOTKJPJT
+:56A:ANZBAU3MXXX
+:57A:CTBAAU2S
+:59:/433814801859
+Commonwealth Bank of Australia
+456 Business Ave
+Sydney, Australia
+:70:Payment for services - TXN ID: 2ea94f6c - Cross-border transfer
+:72:/INS/BOTKJPJT
+}
+{5:{MAC:E23972E0}{CHK:1D4F6D3F9C73}}

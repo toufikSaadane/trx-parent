@@ -2,11 +2,16 @@ server:
   port: 3003
 
 spring:
+  data:
+    mongodb:
+      uri: mongodb://admin:password123@mongodb:27017/transaction_validation_db?authSource=admin
+      database: transaction_validation_db
+
   kafka:
     bootstrap-servers: localhost:9092
     consumer:
       group-id: transaction-validator-group
-      auto-offset-reset: earliest
+      auto-offset-reset: latest
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
       properties:
@@ -24,12 +29,10 @@ spring:
 transaction:
   file:
     valid:
-      path: trx-validation-service/src/main/resources/data/valid-transactions
+      path: ./trx-validation-service/src/main/resources/data/valid-transactions
     invalid:
-      path: trx-validation-service/src/main/resources/data/invalid-transactions
-
-logging:
-  level:
-    com.toufik.trxvalidationservice: DEBUG
-    org.springframework.kafka: INFO
+      path: ./trx-validation-service/src/main/resources/data/invalid-transactions
+    consolidated:
+      valid: ./trx-validation-service/src/main/resources/valid-transactions.json
+      invalid: ./trx-validation-service/src/main/resources/invalid-transactions.json
 

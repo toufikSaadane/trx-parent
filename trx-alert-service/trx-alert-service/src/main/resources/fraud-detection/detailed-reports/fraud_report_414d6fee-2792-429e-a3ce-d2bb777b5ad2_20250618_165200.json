@@ -1,0 +1,38 @@
+{
+  "transactionId" : "414d6fee-2792-429e-a3ce-d2bb777b5ad2",
+  "transaction" : {
+    "transactionId" : "414d6fee-2792-429e-a3ce-d2bb777b5ad2",
+    "fromAccount" : "1915170144",
+    "toAccount" : "516640444116",
+    "amount" : 32832.66,
+    "currency" : "CAD",
+    "fromBankSwift" : "HKBCCATT",
+    "toBankSwift" : "ASBKNZ2A",
+    "fromBankName" : "Hongkong and Shanghai Banking Corp",
+    "toBankName" : "ASB Bank Limited",
+    "timestamp" : "2025-06-18T07:44:22.755",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "NZ"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "414d6fee-2792-429e-a3ce-d2bb777b5ad2",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "9840d428-a0f3-428d-8291-ffc51e105ba8",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 32832.66 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-18T16:52:00.169922",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.16995",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.170799"
+}

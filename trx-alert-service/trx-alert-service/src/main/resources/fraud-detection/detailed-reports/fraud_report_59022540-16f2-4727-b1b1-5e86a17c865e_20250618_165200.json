@@ -1,0 +1,46 @@
+{
+  "transactionId" : "59022540-16f2-4727-b1b1-5e86a17c865e",
+  "transaction" : {
+    "transactionId" : "59022540-16f2-4727-b1b1-5e86a17c865e",
+    "fromAccount" : "2935784508",
+    "toAccount" : "9920591273",
+    "amount" : 71619.54,
+    "currency" : "KWR",
+    "fromBankSwift" : "KOEXKRSE",
+    "toBankSwift" : "NOSCCATTXXX",
+    "fromBankName" : "Korea Exchange Bank",
+    "toBankName" : "The Bank of Nova Scotia",
+    "timestamp" : "2025-06-18T07:43:02.747292",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KR",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "59022540-16f2-4727-b1b1-5e86a17c865e",
+    "riskScore" : 130,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "a95a86c6-3929-46a4-9dd1-927a1b3fca9d",
+      "fraudType" : "CRYPTOCURRENCY_KEYWORDS",
+      "description" : "Cryptocurrency Keywords",
+      "severity" : 6,
+      "details" : "Transaction contains cryptocurrency-related keywords in bank names: Korea Exchange Bank The Bank of Nova Scotia",
+      "timestamp" : "2025-06-18T16:52:00.031721",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "a8a15be7-e526-4de9-95d1-bc02bb728545",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 71619.54 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-18T16:52:00.031809",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.031914",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.033603"
+}

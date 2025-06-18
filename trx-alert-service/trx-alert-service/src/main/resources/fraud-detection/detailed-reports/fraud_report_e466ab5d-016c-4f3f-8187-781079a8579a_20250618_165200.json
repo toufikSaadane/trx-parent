@@ -1,0 +1,38 @@
+{
+  "transactionId" : "e466ab5d-016c-4f3f-8187-781079a8579a",
+  "transaction" : {
+    "transactionId" : "e466ab5d-016c-4f3f-8187-781079a8579a",
+    "fromAccount" : "7485658222",
+    "toAccount" : "690767254974",
+    "amount" : 4553.88,
+    "currency" : "CAD",
+    "fromBankSwift" : "ROYCCAT2XXX",
+    "toBankSwift" : "FTBKKPRKX",
+    "fromBankName" : "RBC Royal Bank",
+    "toBankName" : "Foreign Trade Bank",
+    "timestamp" : "2025-06-18T16:50:52.510054",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "CA",
+    "toCountryCode" : "KP"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "e466ab5d-016c-4f3f-8187-781079a8579a",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "0eab302a-ee98-43c8-b60d-cd6e81d7b258",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: CA, To: KP",
+      "timestamp" : "2025-06-18T16:52:00.094605",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.094689",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.095454"
+}

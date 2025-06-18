@@ -1,0 +1,38 @@
+{
+  "transactionId" : "0f03cdfc-cf15-4ffc-8c2a-69224c91f8e9",
+  "transaction" : {
+    "transactionId" : "0f03cdfc-cf15-4ffc-8c2a-69224c91f8e9",
+    "fromAccount" : "721973343955",
+    "toAccount" : "707764202576",
+    "amount" : 9999.99,
+    "currency" : "KES",
+    "fromBankSwift" : "SCBLKENX",
+    "toBankSwift" : "TDOMCATTTOR",
+    "fromBankName" : "Standard Chartered Kenya",
+    "toBankName" : "Toronto-Dominion Bank (TD)",
+    "timestamp" : "2025-06-18T07:43:52.735585",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "KE",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "0f03cdfc-cf15-4ffc-8c2a-69224c91f8e9",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "cbcd6eb9-66d6-4039-8d03-80a94b9d08f8",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9999.99 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-18T16:52:00.165229",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.165253",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.166374"
+}

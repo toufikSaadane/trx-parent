@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5f69b83a-0bf2-462a-86b7-2711be3a7833",
+  "transaction" : {
+    "transactionId" : "5f69b83a-0bf2-462a-86b7-2711be3a7833",
+    "fromAccount" : "1225841901",
+    "toAccount" : "903914096306",
+    "amount" : 21620.50,
+    "currency" : "EUR",
+    "fromBankSwift" : "HYVEDEMM",
+    "toBankSwift" : "OCBCSGSG",
+    "fromBankName" : "UniCredit Bank AG",
+    "toBankName" : "OCBC Bank",
+    "timestamp" : "2025-06-18T07:43:32.738732",
+    "status" : "PROCESSING",
+    "fromIBAN" : "DE87700202701469360201",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "DE",
+    "toCountryCode" : "SG"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5f69b83a-0bf2-462a-86b7-2711be3a7833",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "10073975-aa43-4b45-9175-143f723a3170",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 21620.50 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-18T16:52:00.047064",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.04713",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.048598"
+}

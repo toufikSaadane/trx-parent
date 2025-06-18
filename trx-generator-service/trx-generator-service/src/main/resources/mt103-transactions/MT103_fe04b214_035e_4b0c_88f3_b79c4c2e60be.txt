@@ -1,0 +1,23 @@
+{1:F01123BANK0}{2:I103BANK-US0N}{3:{108:fe04b214-035e-4b}}
+{4:
+:20:fe04b214-035e-4b
+:23B:CRED
+:32A:250618CNY722,47
+:33B:CNY722,47
+:71A:SHA
+:50K:/5413099176
+HSBC Bank (China) Company Limited
+123 Main Street
+Financial District, Unknown Country
+:52A:123BANK
+:53B:/123BANK
+:56A:DEUTDEFFXXX
+:57A:BANK-US
+:59:/8557354278
+Sberbank
+654 Banking Center
+Financial District, Unknown Country
+:70:Payment for services - TXN ID: fe04b214 - Cross-border transfer
+:72:/INS/123BANK
+}
+{5:{MAC:066722F6}{CHK:3A8C9EA74406}}

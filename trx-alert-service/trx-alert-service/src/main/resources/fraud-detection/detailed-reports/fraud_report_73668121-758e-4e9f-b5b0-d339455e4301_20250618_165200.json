@@ -1,0 +1,38 @@
+{
+  "transactionId" : "73668121-758e-4e9f-b5b0-d339455e4301",
+  "transaction" : {
+    "transactionId" : "73668121-758e-4e9f-b5b0-d339455e4301",
+    "fromAccount" : "812199761368",
+    "toAccount" : "594547914133",
+    "amount" : 9999.99,
+    "currency" : "SGD",
+    "fromBankSwift" : "OCBCSGSG",
+    "toBankSwift" : "ROYCCAT2",
+    "fromBankName" : "OCBC Bank",
+    "toBankName" : "Royal Bank of Canada",
+    "timestamp" : "2025-06-18T07:45:02.735282",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "CA"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "73668121-758e-4e9f-b5b0-d339455e4301",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "cd9153fa-3176-4d79-8dc5-14f12ea6878b",
+      "fraudType" : "STRUCTURING_PATTERN",
+      "description" : "Structuring Pattern",
+      "severity" : 7,
+      "details" : "Transaction amount 9999.99 appears to be structured to avoid reporting threshold",
+      "timestamp" : "2025-06-18T16:52:00.175705",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.175722",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.176259"
+}

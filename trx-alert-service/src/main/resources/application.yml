@@ -6,7 +6,8 @@ spring:
     bootstrap-servers: localhost:9092
     consumer:
       group-id: transaction-alert-group
-      auto-offset-reset: earliest
+      auto-offset-reset: latest
+      enable-auto-commit: true
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
       properties:
@@ -17,7 +18,7 @@ spring:
 
 fraud:
   output:
-    directory: trx-alert-service/src/main/resources/fraud-detection
+    directory: ./trx-alert-service/src/main/resources/fraud-detection
     normal-transactions-file: normal_transactions.json
     fraudulent-transactions-file: fraudulent_transactions.json
     detailed-reports: true
@@ -44,5 +45,5 @@ fraud:
 
 swift:
   output:
-    directory: trx-alert-service/src/main/resources/swift-files
+    directory: ./trx-alert-service/src/main/resources/swift-files
     file-extension: .swift

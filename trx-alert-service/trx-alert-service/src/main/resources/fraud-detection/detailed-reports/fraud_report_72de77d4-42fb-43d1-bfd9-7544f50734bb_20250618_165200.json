@@ -1,0 +1,46 @@
+{
+  "transactionId" : "72de77d4-42fb-43d1-bfd9-7544f50734bb",
+  "transaction" : {
+    "transactionId" : "72de77d4-42fb-43d1-bfd9-7544f50734bb",
+    "fromAccount" : "6861332176",
+    "toAccount" : "848096657588",
+    "amount" : 139.64,
+    "currency" : "IRR",
+    "fromBankSwift" : "MELLATIR",
+    "toBankSwift" : "ABNANL2A",
+    "fromBankName" : "Bank Mellat",
+    "toBankName" : "ABN AMRO Bank N.V.",
+    "timestamp" : "2025-06-18T16:51:02.520619",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "NL1730002753670674",
+    "fromCountryCode" : "IR",
+    "toCountryCode" : "NL"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "72de77d4-42fb-43d1-bfd9-7544f50734bb",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "c677ff13-6671-4155-bd46-0b6d18254a09",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: IR, To: NL",
+      "timestamp" : "2025-06-18T16:52:00.184545",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "37df0983-3471-49ae-97f9-2359c82cbcd2",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 139.64 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T16:52:00.184616",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.184648",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.185426"
+}

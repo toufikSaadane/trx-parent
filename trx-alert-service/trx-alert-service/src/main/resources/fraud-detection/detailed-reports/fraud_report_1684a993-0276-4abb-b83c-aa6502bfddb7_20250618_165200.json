@@ -1,0 +1,38 @@
+{
+  "transactionId" : "1684a993-0276-4abb-b83c-aa6502bfddb7",
+  "transaction" : {
+    "transactionId" : "1684a993-0276-4abb-b83c-aa6502bfddb7",
+    "fromAccount" : "291948006581",
+    "toAccount" : "985888603921",
+    "amount" : 16986.95,
+    "currency" : "RUB",
+    "fromBankSwift" : "SBERRUMM",
+    "toBankSwift" : "UNCRITMM",
+    "fromBankName" : "Sberbank",
+    "toBankName" : "UniCredit S.p.A.",
+    "timestamp" : "2025-06-18T16:51:02.514907",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "IT0202008000000000180188191",
+    "fromCountryCode" : "RU",
+    "toCountryCode" : "IT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1684a993-0276-4abb-b83c-aa6502bfddb7",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "f8076f7b-efb1-4078-b931-845e55f79277",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 16986.95 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-18T16:52:00.265987",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.266011",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.266537"
+}

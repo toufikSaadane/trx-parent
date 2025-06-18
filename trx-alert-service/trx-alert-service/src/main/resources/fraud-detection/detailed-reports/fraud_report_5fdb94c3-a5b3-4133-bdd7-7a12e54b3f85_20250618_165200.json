@@ -1,0 +1,38 @@
+{
+  "transactionId" : "5fdb94c3-a5b3-4133-bdd7-7a12e54b3f85",
+  "transaction" : {
+    "transactionId" : "5fdb94c3-a5b3-4133-bdd7-7a12e54b3f85",
+    "fromAccount" : "8026832275",
+    "toAccount" : "1356015692",
+    "amount" : 864.62,
+    "currency" : "USD",
+    "fromBankSwift" : "WELLSFARG",
+    "toBankSwift" : "CHASUS33XXX",
+    "fromBankName" : "Wells Fargo Bank",
+    "toBankName" : "JPMorgan Chase Bank",
+    "timestamp" : "2025-06-18T07:45:12.745952",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "US"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "5fdb94c3-a5b3-4133-bdd7-7a12e54b3f85",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "e737790f-6bca-45f0-9bdf-42dcd9934ace",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 864.62 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T16:52:00.177512",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.177554",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.178395"
+}

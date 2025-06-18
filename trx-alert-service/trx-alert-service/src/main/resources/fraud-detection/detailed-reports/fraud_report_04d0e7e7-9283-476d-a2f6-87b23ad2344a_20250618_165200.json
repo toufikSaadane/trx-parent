@@ -1,0 +1,46 @@
+{
+  "transactionId" : "04d0e7e7-9283-476d-a2f6-87b23ad2344a",
+  "transaction" : {
+    "transactionId" : "04d0e7e7-9283-476d-a2f6-87b23ad2344a",
+    "fromAccount" : "149607381431",
+    "toAccount" : "449509393083",
+    "amount" : 290.69,
+    "currency" : "IRR",
+    "fromBankSwift" : "MELLATIR",
+    "toBankSwift" : "CBSYSYMM",
+    "fromBankName" : "Bank Mellat",
+    "toBankName" : "Central Bank of Syria",
+    "timestamp" : "2025-06-18T07:45:22.736091",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IR",
+    "toCountryCode" : "SY"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "04d0e7e7-9283-476d-a2f6-87b23ad2344a",
+    "riskScore" : 120,
+    "riskLevel" : "LOW",
+    "alerts" : [ {
+      "alertId" : "7144d510-1823-4bb8-a0bf-d1df10ce41f3",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: IR, To: SY",
+      "timestamp" : "2025-06-18T16:52:00.074744",
+      "status" : "ACTIVE"
+    }, {
+      "alertId" : "d5a8296b-5270-4792-a8f5-d66f4388b468",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 290.69 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T16:52:00.074829",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.074869",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.076411"
+}

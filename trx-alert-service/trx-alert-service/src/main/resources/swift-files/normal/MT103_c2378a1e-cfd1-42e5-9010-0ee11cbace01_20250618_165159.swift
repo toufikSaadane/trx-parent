@@ -1,0 +1,36 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-18T16:51:59.967956
+// Transaction ID: c2378a1e-cfd1-42e5-9010-0ee11cbace01
+// Amount: 465.65 INR
+// From: State Bank of India
+// To: Guaranty Trust Bank PLC
+// FRAUD STATUS: NORMAL
+// Risk Score: 40/100
+// Risk Level: MEDIUM
+// Fraud Alerts: 1
+//   - Frequent Small Amounts
+//=====================================
+
+{1:F01SBININBBXXX0}{2:I103GTBINGLAXXX0N}{3:{108:c2378a1e-cfd1-42}}
+{4:
+:20:c2378a1e-cfd1-42
+:23B:CRED
+:32A:250618INR465,65
+:33B:INR465,65
+:71A:SHA
+:50K:/766625918196
+State Bank of India
+123 Main Street
+Mumbai, India
+:52A:SBININBB
+:53B:/SBININBB
+:56A:DEUTDEFFXXX
+:57A:GTBINGLA
+:59:/6042501171
+Guaranty Trust Bank PLC
+123 Main Street
+Financial District, Nigeria
+:70:Payment for services - TXN ID: c2378a1e - Cross-border transfer
+:72:/INS/SBININBB
+}
+{5:{MAC:0E3C4C70}{CHK:4AB636146E57}}

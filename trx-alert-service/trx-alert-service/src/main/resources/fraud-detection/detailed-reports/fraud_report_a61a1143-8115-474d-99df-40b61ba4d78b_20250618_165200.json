@@ -1,0 +1,38 @@
+{
+  "transactionId" : "a61a1143-8115-474d-99df-40b61ba4d78b",
+  "transaction" : {
+    "transactionId" : "a61a1143-8115-474d-99df-40b61ba4d78b",
+    "fromAccount" : "9227640770",
+    "toAccount" : "657751096543",
+    "amount" : 2910.24,
+    "currency" : "AFN",
+    "fromBankSwift" : "AFIBAFKA",
+    "toBankSwift" : "BARCGB22",
+    "fromBankName" : "Afghanistan International Bank",
+    "toBankName" : "Barclays Bank PLC",
+    "timestamp" : "2025-06-18T07:43:22.748284",
+    "status" : "PROCESSING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "GB65204545001071521918",
+    "fromCountryCode" : "AF",
+    "toCountryCode" : "GB"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "a61a1143-8115-474d-99df-40b61ba4d78b",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "76f0468f-1443-4884-81ba-2917a56cae61",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: AF, To: GB",
+      "timestamp" : "2025-06-18T16:52:00.234303",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.234382",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.235094"
+}

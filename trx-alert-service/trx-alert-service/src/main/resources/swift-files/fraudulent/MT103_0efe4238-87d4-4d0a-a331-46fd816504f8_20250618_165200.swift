@@ -1,0 +1,37 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-18T16:52:00.245575
+// Transaction ID: 0efe4238-87d4-4d0a-a331-46fd816504f8
+// Amount: 976.83 KPW
+// From: Korea Taesong Bank
+// To: Commonwealth Bank of Australia
+// FRAUD STATUS: FRAUDULENT
+// Risk Score: 120/100
+// Risk Level: LOW
+// Fraud Alerts: 2
+//   - Cross-Border High Risk
+//   - Frequent Small Amounts
+//=====================================
+
+{1:F01KORYOKT2X0}{2:I103CTBAAU2SXXX0N}{3:{108:0efe4238-87d4-4d}}
+{4:
+:20:0efe4238-87d4-4d
+:23B:CRED
+:32A:250618KPW976,83
+:33B:KPW976,83
+:71A:SHA
+:50K:/491521290808
+Korea Taesong Bank
+987 Trade Plaza
+Financial District, Unknown Country
+:52A:KORYOKT2X
+:53B:/KORYOKT2X
+:56A:ANZBAU3MXXX
+:57A:CTBAAU2S
+:59:/443607104957
+Commonwealth Bank of Australia
+654 Banking Center
+Sydney, Australia
+:70:Payment for services - TXN ID: 0efe4238 - Cross-border transfer
+:72:/INS/KORYOKT2X
+}
+{5:{MAC:A9CD2179}{CHK:BFBC2F7D4FED}}

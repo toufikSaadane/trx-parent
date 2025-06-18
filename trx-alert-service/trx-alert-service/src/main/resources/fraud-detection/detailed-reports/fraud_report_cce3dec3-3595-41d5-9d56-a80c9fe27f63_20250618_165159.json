@@ -1,0 +1,38 @@
+{
+  "transactionId" : "cce3dec3-3595-41d5-9d56-a80c9fe27f63",
+  "transaction" : {
+    "transactionId" : "cce3dec3-3595-41d5-9d56-a80c9fe27f63",
+    "fromAccount" : "752952224428",
+    "toAccount" : "506931384122",
+    "amount" : 9533.29,
+    "currency" : "USD",
+    "fromBankSwift" : "BOFAUS3N",
+    "toBankSwift" : "KBZBMMMY",
+    "fromBankName" : "Bank of America N.A.",
+    "toBankName" : "KBZ Bank",
+    "timestamp" : "2025-06-18T07:43:12.741047",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "US",
+    "toCountryCode" : "MM"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "cce3dec3-3595-41d5-9d56-a80c9fe27f63",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "72424f0a-68a3-4122-a168-acd61d5fd587",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: US, To: MM",
+      "timestamp" : "2025-06-18T16:51:59.93605",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:51:59.936117",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:51:59.938269"
+}

@@ -1,0 +1,38 @@
+{
+  "transactionId" : "3e44b096-b576-4858-b52b-2f643ea3e580",
+  "transaction" : {
+    "transactionId" : "3e44b096-b576-4858-b52b-2f643ea3e580",
+    "fromAccount" : "543346479820",
+    "toAccount" : "437248671881",
+    "amount" : 20262.07,
+    "currency" : "EUR",
+    "fromBankSwift" : "ITMRITMM",
+    "toBankSwift" : "BESCPTPL",
+    "fromBankName" : "Intesa Sanpaolo S.p.A.",
+    "toBankName" : "Novo Banco",
+    "timestamp" : "2025-06-18T07:43:22.73594",
+    "status" : "PENDING",
+    "fromIBAN" : "IT5703069000000001465213471",
+    "toIBAN" : "PT91000700000001238884161",
+    "fromCountryCode" : "IT",
+    "toCountryCode" : "PT"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "3e44b096-b576-4858-b52b-2f643ea3e580",
+    "riskScore" : 70,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "3875800a-9d53-4721-8246-9bb73a44c587",
+      "fraudType" : "HIGH_AMOUNT_THRESHOLD",
+      "description" : "High Amount Transaction",
+      "severity" : 7,
+      "details" : "Transaction amount 20262.07 exceeds threshold 15000.0",
+      "timestamp" : "2025-06-18T16:52:00.161356",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.161432",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.162112"
+}

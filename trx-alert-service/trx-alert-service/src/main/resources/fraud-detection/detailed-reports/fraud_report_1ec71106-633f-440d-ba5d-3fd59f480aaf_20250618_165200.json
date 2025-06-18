@@ -1,0 +1,38 @@
+{
+  "transactionId" : "1ec71106-633f-440d-ba5d-3fd59f480aaf",
+  "transaction" : {
+    "transactionId" : "1ec71106-633f-440d-ba5d-3fd59f480aaf",
+    "fromAccount" : "492149269657",
+    "toAccount" : "737314552222",
+    "amount" : 563.86,
+    "currency" : "SGD",
+    "fromBankSwift" : "DBSSSGSG",
+    "toBankSwift" : "SCBLKENX",
+    "fromBankName" : "DBS Bank",
+    "toBankName" : "Standard Chartered Kenya",
+    "timestamp" : "2025-06-18T07:44:12.747796",
+    "status" : "PENDING",
+    "fromIBAN" : "This country does not use IBAN",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "SG",
+    "toCountryCode" : "KE"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "1ec71106-633f-440d-ba5d-3fd59f480aaf",
+    "riskScore" : 40,
+    "riskLevel" : "MEDIUM",
+    "alerts" : [ {
+      "alertId" : "6567c5eb-8304-4876-8b0e-705fa5050a9f",
+      "fraudType" : "FREQUENT_SMALL_AMOUNTS",
+      "description" : "Frequent Small Amounts",
+      "severity" : 4,
+      "details" : "Small transaction amount 563.86 may indicate structuring behavior",
+      "timestamp" : "2025-06-18T16:52:00.053925",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.053971",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.055827"
+}

@@ -1,0 +1,34 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-18T16:52:00.262937
+// Transaction ID: 3058093a-0557-41d8-a5fc-c90607fc9b19
+// Amount: 6551.25 USD
+// From: Banco Azteca
+// To: Bank of America N.A.
+// FRAUD STATUS: NORMAL
+// Risk Score: 0/100
+// Risk Level: LOW
+//=====================================
+
+{1:F01BAMXMXMMXXX0}{2:I103BOFAUS3NXXX0N}{3:{108:3058093a-0557-41}}
+{4:
+:20:3058093a-0557-41
+:23B:CRED
+:32A:250618USD6551,25
+:33B:USD6551,25
+:71A:SHA
+:50K:/320714272514
+Banco Azteca
+654 Banking Center
+Mexico City, Mexico
+:52A:BAMXMXMM
+:53B:/BAMXMXMM
+:56A:CHASUS33XXX
+:57A:BOFAUS3NXXX
+:59:/215769371001
+Bank of America N.A.
+987 Trade Plaza
+New York, United States
+:70:Payment for services - TXN ID: 3058093a - Cross-border transfer
+:72:/INS/BAMXMXMM
+}
+{5:{MAC:FBB4986A}{CHK:1D87F4F4E922}}

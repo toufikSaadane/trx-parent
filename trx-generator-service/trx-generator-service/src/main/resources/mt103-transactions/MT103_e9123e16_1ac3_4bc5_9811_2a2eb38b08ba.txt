@@ -1,0 +1,23 @@
+{1:F01AYABMMMYXXX0}{2:I103COBADEFFXXX0N}{3:{108:e9123e16-1ac3-4b}}
+{4:
+:20:e9123e16-1ac3-4b
+:23B:CRED
+:32A:250618MMK8814,15
+:33B:MMK8814,15
+:71A:SHA
+:50K:/763473198281
+Ayeyarwady Bank
+321 Financial District
+Financial District, Unknown Country
+:52A:AYABMMMY
+:53B:/AYABMMMY
+:56A:DEUTDEFFXXX
+:57A:COBADEFF
+:59:/DE66100400002142596999
+Commerzbank AG
+321 Financial District
+Frankfurt, Germany
+:70:Payment for services - TXN ID: e9123e16 - Cross-border transfer
+:72:/INS/AYABMMMY
+}
+{5:{MAC:0CE64407}{CHK:795D0E3E96A2}}

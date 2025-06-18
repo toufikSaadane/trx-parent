@@ -1,0 +1,38 @@
+{
+  "transactionId" : "da1c2d68-4805-4a5b-b4dd-7580ef002030",
+  "transaction" : {
+    "transactionId" : "da1c2d68-4805-4a5b-b4dd-7580ef002030",
+    "fromAccount" : "634491678202",
+    "toAccount" : "3845653094",
+    "amount" : 1883.19,
+    "currency" : "EUR",
+    "fromBankSwift" : "UNCRITMM",
+    "toBankSwift" : "AZBAAFKAXXX",
+    "fromBankName" : "UniCredit S.p.A.",
+    "toBankName" : "Azizi Bank",
+    "timestamp" : "2025-06-18T07:44:02.74314",
+    "status" : "PENDING",
+    "fromIBAN" : "IT7002008000000001504358702",
+    "toIBAN" : "This country does not use IBAN",
+    "fromCountryCode" : "IT",
+    "toCountryCode" : "AF"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "da1c2d68-4805-4a5b-b4dd-7580ef002030",
+    "riskScore" : 80,
+    "riskLevel" : "HIGH",
+    "alerts" : [ {
+      "alertId" : "5b1bf271-1561-4bb6-86b0-73db0da55905",
+      "fraudType" : "CROSS_BORDER_HIGH_RISK",
+      "description" : "Cross-Border High Risk",
+      "severity" : 8,
+      "details" : "Transaction involves high-risk country. From: IT, To: AF",
+      "timestamp" : "2025-06-18T16:52:00.241593",
+      "status" : "ACTIVE"
+    } ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:00.241656",
+    "fraudulent" : true
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:00.242544"
+}

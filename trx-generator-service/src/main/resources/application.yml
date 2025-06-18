@@ -42,7 +42,7 @@ mt103:
   topic: "transaction_generator"
   file:
     # All MT103 files will be saved in this centralized resource directory
-    directory: ./src/main/resources/mt103-transactions/all-files
+    directory: ./trx-generator-service/src/main/resources/mt103-transactions
     # Maximum number of files to keep in registry (optional)
     max-registry-size: 10000
     # Whether to include timestamp in filename

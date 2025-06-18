@@ -1,0 +1,30 @@
+{
+  "transactionId" : "19790fa2-e483-451b-a783-1a76923e606a",
+  "transaction" : {
+    "transactionId" : "19790fa2-e483-451b-a783-1a76923e606a",
+    "fromAccount" : "500346209261",
+    "toAccount" : "2497470246",
+    "amount" : 2972.42,
+    "currency" : "CHF",
+    "fromBankSwift" : "CRESCHZZ",
+    "toBankSwift" : "UBSWCHZH80A",
+    "fromBankName" : "Credit Suisse",
+    "toBankName" : "UBS Switzerland AG",
+    "timestamp" : "2025-06-18T16:52:25.827136",
+    "status" : "PENDING",
+    "fromIBAN" : "CH1348350001953436594",
+    "toIBAN" : "CH1724300001364066841",
+    "fromCountryCode" : "CH",
+    "toCountryCode" : "CH"
+  },
+  "fraudDetectionResult" : {
+    "transactionId" : "19790fa2-e483-451b-a783-1a76923e606a",
+    "riskScore" : 0,
+    "riskLevel" : "LOW",
+    "alerts" : [ ],
+    "additionalData" : null,
+    "detectionTimestamp" : "2025-06-18T16:52:25.851695",
+    "fraudulent" : false
+  },
+  "reportGeneratedAt" : "2025-06-18T16:52:25.854067"
+}

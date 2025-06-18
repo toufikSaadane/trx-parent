@@ -1,0 +1,37 @@
+// SWIFT MT103 Message
+// Generated at: 2025-06-18T16:52:00.232979
+// Transaction ID: d327d3cf-e48f-41c0-a4e4-502f70ccf2ae
+// Amount: 381.8 IRR
+// From: Bank Melli Iran
+// To: Scotiabank
+// FRAUD STATUS: FRAUDULENT
+// Risk Score: 120/100
+// Risk Level: LOW
+// Fraud Alerts: 2
+//   - Cross-Border High Risk
+//   - Frequent Small Amounts
+//=====================================
+
+{1:F01MELIIRTHXXX0}{2:I103NOSCCATTXXX0N}{3:{108:d327d3cf-e48f-41}}
+{4:
+:20:d327d3cf-e48f-41
+:23B:CRED
+:32A:250618IRR381,8
+:33B:IRR381,8
+:71A:SHA
+:50K:/7133294289
+Bank Melli Iran
+987 Trade Plaza
+Financial District, Unknown Country
+:52A:MELIIRTH
+:53B:/MELIIRTH
+:56A:TDOMCATTTOR
+:57A:NOSCCATT
+:59:/838408303200
+Scotiabank
+654 Banking Center
+Toronto, Canada
+:70:Payment for services - TXN ID: d327d3cf - Cross-border transfer
+:72:/INS/MELIIRTH
+}
+{5:{MAC:8B6EAC8F}{CHK:B63984D5BE5A}}
