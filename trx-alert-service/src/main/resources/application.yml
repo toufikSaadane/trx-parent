@@ -15,35 +15,3 @@ spring:
         spring.json.value.default.type: com.toufik.trxalertservice.model.TransactionWithMT103Event
         spring.json.trusted.packages: "*"
         spring.json.use.type.info.headers: false
-
-fraud:
-  output:
-    directory: ./trx-alert-service/src/main/resources/fraud-detection
-    normal-transactions-file: normal_transactions.json
-    fraudulent-transactions-file: fraudulent_transactions.json
-    detailed-reports: true
-  detection:
-    threshold: 70
-    high-amount-threshold: 15000.00
-    detectors:
-      high-amount:
-        enabled: true
-      off-hours:
-        enabled: true
-      suspicious-remittance:
-        enabled: true
-      round-amount:
-        enabled: true
-      cross-border:
-        enabled: true
-      structuring:
-        enabled: true
-      cryptocurrency:
-        enabled: true
-      frequent-small:
-        enabled: true
-
-swift:
-  output:
-    directory: ./trx-alert-service/src/main/resources/swift-files
-    file-extension: .swift
