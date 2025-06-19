@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Alert Notification</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #dc3545, #c82333);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .alert-icon {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .content {
+            padding: 30px;
+        }
+        .summary {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .alert-card {
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        .alert-header {
+            padding: 15px 20px;
+            font-weight: bold;
+            color: white;
+        }
+        .alert-header.HIGH {
+            background-color: #dc3545;
+        }
+        .alert-header.MEDIUM {
+            background-color: #fd7e14;
+        }
+        .alert-header.LOW {
+            background-color: #ffc107;
+            color: #333;
+        }
+        .alert-body {
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            padding: 5px 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+        .detail-label {
+            font-weight: bold;
+            color: #495057;
+            min-width: 120px;
+        }
+        .detail-value {
+            color: #212529;
+            word-break: break-all;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+        .timestamp {
+            color: #6c757d;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .detail-row {
+                flex-direction: column;
+            }
+            .detail-label {
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="alert-icon">🚨</div>
+        <h1>FRAUD ALERT NOTIFICATION</h1>
+    </div>
+
+    <div class="content">
+        <div class="summary">
+            <h2 style="margin-top: 0; color: #856404;">Alert Summary</h2>
+            <p><strong th:text="${alertCount}">X</strong> suspicious transaction(s) detected and require immediate attention.</p>
+            <p><strong>Generated:</strong> <span th:text="${timestamp}">2024-01-01 12:00:00</span></p>
+        </div>
+
+        <div th:each="alert, iterStat : ${alerts}">
+            <div class="alert-card">
+                <div class="alert-header" th:classappend="${alert.severity}">
+                    <span th:text="'Alert #' + ${iterStat.count} + ' - ' + ${alert.severity} + ' Priority'">Alert #1 - HIGH Priority</span>
+                </div>
+                <div class="alert-body">
+                    <div class="detail-row">
+                        <span class="detail-label">Transaction ID:</span>
+                        <span class="detail-value" th:text="${alert.transactionId}">TXN123456</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Fraud Rule:</span>
+                        <span class="detail-value" th:text="${alert.ruleName}">HIGH_RISK_COUNTRY_DETECTION</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value" th:text="${alert.description}">Transaction involves high-risk country</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Alert Time:</span>
+                        <span class="detail-value" th:text="${#temporals.format(alert.alertTime, 'yyyy-MM-dd HH:mm:ss')}">2024-01-01 12:00:00</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Details:</span>
+                        <span class="detail-value" th:text="${alert.details}">Additional details about the suspicious activity</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="background-color: #d1ecf1; border: 1px solid #bee5eb; border-radius: 8px; padding: 20px; margin-top: 30px;">
+            <h3 style="margin-top: 0; color: #0c5460;">⚠️ Action Required</h3>
+            <p style="margin-bottom: 0;">Please investigate these transactions immediately and take appropriate action according to your fraud prevention procedures.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p style="margin: 0;">This is an automated message from the Transaction Fraud Detection System</p>
+        <p style="margin: 5px 0 0 0; font-size: 12px; opacity: 0.8;">Please do not reply to this email</p>
+    </div>
+</div>
+</body>
+</html>

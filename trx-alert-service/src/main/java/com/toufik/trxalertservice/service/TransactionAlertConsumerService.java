@@ -1,7 +1,7 @@
 package com.toufik.trxalertservice.service;
 
 import com.toufik.trxalertservice.fraud.model.FraudAlert;
-import com.toufik.trxalertservice.fraud.service.FraudAlertNotificationService;
+import com.toufik.trxalertservice.fraud.FraudAlertNotificationService;
 import com.toufik.trxalertservice.fraud.service.FraudDetectionEngine;
 import com.toufik.trxalertservice.model.TransactionWithMT103Event;
 import lombok.RequiredArgsConstructor;
