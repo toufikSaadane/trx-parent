@@ -1,6 +1,10 @@
 package com.toufik.trxalertservice.service;
 
+import com.toufik.trxalertservice.fraud.model.FraudAlert;
+import com.toufik.trxalertservice.fraud.service.FraudAlertNotificationService;
+import com.toufik.trxalertservice.fraud.service.FraudDetectionEngine;
 import com.toufik.trxalertservice.model.TransactionWithMT103Event;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.support.KafkaHeaders;
@@ -8,9 +12,15 @@ import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @Slf4j
+@RequiredArgsConstructor
 public class TransactionAlertConsumerService {
+
+    private final FraudDetectionEngine fraudDetectionEngine;
+    private final FraudAlertNotificationService fraudAlertNotificationService;
 
     @KafkaListener(
             topics = "transaction_alert",
@@ -27,6 +37,15 @@ public class TransactionAlertConsumerService {
 
         try {
             logTransactionDetails(transactionWithMT103Event, topic);
+
+            // Execute fraud detection
+            List<FraudAlert> fraudAlerts = fraudDetectionEngine.detectFraud(transactionWithMT103Event);
+
+            // Send notifications if fraud detected
+            if (!fraudAlerts.isEmpty()) {
+                fraudAlertNotificationService.sendFraudAlerts(fraudAlerts);
+            }
+
             log.debug("Transaction alert {} processed successfully", transactionId);
 
         } catch (Exception e) {
@@ -48,6 +67,9 @@ public class TransactionAlertConsumerService {
                 event.getTransaction().getCurrency());
         log.info("  From Bank: {}", event.getTransaction().getFromBankName());
         log.info("  To Bank: {}", event.getTransaction().getToBankName());
+        log.info("  From Country: {}", event.getTransaction().getFromCountryCode());
+        log.info("  To Country: {}", event.getTransaction().getToCountryCode());
         log.info("  Status: {}", event.getTransaction().getStatus());
+        log.info("  Timestamp: {}", event.getTransaction().getTimestamp());
     }
 }

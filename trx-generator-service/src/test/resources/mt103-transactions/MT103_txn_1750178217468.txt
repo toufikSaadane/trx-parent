@@ -1,3 +1,0 @@
-MT103 for transaction: txn_1750178217468
-From: fromAccount1, Bank: Bank A
-To: toAccount1, Bank: Bank B
