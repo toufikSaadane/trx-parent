@@ -1,6 +1,5 @@
 package com.toufik.trxgeneratorservice.mt103trx.service;
 
-import com.toufik.trxgeneratorservice.mt103trx.model.FraudScenario;
 import com.toufik.trxgeneratorservice.mt103trx.model.Transaction;
 import com.toufik.trxgeneratorservice.mt103trx.model.TransactionWithMT103Event;
 import lombok.extern.slf4j.Slf4j;
@@ -20,20 +19,18 @@ public class FraudTransactionGeneratorService {
     @Autowired
     private TransactionProducer transactionProducer;
 
+    @Autowired
+    private FraudMT103MessageFormatter fraudMT103MessageFormatter;
+
     private final Random random = new Random();
 
     @Scheduled(fixedRate = 10000)
     public void generateAndSendFraudTransaction() {
         try {
-            FraudScenario selectedScenario = selectFraudScenario();
-            log.info("Generating fraud transaction with scenario: {}", selectedScenario.getDescription());
-            TransactionWithMT103Event fraudTransactionEvent = generateFraudTransactionWithMT103(selectedScenario);
-            log.info("Generated fraud transaction: {} - Scenario: {}",
-                    fraudTransactionEvent.getTransaction().getTransactionId(),
-                    selectedScenario.getDescription());
+            TransactionWithMT103Event fraudTransactionEvent = generateFraudTransactionWithMT103();
 
             // Enhanced logging for fraud transaction details
-            logFraudTransactionDetails(fraudTransactionEvent.getTransaction(), selectedScenario);
+            logFraudTransactionDetails(fraudTransactionEvent.getTransaction());
 
             transactionProducer.sendTransaction(fraudTransactionEvent);
 
@@ -42,35 +39,19 @@ public class FraudTransactionGeneratorService {
         }
     }
 
-    /**
-     * Selects a fraud scenario based on weighted probabilities
-     */
-    private FraudScenario selectFraudScenario() {
-        FraudScenario[] scenarios = FraudScenario.values();
-        return scenarios[random.nextInt(scenarios.length)];
-    }
+    private TransactionWithMT103Event generateFraudTransactionWithMT103() {
 
-    /**
-     * Generates a fraud transaction with MT103 message
-     */
-    private TransactionWithMT103Event generateFraudTransactionWithMT103(FraudScenario scenario) {
-
-        // Generate the fraud transaction
-        Transaction fraudTransaction = fraudTransactionFactory.createFraudTransaction(scenario);
-
-        // Create the event
+        Transaction fraudTransaction = fraudTransactionFactory.createFraudTransaction();
+        String mt103Content = fraudMT103MessageFormatter.formatToMT103(fraudTransaction);
         TransactionWithMT103Event event = new TransactionWithMT103Event();
         event.setTransaction(fraudTransaction);
+        event.setMt103Content(mt103Content);
 
         return event;
     }
 
-    /**
-     * Enhanced logging for fraud transaction details
-     */
-    private void logFraudTransactionDetails(Transaction transaction, FraudScenario scenario) {
+    private void logFraudTransactionDetails(Transaction transaction) {
         log.info("======================= FRAUD TRANSACTION =============================");
-        log.info("Fraud Scenario: {} - {}", scenario.name(), scenario.getDescription());
         log.info("Transaction ID: {}", transaction.getTransactionId());
         log.info("Amount: {} {}", transaction.getAmount(), transaction.getCurrency());
         log.info("Timestamp: {}", transaction.getTimestamp());
@@ -83,5 +64,4 @@ public class FraudTransactionGeneratorService {
 
         log.info("===================================================================");
     }
-
 }

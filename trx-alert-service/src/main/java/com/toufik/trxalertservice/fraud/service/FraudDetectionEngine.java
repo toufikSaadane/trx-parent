@@ -17,7 +17,6 @@ import java.util.List;
 public class FraudDetectionEngine {
 
     private final HighRiskCountryDetectionService highRiskCountryDetectionService;
-    private final ThresholdAvoidanceDetectionService thresholdAvoidanceDetectionService;
 
     public List<FraudAlert> detectFraud(TransactionWithMT103Event event) {
         String transactionId = event.getTransaction().getTransactionId();
@@ -33,8 +32,7 @@ public class FraudDetectionEngine {
                 event.getTransaction().getToCountryCode());
 
         List<FraudDetectionRule> rules = List.of(
-                highRiskCountryDetectionService,
-                thresholdAvoidanceDetectionService
+                highRiskCountryDetectionService
         );
 
         List<FraudAlert> alerts = new ArrayList<>();

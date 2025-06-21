@@ -10,12 +10,6 @@ import static com.toufik.trxgeneratorservice.mt103trx.util.MT103Constants.*;
 @Service
 public class FraudMT103MessageFormatter extends MT103MessageFormatter {
 
-    private final FraudTransactionFactory fraudTransactionFactory;
-
-    public FraudMT103MessageFormatter(FraudTransactionFactory fraudTransactionFactory) {
-        this.fraudTransactionFactory = fraudTransactionFactory;
-    }
-
     @Override
     public String formatToMT103(Transaction transaction) {
         var mt103 = new StringBuilder();

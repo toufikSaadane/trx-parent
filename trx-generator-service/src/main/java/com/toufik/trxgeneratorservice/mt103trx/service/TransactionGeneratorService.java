@@ -26,15 +26,8 @@ public class TransactionGeneratorService extends BaseTransactionFactory {
     public void generateAndSendTransaction() {
         try {
             TransactionWithMT103Event transactionWithMT103Event = generateRandomTransactionWithMT103();
-            log.info("Generated transaction: {}", transactionWithMT103Event.getTransaction().getTransactionId());
-            log.info("======================= TRANSACTION =============================");
-            log.info("Transaction Details: {}", transactionWithMT103Event.getTransaction());
-            log.info("From IBAN: {}", transactionWithMT103Event.getTransaction().getFromIBAN());
-            log.info("To IBAN: {}", transactionWithMT103Event.getTransaction().getToIBAN());
-            log.info("Amount: {} {}", transactionWithMT103Event.getTransaction().getAmount(),
-                    transactionWithMT103Event.getTransaction().getCurrency());
-            log.info("==================================================================");
             transactionProducer.sendTransaction(transactionWithMT103Event);
+            logValidTransactionDetails(transactionWithMT103Event);
         } catch (Exception e) {
             log.error("Error generating transaction: {}", e.getMessage(), e);
         }
@@ -62,5 +55,19 @@ public class TransactionGeneratorService extends BaseTransactionFactory {
     @Override
     protected BigDecimal generateRandomAmount() {
         return AmountGenerator.generateMedium();
+    }
+
+    private void logValidTransactionDetails(TransactionWithMT103Event invalidTransactionEvent) {
+        log.warn("Generated INVALID transaction: {}",
+                invalidTransactionEvent.getTransaction().getTransactionId());
+        log.warn("======================= VALID TRANSACTION =============================");
+        log.warn("Valid Transaction Details: {}", invalidTransactionEvent.getTransaction());
+
+        String mt103Content = invalidTransactionEvent.getMt103Content();
+        log.warn("Invalid MT103 Content Preview: {}", mt103Content);
+
+        if (mt103Content.length() > 200) {
+            log.warn("MT103 Content Length: {} characters (truncated for logging)", mt103Content.length());
+        }
     }
 }

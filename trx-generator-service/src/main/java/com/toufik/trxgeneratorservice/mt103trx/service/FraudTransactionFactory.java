@@ -1,6 +1,6 @@
 package com.toufik.trxgeneratorservice.mt103trx.service;
 
-import com.toufik.trxgeneratorservice.mt103trx.model.FraudScenario;
+import com.toufik.trxgeneratorservice.mt103trx.model.BankInfo;
 import com.toufik.trxgeneratorservice.mt103trx.model.Transaction;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
-import java.util.List;
 import java.util.Random;
 
 @Component
@@ -21,59 +20,83 @@ public class FraudTransactionFactory extends BaseTransactionFactory {
     private final Random random = new Random();
 
     /**
-     * Creates a fraud transaction based on the specified scenario
+     * Creates a fraud transaction with randomized fraud patterns
      */
-    public Transaction createFraudTransaction(FraudScenario scenario) {
+    public Transaction createFraudTransaction() {
         Transaction transaction = createBaseTransaction();
-
-        // Apply fraud scenario-specific modifications
-        applyFraudScenario(transaction, scenario);
-
-        log.debug("Created fraud transaction for scenario: {} with amount: {}",
-                scenario.name(), transaction.getAmount());
-
+        applyRandomFraudPattern(transaction);
         return transaction;
     }
 
-    /**
-     * Applies fraud scenario characteristics to the transaction
-     */
-    private void applyFraudScenario(Transaction transaction, FraudScenario scenario) {
-        switch (scenario) {
-            case HIGH_AMOUNT_THRESHOLD -> applyHighAmountScenario(transaction);
-            case OFF_HOURS_TRANSACTION -> applyOffHoursScenario(transaction);
-            case SUSPICIOUS_REMITTANCE -> applySuspiciousRemittanceScenario(transaction);
-            case CROSS_BORDER_HIGH_RISK -> applyCrossBorderHighRiskScenario(transaction);
+    private void applyRandomFraudPattern(Transaction transaction) {
+        int pattern = random.nextInt(4);
+
+        switch (pattern) {
+            case 0 -> {
+                applyHighAmountPattern(transaction);
+                log.info("Applied fraud pattern: High Amount");
+            }
+            case 1 -> {
+                applyOffHoursPattern(transaction);
+                log.info("Applied fraud pattern: Off Hours");
+            }
+            case 2 -> {
+                applySuspiciousRemittancePattern(transaction);
+                log.info("Applied fraud pattern: Suspicious Remittance");
+            }
+            case 3 -> {
+                applyCrossBorderHighRiskPattern(transaction);
+                log.info("Applied fraud pattern: Cross-Border High Risk");
+            }
         }
     }
+    private void applyHighAmountPattern(Transaction transaction) {
+        // Use BankDataService to get banks from CSV
+        BankInfo fromBank = bankDataService.getRandomBank();
+        BankInfo toBank = getDistinctToBank(fromBank);
 
-    private void applyHighAmountScenario(Transaction transaction) {
+        updateTransactionBanks(transaction, fromBank, toBank);
+
         BigDecimal amount = AmountGenerator.generateHigh();
         transaction.setAmount(amount);
+        log.debug("Applied HIGH_AMOUNT pattern with amount: {}", amount);
     }
 
-    private void applyOffHoursScenario(Transaction transaction) {
+    private void applyOffHoursPattern(Transaction transaction) {
+        // Use BankDataService to get banks from CSV
+        BankInfo fromBank = bankDataService.getRandomBank();
+        BankInfo toBank = getDistinctToBank(fromBank);
+
+        updateTransactionBanks(transaction, fromBank, toBank);
+
         LocalDateTime now = LocalDateTime.now();
         LocalTime offHoursTime = generateOffHoursTime();
         LocalDateTime offHoursDateTime = now.with(offHoursTime);
 
         transaction.setTimestamp(offHoursDateTime);
         transaction.setAmount(AmountGenerator.generateMedium());
+        log.debug("Applied OFF_HOURS pattern at: {}", offHoursDateTime);
     }
 
-    private void applySuspiciousRemittanceScenario(Transaction transaction) {
+    private void applySuspiciousRemittancePattern(Transaction transaction) {
+        // Use BankDataService to get banks from CSV
+        BankInfo fromBank = bankDataService.getRandomBank();
+        BankInfo toBank = getDistinctToBank(fromBank);
+
+        updateTransactionBanks(transaction, fromBank, toBank);
+
         transaction.setAmount(AmountGenerator.generateMedium());
+        log.debug("Applied SUSPICIOUS_REMITTANCE pattern");
     }
 
-    private void applyCrossBorderHighRiskScenario(Transaction transaction) {
-        // Set destination to high-risk country
+    private void applyCrossBorderHighRiskPattern(Transaction transaction) {
         String riskCountry = HIGH_RISK_COUNTRIES[random.nextInt(HIGH_RISK_COUNTRIES.length)];
         transaction.setToCountryCode(riskCountry);
 
-        // Generate medium to high amounts for cross-border
         BigDecimal amount = random.nextBoolean() ?
                 AmountGenerator.generateMedium() : AmountGenerator.generateHigh();
         transaction.setAmount(amount);
+        log.debug("Applied CROSS_BORDER_HIGH_RISK pattern to country: {} with amount: {}", riskCountry, amount);
     }
 
     @Override
@@ -81,19 +104,35 @@ public class FraudTransactionFactory extends BaseTransactionFactory {
         return AmountGenerator.generateMedium();
     }
 
-    /**
-     * Generates off-hours time (between 11 PM and 5 AM)
-     */
     private LocalTime generateOffHoursTime() {
         int hour = random.nextBoolean() ?
                 random.nextInt(5) + 23 :
                 random.nextInt(6);
 
-        if (hour >= 24) hour -= 24; // Handle wrap-around
+        if (hour >= 24) hour -= 24;
 
         int minute = random.nextInt(60);
         int second = random.nextInt(60);
 
         return LocalTime.of(hour, minute, second);
+    }
+
+    private void updateTransactionBanks(Transaction transaction, BankInfo fromBank, BankInfo toBank) {
+        String fromAccount = generateAccountNumber();
+        String toAccount = generateAccountNumber();
+        String fromIBAN = generateIBANForBank(fromBank, fromAccount);
+        String toIBAN = generateIBANForBank(toBank, toAccount);
+
+        transaction.setFromAccount(fromAccount);
+        transaction.setToAccount(toAccount);
+        transaction.setFromBankSwift(fromBank.getSwiftCode());
+        transaction.setToBankSwift(toBank.getSwiftCode());
+        transaction.setFromBankName(fromBank.getBankName());
+        transaction.setToBankName(toBank.getBankName());
+        transaction.setFromIBAN(fromIBAN);
+        transaction.setToIBAN(toIBAN);
+        transaction.setFromCountryCode(fromBank.getCountryCode());
+        transaction.setToCountryCode(toBank.getCountryCode());
+        transaction.setCurrency(determineCurrency(fromBank, toBank));
     }
 }

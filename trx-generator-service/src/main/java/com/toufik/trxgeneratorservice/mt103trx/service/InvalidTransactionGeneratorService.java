@@ -45,8 +45,7 @@ public class InvalidTransactionGeneratorService {
         log.warn("Invalid Transaction Details: {}", invalidTransactionEvent.getTransaction());
 
         String mt103Content = invalidTransactionEvent.getMt103Content();
-        String preview = mt103Content.substring(0, Math.min(200, mt103Content.length()));
-        log.warn("Invalid MT103 Content Preview: {}", preview);
+        log.warn("Invalid MT103 Content Preview: {}", mt103Content);
 
         if (mt103Content.length() > 200) {
             log.warn("MT103 Content Length: {} characters (truncated for logging)", mt103Content.length());
