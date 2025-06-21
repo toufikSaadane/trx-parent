@@ -17,10 +17,10 @@ import java.util.List;
 public class FraudDetectionEngine {
 
     private final HighRiskCountryDetectionService highRiskCountryDetectionService;
+    private final HighAmountDetectionService highAmountDetectionService;
 
     public List<FraudAlert> detectFraud(TransactionWithMT103Event event) {
         String transactionId = event.getTransaction().getTransactionId();
-
 
         log.info("==================== FRAUD DETECTION STARTED ====================");
         log.info("Analyzing transaction: {}", transactionId);
@@ -32,7 +32,8 @@ public class FraudDetectionEngine {
                 event.getTransaction().getToCountryCode());
 
         List<FraudDetectionRule> rules = List.of(
-                highRiskCountryDetectionService
+                highRiskCountryDetectionService,
+                highAmountDetectionService
         );
 
         List<FraudAlert> alerts = new ArrayList<>();
@@ -72,8 +73,7 @@ public class FraudDetectionEngine {
     private String determineSeverity(String ruleName) {
         return switch (ruleName) {
             case "HIGH_RISK_COUNTRY_DETECTION" -> "HIGH";
-            case "THRESHOLD_AVOIDANCE_DETECTION" -> "HIGH";
-            case "STRUCTURING_DETECTION" -> "MEDIUM";
+            case "HIGH_AMOUNT_DETECTION" -> "HIGH";
             default -> "LOW";
         };
     }

@@ -19,9 +19,6 @@ public class FraudTransactionFactory extends BaseTransactionFactory {
 
     private final Random random = new Random();
 
-    /**
-     * Creates a fraud transaction with randomized fraud patterns
-     */
     public Transaction createFraudTransaction() {
         Transaction transaction = createBaseTransaction();
         applyRandomFraudPattern(transaction);
@@ -30,7 +27,6 @@ public class FraudTransactionFactory extends BaseTransactionFactory {
 
     private void applyRandomFraudPattern(Transaction transaction) {
         int pattern = random.nextInt(4);
-
         switch (pattern) {
             case 0 -> {
                 applyHighAmountPattern(transaction);
@@ -51,7 +47,6 @@ public class FraudTransactionFactory extends BaseTransactionFactory {
         }
     }
     private void applyHighAmountPattern(Transaction transaction) {
-        // Use BankDataService to get banks from CSV
         BankInfo fromBank = bankDataService.getRandomBank();
         BankInfo toBank = getDistinctToBank(fromBank);
 
@@ -59,11 +54,10 @@ public class FraudTransactionFactory extends BaseTransactionFactory {
 
         BigDecimal amount = AmountGenerator.generateHigh();
         transaction.setAmount(amount);
-        log.debug("Applied HIGH_AMOUNT pattern with amount: {}", amount);
+        log.info("Applied HIGH_AMOUNT pattern with amount: {}", amount);
     }
 
     private void applyOffHoursPattern(Transaction transaction) {
-        // Use BankDataService to get banks from CSV
         BankInfo fromBank = bankDataService.getRandomBank();
         BankInfo toBank = getDistinctToBank(fromBank);
 
@@ -86,7 +80,7 @@ public class FraudTransactionFactory extends BaseTransactionFactory {
         updateTransactionBanks(transaction, fromBank, toBank);
 
         transaction.setAmount(AmountGenerator.generateMedium());
-        log.debug("Applied SUSPICIOUS_REMITTANCE pattern");
+        log.info("Applied SUSPICIOUS_REMITTANCE pattern");
     }
 
     private void applyCrossBorderHighRiskPattern(Transaction transaction) {
@@ -96,7 +90,7 @@ public class FraudTransactionFactory extends BaseTransactionFactory {
         BigDecimal amount = random.nextBoolean() ?
                 AmountGenerator.generateMedium() : AmountGenerator.generateHigh();
         transaction.setAmount(amount);
-        log.debug("Applied CROSS_BORDER_HIGH_RISK pattern to country: {} with amount: {}", riskCountry, amount);
+        log.info("Applied CROSS_BORDER_HIGH_RISK pattern to country: {} with amount: {}", riskCountry, amount);
     }
 
     @Override
