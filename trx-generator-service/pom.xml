@@ -12,8 +12,6 @@
     <artifactId>trx-generator-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-
-    <name>trx-generator-service</name>
     <description>Service for generating financial transactions</description>
     <url/>
 

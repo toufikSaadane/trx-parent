@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 public class BankInfo {
     private String swiftCode;
     private String countryCode;
+    private  String countryName;
     private String bankName;
     private String routingNumber;
     private String currencyCode;

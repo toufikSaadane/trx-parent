@@ -32,9 +32,9 @@ public class BankDataService {
                     }
 
                     String[] fields = line.split(",");
-                    if (fields.length >= 5) {
-                        String ibanPrefix = fields.length > 5 ? fields[5].trim() : "";
-                        String ibanLengthStr = fields.length > 6 ? fields[6].trim() : "";
+                    if (fields.length >= 6) { // Updated to require at least 6 fields (added country name)
+                        String ibanPrefix = fields.length > 6 ? fields[6].trim() : "";
+                        String ibanLengthStr = fields.length > 7 ? fields[7].trim() : "";
 
                         Integer ibanLength = null;
                         if (!ibanLengthStr.isEmpty()) {
@@ -48,9 +48,10 @@ public class BankDataService {
                         BankInfo bank = new BankInfo(
                                 fields[0].trim(), // swiftCode
                                 fields[1].trim(), // countryCode
-                                fields[2].trim(), // bankName
-                                fields[3].trim(), // routingNumber
-                                fields[4].trim(), // currencyCode
+                                fields[2].trim(), // countryName (new field)
+                                fields[3].trim(), // bankName
+                                fields[4].trim(), // routingNumber
+                                fields[5].trim(), // currencyCode
                                 ibanPrefix.isEmpty() ? fields[1].trim() : ibanPrefix, // use CSV prefix or country code
                                 ibanLength // use CSV length or null
                         );
@@ -81,7 +82,6 @@ public class BankDataService {
 
         String account = padAccount(accountNumber, bank.getIbanLength(), bankCode);
 
-        // Calculate check digits
         String temp = bankCode + account + countryCode + "00";
         String checkDigits = String.format("%02d", 98 - mod97(temp));
 
@@ -113,11 +113,27 @@ public class BankDataService {
         return remainder;
     }
 
-    /**
-     * Returns all available banks in the system
-     * @return List of all bank information
-     */
     public List<BankInfo> getAllBanks() {
         return new ArrayList<>(banks);
+    }
+
+    public List<BankInfo> getBanksByCountryCode(String countryCode) {
+        return banks.stream()
+                .filter(bank -> bank.getCountryCode().equalsIgnoreCase(countryCode))
+                .toList();
+    }
+
+    public List<BankInfo> getBanksByCountryName(String countryName) {
+        return banks.stream()
+                .filter(bank -> bank.getCountryName().toLowerCase().contains(countryName.toLowerCase()))
+                .toList();
+    }
+
+    public Map<String, String> getAllCountries() {
+        Map<String, String> countries = new TreeMap<>();
+        banks.forEach(bank ->
+                countries.put(bank.getCountryCode(), bank.getCountryName())
+        );
+        return countries;
     }
 }

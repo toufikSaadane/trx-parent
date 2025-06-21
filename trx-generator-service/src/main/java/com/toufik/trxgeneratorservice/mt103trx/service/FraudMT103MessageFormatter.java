@@ -16,16 +16,11 @@ public class FraudMT103MessageFormatter extends MT103MessageFormatter {
         this.fraudTransactionFactory = fraudTransactionFactory;
     }
 
-    /**
-     * Formats a fraud transaction into MT103 SWIFT message format
-     * Extends the base formatter with fraud-specific remittance information
-     */
     @Override
     public String formatToMT103(Transaction transaction) {
         var mt103 = new StringBuilder();
         var transactionRef = truncateToLength(transaction.getTransactionId(), 16);
 
-        // Build MT103 structure using base class methods
         appendHeader(mt103, transaction);
         appendMessageTextWithFraudInfo(mt103, transaction, transactionRef);
         appendTrailer(mt103);
@@ -33,9 +28,6 @@ public class FraudMT103MessageFormatter extends MT103MessageFormatter {
         return mt103.toString();
     }
 
-    /**
-     * Appends the complete message text block with fraud-specific information
-     */
     private void appendMessageTextWithFraudInfo(StringBuilder mt103, Transaction transaction, String transactionRef) {
         mt103.append("\n{4:\n");
 
@@ -47,32 +39,13 @@ public class FraudMT103MessageFormatter extends MT103MessageFormatter {
         mt103.append("}");
     }
 
-    /**
-     * Appends optional fields with fraud-specific remittance information
-     */
     private void appendFraudSpecificOptionalFields(StringBuilder mt103, Transaction transaction) {
-        var remittanceInfo = buildFraudRemittanceInfo(transaction);
+        var remittanceInfo = buildCharacteristicBasedRemittance(transaction);
 
         mt103.append(":70:").append(remittanceInfo).append("\n")
                 .append(":72:/INS/").append(transaction.getFromBankSwift()).append("\n");
     }
 
-    /**
-     * Builds fraud-specific remittance information
-     */
-    private String buildFraudRemittanceInfo(Transaction transaction) {
-        String suspiciousText = fraudTransactionFactory.getSuspiciousRemittanceText(transaction.getTransactionId());
-
-        if (suspiciousText != null) {
-            return suspiciousText;
-        }
-
-        return buildCharacteristicBasedRemittance(transaction);
-    }
-
-    /**
-     * Builds remittance info based on transaction characteristics for fraud scenarios
-     */
     private String buildCharacteristicBasedRemittance(Transaction transaction) {
         var shortTransactionId = truncateToLength(transaction.getTransactionId(), 8);
         var remittance = new StringBuilder();
@@ -148,9 +121,6 @@ public class FraudMT103MessageFormatter extends MT103MessageFormatter {
                 .append(formattedAmount).append("\n");
     }
 
-    /**
-     * Appends accounting-related fields - delegates to parent class logic
-     */
     private void appendAccountingFields(StringBuilder mt103, Transaction transaction) {
         var formattedAmount = formatAmount(transaction.getAmount().toString());
         var chargeBearer = transaction.isCrossBorder() ? "SHA" : "OUR";
@@ -160,9 +130,6 @@ public class FraudMT103MessageFormatter extends MT103MessageFormatter {
                 .append(":71A:").append(chargeBearer).append("\n");
     }
 
-    /**
-     * Appends all party-related fields - delegates to parent class logic
-     */
     private void appendPartyFields(StringBuilder mt103, Transaction transaction) {
         appendOrderingCustomer(mt103, transaction);
         appendOrderingInstitution(mt103, transaction);

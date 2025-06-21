@@ -11,7 +11,7 @@ import java.math.BigDecimal;
 
 @Service
 @Slf4j
-public class TransactionGeneratorService extends BaseTransactionFactory implements TransactionFactory {
+public class TransactionGeneratorService extends BaseTransactionFactory {
 
     private final TransactionProducer transactionProducer;
     private final MT103MessageFormatter mt103MessageFormatter;
@@ -31,13 +31,15 @@ public class TransactionGeneratorService extends BaseTransactionFactory implemen
             log.info("Transaction Details: {}", transactionWithMT103Event.getTransaction());
             log.info("From IBAN: {}", transactionWithMT103Event.getTransaction().getFromIBAN());
             log.info("To IBAN: {}", transactionWithMT103Event.getTransaction().getToIBAN());
+            log.info("Amount: {} {}", transactionWithMT103Event.getTransaction().getAmount(),
+                    transactionWithMT103Event.getTransaction().getCurrency());
+            log.info("==================================================================");
             transactionProducer.sendTransaction(transactionWithMT103Event);
         } catch (Exception e) {
             log.error("Error generating transaction: {}", e.getMessage(), e);
         }
     }
 
-    @Override
     public Transaction createTransaction() {
         return createBaseTransaction();
     }
@@ -59,6 +61,6 @@ public class TransactionGeneratorService extends BaseTransactionFactory implemen
 
     @Override
     protected BigDecimal generateRandomAmount() {
-        return AmountGenerationStrategy.NORMAL.generateAmount(random);
+        return AmountGenerator.generateMedium();
     }
 }
