@@ -2,6 +2,7 @@ package com.toufik.trxgeneratorservice.mt103trx.service;
 
 import com.toufik.trxgeneratorservice.mt103trx.model.BankInfo;
 import com.toufik.trxgeneratorservice.mt103trx.model.Transaction;
+import com.toufik.trxgeneratorservice.mt103trx.util.AmountGenerator;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
@@ -79,7 +80,7 @@ public class FraudTransactionFactory extends BaseTransactionFactory {
 
         updateTransactionBanks(transaction, fromBank, toBank);
 
-        transaction.setAmount(AmountGenerator.generateMedium());
+        transaction.setAmount(AmountGenerator.generatePatternAmounts(random));
         log.info("Applied SUSPICIOUS_REMITTANCE pattern");
     }
 

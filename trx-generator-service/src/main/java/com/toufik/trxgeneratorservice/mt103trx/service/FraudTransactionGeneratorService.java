@@ -22,16 +22,13 @@ public class FraudTransactionGeneratorService {
     @Autowired
     private FraudMT103MessageFormatter fraudMT103MessageFormatter;
 
-    private final Random random = new Random();
-
     @Scheduled(fixedRate = 10000)
     public void generateAndSendFraudTransaction() {
+
         try {
             TransactionWithMT103Event fraudTransactionEvent = generateFraudTransactionWithMT103();
-
             // Enhanced logging for fraud transaction details
             logFraudTransactionDetails(fraudTransactionEvent.getTransaction());
-
             transactionProducer.sendTransaction(fraudTransactionEvent);
 
         } catch (Exception e) {

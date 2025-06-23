@@ -1,7 +1,8 @@
-package com.toufik.trxgeneratorservice.mt103trx.service;
+package com.toufik.trxgeneratorservice.mt103trx.util;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.util.Random;
 
 public class AmountGenerator {
 
@@ -16,5 +17,11 @@ public class AmountGenerator {
     private static BigDecimal randomBetween(int min, int max) {
         double value = min + Math.random() * (max - min);
         return BigDecimal.valueOf(value).setScale(2, RoundingMode.HALF_UP);
+    }
+
+    public static BigDecimal generatePatternAmounts(Random random) {
+        int[] amounts = {999, 9999, 99999, 999999};
+        int selectedAmount = amounts[random.nextInt(amounts.length)];
+        return new BigDecimal(selectedAmount);
     }
 }

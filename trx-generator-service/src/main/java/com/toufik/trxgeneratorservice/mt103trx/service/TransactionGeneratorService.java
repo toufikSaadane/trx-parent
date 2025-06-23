@@ -2,6 +2,7 @@ package com.toufik.trxgeneratorservice.mt103trx.service;
 
 import com.toufik.trxgeneratorservice.mt103trx.model.Transaction;
 import com.toufik.trxgeneratorservice.mt103trx.model.TransactionWithMT103Event;
+import com.toufik.trxgeneratorservice.mt103trx.util.AmountGenerator;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.scheduling.annotation.Scheduled;

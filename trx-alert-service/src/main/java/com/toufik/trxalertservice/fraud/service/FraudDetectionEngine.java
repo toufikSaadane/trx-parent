@@ -18,6 +18,8 @@ public class FraudDetectionEngine {
 
     private final HighRiskCountryDetectionService highRiskCountryDetectionService;
     private final HighAmountDetectionService highAmountDetectionService;
+    private final SuspiciousRemittanceDetectionService suspiciousRemittanceDetectionService;
+    private final OffHoursDetectionService offHoursDetectionService;
 
     public List<FraudAlert> detectFraud(TransactionWithMT103Event event) {
         String transactionId = event.getTransaction().getTransactionId();
@@ -33,25 +35,27 @@ public class FraudDetectionEngine {
 
         List<FraudDetectionRule> rules = List.of(
                 highRiskCountryDetectionService,
-                highAmountDetectionService
+                highAmountDetectionService,
+                suspiciousRemittanceDetectionService,
+                offHoursDetectionService
         );
 
         List<FraudAlert> alerts = new ArrayList<>();
         for (FraudDetectionRule rule : rules) {
-            log.debug("Executing fraud rule: {}", rule.getRuleName());
+            log.info("Executing fraud rule: {}", rule.getRuleName());
 
             if (rule.isSuspicious(event)) {
                 FraudAlert alert = createFraudAlert(transactionId, rule);
                 alerts.add(alert);
 
-                log.warn("FRAUD RULE TRIGGERED: {} - {}", rule.getRuleName(), rule.getDescription());
+                log.error("FRAUD RULE TRIGGERED: {} - {}", rule.getRuleName(), rule.getDescription());
             }
         }
 
         if (alerts.isEmpty()) {
-            log.info("✅ No fraud patterns detected for transaction: {}", transactionId);
+            log.info("No fraud patterns detected for transaction: {}", transactionId);
         } else {
-            log.error("🚨 FRAUD DETECTED: {} suspicious patterns found for transaction: {}",
+            log.error("FRAUD DETECTED: {} suspicious patterns found for transaction: {}",
                     alerts.size(), transactionId);
         }
 
@@ -74,6 +78,8 @@ public class FraudDetectionEngine {
         return switch (ruleName) {
             case "HIGH_RISK_COUNTRY_DETECTION" -> "HIGH";
             case "HIGH_AMOUNT_DETECTION" -> "HIGH";
+            case "SUSPICIOUS_REMITTANCE_DETECTION" -> "MEDIUM";
+            case "OFF_HOURS_DETECTION" -> "LOW";
             default -> "LOW";
         };
     }

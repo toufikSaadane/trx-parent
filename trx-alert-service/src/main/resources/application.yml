@@ -67,4 +67,9 @@ fraud:
     recipient-email: toufik.saadane@gmail.com
     sender-email: ${FRAUD_SENDER_EMAIL:fraud-alert@yourcompany.com}
     sender-name: "Transaction Fraud Alert System"
-    subject: "🚨 FRAUD ALERT - Suspicious Transaction Detected"
+    subject: "FRAUD ALERT - Suspicious Transaction Detected"
+
+app:
+  json-logging:
+    directory: "./transaction-logs"
+    enabled: true
