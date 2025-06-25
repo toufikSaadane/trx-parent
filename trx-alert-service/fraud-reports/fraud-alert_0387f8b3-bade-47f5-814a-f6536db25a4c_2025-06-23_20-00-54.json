@@ -1,0 +1,13 @@
+{
+  "transactionId" : "0387f8b3-bade-47f5-814a-f6536db25a4c",
+  "reportGeneratedAt" : [ 2025, 6, 23, 20, 0, 54, 692464000 ],
+  "totalAlerts" : 1,
+  "alerts" : [ {
+    "transactionId" : "0387f8b3-bade-47f5-814a-f6536db25a4c",
+    "ruleName" : "HIGH_RISK_COUNTRY_DETECTION",
+    "description" : "Detects transactions to/from high-risk countries (AF, IR, KP, MM, SY, YE)",
+    "severity" : "HIGH",
+    "alertTime" : [ 2025, 6, 23, 20, 0, 54, 692022000 ],
+    "details" : "Transaction 0387f8b3-bade-47f5-814a-f6536db25a4c triggered fraud rule: HIGH_RISK_COUNTRY_DETECTION"
+  } ]
+}

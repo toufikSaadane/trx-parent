@@ -1,0 +1,13 @@
+{
+  "transactionId" : "85105ceb-503d-4579-9950-4b486342217a",
+  "reportGeneratedAt" : [ 2025, 6, 23, 20, 6, 58, 546536000 ],
+  "totalAlerts" : 1,
+  "alerts" : [ {
+    "transactionId" : "85105ceb-503d-4579-9950-4b486342217a",
+    "ruleName" : "HIGH_AMOUNT_DETECTION",
+    "description" : "Detects transactions with amounts ≥ 1,000,000 (or equivalent) - Large value transfers",
+    "severity" : "HIGH",
+    "alertTime" : [ 2025, 6, 23, 20, 6, 58, 545917000 ],
+    "details" : "Transaction 85105ceb-503d-4579-9950-4b486342217a triggered fraud rule: HIGH_AMOUNT_DETECTION"
+  } ]
+}

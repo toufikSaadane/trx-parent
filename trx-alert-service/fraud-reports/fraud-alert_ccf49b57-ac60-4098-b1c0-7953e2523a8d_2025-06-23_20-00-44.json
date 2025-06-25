@@ -1,0 +1,13 @@
+{
+  "transactionId" : "ccf49b57-ac60-4098-b1c0-7953e2523a8d",
+  "reportGeneratedAt" : [ 2025, 6, 23, 20, 0, 44, 820642000 ],
+  "totalAlerts" : 1,
+  "alerts" : [ {
+    "transactionId" : "ccf49b57-ac60-4098-b1c0-7953e2523a8d",
+    "ruleName" : "SUSPICIOUS_REMITTANCE_DETECTION",
+    "description" : "Detects transactions with suspicious pattern amounts (999, 9999, 99999, 999999)",
+    "severity" : "MEDIUM",
+    "alertTime" : [ 2025, 6, 23, 20, 0, 44, 819986000 ],
+    "details" : "Transaction ccf49b57-ac60-4098-b1c0-7953e2523a8d triggered fraud rule: SUSPICIOUS_REMITTANCE_DETECTION"
+  } ]
+}

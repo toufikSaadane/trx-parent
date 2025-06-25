@@ -1,0 +1,13 @@
+{
+  "transactionId" : "0fa48b3b-d1aa-4310-a9c9-1efc0ce7a797",
+  "reportGeneratedAt" : [ 2025, 6, 23, 20, 25, 58, 525587000 ],
+  "totalAlerts" : 1,
+  "alerts" : [ {
+    "transactionId" : "0fa48b3b-d1aa-4310-a9c9-1efc0ce7a797",
+    "ruleName" : "HIGH_AMOUNT_DETECTION",
+    "description" : "Detects transactions with amounts ≥ 1,000,000 (or equivalent) - Large value transfers",
+    "severity" : "HIGH",
+    "alertTime" : [ 2025, 6, 23, 20, 25, 58, 524874000 ],
+    "details" : "Transaction 0fa48b3b-d1aa-4310-a9c9-1efc0ce7a797 triggered fraud rule: HIGH_AMOUNT_DETECTION"
+  } ]
+}

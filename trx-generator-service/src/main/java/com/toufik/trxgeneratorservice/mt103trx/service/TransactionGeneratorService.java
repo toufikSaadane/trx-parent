@@ -16,17 +16,26 @@ public class TransactionGeneratorService extends BaseTransactionFactory {
 
     private final TransactionProducer transactionProducer;
     private final MT103MessageFormatter mt103MessageFormatter;
+    private final TransactionSaveService transactionSaveService; // Added
 
     public TransactionGeneratorService(TransactionProducer transactionProducer,
-                                       @Qualifier("MT103MessageFormatter") MT103MessageFormatter mt103MessageFormatter) {
+                                       @Qualifier("MT103MessageFormatter") MT103MessageFormatter mt103MessageFormatter,
+                                       TransactionSaveService transactionSaveService) { // Added
         this.transactionProducer = transactionProducer;
         this.mt103MessageFormatter = mt103MessageFormatter;
+        this.transactionSaveService = transactionSaveService; // Added
     }
 
     @Scheduled(fixedRate = 10000)
     public void generateAndSendTransaction() {
         try {
             TransactionWithMT103Event transactionWithMT103Event = generateRandomTransactionWithMT103();
+
+            transactionSaveService.saveTransaction(
+                    transactionWithMT103Event.getTransaction(),
+                    transactionWithMT103Event.getMt103Content()
+            );
+
             transactionProducer.sendTransaction(transactionWithMT103Event);
             logValidTransactionDetails(transactionWithMT103Event);
         } catch (Exception e) {
@@ -58,17 +67,7 @@ public class TransactionGeneratorService extends BaseTransactionFactory {
         return AmountGenerator.generateMedium();
     }
 
-    private void logValidTransactionDetails(TransactionWithMT103Event invalidTransactionEvent) {
-        log.warn("Generated INVALID transaction: {}",
-                invalidTransactionEvent.getTransaction().getTransactionId());
-        log.warn("======================= VALID TRANSACTION =============================");
-        log.warn("Valid Transaction Details: {}", invalidTransactionEvent.getTransaction());
-
-        String mt103Content = invalidTransactionEvent.getMt103Content();
-        log.warn("Invalid MT103 Content Preview: {}", mt103Content);
-
-        if (mt103Content.length() > 200) {
-            log.warn("MT103 Content Length: {} characters (truncated for logging)", mt103Content.length());
-        }
+    private void logValidTransactionDetails(TransactionWithMT103Event transactionEvent) {
+        log.info("Generated NORMAL transaction: {}", transactionEvent.getTransaction().getTransactionId());
     }
 }

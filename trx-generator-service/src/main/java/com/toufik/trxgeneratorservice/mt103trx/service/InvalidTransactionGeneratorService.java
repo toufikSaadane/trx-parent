@@ -3,12 +3,10 @@ package com.toufik.trxgeneratorservice.mt103trx.service;
 import com.toufik.trxgeneratorservice.mt103trx.model.TransactionWithMT103Event;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-/**
- * Service responsible for generating and sending invalid transactions at scheduled intervals
- */
 @Service
 @RequiredArgsConstructor
 @Slf4j
@@ -17,16 +15,22 @@ public class InvalidTransactionGeneratorService {
     private final InvalidTransactionFactory invalidTransactionFactory;
     private final TransactionProducer transactionProducer;
 
-    /**
-     * Generates invalid transactions every 15 seconds
-     */
+    @Autowired
+    private TransactionSaveService transactionSaveService; // Added
+
     @Scheduled(fixedRate = 15000)
     public void generateAndSendInvalidTransaction() {
         try {
             TransactionWithMT103Event invalidTransactionEvent = invalidTransactionFactory.createInvalidTransaction();
 
-            logInvalidTransactionDetails(invalidTransactionEvent);
+            // Save to MongoDB with invalid reason
+            transactionSaveService.saveInvalidTransaction(
+                    invalidTransactionEvent.getTransaction(),
+                    invalidTransactionEvent.getMt103Content(),
+                    "CORRUPTED_MT103" // You can determine the actual invalid scenario
+            );
 
+            logInvalidTransactionDetails(invalidTransactionEvent);
             transactionProducer.sendTransaction(invalidTransactionEvent);
 
             log.info("Successfully sent invalid transaction: {}",
@@ -37,18 +41,7 @@ public class InvalidTransactionGeneratorService {
         }
     }
 
-
     private void logInvalidTransactionDetails(TransactionWithMT103Event invalidTransactionEvent) {
-        log.warn("Generated INVALID transaction: {}",
-                invalidTransactionEvent.getTransaction().getTransactionId());
-        log.warn("======================= INVALID TRANSACTION =============================");
-        log.warn("Invalid Transaction Details: {}", invalidTransactionEvent.getTransaction());
-
-        String mt103Content = invalidTransactionEvent.getMt103Content();
-        log.warn("Invalid MT103 Content Preview: {}", mt103Content);
-
-        if (mt103Content.length() > 200) {
-            log.warn("MT103 Content Length: {} characters (truncated for logging)", mt103Content.length());
-        }
+        log.warn("Generated INVALID transaction: {}", invalidTransactionEvent.getTransaction().getTransactionId());
     }
 }

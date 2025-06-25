@@ -1,0 +1,13 @@
+{
+  "transactionId" : "577132c7-afb4-440c-a1c6-a371a052eb7e",
+  "reportGeneratedAt" : [ 2025, 6, 23, 20, 25, 18, 514745000 ],
+  "totalAlerts" : 1,
+  "alerts" : [ {
+    "transactionId" : "577132c7-afb4-440c-a1c6-a371a052eb7e",
+    "ruleName" : "SUSPICIOUS_REMITTANCE_DETECTION",
+    "description" : "Detects transactions with suspicious pattern amounts (999, 9999, 99999, 999999)",
+    "severity" : "MEDIUM",
+    "alertTime" : [ 2025, 6, 23, 20, 25, 18, 514279000 ],
+    "details" : "Transaction 577132c7-afb4-440c-a1c6-a371a052eb7e triggered fraud rule: SUSPICIOUS_REMITTANCE_DETECTION"
+  } ]
+}
