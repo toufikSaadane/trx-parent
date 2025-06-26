@@ -27,11 +27,10 @@ public class InvalidTransactionGeneratorService {
         try {
             TransactionWithMT103Event invalidTransactionEvent = invalidTransactionFactory.createInvalidTransaction();
 
-            // Save to MongoDB with invalid reason
             transactionSaveService.saveInvalidTransaction(
                     invalidTransactionEvent.getTransaction(),
                     invalidTransactionEvent.getMt103Content(),
-                    "CORRUPTED_MT103" // You can determine the actual invalid scenario
+                    "CORRUPTED_MT103"
             );
 
             logInvalidTransactionDetails(invalidTransactionEvent);

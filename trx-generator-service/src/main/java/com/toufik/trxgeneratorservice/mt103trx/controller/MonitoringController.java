@@ -2,7 +2,6 @@ package com.toufik.trxgeneratorservice.mt103trx.controller;
 
 import com.toufik.trxgeneratorservice.mt103trx.entity.TransactionEntity;
 import com.toufik.trxgeneratorservice.mt103trx.repository.TransactionRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDateTime;
@@ -21,7 +20,6 @@ public class MonitoringController {
         this.transactionRepository = transactionRepository;
     }
 
-    // Get basic stats
     @GetMapping("/stats")
     public Map<String, Object> getStats() {
         Map<String, Object> stats = new HashMap<>();
@@ -39,7 +37,6 @@ public class MonitoringController {
         return stats;
     }
 
-    // Get recent 10 transactions
     @GetMapping("/recent")
     public List<TransactionEntity> getRecentTransactions() {
         return transactionRepository.findRecentTransactions()
@@ -48,19 +45,16 @@ public class MonitoringController {
                 .toList();
     }
 
-    // Get all fraud transactions
     @GetMapping("/fraud")
     public List<TransactionEntity> getFraudTransactions() {
         return transactionRepository.findByTransactionType("FRAUD");
     }
 
-    // Get transactions by type
     @GetMapping("/type/{type}")
     public List<TransactionEntity> getTransactionsByType(@PathVariable String type) {
         return transactionRepository.findByTransactionType(type.toUpperCase());
     }
 
-    // Get transactions from today
     @GetMapping("/today")
     public List<TransactionEntity> getTodayTransactions() {
         LocalDateTime startOfDay = LocalDateTime.now().withHour(0).withMinute(0).withSecond(0);
@@ -69,7 +63,6 @@ public class MonitoringController {
         return transactionRepository.findByTimestampBetween(startOfDay, endOfDay);
     }
 
-    // Get all transactions (for table view)
     @GetMapping("/all")
     public List<TransactionEntity> getAllTransactions() {
         return transactionRepository.findAll();

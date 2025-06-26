@@ -17,7 +17,6 @@ public class TransactionProducer {
 
     private final KafkaTemplate<String, Object> kafkaTemplate;
 
-    @Autowired
     public TransactionProducer(KafkaTemplate<String, Object> kafkaTemplate) {
         this.kafkaTemplate = kafkaTemplate;
         ObjectMapper objectMapper = new ObjectMapper();
