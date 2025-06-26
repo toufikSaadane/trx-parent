@@ -11,17 +11,20 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class FraudTransactionGeneratorService {
 
-    @Autowired
-    private FraudTransactionFactory fraudTransactionFactory;
+    private final FraudTransactionFactory fraudTransactionFactory;
 
-    @Autowired
-    private TransactionProducer transactionProducer;
+    private final TransactionProducer transactionProducer;
 
-    @Autowired
-    private FraudMT103MessageFormatter fraudMT103MessageFormatter;
+    private final FraudMT103MessageFormatter fraudMT103MessageFormatter;
 
-    @Autowired
-    private TransactionSaveService transactionSaveService; // Added
+    private final TransactionSaveService transactionSaveService; // Added
+
+    public FraudTransactionGeneratorService(FraudTransactionFactory fraudTransactionFactory, TransactionProducer transactionProducer, FraudMT103MessageFormatter fraudMT103MessageFormatter, TransactionSaveService transactionSaveService) {
+        this.fraudTransactionFactory = fraudTransactionFactory;
+        this.transactionProducer = transactionProducer;
+        this.fraudMT103MessageFormatter = fraudMT103MessageFormatter;
+        this.transactionSaveService = transactionSaveService;
+    }
 
     @Scheduled(fixedRate = 10000)
     public void generateAndSendFraudTransaction() {

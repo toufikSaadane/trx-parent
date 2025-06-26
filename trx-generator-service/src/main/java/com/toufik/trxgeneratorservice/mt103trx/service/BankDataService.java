@@ -14,8 +14,8 @@ import java.util.*;
 @Slf4j
 public class BankDataService {
 
-    private List<BankInfo> banks = new ArrayList<>();
-    private Random random = new Random();
+    private final List<BankInfo> banks = new ArrayList<>();
+    private final Random random = new Random();
 
     @PostConstruct
     public void loadBanksFromCsv() {
@@ -111,29 +111,5 @@ public class BankDataService {
             remainder = (remainder * 10 + Character.getNumericValue(digit)) % 97;
         }
         return remainder;
-    }
-
-    public List<BankInfo> getAllBanks() {
-        return new ArrayList<>(banks);
-    }
-
-    public List<BankInfo> getBanksByCountryCode(String countryCode) {
-        return banks.stream()
-                .filter(bank -> bank.getCountryCode().equalsIgnoreCase(countryCode))
-                .toList();
-    }
-
-    public List<BankInfo> getBanksByCountryName(String countryName) {
-        return banks.stream()
-                .filter(bank -> bank.getCountryName().toLowerCase().contains(countryName.toLowerCase()))
-                .toList();
-    }
-
-    public Map<String, String> getAllCountries() {
-        Map<String, String> countries = new TreeMap<>();
-        banks.forEach(bank ->
-                countries.put(bank.getCountryCode(), bank.getCountryName())
-        );
-        return countries;
     }
 }

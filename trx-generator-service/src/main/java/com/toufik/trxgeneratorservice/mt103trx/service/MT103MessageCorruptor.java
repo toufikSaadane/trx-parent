@@ -11,9 +11,7 @@ import org.springframework.stereotype.Component;
 import java.time.format.DateTimeFormatter;
 import java.util.Random;
 
-/**
- * Handles corruption of MT103 messages for testing invalid scenarios
- */
+
 @Component
 @Slf4j
 public class MT103MessageCorruptor {
@@ -25,9 +23,7 @@ public class MT103MessageCorruptor {
         this.mt103MessageFormatter = mt103MessageFormatter;
     }
 
-    /**
-     * Generates an invalid MT103 message based on the specified scenario
-     */
+
     public String generateInvalidMT103(Transaction transaction, InvalidScenario scenario) {
         log.debug("Generating invalid MT103 for scenario: {}", scenario);
 
@@ -47,14 +43,12 @@ public class MT103MessageCorruptor {
         StringBuilder mt103 = new StringBuilder();
         String transactionRef = transaction.getTransactionId().substring(0, Math.min(16, transaction.getTransactionId().length()));
 
-        // Normal header
         mt103.append("{1:F01").append(formatLTAddress(transaction.getFromBankSwift())).append("}");
         mt103.append("{2:I103").append(formatLTAddress(transaction.getToBankSwift())).append("N}");
         mt103.append("{3:{108:").append(transactionRef).append("}}");
 
         mt103.append("\n{4:\n");
 
-        // Randomly remove mandatory fields (20, 23B, 32A)
         if (random.nextBoolean()) {
             // Skip :20: field
         } else {
@@ -88,21 +82,18 @@ public class MT103MessageCorruptor {
     }
 
     private String generateMT103WithInvalidBIC(Transaction transaction) {
-        // Create invalid BICs
         String[] invalidBICs = {
-                "INVALID", // Too short
-                "TOOLONGBICCODE123456", // Too long
-                "BANK123@", // Invalid characters
-                "123BANK", // Starting with numbers
-                "", // Empty
-                "BANK-US", // Invalid format
-                "BANK US33" // Space in BIC
+                "INVALID",
+                "TOOLONGBICCODE123456",
+                "BANK123@",
+                "123BANK",
+                "",
+                "BANK-US",
+                "BANK US33"
         };
 
         String invalidFromBIC = invalidBICs[random.nextInt(invalidBICs.length)];
         String invalidToBIC = invalidBICs[random.nextInt(invalidBICs.length)];
-
-        // Create transaction copy with invalid BICs
         Transaction invalidTransaction = new Transaction(
                 transaction.getTransactionId(),
                 transaction.getFromAccount(),
@@ -176,23 +167,21 @@ public class MT103MessageCorruptor {
 
         String valueDate = transaction.getTimestamp().format(DateTimeFormatter.ofPattern("yyMMdd"));
 
-        // Generate invalid amounts
         String[] invalidAmounts = {
-                "", // Empty amount
-                "INVALID", // Non-numeric
-                "123.45.67", // Multiple decimals
-                "12345.123", // Too many decimal places
-                "-1000,00", // Negative amount
-                "0", // Zero amount
-                "999999999999999.99", // Too large
-                "12,34.56", // Mixed separators
-                "ABC123"  // Mixed alphanumeric
+                "",
+                "INVALID",
+                "123.45.67",
+                "12345.123",
+                "-1000,00",
+                "0",
+                "999999999999999.99",
+                "12,34.56",
+                "ABC123"
         };
 
         String invalidAmount = invalidAmounts[random.nextInt(invalidAmounts.length)];
         mt103.append(":32A:").append(valueDate).append(transaction.getCurrency()).append(invalidAmount).append("\n");
 
-        // Add remaining fields
         mt103.append(":50K:/").append(transaction.getFromAccount()).append("\n");
         mt103.append(transaction.getFromBankName()).append("\n");
         mt103.append(":59:/").append(transaction.getToAccount()).append("\n");

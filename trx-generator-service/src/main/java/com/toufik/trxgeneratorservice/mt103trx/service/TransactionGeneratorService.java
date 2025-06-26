@@ -16,14 +16,14 @@ public class TransactionGeneratorService extends BaseTransactionFactory {
 
     private final TransactionProducer transactionProducer;
     private final MT103MessageFormatter mt103MessageFormatter;
-    private final TransactionSaveService transactionSaveService; // Added
+    private final TransactionSaveService transactionSaveService;
 
     public TransactionGeneratorService(TransactionProducer transactionProducer,
                                        @Qualifier("MT103MessageFormatter") MT103MessageFormatter mt103MessageFormatter,
-                                       TransactionSaveService transactionSaveService) { // Added
+                                       TransactionSaveService transactionSaveService) {
         this.transactionProducer = transactionProducer;
         this.mt103MessageFormatter = mt103MessageFormatter;
-        this.transactionSaveService = transactionSaveService; // Added
+        this.transactionSaveService = transactionSaveService;
     }
 
     @Scheduled(fixedRate = 10000)
@@ -31,28 +31,24 @@ public class TransactionGeneratorService extends BaseTransactionFactory {
         try {
             TransactionWithMT103Event transactionWithMT103Event = generateRandomTransactionWithMT103();
 
+            // Save the complete transaction to MongoDB
             transactionSaveService.saveTransaction(
                     transactionWithMT103Event.getTransaction(),
                     transactionWithMT103Event.getMt103Content()
             );
 
+            // Send to Kafka
             transactionProducer.sendTransaction(transactionWithMT103Event);
+
+            // Log transaction details
             logValidTransactionDetails(transactionWithMT103Event);
         } catch (Exception e) {
             log.error("Error generating transaction: {}", e.getMessage(), e);
         }
     }
 
-    public Transaction createTransaction() {
-        return createBaseTransaction();
-    }
-
-    public Transaction generateRandomTransaction() {
-        return createTransaction();
-    }
-
     private TransactionWithMT103Event generateRandomTransactionWithMT103() {
-        Transaction transaction = generateRandomTransaction();
+        Transaction transaction = createBaseTransaction();
         String mt103Content = mt103MessageFormatter.formatToMT103(transaction);
 
         TransactionWithMT103Event result = new TransactionWithMT103Event();
@@ -68,6 +64,12 @@ public class TransactionGeneratorService extends BaseTransactionFactory {
     }
 
     private void logValidTransactionDetails(TransactionWithMT103Event transactionEvent) {
-        log.info("Generated NORMAL transaction: {}", transactionEvent.getTransaction().getTransactionId());
+        Transaction transaction = transactionEvent.getTransaction();
+        log.info("Generated NORMAL transaction: {} | Amount: {} {} | From: {} -> To: {}",
+                transaction.getTransactionId(),
+                transaction.getAmount(),
+                transaction.getCurrency(),
+                transaction.getFromBankSwift(),
+                transaction.getToBankSwift());
     }
 }

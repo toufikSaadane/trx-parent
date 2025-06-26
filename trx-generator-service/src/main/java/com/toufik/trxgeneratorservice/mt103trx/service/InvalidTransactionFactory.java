@@ -27,7 +27,7 @@ public class InvalidTransactionFactory {
      * Creates a transaction with an invalid MT103 message based on a random scenario
      */
     public TransactionWithMT103Event createInvalidTransaction() {
-        Transaction transaction = transactionGenerator.generateRandomTransaction();
+        Transaction transaction = transactionGenerator.createBaseTransaction();
         InvalidScenario scenario = selectRandomScenario();
         String invalidMT103Content = mt103MessageCorruptor.generateInvalidMT103(transaction, scenario);
         TransactionWithMT103Event result = new TransactionWithMT103Event();

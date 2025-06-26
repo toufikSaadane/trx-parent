@@ -8,15 +8,19 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 @Service
-@RequiredArgsConstructor
 @Slf4j
 public class InvalidTransactionGeneratorService {
 
     private final InvalidTransactionFactory invalidTransactionFactory;
     private final TransactionProducer transactionProducer;
+    private final TransactionSaveService transactionSaveService; // Added
 
     @Autowired
-    private TransactionSaveService transactionSaveService; // Added
+    public InvalidTransactionGeneratorService(InvalidTransactionFactory invalidTransactionFactory, TransactionProducer transactionProducer, TransactionSaveService transactionSaveService) {
+        this.invalidTransactionFactory = invalidTransactionFactory;
+        this.transactionProducer = transactionProducer;
+        this.transactionSaveService = transactionSaveService;
+    }
 
     @Scheduled(fixedRate = 15000)
     public void generateAndSendInvalidTransaction() {

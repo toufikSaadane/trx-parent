@@ -11,12 +11,15 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api/dashboard")
+@RequestMapping("/api/monitoring")
 @CrossOrigin(origins = "*")
-public class DashboardController {
+public class MonitoringController {
 
-    @Autowired
-    private TransactionRepository transactionRepository;
+    private final TransactionRepository transactionRepository;
+
+    public MonitoringController(TransactionRepository transactionRepository) {
+        this.transactionRepository = transactionRepository;
+    }
 
     // Get basic stats
     @GetMapping("/stats")

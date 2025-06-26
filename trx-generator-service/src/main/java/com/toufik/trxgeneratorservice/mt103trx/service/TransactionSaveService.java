@@ -4,8 +4,10 @@ import com.toufik.trxgeneratorservice.mt103trx.entity.TransactionEntity;
 import com.toufik.trxgeneratorservice.mt103trx.model.Transaction;
 import com.toufik.trxgeneratorservice.mt103trx.repository.TransactionRepository;
 import lombok.extern.slf4j.Slf4j;
+import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.Random;
 
 @Service
@@ -13,45 +15,65 @@ import java.util.Random;
 public class TransactionSaveService {
 
     private final TransactionRepository transactionRepository;
-    private final Random random = new Random();
+    private final ModelMapper modelMapper;
 
     public TransactionSaveService(TransactionRepository transactionRepository) {
         this.transactionRepository = transactionRepository;
+        this.modelMapper = new ModelMapper();
     }
 
     public void saveTransaction(Transaction transaction, String mt103Content) {
         try {
-            TransactionEntity entity = new TransactionEntity();
-
-            // Copy transaction fields to entity
-            // ... set all the fields from transaction to entity ...
+            TransactionEntity entity = modelMapper.map(transaction, TransactionEntity.class);
 
             entity.setMt103Content(mt103Content);
-
-            // Randomize status
-            String[] statuses = {"NORMAL", "FRAUD", "INVALID"};
-            String status = statuses[random.nextInt(statuses.length)];
-            entity.setTransactionType(status);
-
-            switch (status) {
-                case "NORMAL":
-                    entity.setRiskScore(0.1);
-                    break;
-                case "FRAUD":
-                    entity.setFraudPattern("PATTERN_" + random.nextInt(5));
-                    entity.setRiskScore(0.8);
-                    break;
-                case "INVALID":
-                    entity.setInvalidReason("REASON_" + random.nextInt(5));
-                    entity.setRiskScore(0.0);
-                    entity.setIsProcessed(false);
-                    break;
-            }
+            entity.setCreatedAt(LocalDateTime.now());
+            entity.setUpdatedAt(LocalDateTime.now());
+            entity.setIsProcessed(false);
+            entity.setTransactionType("NORMAL");
+            entity.setRiskScore(0.1);
 
             TransactionEntity saved = transactionRepository.save(entity);
-            log.info("Saved {} transaction: {}", status, saved.getTransactionId());
+            log.info("Saved NORMAL transaction: {}", saved.getTransactionId());
         } catch (Exception e) {
             log.error("Error saving transaction: {}", e.getMessage(), e);
+        }
+    }
+
+    public void saveFraudTransaction(Transaction transaction, String mt103Content, String fraudPattern) {
+        try {
+            TransactionEntity entity = modelMapper.map(transaction, TransactionEntity.class);
+            entity.setMt103Content(mt103Content);
+            entity.setCreatedAt(LocalDateTime.now());
+            entity.setUpdatedAt(LocalDateTime.now());
+            entity.setIsProcessed(false);
+            entity.setTransactionType("FRAUD");
+            entity.setFraudPattern(fraudPattern);
+            entity.setRiskScore(0.8);
+
+            TransactionEntity saved = transactionRepository.save(entity);
+            log.info("Saved FRAUD transaction: {} with pattern: {}", saved.getTransactionId(), fraudPattern);
+        } catch (Exception e) {
+            log.error("Error saving fraud transaction: {}", e.getMessage(), e);
+        }
+    }
+
+    public void saveInvalidTransaction(Transaction transaction, String mt103Content, String invalidReason) {
+        try {
+            TransactionEntity entity = modelMapper.map(transaction, TransactionEntity.class);
+
+            entity.setMt103Content(mt103Content);
+            entity.setCreatedAt(LocalDateTime.now());
+            entity.setUpdatedAt(LocalDateTime.now());
+            entity.setIsProcessed(false);
+            entity.setTransactionType("INVALID");
+            entity.setInvalidReason(invalidReason);
+            entity.setRiskScore(0.0);
+
+            TransactionEntity saved = transactionRepository.save(entity);
+            log.info("Saved INVALID transaction: {} with reason: {}", saved.getTransactionId(), invalidReason);
+        } catch (Exception e) {
+            log.error("Error saving invalid transaction: {}", e.getMessage(), e);
         }
     }
 }
