@@ -41,6 +41,11 @@ spring:
     prefix: classpath:/templates/
     suffix: .html
 
+  # MongoDB Configuration
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/transactions
+
 # Custom Fraud Detection Configuration
 fraud:
   email:
