@@ -11,5 +11,5 @@ public class EmailConfig {
     private String recipientEmail = "toufik.saadane@gmail.com";
     private String senderEmail = "fraud-alert@company.com";
     private String senderName = "Transaction Fraud Alert System";
-    private String subject = "🚨 FRAUD ALERT - Suspicious Transaction Detected";
+    private String subject = "FRAUD ALERT - Suspicious Transaction Detected";
 }

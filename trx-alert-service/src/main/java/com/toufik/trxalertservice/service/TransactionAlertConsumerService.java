@@ -21,7 +21,6 @@ public class TransactionAlertConsumerService {
 
     private final FraudDetectionEngine fraudDetectionEngine;
     private final FraudAlertNotificationService fraudAlertNotificationService;
-    private final FraudAlertReportService fraudAlertReportService;
 
 
     @KafkaListener(
@@ -34,9 +33,7 @@ public class TransactionAlertConsumerService {
     public void consumeTransactionAlert(@Payload TransactionWithMT103Event transactionWithMT103Event) throws MessagingException, UnsupportedEncodingException {
         log.info("======================= ALERT SERVICE RECEIVED TRANSACTION =============================");
         log.info("ALERT SERVICE RECEIVED TRANSACTION ALERT {}", transactionWithMT103Event);
-        String transactionId = transactionWithMT103Event.getTransaction().getTransactionId();
         List<FraudAlert> fraudAlerts = fraudDetectionEngine.detectFraud(transactionWithMT103Event);
 ////        fraudAlertNotificationService.sendFraudAlerts(fraudAlerts);
-        fraudAlertReportService.writeAlertsToJsonFile(fraudAlerts, transactionId);
     }
 }

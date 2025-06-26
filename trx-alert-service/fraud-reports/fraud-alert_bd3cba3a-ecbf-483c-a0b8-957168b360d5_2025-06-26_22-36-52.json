@@ -1,0 +1,20 @@
+{
+  "transactionId" : "bd3cba3a-ecbf-483c-a0b8-957168b360d5",
+  "reportGeneratedAt" : [ 2025, 6, 26, 22, 36, 52, 372982000 ],
+  "totalAlerts" : 2,
+  "alerts" : [ {
+    "transactionId" : "bd3cba3a-ecbf-483c-a0b8-957168b360d5",
+    "ruleName" : "HIGH_RISK_COUNTRY_DETECTION",
+    "description" : "Detects transactions to/from high-risk countries (AF, IR, KP, MM, SY, YE)",
+    "severity" : "HIGH",
+    "alertTime" : [ 2025, 6, 26, 22, 36, 52, 372283000 ],
+    "details" : "Transaction bd3cba3a-ecbf-483c-a0b8-957168b360d5 triggered fraud rule: HIGH_RISK_COUNTRY_DETECTION"
+  }, {
+    "transactionId" : "bd3cba3a-ecbf-483c-a0b8-957168b360d5",
+    "ruleName" : "HIGH_AMOUNT_DETECTION",
+    "description" : "Detects transactions with amounts ≥ 1,000,000 (or equivalent) - Large value transfers",
+    "severity" : "HIGH",
+    "alertTime" : [ 2025, 6, 26, 22, 36, 52, 372597000 ],
+    "details" : "Transaction bd3cba3a-ecbf-483c-a0b8-957168b360d5 triggered fraud rule: HIGH_AMOUNT_DETECTION"
+  } ]
+}

@@ -1,0 +1,13 @@
+{
+  "transactionId" : "959fac9d-cfb3-47e4-99df-055c3aa06288",
+  "reportGeneratedAt" : [ 2025, 6, 26, 22, 35, 45, 708071000 ],
+  "totalAlerts" : 1,
+  "alerts" : [ {
+    "transactionId" : "959fac9d-cfb3-47e4-99df-055c3aa06288",
+    "ruleName" : "OFF_HOURS_DETECTION",
+    "description" : "Detects transactions occurring during off-hours (23:00-05:59) - Unusual timing patterns",
+    "severity" : "LOW",
+    "alertTime" : [ 2025, 6, 26, 22, 35, 45, 707992000 ],
+    "details" : "Transaction 959fac9d-cfb3-47e4-99df-055c3aa06288 triggered fraud rule: OFF_HOURS_DETECTION"
+  } ]
+}

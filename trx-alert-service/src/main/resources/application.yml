@@ -1,22 +1,3 @@
-#server:
-#  port: 3004
-#
-#spring:
-#  kafka:
-#    bootstrap-servers: localhost:9092
-#    consumer:
-#      group-id: transaction-alert-group
-#      auto-offset-reset: latest
-#      enable-auto-commit: true
-#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-#      value-deserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
-#      properties:
-#        spring.deserializer.value.delegate.class: org.springframework.kafka.support.serializer.JsonDeserializer
-#        spring.json.value.default.type: com.toufik.trxalertservice.model.TransactionWithMT103Event
-#        spring.json.trusted.packages: "*"
-#        spring.json.use.type.info.headers: false
-
-
 server:
   port: 3004
 
@@ -68,8 +49,3 @@ fraud:
     sender-email: ${FRAUD_SENDER_EMAIL:fraud-alert@yourcompany.com}
     sender-name: "Transaction Fraud Alert System"
     subject: "FRAUD ALERT - Suspicious Transaction Detected"
-
-app:
-  json-logging:
-    directory: "./transaction-logs"
-    enabled: true
