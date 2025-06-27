@@ -13,7 +13,7 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection = "transactions")
+@Document(collection = "transactions_alerts")
 public class TransactionEntity {
     @Id
     private String id;

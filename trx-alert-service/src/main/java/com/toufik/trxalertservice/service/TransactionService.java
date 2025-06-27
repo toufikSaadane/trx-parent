@@ -41,7 +41,6 @@ public class TransactionService {
         entity.setToCountryCode(transaction.getToCountryCode());
         entity.setMt103Content(event.getMt103Content());
 
-        // Set fraud information
         entity.setFraudulent(!fraudAlerts.isEmpty());
         entity.setFraudReasons(fraudAlerts.stream()
                 .map(alert -> alert.getRuleName() + ": " + alert.getDescription())
@@ -62,10 +61,6 @@ public class TransactionService {
 
     public List<TransactionEntity> getFraudulentTransactions() {
         return transactionRepository.findByFraudulent(true);
-    }
-
-    public List<TransactionEntity> getTransactionsBetween(LocalDateTime start, LocalDateTime end) {
-        return transactionRepository.findByTimestampBetween(start, end);
     }
 
     public List<TransactionEntity> getFraudulentTransactionsBetween(LocalDateTime start, LocalDateTime end) {

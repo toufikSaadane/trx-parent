@@ -23,10 +23,8 @@ public class TransactionProducerService {
 
         try {
             validateEvent(event);
-
             CompletableFuture<SendResult<String, TransactionWithMT103Event>> future =
                     kafkaTemplate.send(TOPIC, transactionId, event);
-
             future.whenComplete((result, ex) -> {
                 if (ex == null) {
                     log.info("Transaction {} sent successfully to topic: {}",
@@ -36,7 +34,6 @@ public class TransactionProducerService {
                             transactionId, ex.getMessage());
                 }
             });
-
         } catch (Exception e) {
             log.error("Exception sending transaction {}: {}", transactionId, e.getMessage());
             throw new RuntimeException("Kafka send failure for transaction: " + transactionId, e);
@@ -44,10 +41,6 @@ public class TransactionProducerService {
     }
 
     private void validateEvent(TransactionWithMT103Event event) {
-        if (event == null) {
-            throw new IllegalArgumentException("Event cannot be null");
-        }
-
         if (event.getTransaction() == null) {
             throw new IllegalArgumentException("Transaction cannot be null");
         }

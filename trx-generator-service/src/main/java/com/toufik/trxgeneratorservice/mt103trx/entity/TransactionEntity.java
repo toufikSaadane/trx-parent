@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-@Document(collection = "transactions")
+@Document(collection = "transactions_generator")
 @Data
 public class TransactionEntity {
 
