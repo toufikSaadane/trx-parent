@@ -1,10 +1,13 @@
 package com.toufik.trxvalidationservice.service;
 
+import com.toufik.trxvalidationservice.model.Transaction;
 import com.toufik.trxvalidationservice.model.TransactionWithMT103Event;
+import com.toufik.trxvalidationservice.repository.TransactionRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.regex.Pattern;
 
 @Slf4j
@@ -18,6 +21,9 @@ public class SimpleTransactionFilterService {
     @Autowired
     private TransactionProducerService producerService;
 
+    @Autowired
+    private TransactionRepository transactionRepository;
+
     public void process(TransactionWithMT103Event event) {
         String transactionId = event.getTransaction().getTransactionId();
 
@@ -27,12 +33,30 @@ public class SimpleTransactionFilterService {
             if (validationResult == null) {
                 producerService.sendTransactionAlert(event);
                 log.info("Valid transaction forwarded: {}", transactionId);
+
+                // Save valid transaction
+                saveTransaction(event.getTransaction(), true, "Valid");
             } else {
                 log.warn("Transaction filtered: {} - Reason: {}", transactionId, validationResult);
+
+                // Save invalid transaction
+                saveTransaction(event.getTransaction(), false, validationResult);
             }
 
         } catch (Exception e) {
             log.error("Error processing transaction {}: {}", transactionId, e.getMessage());
+        }
+    }
+
+    private void saveTransaction(Transaction transaction, boolean isValid, String validationReason) {
+        try {
+            transaction.setValid(isValid);
+            transaction.setValidationReason(validationReason);
+            transaction.setProcessedAt(LocalDateTime.now());
+            transactionRepository.save(transaction);
+            log.info("Transaction {} saved to database", transaction.getTransactionId());
+        } catch (Exception e) {
+            log.error("Error saving transaction {}: {}", transaction.getTransactionId(), e.getMessage());
         }
     }
 

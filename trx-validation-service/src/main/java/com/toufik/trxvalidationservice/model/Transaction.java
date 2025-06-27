@@ -6,17 +6,22 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
 @Builder
+@Document(collection = "transactions_validation")
 public class Transaction {
+    @Id
+    private String id;
+
     @JsonProperty("transactionId")
     private String transactionId;
 
@@ -61,4 +66,9 @@ public class Transaction {
 
     @JsonProperty("toCountryCode")
     private String toCountryCode;
+
+    // New fields for validation
+    private boolean isValid;
+    private String validationReason;
+    private LocalDateTime processedAt;
 }
