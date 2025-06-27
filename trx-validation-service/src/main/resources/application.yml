@@ -2,10 +2,6 @@ server:
   port: 3003
 
 spring:
-  data:
-    mongodb:
-      uri: mongodb://admin:password123@mongodb:27017/transaction_validation_db?authSource=admin
-      database: transaction_validation_db
 
   kafka:
     bootstrap-servers: localhost:9092
@@ -22,17 +18,10 @@ spring:
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
-  jackson:
-    serialization:
-      write-dates-as-timestamps: false
 
-transaction:
-  file:
-    valid:
-      path: ./trx-validation-service/src/main/resources/data/valid-transactions
-    invalid:
-      path: ./trx-validation-service/src/main/resources/data/invalid-transactions
-    consolidated:
-      valid: ./trx-validation-service/src/main/resources/valid-transactions.json
-      invalid: ./trx-validation-service/src/main/resources/invalid-transactions.json
+  # MongoDB Configuration
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/transactions
+
 
