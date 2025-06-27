@@ -1,14 +1,10 @@
-package com.toufik.trxvalidationservice;
+package com.toufik.trxvalidationservice.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.toufik.trxvalidationservice.model.Transaction;
 import com.toufik.trxvalidationservice.model.TransactionWithMT103Event;
-import com.toufik.trxvalidationservice.service.SimpleTransactionFilterService;
-import com.toufik.trxvalidationservice.service.TransactionConsumerService;
-import com.toufik.trxvalidationservice.service.TransactionProducerService;
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
-import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerRecord;
@@ -52,15 +48,6 @@ class TransactionValidationIntegrationTest {
 
     @Autowired
     private EmbeddedKafkaBroker embeddedKafkaBroker;
-
-    @Autowired
-    private TransactionConsumerService consumerService;
-
-    @Autowired
-    private SimpleTransactionFilterService filterService;
-
-    @Autowired
-    private TransactionProducerService producerService;
 
     private Producer<String, TransactionWithMT103Event> producer;
     private Consumer<String, TransactionWithMT103Event> alertConsumer;

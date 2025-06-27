@@ -41,6 +41,7 @@ public class TransactionProducerService {
     }
 
     private void validateEvent(TransactionWithMT103Event event) {
+
         if (event.getTransaction() == null) {
             throw new IllegalArgumentException("Transaction cannot be null");
         }
