@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
 
 @Slf4j
 @Service
-public class SimpleTransactionFilterService {
+public class TransactionFilterService {
 
     private static final Pattern BIC_PATTERN = Pattern.compile("^[A-Z]{4}[A-Z]{2}[A-Z0-9]{2}([A-Z0-9]{3})?$");
     private static final Pattern DATE_PATTERN = Pattern.compile("^\\d{6}$");
@@ -48,15 +48,33 @@ public class SimpleTransactionFilterService {
         }
     }
 
-    private void saveTransaction(Transaction transaction, boolean isValid, String validationReason) {
+    private void saveTransaction(Transaction originalTransaction, boolean isValid, String validationReason) {
         try {
-            transaction.setValid(isValid);
-            transaction.setValidationReason(validationReason);
-            transaction.setProcessedAt(LocalDateTime.now());
-            transactionRepository.save(transaction);
-            log.info("Transaction {} saved to database", transaction.getTransactionId());
+            Transaction transactionToSave = Transaction.builder()
+                    .transactionId(originalTransaction.getTransactionId())
+                    .fromAccount(originalTransaction.getFromAccount())
+                    .toAccount(originalTransaction.getToAccount())
+                    .amount(originalTransaction.getAmount())
+                    .currency(originalTransaction.getCurrency())
+                    .fromBankSwift(originalTransaction.getFromBankSwift())
+                    .toBankSwift(originalTransaction.getToBankSwift())
+                    .fromBankName(originalTransaction.getFromBankName())
+                    .toBankName(originalTransaction.getToBankName())
+                    .timestamp(originalTransaction.getTimestamp())
+                    .status(originalTransaction.getStatus())
+                    .fromIBAN(originalTransaction.getFromIBAN())
+                    .toIBAN(originalTransaction.getToIBAN())
+                    .fromCountryCode(originalTransaction.getFromCountryCode())
+                    .toCountryCode(originalTransaction.getToCountryCode())
+                    .isValid(isValid)
+                    .validationReason(validationReason)
+                    .processedAt(LocalDateTime.now())
+                    .build();
+
+            transactionRepository.save(transactionToSave);
+            log.info("Transaction {} saved to database", transactionToSave.getTransactionId());
         } catch (Exception e) {
-            log.error("Error saving transaction {}: {}", transaction.getTransactionId(), e.getMessage());
+            log.error("Error saving transaction {}: {}", originalTransaction.getTransactionId(), e.getMessage());
         }
     }
 

@@ -28,7 +28,7 @@ class TransactionValidationComponentTest {
     private SendResult<String, TransactionWithMT103Event> sendResult;
 
     private TransactionConsumerService consumerService;
-    private SimpleTransactionFilterService filterService;
+    private TransactionFilterService filterService;
     private TransactionProducerService producerService;
 
     @BeforeEach
@@ -38,7 +38,7 @@ class TransactionValidationComponentTest {
         ReflectionTestUtils.setField(producerService, "kafkaTemplate", kafkaTemplate);
 
         // Create the filter service with the producer service
-        filterService = new SimpleTransactionFilterService();
+        filterService = new TransactionFilterService();
         ReflectionTestUtils.setField(filterService, "producerService", producerService);
 
         // Create the consumer service with the filter service

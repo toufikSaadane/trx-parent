@@ -12,13 +12,13 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
-class SimpleTransactionFilterServiceTest {
+class TransactionFilterServiceTest {
 
     @Mock
     private TransactionProducerService producerService;
 
     @InjectMocks
-    private SimpleTransactionFilterService filterService;
+    private TransactionFilterService filterService;
 
     @Test
     void shouldNotSendAlert_WhenContentIsNull() {

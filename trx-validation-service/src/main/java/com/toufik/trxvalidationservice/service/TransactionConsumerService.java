@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 public class TransactionConsumerService {
 
     @Autowired
-    private SimpleTransactionFilterService filterService;
+    private TransactionFilterService filterService;
 
     @KafkaListener(topics = "transaction_generator",
             groupId = "transaction-validator-group",
