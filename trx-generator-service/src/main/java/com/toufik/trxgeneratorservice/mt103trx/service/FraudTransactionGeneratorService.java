@@ -26,7 +26,7 @@ public class FraudTransactionGeneratorService {
         this.transactionSaveService = transactionSaveService;
     }
 
-    @Scheduled(fixedRate = 10000)
+    @Scheduled(fixedRate = 30000)
     public void generateAndSendFraudTransaction() {
         try {
             TransactionWithMT103Event fraudTransactionEvent = generateFraudTransactionWithMT103();

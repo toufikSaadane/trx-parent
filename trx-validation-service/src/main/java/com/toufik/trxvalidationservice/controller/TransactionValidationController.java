@@ -13,7 +13,7 @@ import java.util.List;
 
 @Slf4j
 @RestController
-@RequestMapping("/api/transactions")
+@RequestMapping("/api/transactions/validation")
 public class TransactionValidationController {
 
     @Autowired

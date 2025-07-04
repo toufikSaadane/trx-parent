@@ -52,7 +52,7 @@ class AlertControllerTest {
         when(transactionService.getAllTransactions()).thenReturn(testTransactions);
 
         // When & Then
-        mockMvc.perform(get("/api/transactions")
+        mockMvc.perform(get("/api/transactions/alerts")
                         .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.length()").value(2))
@@ -70,7 +70,7 @@ class AlertControllerTest {
         when(transactionService.getFraudulentTransactions()).thenReturn(fraudulentTransactions);
 
         // When & Then
-        mockMvc.perform(get("/api/transactions/fraudulent")
+        mockMvc.perform(get("/api/transactions/alerts/fraudulent")
                         .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.length()").value(1))
@@ -90,7 +90,7 @@ class AlertControllerTest {
         when(transactionService.getFraudulentTransactionsBetween(start, end)).thenReturn(fraudulentTransactions);
 
         // When & Then
-        mockMvc.perform(get("/api/transactions/fraudulent")
+        mockMvc.perform(get("/api/transactions/alerts/fraudulent")
                         .param("start", "2024-01-01T00:00:00")
                         .param("end", "2024-01-31T23:59:00")
                         .contentType(MediaType.APPLICATION_JSON))
@@ -109,7 +109,7 @@ class AlertControllerTest {
         when(transactionService.getAllTransactions()).thenReturn(Arrays.asList());
 
         // When & Then
-        mockMvc.perform(get("/api/transactions")
+        mockMvc.perform(get("/api/transactions/alerts")
                         .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.length()").value(0));

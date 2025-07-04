@@ -26,7 +26,7 @@ public class TransactionGeneratorService extends BaseTransactionFactory {
         this.transactionSaveService = transactionSaveService;
     }
 
-    @Scheduled(fixedRate = 10000)
+    @Scheduled(fixedRate = 5000)
     public void generateAndSendTransaction() {
         try {
             TransactionWithMT103Event transactionWithMT103Event = generateRandomTransactionWithMT103();

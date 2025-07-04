@@ -22,7 +22,7 @@ public class InvalidTransactionGeneratorService {
         this.transactionSaveService = transactionSaveService;
     }
 
-    @Scheduled(fixedRate = 15000)
+    @Scheduled(fixedRate = 10000)
     public void generateAndSendInvalidTransaction() {
         try {
             TransactionWithMT103Event invalidTransactionEvent = invalidTransactionFactory.createInvalidTransaction();
